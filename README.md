@@ -1,52 +1,44 @@
-# 古文字结构互动系统
+# 小篆实验网页
 
-一个面向小篆字形研究的小型协作网站。它把图像算法生成的候选笔段、人工校释、字形相似度与关系浏览放在同一处，适合团队逐步累积资料。
+三个内容区域：字形、字源故事、字间联系。默认界面只保留左侧“字库”“偶遇”和字形下方“拆笔”。
 
-当前已导入 `v1/拆笔画/outputs/experiment_v1` 的 17 个样本。自动拆解是研究线索，不应直接视为已确认的文字学结论。
+直接打开 `index.html`，或运行 `npm run dev` 后访问 <http://127.0.0.1:4186>。GitHub Pages 可从仓库根目录发布，无需构建。
 
-## 使用
+## 当前功能
 
-直接打开 `index.html` 即可浏览；不需要安装依赖。上传 GitHub 后，在仓库设置中启用 GitHub Pages，选择从默认分支根目录发布即可。
+- 默认使用崇羲篆體展示大字；124 个样本覆盖 90 个，其余回退到样本 SVG。
+- 点击“拆笔”显示彩色拆分字形与独立笔段；点击“合字”恢复。没有播放、速度、描写、猜字或独立笔画选择。
+- 展示已有本义、引申义、构形说明和古今字形对照；资料来源按需查看。
+- 字库搜索与随机遇见有故事的字。
+- 关系图固定展示，点击关系节点可切换字形。没有筛选或展开/收起选择。
+- 页面底部只显示“授权说明”，完整署名、版权和许可在 `license.html` 与 `assets/fonts/LICENSE.md` 中。
 
-页面支持：
+当前数据是 124 个样本，61 个有本义、引申义和构形说明。没有补造完整历史演变链。
 
-- 搜索和选择古文字字形
-- 切换原始图、笔段合成图、总览图、骨架图与检查图
-- 单独查看每一个候选笔段
-- 查看释义、材料来源、构形说明和人工核对状态
-- 按笔段数量、长度序列、重叠情况浏览相似字形和关系图
+## 目录入口
 
-## 团队如何更新
+| 位置 | 用途 |
+| --- | --- |
+| `index.html`、`styles.css` | 页面结构和整体样式 |
+| `license.html` | 可从页面访问的授权说明 |
+| `src/app.js`、`src/ui.js` | 当前选择、拆笔、字库与故事展示 |
+| `src/relations-panel.js`、`src/relations-panel.css` | 独立的字间联系模块 |
+| `src/relation-engine.js`、`src/graph-renderer.js` | 关系规则与图形绘制 |
+| `data/glyphs.js` | 原有字形、笔段、图像路径和释读资料，本次未修改 |
+| `data/stories.js` | 故事标题、出处和有材料支持的历史字形路径 |
+| `data/glyph-vectors.js` | 从原样本提取的 SVG 轮廓与独立笔段 |
+| `assets/fonts/`、`data/seal-font.js` | 未修改的官方字体、授权和覆盖表 |
+| `assets/xiaozhuan/`、`public/assets/` | 部件字图、原图与实验发布资产 |
+| `research/` | 原始算法工程与趣味字素材 |
+| `archive/` | 旧站、临时预览、备份；上一版完整交互在 `interface-with-controls/` |
+| `docs/`、`tests/` | 协作说明和验证 |
 
-1. 把新的实验输出目录准备为与 `experiment_v1` 相同的结构。
-2. 在 `data/glyph-notes.json` 补充或修改人工资料：释义、构形、部件、核对状态。
-3. 执行导入命令（示例为新实验 `v2`）：
+独立开发关系区域见 [关系模块说明](docs/RELATIONS-MODULE.md)。资料录入见 [CONTRIBUTING](docs/CONTRIBUTING.md)。
 
-```powershell
-python .\scripts\import_experiment.py --experiment ..\v2\outputs\experiment_v2 --source-images ..\v2\data\小篆例 --version v2
-```
+## 字体与拆分数据
 
-4. 检查页面后提交以下变化：`data/glyphs.js`、`data/glyph-notes.json`、`public/assets/` 和有改动的界面文件。
+官方崇羲篆體 OTF 保持原始字节，不裁剪、转换或修改。样本 SVG 来自项目图像，与官方字体分开。拆笔时使用样本坐标与轮廓，避免把不同笔形混在一起。
 
-首次导入 `v1` 的默认命令：
+导入新实验后可执行 `python3 scripts/build_glyph_vectors.py` 更新轮廓，需要 Pillow、NumPy、SciPy、scikit-image；不会修改原图或笔顺数据。
 
-```powershell
-python .\scripts\import_experiment.py
-```
-
-## 项目结构
-
-```text
-index.html                  页面结构
-styles.css                  响应式界面样式
-data/glyph-notes.json       团队人工校释资料，可直接编辑
-data/glyphs.js              由导入脚本生成的浏览数据
-public/assets/              需要随仓库发布的原图与实验图
-scripts/import_experiment.py 实验输出导入器
-src/relation-engine.js      字形相似度和候选关系规则
-src/graph-renderer.js       关系图渲染与节点交互
-src/ui.js                   目录、详情、笔段等界面渲染
-src/app.js                  页面状态与模块协调
-```
-
-更具体的分工边界见 `ARCHITECTURE.md`，资料录入约定见 `CONTRIBUTING.md`。
+`npm run check` 检查脚本语法，`npm test` 检查拆笔、字库、固定关系图、字形覆盖与发布资源。

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="篆游：点开一笔，读一个故事，探索小篆与汉字之间的联系。" />
+  <title>篆游 · 把一个字，玩明白</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23bd4834'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-size='42' fill='%23fffaf0'%3E篆%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a href="#workspace" class="skip-link">跳到写字台</a>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="篆游首页"><span class="brand-seal" aria-hidden="true">篆</span><span class="brand-name">篆游<small>SEAL PLAY</small></span></a>
+    <nav aria-label="页面导航"><a class="nav-link" href="#workspace">玩一个字</a><a class="nav-link" href="#relations">发现联系</a><button class="library-trigger" id="openCatalog" type="button">字库 <span id="datasetStatus">124</span> <span aria-hidden="true">↗</span></button></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="pageTitle">
+      <div><h1 id="pageTitle">把一个字，<span>玩明白。</span></h1></div>
+      <button id="randomGlyph" class="random-button" type="button"><span class="random-icon" aria-hidden="true">⤨</span><span>偶遇一个字</span><span aria-hidden="true">↗</span></button>
+    </section>
+    <section class="explorer" id="workspace" aria-label="小篆互动写字台">
+      <section class="writing-panel" aria-labelledby="writingTitle">
+        <div class="panel-topline"><span class="eyebrow" id="writingTitle"><b>01</b> 字形</span><span class="edition-label"><span id="displaySource">小篆</span><span id="glyphSection" hidden>宀部</span></span></div>
+        <div class="view-tabs" id="viewTabs" role="group" aria-label="选择观察方式"><button class="view-tab is-active" data-view="original" type="button" aria-pressed="true">字形</button><button class="view-tab" data-view="composite" type="button" aria-pressed="false">拆笔</button><button class="view-tab" data-view="trace" type="button" aria-pressed="false">跟写</button></div>
+        <div class="glyph-stage" id="glyphStage">
+          
+          <div class="stage-art"><img id="glyphImage" alt="" /><div class="replay-canvas" id="replayCanvas" hidden></div><div class="seal-font-stage" id="fontGlyph" hidden></div><canvas id="traceCanvas" aria-label="自由描写区，使用鼠标或手指跟着字形描写" hidden></canvas></div>
+          <span id="stageMark" hidden></span><button class="reveal-button" id="guessToggle" type="button" aria-pressed="false">猜一猜 ↗</button><p id="imageCaption" class="sr-only" aria-live="polite"></p>
+        </div>
+        <div class="playback-controls" id="playbackControls"><button class="play-button" id="replayPlay" type="button">▶ 写给我看</button><button class="icon-button" id="replayReset" type="button" aria-label="重新开始" title="重新开始">↺</button><button class="icon-button" id="replayPrevious" type="button" aria-label="上一笔" title="上一笔">‹</button><input id="replayScrub" type="range" min="0" max="5" value="0" aria-label="书写进度" /><button class="icon-button" id="replayNext" type="button" aria-label="下一笔" title="下一笔">›</button><span class="replay-progress" id="replayProgress">0 / 5</span><label class="speed-control"><span class="sr-only">播放速度</span><select id="replaySpeed"><option value="1200">慢速</option><option value="800" selected>常速</option><option value="450">快速</option></select></label></div>
+        <div class="trace-controls" id="traceControls" hidden><p>按住拖动，描一描。</p><button id="clearTrace" type="button" class="text-button">擦掉重写 ↺</button></div>
+        <div class="stroke-section"><div class="stroke-heading"><h2>笔画</h2><span id="strokeCount"></span></div><div class="segments-list" id="segmentsList" aria-label="独立笔段"></div></div>
+      </section>
+      <article class="story-panel" id="story" aria-labelledby="glyphTitle">
+        <div class="panel-topline"><span class="eyebrow"><b>02</b> 字源故事</span><button id="bookmarkGlyph" class="bookmark-button" type="button" aria-pressed="false">♡ 收进字袋</button></div>
+        <div class="story-identity"><h2 id="glyphTitle">宇</h2><div><span class="story-type" id="formationType">形声字</span><p id="glyphSource"></p></div><span id="glyphNumber" hidden></span></div>
+        <h3 class="story-headline" id="storyHeadline">从房檐，到宇宙。</h3><p class="story-meaning" id="glyphOriginalMeaning"></p>
+        <div class="meaning-extension" id="glyphMeaningExtendBlock"><p id="glyphMeaningExtend"></p></div>
+        <section class="structure-section" aria-labelledby="structureTitle"><div class="section-label"><h3 id="structureTitle">构形</h3></div><p class="structure-copy" id="structureDesc"></p><div class="component-list" id="componentList"></div></section>
+        <section class="evolution-section" aria-labelledby="evolutionTitle"><div class="section-label"><h3 id="evolutionTitle">古今字形</h3><span id="evolutionLabel" hidden>古今对照</span></div><div class="evolution-list" id="evolutionList"></div></section>
+        <details class="source-note"><summary>查看资料来源 <span aria-hidden="true">＋</span></summary><dl id="sourceDetails"></dl><p class="method-note">依据项目拆分结果逐段演示，笔顺与构形仍需人工校核。</p><p id="evolutionNote"></p><p>文字据项目现有释读资料呈现，具体引文与历史字形仍在补充。</p><p id="storySource"></p><figure class="source-original"><img id="sourceOriginal" alt="" loading="lazy" /><figcaption>原始字形样本</figcaption></figure></details>
+      </article>
+    </section>
+    <section class="relations-section" id="relations" aria-labelledby="relationTitle">
+      <div class="relations-heading"><div><p class="eyebrow"><b>03</b> 字间联系</p><h2 id="relationTitle">顺着一个字，遇见另一个。</h2></div><div class="relation-actions"><label><span class="sr-only">筛选字间关系</span><select id="relationFilter"><option value="all">所有联系</option><option value="phonetic">同声旁</option><option value="semantic">同形旁</option><option value="radical">同部首</option></select></label><button id="toggleGraph" class="text-button" type="button" aria-expanded="false" aria-controls="relationGraphPanel">展开关系图 ↗</button></div></div>
+      <p class="sr-only" id="graphSummary"></p><div class="similar-list" id="similarList"></div><div id="relationGraphPanel" class="graph-panel" hidden><div id="relationGraph" class="graph-shell"></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span class="footer-brand">篆游 <span>SEAL PLAY</span></span><p class="font-credit"><a href="https://xiaoxue.iis.sinica.edu.tw/chongxi/" target="_blank" rel="noopener">崇羲篆體 © 中央研究院</a> · <a href="https://xiaoxue.iis.sinica.edu.tw/chongxi/copyright.htm" target="_blank" rel="noopener">CC BY-ND 3.0 TW</a></p></footer>
+  <dialog id="catalogDialog" class="catalog-dialog" aria-labelledby="catalogTitle"><div class="dialog-heading"><div><h2 id="catalogTitle">你的汉字游乐场 <span id="glyphCount">124</span></h2></div><button id="closeCatalog" class="icon-button" type="button" aria-label="关闭字库">×</button></div><div class="catalog-toolbar"><label class="search-field"><span aria-hidden="true">⌕</span><input id="glyphSearch" type="search" placeholder="搜一个字、部首或编号…" aria-label="搜索字库" /></label><label><span class="sr-only">字库筛选</span><select id="catalogFilter"><option value="all">全部字形</option><option value="story">有故事的字</option><option value="two-to-four">简单几笔</option><option value="five-plus">多笔慢看</option><option value="saved">我的字袋</option></select></label></div><p class="catalog-result" id="catalogResult" aria-live="polite"></p><div class="glyph-list" id="glyphList"></div></dialog>
+  <div class="toast" id="toast" role="status" hidden></div><noscript><p class="noscript-note">请启用 JavaScript，开始探索小篆字形。</p></noscript>
+  <script src="./data/xiaozhuan-index.js"></script><script src="./src/render_xiaozhuan.js"></script><script src="./data/glyphs.js"></script><script src="./data/stories.js"></script><script src="./data/glyph-vectors.js"></script><script src="./data/seal-font.js"></script><script src="./src/component-deriver.js"></script><script src="./src/relation-engine.js"></script><script src="./src/graph-renderer.js"></script><script src="./src/ui.js"></script><script src="./src/tracing.js"></script><script src="./src/app.js"></script>
+</body>
+</html>

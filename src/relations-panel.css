@@ -1,0 +1,16 @@
+/* 字间联系的样式只作用于该模块，便于独立打磨。 */
+.relations-section { margin:22px 0 0; padding:26px 30px 18px; background:#3a4534; border:1px solid #74816145; border-radius:18px; }
+.graph-shell svg { display:block; width:100%; max-width:800px; margin:0 auto; }
+.graph-edge { stroke:#93a176; stroke-width:1.2; stroke-dasharray:3 6; }
+.graph-edge-label { font-size:11px; fill:#c2c8b1; paint-order:stroke; stroke:#3a4534; stroke-width:5px; stroke-linejoin:round; }
+.graph-node { color:#46543a; }
+.graph-node circle { fill:#dbe1c5; stroke:#9eac85; stroke-width:1; }
+.graph-node-related { cursor:pointer; }
+.graph-node-related:hover circle,.graph-node-related:focus circle { fill:#f2dca9; }
+.graph-node-center circle { fill:#e5d5b2; stroke:#dac192; }
+.graph-mark-img { mix-blend-mode:multiply; }
+.graph-count { font-size:10px; fill:#a5b08e; }
+.graph-mark,.graph-mark-center { font:30px var(--serif); fill:#36452d; }
+.graph-node:focus-visible { outline:2px solid #d4a16f; outline-offset:5px; }
+.relations-empty { margin:0; text-align:center; color:#adb798; font-size:12px; }
+@media(max-width:700px) { .relations-section { margin-top:18px; padding:24px 18px 18px; } }

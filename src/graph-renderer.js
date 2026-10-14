@@ -23,6 +23,14 @@
    * @param {string} [textClassName] 回退文字的 class
    */
   function addXiaozhuanMark(parent, ch, cx, cy, size, textClassName) {
+    const glyph = window.GLYPH_DATA?.glyphs.find(g => g.mark === ch);
+    const vector = glyph && window.GLYPH_VECTORS?.[glyph.id];
+    if (vector) {
+      const mark = svgNode('svg', {x:cx-size/2,y:cy-size/2,width:size,height:size,viewBox:`-2 -2 ${vector.width+4} ${vector.height+4}`,'aria-hidden':'true'});
+      mark.append(svgNode('path',{d:vector.path,fill:'currentColor','fill-rule':'evenodd'}));
+      parent.append(mark);
+      return;
+    }
     const src = window.xiaozhuanSrc ? window.xiaozhuanSrc(ch) : null;
     if (src) {
       const img = svgNode("image", {
@@ -49,7 +57,7 @@
 
   function render(container, glyph, relations, onSelect) {
     container.replaceChildren();
-    const svg = svgNode("svg", { viewBox: "0 0 860 420", role: "img", "aria-label": `${glyph.title} 的字形关系` });
+    const svg = svgNode("svg", { viewBox: "0 0 860 420", role: "group", "aria-label": `${glyph.title} 的字形关系` });
     const center = { x: 430, y: 205 };
     const nodes = relations.map((relation, index) => ({ ...relation, position: relationPosition(index, relations.length) }));
 
@@ -66,7 +74,7 @@
       const group = svgNode("g", { class: "graph-node graph-node-related", tabindex: "0", role: "button", "aria-label": `查看 ${related.title}` });
       group.append(svgNode("circle", { cx: position.x, cy: position.y, r: 48 }));
       addXiaozhuanMark(group, related.mark, position.x, position.y, 60, "graph-mark");
-      addText(group, `${related.metrics.segmentCount} 笔`, position.x, position.y + 73, "graph-count");
+      addText(group, related.mark, position.x, position.y + 73, "graph-count");
       const activate = () => onSelect(related.id);
       group.addEventListener("click", activate);
       group.addEventListener("keydown", (event) => {
@@ -81,7 +89,7 @@
     const centerGroup = svgNode("g", { class: "graph-node graph-node-center" });
     centerGroup.append(svgNode("circle", { cx: center.x, cy: center.y, r: 63 }));
     addXiaozhuanMark(centerGroup, glyph.mark, center.x, center.y, 78, "graph-mark-center");
-    addText(centerGroup, `${glyph.metrics.segmentCount} 笔`, center.x, center.y + 91, "graph-count");
+    addText(centerGroup, glyph.mark, center.x, center.y + 91, "graph-count");
     svg.append(centerGroup);
     container.append(svg);
   }

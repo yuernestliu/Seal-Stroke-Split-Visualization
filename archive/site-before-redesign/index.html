@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="面向小篆字形、笔画拆解与字形关系的协作式浏览器。" />
+    <title>古文字结构互动系统</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#workspace" aria-label="回到字形工作台">
+        <span class="brand-mark">古</span>
+        <span>
+          <strong>古文字结构互动系统</strong>
+          <small>小篆字形观察与互动探索</small>
+        </span>
+      </a>
+      <div class="dataset-status" id="datasetStatus" aria-live="polite"></div>
+    </header>
+
+    <main class="app-shell" id="workspace">
+      <aside class="catalog-panel" aria-label="字形目录">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">字形目录</p>
+            <h1>选择一个字形</h1>
+          </div>
+          <span class="count-pill" id="glyphCount"></span>
+        </div>
+        <label class="search-field" for="glyphSearch">
+          <span>搜索</span>
+          <input id="glyphSearch" type="search" placeholder="字形、编号或来源" autocomplete="off" />
+        </label>
+        <label class="filter-field" for="catalogFilter">
+          <span>显示</span>
+          <select id="catalogFilter">
+            <option value="all">全部样本</option>
+            <option value="two-to-four">笔画较少</option>
+            <option value="five-plus">笔画较多</option>
+          </select>
+        </label>
+        <div class="glyph-list" id="glyphList" role="list"></div>
+      </aside>
+
+      <section class="workspace-panel" aria-label="字形观察工作台">
+        <div class="glyph-header">
+          <div>
+            <p class="eyebrow" id="glyphSource">来源</p>
+            <h2 id="glyphTitle">字形</h2>
+          </div>
+        </div>
+
+        <div class="view-tabs" id="viewTabs" role="tablist" aria-label="字形观察方式">
+          <button type="button" class="view-tab is-active" data-view="original" title="观察原始字形">原字</button>
+          <button type="button" class="view-tab" data-view="composite" title="观察字形由哪些笔画组成">笔画拆解</button>
+        </div>
+        <div class="playback-controls" id="playbackControls">
+          <div class="playback-status">
+            <span>逐笔书写</span>
+            <strong id="replayProgress">0 / 0 笔</strong>
+          </div>
+          <div class="playback-actions">
+            <button type="button" id="replayPlay" title="播放 / 暂停">▶ 播放</button>
+            <button type="button" id="replayReset" title="复位">⟲</button>
+            <button type="button" id="replayPrevious" title="上一段">◀</button>
+            <button type="button" id="replayNext" title="下一段">▶</button>
+            <label for="replaySpeed">速度
+              <select id="replaySpeed">
+                <option value="1200">慢</option>
+                <option value="800" selected>中</option>
+                <option value="450">快</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="glyph-stage" id="glyphStage">
+          <img id="glyphImage" alt="所选字形的原字" />
+          <div class="replay-canvas" id="replayCanvas" hidden></div>
+          <p id="imageCaption"></p>
+        </div>
+        <div class="metric-strip" id="metricStrip"></div>
+
+        <section class="candidate-section" aria-labelledby="segmentsTitle">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">笔画观察</p>
+              <h3 id="segmentsTitle">笔画拆解</h3>
+            </div>
+            <span class="status-note">点击任一笔画可单独查看</span>
+          </div>
+          <div class="segments-list" id="segmentsList"></div>
+        </section>
+      </section>
+
+      <aside class="record-panel" aria-label="字形资料与结构信息">
+        <section class="definition-section">
+          <p class="eyebrow">字形信息</p>
+          <h2>释义与来源</h2>
+          <p id="glyphMarkText" class="prose mark-text"></p>
+          <div class="meaning-block" id="glyphOriginalMeaningBlock">
+            <h3>本义</h3>
+            <p id="glyphOriginalMeaning" class="prose"></p>
+          </div>
+          <div class="meaning-block" id="glyphMeaningExtendBlock" hidden>
+            <h3>字义拓展</h3>
+            <p id="glyphMeaningExtend" class="prose"></p>
+          </div>
+          <dl class="source-details" id="sourceDetails"></dl>
+        </section>
+
+        <section class="structure-section">
+          <p class="eyebrow">结构理解</p>
+          <h2>部件与构形</h2>
+          <p id="structureDesc" class="prose"></p>
+          <div class="component-list" id="componentList"></div>
+        </section>
+
+        <section class="similar-section">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">相近字形</p>
+              <h2>相似字形</h2>
+            </div>
+            <label class="relation-filter" for="relationFilter">
+              <span class="sr-only">关系筛选</span>
+              <select id="relationFilter">
+                <option value="all">全部相似</option>
+                <option value="phonetic">同声旁</option>
+                <option value="semantic">同形旁</option>
+                <option value="radical">同部首</option>
+              </select>
+            </label>
+          </div>
+          <div class="similar-list" id="similarList"></div>
+        </section>
+      </aside>
+    </main>
+
+    <section class="relations-section" aria-labelledby="relationTitle">
+      <div class="relations-heading">
+        <div>
+          <p class="eyebrow">关系浏览</p>
+          <h2 id="relationTitle">字形关系图</h2>
+        </div>
+        <p id="graphSummary">这里展示可能相近的字形，供观察和讨论。</p>
+      </div>
+      <div class="graph-shell" id="relationGraph" aria-label="字形关系图"></div>
+      <p class="graph-legend"><span class="legend-line"></span> 点击图中的字形可切换观察对象；连线表示它们可能的相近之处。</p>
+    </section>
+
+    <footer class="site-footer">
+      <span>本网站用于小篆字形的观察、学习和讨论，内容将持续完善。</span>
+    </footer>
+
+    <!--
+      小篆索引加载顺序：
+      1) <script src> 方式（file:// 与 http:// 都能用），window.__xiaozhuanData 同步就绪
+      2) 若上面失败（脚本不存在），下面的 XHR / fetch 异步回退会补救（http:// 下有效）
+    -->
+    <script src="./data/xiaozhuan-index.js"></script>
+    <script>
+      (function () {
+        if (window.__xiaozhuanData) return; // 已被脚本标签加载
+        try {
+          var xhr = new XMLHttpRequest();
+          xhr.open('GET', './data/xiaozhuan-index.json', false);
+          xhr.send();
+          window.__xiaozhuanData = JSON.parse(xhr.responseText);
+        } catch (e) {
+          console.error('xiaozhuan index sync XHR failed, fallback to fetch', e);
+          fetch('./data/xiaozhuan-index.json')
+            .then(function (r) { return r.json(); })
+            .then(function (j) {
+              window.__xiaozhuanData = j;
+              window.dispatchEvent(new Event('xiaozhuan-index-ready'));
+            })
+            .catch(function (e2) { console.error('xiaozhuan index async load failed', e2); });
+        }
+      })();
+    </script>
+    <script src="./src/render_xiaozhuan.js"></script>
+    <script src="./data/glyphs.js"></script>
+    <script src="./src/component-deriver.js"></script>
+    <script src="./src/relation-engine.js"></script>
+    <script src="./src/graph-renderer.js"></script>
+    <script src="./src/ui.js"></script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>

@@ -1,7 +1,9 @@
 __pycache__/
 *.py[cod]
 .DS_Store
-拆笔画修改/拆笔画_修改/outputs/
+research/拆笔画修改/拆笔画_修改/outputs/
 典型/
 按部首分类/
 找有趣的字/
+
+node_modules/
