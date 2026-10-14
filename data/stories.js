@@ -5,6 +5,7 @@
  * 未登记 timeline 时，页面仅显示小篆与今字对照，不补造中间时代。
  */
 window.GLYPH_STORIES = {
+  安: { headline: '屋檐之下，安居的想象。' },
   宇: { headline: '从房檐，到宇宙。' },
   光: { headline: '把光亮，举过头顶。' },
   包: { headline: '一个字，藏着包裹的形状。' },

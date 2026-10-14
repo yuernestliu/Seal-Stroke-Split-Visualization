@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "python3 scripts/serve.py --port 4186",
-    "check": "node --check src/app.js && node --check src/ui.js && node --check src/relations-panel.js && node --check src/graph-renderer.js && node --check src/relation-engine.js && node --check src/component-deriver.js && node --check src/render_xiaozhuan.js && node --check data/stories.js && node --check data/glyph-vectors.js && node --check data/seal-font.js",
+    "check": "node --check src/app.js && node --check src/ui.js && node --check src/relations-panel.js && node --check src/graph-renderer.js && node --check src/relation-engine.js && node --check src/component-deriver.js && node --check src/render_xiaozhuan.js && node --check data/stories.js && node --check data/glyph-vectors.js && node --check data/seal-font.js && node --check src/clean-glyph-shapes.js && node --check data/cleaned-glyphs.js",
     "test": "node tests/site-smoke.cjs"
   }
 }

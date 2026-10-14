@@ -4,6 +4,8 @@
 
 ## 分层
 
+逐字清理采用 `data/cleaned-glyphs/<ID>.json`，经发布器汇总到 `data/cleaned-glyphs.js`；`src/clean-glyph-shapes.js` 为整字和拆笔提供同一份几何。操作入口见 `GLYPH-CLEANUP.md`。
+
 - `data/glyph-notes.json`：人工知识层。只放可追溯的释义、部件、构形与审核状态；不要把自动算法结果手工复制到这里。
 - `data/glyph-vectors.js`：由 `scripts/build_glyph_vectors.py` 从原始样本生成的矢量展示层，保留原图并校验轮廓重合率。
 - `assets/fonts/chongxi-seal.otf`：官方未修改 OTF，署名和授权在 `assets/fonts/LICENSE.md`。`data/seal-font.js` 登记字形覆盖；加载成功后采用字体展示，拆笔和缺字保留样本 SVG。

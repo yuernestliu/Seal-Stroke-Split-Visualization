@@ -1,0 +1,59 @@
+{
+  "id": "07433_光_Z_說文‧火部",
+  "mark": "光",
+  "width": 60,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "6d2eeacf22840cf6f237fc7963a130a48dd7328185583c4f80c6f6100313b961",
+  "diagnostics": {
+    "silhouetteOverlap": 0.799,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M22 4 Q20.22 10 19.11 11.45 Q18 12.9 16.45 13.9 Q14.9 14.9 8 16",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M52 16 Q48 15.9 45 14.78 Q42 13.66 40.5 11.78 Q39 9.9 38 3",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M3 26 Q21.93 20.89 24.37 19.44 Q26.8 18 27.84 16.5 Q28.88 15 28.99 9.51 Q29.1 4.02 30 2",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M20 73 Q18.02 56 18.68 52 Q19.34 48 20.33 45 Q21.33 42 23.12 38.5 Q24.9 35 24.9 31 Q24.9 27 23 21",
+      "width": 3.2
+    },
+    {
+      "id": 5,
+      "path": "M29 15 Q32.9 18.47 35.45 19.85 Q38 21.23 44.5 22.78 Q51 24.33 55 26",
+      "width": 3.2
+    },
+    {
+      "id": 6,
+      "path": "M47 75 Q40.77 66 39.56 63.5 Q38.35 61 37.73 58.5 Q37.11 56 38.51 50 Q39.9 44 39.73 40 Q39.55 36 37.77 34.56 Q36 33.12 25 32",
+      "width": 3.2
+    }
+  ],
+  "review": {
+    "date": "2026-10-14",
+    "scope": "display geometry only",
+    "checks": [
+      "source comparison",
+      "stroke count and endpoints",
+      "same paths for combined and split displays"
+    ]
+  }
+}

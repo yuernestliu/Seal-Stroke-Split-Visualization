@@ -2,8 +2,20 @@
   {
     "id": "07877_包_Z_說文‧包部",
     "mark": "包",
-    "width": 3.2,
-    "overlap": 0.796,
+    "width": 50,
+    "height": 80,
+    "status": "draft",
+    "method": "centerline-quadratic-v1",
+    "parameters": {
+      "sigma": 1.2,
+      "simplifyTolerance": 0.5,
+      "strokeWidth": 3.2
+    },
+    "sourceSignature": "9a751462add60f7ca004ff45a4169f9bb6eb1516371ae11abb902162c235ea2c",
+    "diagnostics": {
+      "silhouetteOverlap": 0.796,
+      "endpointCheck": "passed"
+    },
     "strokes": [
       {
         "id": 1,
@@ -25,8 +37,20 @@
   {
     "id": "10055_宇_Z_說文‧宀部",
     "mark": "宇",
-    "width": 3.2,
-    "overlap": 0.78,
+    "width": 54,
+    "height": 80,
+    "status": "draft",
+    "method": "centerline-quadratic-v1",
+    "parameters": {
+      "sigma": 1.2,
+      "simplifyTolerance": 0.5,
+      "strokeWidth": 3.2
+    },
+    "sourceSignature": "fff057e41bc2479e469d17edb2ef674d89dd8338c06ae3ad101a785debb7c925",
+    "diagnostics": {
+      "silhouetteOverlap": 0.78,
+      "endpointCheck": "passed"
+    },
     "strokes": [
       {
         "id": 1,
@@ -56,10 +80,67 @@
     ]
   },
   {
+    "id": "10057_安_Z_說文‧宀部",
+    "mark": "安",
+    "width": 54,
+    "height": 80,
+    "status": "draft",
+    "method": "centerline-quadratic-v1",
+    "parameters": {
+      "sigma": 1.2,
+      "simplifyTolerance": 0.5,
+      "strokeWidth": 3.2
+    },
+    "sourceSignature": "a6ad7e893ee30e3dd5fe069e9a98389f40b3f739be707eed785d8bc1857f69fb",
+    "diagnostics": {
+      "silhouetteOverlap": 0.779,
+      "endpointCheck": "passed"
+    },
+    "strokes": [
+      {
+        "id": 1,
+        "path": "M27 6 L27 1",
+        "width": 3.2
+      },
+      {
+        "id": 2,
+        "path": "M50 76 Q48.65 14 47.77 12.51 Q46.9 11.02 44.95 9.68 Q43 8.35 40 7.72 Q37 7.1 32.17 6.77 Q27.33 6.43 18.67 7.44 Q10 8.45 8.55 9.73 Q7.1 11 6.22 12.5 Q5.34 14 4.72 16 Q4.1 18 4.04 26 Q3.98 34 3.5 36.5 Q3.02 39 3 75",
+        "width": 3.2
+      },
+      {
+        "id": 3,
+        "path": "M25 45 Q18.35 36 16.84 32 Q15.34 28 15.39 26.01 Q15.45 24.02 16.73 22.9 Q18 21.78 20.6 20.89 Q23.2 20 30.73 18.89 Q38.25 17.78 37.68 18.45 Q37.11 19.11 37.01 22.06 Q36.9 25 35.89 27.61 Q34.88 30.22 18 35",
+        "width": 3.2
+      },
+      {
+        "id": 4,
+        "path": "M27 13 Q26.1 15.02 26.05 18.01 Q26 21 26.63 26.28 Q27.27 31.57 28.69 33.78 Q30.11 36 33 38.51 Q35.88 41.02 36.38 42.01 Q36.88 43 36.77 44.32 Q36.65 45.65 34.03 48.83 Q31.42 52 30.71 55 Q30 58 31.17 62.33 Q32.34 66.67 37 73",
+        "width": 3.2
+      },
+      {
+        "id": 5,
+        "path": "M18 35 Q15.35 41 14.22 47 Q13.1 53 13 71",
+        "width": 3.2
+      }
+    ]
+  },
+  {
     "id": "07433_光_Z_說文‧火部",
     "mark": "光",
-    "width": 3.2,
-    "overlap": 0.799,
+    "width": 60,
+    "height": 80,
+    "status": "draft",
+    "method": "centerline-quadratic-v1",
+    "parameters": {
+      "sigma": 1.2,
+      "simplifyTolerance": 0.5,
+      "strokeWidth": 3.2
+    },
+    "sourceSignature": "6d2eeacf22840cf6f237fc7963a130a48dd7328185583c4f80c6f6100313b961",
+    "diagnostics": {
+      "silhouetteOverlap": 0.799,
+      "endpointCheck": "passed"
+    },
     "strokes": [
       {
         "id": 1,

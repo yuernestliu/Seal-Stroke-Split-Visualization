@@ -4,7 +4,7 @@
   const byId = new Map(glyphs.map(glyph => [glyph.id,glyph]));
   const $ = selector => document.querySelector(selector);
   const initial = new URLSearchParams(location.hash.slice(1)).get('glyph');
-  const state = {selectedId:byId.has(initial) ? initial : glyphs.find(g => g.mark === '宇')?.id || glyphs[0].id,split:false,query:''};
+  const state = {selectedId:byId.has(initial) ? initial : glyphs.find(g => g.mark === '安')?.id || glyphs[0].id,split:false,query:''};
   const current = () => byId.get(state.selectedId);
   function paintStage() {
     window.GlyphUI.renderImage(current(),state);

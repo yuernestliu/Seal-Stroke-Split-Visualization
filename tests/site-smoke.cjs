@@ -18,13 +18,13 @@ w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialog
 for(const script of d.querySelectorAll('script[src]')) w.eval(fs.readFileSync(safeFile(script.getAttribute('src')),'utf8'));
 const click=selector=>d.querySelector(selector).click();
 const search=value=>{const input=d.querySelector('#glyphSearch');input.value=value;input.dispatchEvent(new w.Event('input',{bubbles:true}));};
-assert.equal(d.querySelector('#glyphTitle').textContent,'宇');
+assert.equal(d.querySelector('#glyphTitle').textContent,'安');
 assert.equal(d.querySelectorAll('.writing-panel button').length,1);
 assert(d.querySelector('#splitStrokes').hidden);
 assert(d.querySelector('#relationGraph svg'),'relationships must be visible on arrival');
 for(const id of ['replayPlay','replaySpeed','guessToggle','traceCanvas','toggleGraph','relationFilter','bookmarkGlyph','catalogFilter']) assert.equal(d.getElementById(id),null);
 click('#splitGlyph');assert(!d.querySelector('#splitStrokes').hidden);assert.equal(d.querySelector('#splitGlyph').getAttribute('aria-expanded'),'true');
-assert.equal(d.querySelectorAll('.stroke-piece').length,5);assert.equal(d.querySelectorAll('#glyphVector path[fill^="#"]').length,5);
+assert.equal(d.querySelectorAll('.stroke-piece').length,5);assert.equal(d.querySelectorAll('#glyphVector path[stroke^="#"]').length,5);
 click('#splitGlyph');assert(d.querySelector('#splitStrokes').hidden);
 click('#openCatalog');search('不存在的字');assert.equal(d.querySelectorAll('.glyph-item').length,0);search('宇');assert.equal(d.querySelectorAll('.glyph-item').length,1);click('.glyph-item');
 const relation=d.querySelector('.graph-node-related');assert(relation);relation.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));assert.notEqual(d.querySelector('#glyphTitle').textContent,'宇');
@@ -42,12 +42,26 @@ for(const glyph of w.GLYPH_DATA.glyphs) {
   for(const asset of [...Object.values(glyph.assets),...glyph.segments.map(s=>s.image)]) {assert(fs.statSync(safeFile(asset)).isFile());assets++;}
 }
 w.SEAL_FONT.ready=true;
-const covered=w.GLYPH_DATA.glyphs.find(g=>g.mark==='宇');
+const covered=w.GLYPH_DATA.glyphs.find(g=>w.SEAL_FONT.glyphIds.includes(g.id) && !w.CLEANED_GLYPHS[g.id]);
 w.GlyphUI.renderImage(covered,{split:false});assert(!d.querySelector('#fontGlyph').hidden);
 w.GlyphUI.renderImage(covered,{split:true});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
 const missing=w.GLYPH_DATA.glyphs.find(g=>!w.SEAL_FONT.glyphIds.includes(g.id));
 w.GlyphUI.renderImage(missing,{split:false});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
+// Cleaned examples take priority even after the official font finishes loading.
+assert.equal(Object.keys(w.CLEANED_GLYPHS).length,4);
+const geometry=svg=>[...svg.querySelectorAll('path')].map(p=>['data-stroke-id','d','stroke-width','stroke-linecap','stroke-linejoin'].map(a=>p.getAttribute(a)));
+for(const mark of ['安','宇','包','光']) {
+  const glyph=w.GLYPH_DATA.glyphs.find(g=>g.mark===mark),record=w.CLEANED_GLYPHS[glyph.id];
+  assert(record);assert.equal(record.strokes.length,glyph.segments.length);
+  w.GlyphUI.renderImage(glyph,{split:false});assert(d.querySelector('#fontGlyph').hidden);
+  const combined=geometry(d.querySelector('#glyphVector svg'));
+  w.GlyphUI.renderImage(glyph,{split:true});assert.deepEqual(geometry(d.querySelector('#glyphVector svg')),combined);
+  w.GlyphUI.renderSegments(glyph);
+  [...d.querySelectorAll('.stroke-piece svg')].forEach((svg,i)=>assert.deepEqual(geometry(svg),[combined[i]]));
+  w.GlyphUI.renderCatalog(w.GLYPH_DATA.glyphs,{query:mark,selectedId:glyph.id},()=>{});
+  assert(d.querySelector(`.glyph-item[data-glyph-id="${glyph.id}"] .cleaned-glyph`));
+}
 const license=fs.readFileSync(safeFile('license.html'),'utf8');assert(license.includes('Academia Sinica'));assert(license.includes('CC-BY-ND-3.0-TW-or-later'));
 assert.equal(d.querySelector('.site-footer a').getAttribute('href'),'./license.html');
 assert.deepEqual(errors,[]);dom.window.close();
-console.log(`PASS: one-action splitting, catalog, persistent relationship graph, keyboard navigation, font/fallback, licensing, all 124 glyphs and ${assets} asset references.`);
+console.log(`PASS: four shared-geometry cleaned glyphs, default 安, one-action splitting, catalog, persistent relationship graph, keyboard navigation, font/fallback, licensing, all 124 glyphs and ${assets} asset references.`);

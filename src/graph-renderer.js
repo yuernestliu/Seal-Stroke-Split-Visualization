@@ -24,6 +24,11 @@
    */
   function addXiaozhuanMark(parent, ch, cx, cy, size, textClassName) {
     const glyph = window.GLYPH_DATA?.glyphs.find(g => g.mark === ch);
+    const clean = glyph && window.CleanGlyphShapes?.svg(glyph);
+    if (clean) {
+      Object.entries({x:cx-size/2,y:cy-size/2,width:size,height:size,'aria-hidden':'true'}).forEach(([key,value])=>clean.setAttribute(key,value));
+      parent.append(clean);return;
+    }
     const vector = glyph && window.GLYPH_VECTORS?.[glyph.id];
     if (vector) {
       const mark = svgNode('svg', {x:cx-size/2,y:cy-size/2,width:size,height:size,viewBox:`-2 -2 ${vector.width+4} ${vector.height+4}`,'aria-hidden':'true'});

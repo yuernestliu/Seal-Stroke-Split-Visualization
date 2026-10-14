@@ -34,6 +34,8 @@
     return svgElement('path', {d:vector.path, fill, 'fill-rule':'evenodd', ...extra});
   }
   function vectorMarkup(glyph, vector = window.GLYPH_VECTORS?.[glyph.id]) {
+    const clean = window.CleanGlyphShapes?.svg(glyph);
+    if (clean) return clean.outerHTML;
     if (!vector) return `<img src="${escapeHtml(encodeURI(glyph.assets.original))}" alt="${escapeHtml(glyph.mark)} 小篆" loading="lazy" />`;
     return `<svg viewBox="-2 -2 ${vector.width + 4} ${vector.height + 4}" role="img" aria-label="${escapeHtml(glyph.mark)} 小篆" class="glyph-vector"><path d="${escapeHtml(vector.path)}" fill="currentColor" fill-rule="evenodd" /></svg>`;
   }
@@ -88,7 +90,10 @@
     const image = $('#glyphImage'), canvas = $('#glyphVector'), fontLayer = $('#fontGlyph');
     image.hidden = true; canvas.hidden = true; fontLayer.hidden = true;
     canvas.replaceChildren(); fontLayer.replaceChildren();
-    if (!split && window.SEAL_FONT?.ready && window.SEAL_FONT.glyphIds.includes(glyph.id)) {
+    const clean = window.CleanGlyphShapes?.svg(glyph,{colored:split});
+    if (clean) {
+      canvas.append(clean); canvas.hidden = false;
+    } else if (!split && window.SEAL_FONT?.ready && window.SEAL_FONT.glyphIds.includes(glyph.id)) {
       const letter = document.createElement('span');
       letter.className = 'seal-font-letter'; letter.textContent = glyph.mark;
       letter.setAttribute('role','img'); letter.setAttribute('aria-label',`${glyph.mark} 的小篆字形`);
@@ -120,7 +125,8 @@
     glyph.segments.forEach((segment,i) => {
       const piece = document.createElement('div'); piece.className = 'stroke-piece'; piece.style.color = palette[i%palette.length];
       const vector = window.GLYPH_VECTORS?.[glyph.id]?.segments[i];
-      if (vector) {
+      const clean = window.CleanGlyphShapes?.svg(glyph,{colored:true,strokeIndex:i,label:`第 ${i+1} 个笔段`});
+      if (clean) { piece.append(clean); } else if (vector) {
         piece.innerHTML = vectorMarkup(glyph,vector);
         piece.querySelector('svg').setAttribute('aria-label',`第 ${i+1} 个笔段`);
       } else {
@@ -130,6 +136,8 @@
     });
   }
   function catalogMark(glyph) {
+    const clean = window.CleanGlyphShapes?.svg(glyph);
+    if (clean) return clean.outerHTML;
     if (window.SEAL_FONT?.ready && window.SEAL_FONT.glyphIds.includes(glyph.id)) return `<span class="seal-font-letter seal-font-thumb" role="img" aria-label="${escapeHtml(glyph.mark)} 小篆">${escapeHtml(glyph.mark)}</span>`;
     return vectorMarkup(glyph);
   }
