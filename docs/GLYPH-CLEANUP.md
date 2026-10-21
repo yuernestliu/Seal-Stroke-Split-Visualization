@@ -1,3 +1,5 @@
+> 2026-10-21：先读根目录 README 与 `docs/项目计划.md`。全库归入 `字库/原始字形/`；500/2000候选字表已建，严格平滑笔段仍只有下列四字。
+
 # 字形清理与接入 Notes
 
 ## 1. 目的
@@ -39,9 +41,9 @@
 | `scripts/preview_clean_strokes.py` | 当前四字的原图/清理/拆笔对照页生成器 |
 | `data/cleaned-glyphs/*.json` | agent 各自维护的逐字结果 |
 | `data/cleaned-glyphs.js` | 生成的合并文件，禁止手改 |
-| `src/clean-glyph-shapes.js` | 唯一的清理字形 SVG 渲染器 |
-| `src/ui.js` | 大字、独立笔段、字库、故事内对照接入 |
-| `src/graph-renderer.js` | 关系节点优先显示清理字形 |
+| `模块/字形展示/平滑字形.js` | 唯一的清理字形 SVG 渲染器 |
+| `模块/字形展示/字形界面.js` | 大字、独立笔段、字库、故事内对照接入 |
+| `模块/字间关系/关系绘图.js` | 关系节点优先显示清理字形 |
 | `tests/site-smoke.cjs` | 默认字、同形拆笔、字体覆盖优先级和页面回归 |
 
 Python 环境需要 Pillow、NumPy、SciPy、scikit-image。当前环境已经可运行，不要为普通逐字任务另外重装依赖。

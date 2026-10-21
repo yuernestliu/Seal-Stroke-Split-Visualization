@@ -4,17 +4,17 @@
 
 ## 分层
 
-逐字清理采用 `data/cleaned-glyphs/<ID>.json`，经发布器汇总到 `data/cleaned-glyphs.js`；`src/clean-glyph-shapes.js` 为整字和拆笔提供同一份几何。操作入口见 `GLYPH-CLEANUP.md`。
+逐字清理采用 `data/cleaned-glyphs/<ID>.json`，经发布器汇总到 `data/cleaned-glyphs.js`；`模块/字形展示/平滑字形.js` 为整字和拆笔提供同一份几何。操作入口见 `GLYPH-CLEANUP.md`。
 
 - `data/glyph-notes.json`：人工知识层。只放可追溯的释义、部件、构形与审核状态；不要把自动算法结果手工复制到这里。
 - `data/glyph-vectors.js`：由 `scripts/build_glyph_vectors.py` 从原始样本生成的矢量展示层，保留原图并校验轮廓重合率。
 - `assets/fonts/chongxi-seal.otf`：官方未修改 OTF，署名和授权在 `assets/fonts/LICENSE.md`。`data/seal-font.js` 登记字形覆盖；加载成功后采用字体展示，拆笔和缺字保留样本 SVG。
-- `data/stories.js`：页面编辑层。登记故事标题、出处与有材料支撑的历史字形路径；默认只显示小篆和今字对照。
+- `模块/字源故事/故事数据.js`：页面编辑层。登记故事标题、出处与有材料支撑的历史字形路径；默认只显示小篆和今字对照。
 - `scripts/import_experiment.py`：实验导入层。读取一版算法输出、复制发布所需图片，并生成 `data/glyphs.js`。
-- `src/relation-engine.js`：关系规则层。不访问页面元素；只计算候选相似字形及其理由。
-- `src/graph-renderer.js`：图形视图层。只将关系数据绘制为 SVG，并向上层报告点击的节点。
-- `src/ui.js`：界面视图层。只更新目录、详情、候选笔段和资料面板。
-- `src/relations-panel.js/.css`：独立关系模块，固定展示当前字的关系图，通过选择回调与主页面协作。
+- `模块/字间关系/关系规则.js`：关系规则层。不访问页面元素；只计算候选相似字形及其理由。
+- `模块/字间关系/关系绘图.js`：图形视图层。只将关系数据绘制为 SVG，并向上层报告点击的节点。
+- `模块/字形展示/字形界面.js`：界面视图层。只更新目录、详情、候选笔段和资料面板。
+- `模块/字间关系/关系面板.js / 关系面板.css`：独立关系模块，固定展示当前字的关系图，通过选择回调与主页面协作。
 - `src/app.js`：薄控制器。保存当前选择、筛选状态，并协调上述模块。
 - `index.html` / `styles.css`：页面结构与样式。
 - `research/`：保留原始算法工程和趣味字素材；`archive/` 保存旧站与临时实验文件，不进入页面运行。
@@ -23,8 +23,8 @@
 
 - 资料研究成员维护 `data/glyph-notes.json`，并在拉取请求中注明文献来源与核对日期。
 - 算法成员维护实验工程，输出稳定的 `summary.json` 与每字 `result.json`，随后运行导入脚本。
-- 前端成员维护 `src/ui.js`、`src/graph-renderer.js` 与 `styles.css`。
-- 方法成员维护 `src/relation-engine.js`，每次调整相似关系规则时写明算法依据。
+- 前端成员维护 `模块/字形展示/字形界面.js`、`模块/字间关系/关系绘图.js` 与 `styles.css`。
+- 方法成员维护 `模块/字间关系/关系规则.js`，每次调整相似关系规则时写明算法依据。
 
 ## 数据规则
 

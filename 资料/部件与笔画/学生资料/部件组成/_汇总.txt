@@ -1,0 +1,8 @@
+部首 CSV 数量：541
+字图记录数量：14158
+IDS 缺失数量：0
+独体字数量：295
+IDS 仅笔画级拆解改判独体数量：41
+含圈数字的混合行数量：143
+[G] 优先改动字数：13
+IDS 来源：D:/古汉字网站/GitHub新/Seal-Stroke-Split-Visualization/data/ids.txt

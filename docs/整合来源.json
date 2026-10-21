@@ -1,0 +1,16 @@
+{
+  "upstream": "YibinLi188/Seal-Stroke-Split-Visualization",
+  "upstreamCommit": "29c8b11d6f9dc57770144c60e4de85aa6138048d",
+  "baseCommit": "8359b66e293caf18fa9acddcf12370ccd0713f32",
+  "date": "2026-10-21",
+  "importedFiles": 15456,
+  "scope": "新增资料与界面能力；保留 Ernest 原124字内容、四字平滑几何、故事和授权。未合并无共同祖先的 Git 历史。",
+  "directoryMapping": {
+    "analysis": "资料/部件与笔画/学生资料/部件候选分析",
+    "部件组成": "资料/部件与笔画/学生资料/部件组成",
+    "按模板识别_全部部首_重跑": "资料/部件与笔画/学生资料/模板识别结果",
+    "data/ids.txt": "资料/部件与笔画/学生资料/IDS/ids.txt",
+    "new scripts": "资料/部件与笔画/学生资料/原始脚本"
+  },
+  "excluded": "node_modules 不从上游复制；原始字形逐文件移动，禁止路径与符号链接不进入整合。"
+}

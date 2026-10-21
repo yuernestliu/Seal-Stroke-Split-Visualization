@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-ALLOWED = {'index.html', 'license.html', 'styles.css', 'src', 'data', 'assets', 'public'}
+ALLOWED = {'index.html', 'license.html', 'plan.html', 'styles.css', '模块', '字库', 'src', 'data', 'assets', 'public'}
 
 class SiteHandler(SimpleHTTPRequestHandler):
     def translate_path(self, path):

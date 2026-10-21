@@ -2,7 +2,7 @@
 
 页面的第三块是独立模块，默认固定展示，没有筛选或展开状态。当前规则与旧版保持一致。
 
-入口是 `src/relations-panel.js`，样式是 `src/relations-panel.css`。主页面只提供数据、容器和选择回调：
+入口是 `模块/字间关系/关系面板.js`，样式是 `模块/字间关系/关系面板.css`。主页面只提供数据、容器和选择回调：
 
 ```js
 window.RelationsPanel.render({

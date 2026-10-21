@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>学生 To-Do Plan · 小篆实验</title><link rel="icon" href="data:,">
+  <style>
+    :root{color-scheme:dark;--ink:#eee6d2;--muted:#aab59f;--line:#aabb962b;--accent:#d9be83}
+    *{box-sizing:border-box}body{margin:0;background:#1c261f;color:var(--ink);font-family:"Songti SC","Noto Serif CJK SC",serif;line-height:1.8}a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}main{max-width:1080px;margin:auto;padding:38px 30px 70px}nav{font:13px sans-serif;color:var(--muted);display:flex;justify-content:space-between}header{padding:70px 0 40px;max-width:760px}.eyebrow{color:var(--accent);font:12px sans-serif;letter-spacing:3px}h1{font-weight:500;font-size:clamp(35px,5vw,58px);line-height:1.35;margin:20px 0}header p{color:#bac3b1;font-size:17px;max-width:650px}.stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:60px;padding:24px 0;gap:25px}.stat strong{display:block;font-size:34px;font-weight:400;color:var(--accent)}.stat span{font-size:13px;color:var(--muted)}.layout{display:grid;grid-template-columns:1.35fr 1fr;gap:75px}h2{font-size:22px;font-weight:500;margin:0 0 25px}.step{padding:0 0 27px 29px;border-left:1px solid var(--line);position:relative}.step:before{content:"";position:absolute;left:-4px;top:10px;width:7px;height:7px;border-radius:50%;background:var(--accent)}.step h3{font-size:17px;font-weight:500;margin:0 0 7px}.step p{font-size:14px;color:var(--muted);margin:0}.tag{font:11px sans-serif;color:#e7c896;margin-left:10px}.vision{background:#e6dfce;color:#2b352b;border-radius:3px;padding:29px;align-self:start}.vision h2{margin-bottom:16px}.vision p{font-size:15px}.vision ol{padding-left:19px;font-size:14px}.vision li{margin:10px 0}.detail{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:25px;margin-top:25px}footer{margin-top:40px;display:flex;gap:25px;font:13px sans-serif;color:var(--muted)}@media(max-width:700px){main{padding:25px 23px 45px}header{padding-top:45px}.layout{grid-template-columns:1fr;gap:25px}.stats{gap:12px;margin-bottom:40px}.stat strong{font-size:26px}.stat span{font-size:11px}} 
+  </style>
+</head>
+<body><main>
+  <nav><a href="./index.html">← 回到字里</a><span>学生 To-Do Plan · 2026.10</span></nav>
+  <header><span class="eyebrow">当前首要任务 · 完成全部 500 字</span><h1>先把五百个字，<br>做成可信的形体数据。</h1><p>逐字完成原图清理、高质量轮廓 SVG、骨架图与人工复核。后续的组成单元、结构关系与梯径分析，都从这批标准数据出发。</p></header>
+  <section class="stats" aria-label="首批500字进度"><div class="stat"><strong id="pilotCount">—</strong><span>字首批任务</span></div><div class="stat"><strong id="outlineCount">—</strong><span>字已有轮廓／笔段资料</span></div><div class="stat"><strong id="cleanCount">—</strong><span>字平滑笔段已核对</span></div></section>
+  <div class="layout"><section aria-labelledby="stepsTitle"><h2 id="stepsTitle">接下来，按这个顺序做</h2>
+    <article class="step"><h3>01　完成500字高质量字形<span class="tag">首要任务</span></h3><p>先交10个示范样本，再覆盖全部500字。每字保留原图、清理掩膜、真实矢量轮廓和复核记录，不能只把PNG放进SVG。</p></article>
+    <article class="step"><h3>02　建立骨架与拓扑入口<span class="tag">几何标准</span></h3><p>保存节点、边、曲线、闭环及坐标映射，能叠回原图检查细笔、连通和交叉。骨架是几何基础，不自动等于笔画或笔顺。</p></article>
+    <article class="step"><h3>03　拆成可复用组成单元<span class="tag">不必先恢复笔画</span></h3><p>可先用经核对的部件先验，再尝试骨架子图；同类单元跨字共用ID，保留上下、左右、包围和连接关系。</p></article>
+    <article class="step"><h3>04　补故事，连成网<span class="tag">三个模块并行</span></h3><p>每个故事附出处；每条联系说明依据。字形、字源故事、字间关系各自维护，通过字形 ID 对齐。</p></article>
+    <article class="step"><h3>05　接入梯径，再扩展<span class="tag">后续目标</span></h3><p>先固定单元词表和结构编码，评估先验与几何路线。现有序列接口需要适配；500字验收后进入2000字，最后覆盖全部。</p></article>
+  </section><aside class="vision"><h2>最后想做成什么？</h2><p>一个本科生打开就愿意玩的小篆探索界面。</p><ol><li>字形能看清，也能拆开；合字和拆分使用同一套几何。</li><li>故事短而有趣，能追溯到材料。</li><li>字与字之间可以顺着部件、形态和演变继续探索。</li></ol><p>现在的部首与 IDS 关系是起点。更远的目标，是让梯径从结构中发现联系。</p></aside></div>
+  <p class="detail" id="pilotProgress"></p>
+  <p class="detail">认领任务：先读<a href="https://github.com/yuernestliu/Seal-Stroke-Split-Visualization#readme">仓库 README 与学生计划</a>，再在500字任务表填写负责人和复核人。原图、轮廓、骨架、部件和故事分别记录进度；故事与文献可以并行整理。</p>
+  <footer><a href="./index.html">打开字库</a><a href="./license.html">授权说明</a></footer>
+</main><script src="./字库/浏览索引.js"></script><script>
+  const s=window.SEAL_LIBRARY.stats,p=s.inventories['500'];
+  document.querySelector('#pilotCount').textContent=p.targetCharacters;
+  document.querySelector('#outlineCount').textContent=p.outlineGlyphs;
+  document.querySelector('#cleanCount').textContent=p.cleanedGlyphs;
+  document.querySelector('#pilotProgress').textContent=`候选500字已按频序从现有小篆中选满，截止到字频第${p.frequencyRankCutoff}位。原Top500中${p.missingInSourceTopN}个缺字另列；简繁映射和选字仍需核对。`;
+</script></body></html>

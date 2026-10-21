@@ -7,7 +7,7 @@
   <title>小篆实验</title>
   <link rel="icon" href="data:," />
   <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="./src/relations-panel.css" />
+  <link rel="stylesheet" href="./模块/字间关系/关系面板.css" />
 </head>
 <body>
   <a href="#workspace" class="skip-link">跳到字形</a>
@@ -38,11 +38,11 @@
         </article>
       </section>
       <section class="relations-section" id="relations" aria-labelledby="relationTitle"><h2 class="panel-title" id="relationTitle">字间联系</h2><div id="relationsPanel"></div></section>
-      <footer class="site-footer"><a href="./license.html" target="_blank" rel="noopener">授权说明 ↗</a></footer>
+      <footer class="site-footer"><a href="./plan.html">学生计划 ↗</a><a href="./license.html" target="_blank" rel="noopener">授权说明 ↗</a></footer>
     </main>
   </div>
-  <dialog id="catalogDialog" class="catalog-dialog" aria-labelledby="catalogTitle"><div class="dialog-heading"><h2 id="catalogTitle">字库 <span id="glyphCount">124</span></h2><button id="closeCatalog" type="button" class="icon-button" aria-label="关闭字库">×</button></div><label class="search-field"><input id="glyphSearch" type="search" placeholder="搜索字、部首或编号" aria-label="搜索字库" /></label><p class="catalog-result" id="catalogResult" aria-live="polite"></p><div class="glyph-list" id="glyphList"></div></dialog>
+  <dialog id="catalogDialog" class="catalog-dialog" aria-labelledby="catalogTitle"><div class="dialog-heading"><h2 id="catalogTitle">字库 <span id="glyphCount">124</span></h2><button id="closeCatalog" type="button" class="icon-button" aria-label="关闭字库">×</button></div><div class="catalog-scopes" aria-label="字库范围"><button type="button" data-library-scope="500" aria-pressed="true">常用500字</button><button type="button" data-library-scope="2000" aria-pressed="false">常用2000字</button><button type="button" data-library-scope="all" aria-pressed="false">全部</button></div><label class="search-field"><input id="glyphSearch" type="search" placeholder="搜索字、部首或编号" aria-label="搜索字库" /></label><p class="catalog-result" id="catalogResult" aria-live="polite"></p><div class="glyph-list" id="glyphList"></div><button id="catalogMore" type="button" class="catalog-more" hidden>再看一些</button></dialog>
   <noscript><p class="noscript-note">请启用 JavaScript 查看字形。</p></noscript>
-  <script src="./data/xiaozhuan-index.js"></script><script src="./src/render_xiaozhuan.js"></script><script src="./data/glyphs.js"></script><script src="./data/stories.js"></script><script src="./data/glyph-vectors.js"></script><script src="./data/seal-font.js"></script><script src="./data/cleaned-glyphs.js"></script><script src="./src/clean-glyph-shapes.js"></script><script src="./src/component-deriver.js"></script><script src="./src/relation-engine.js"></script><script src="./src/graph-renderer.js"></script><script src="./src/relations-panel.js"></script><script src="./src/ui.js"></script><script src="./src/app.js"></script>
+  <script src="./data/xiaozhuan-index.js"></script> <script src="./模块/字形展示/小篆标记.js"></script> <script src="./data/glyphs.js"></script> <script src="./data/template-glyphs.js"></script> <script src="./模块/字形展示/部件简释.js"></script> <script src="./模块/字源故事/故事数据.js"></script> <script src="./data/glyph-vectors.js"></script> <script src="./data/seal-font.js"></script> <script src="./data/cleaned-glyphs.js"></script> <script src="./字库/浏览索引.js"></script> <script src="./字库/部件候选/先验索引.js"></script> <script src="./模块/字形展示/平滑字形.js"></script> <script src="./src/library.js"></script> <script src="./模块/字间关系/部件推断.js"></script> <script src="./模块/字间关系/关系规则.js"></script> <script src="./模块/字间关系/关系绘图.js"></script> <script src="./模块/字间关系/关系面板.js"></script> <script src="./模块/字形展示/字形界面.js"></script> <script src="./模块/字源故事/故事展示.js"></script> <script src="./src/app.js"></script>
 </body>
 </html>

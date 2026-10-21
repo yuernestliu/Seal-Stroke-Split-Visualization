@@ -1,0 +1,4529 @@
+{
+  "status": "candidate_needs_review",
+  "basis": "项目已有 BCC 多领域单字频序；按频序选取可匹配且字形ID不重复的前500/2000字。是项目试跑候选集，不是原字频表Top500/2000。高频缺字单列，简繁映射待人工校核。",
+  "source": "字库/来源/字频来源.json",
+  "stats": {
+    "targetCharacters": 500,
+    "matchedTargets": 500,
+    "availableGlyphs": 500,
+    "missingTargets": 0,
+    "convertedTargets": 4,
+    "frequencyRankCutoff": 521,
+    "missingInSourceTopN": 20,
+    "cleanedGlyphs": 3,
+    "outlineGlyphs": 18,
+    "strokeDataGlyphs": 18,
+    "templateGlyphs": 12,
+    "storyGlyphs": 18
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "character": "的",
+      "frequency": 22900677,
+      "sealMark": "的",
+      "glyphId": "16964_的_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 2,
+      "character": "了",
+      "frequency": 8973264,
+      "sealMark": "了",
+      "glyphId": "06726_了_Z_說文‧了部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 3,
+      "character": "是",
+      "frequency": 8889392,
+      "sealMark": "是",
+      "glyphId": "12783_是_Z_說文‧是部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 4,
+      "character": "我",
+      "frequency": 8570074,
+      "sealMark": "我",
+      "glyphId": "11729_我_Z_說文‧我部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 5,
+      "character": "一",
+      "frequency": 8521540,
+      "sealMark": "一",
+      "glyphId": "06592_一_Z_說文‧一部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 6,
+      "character": "不",
+      "frequency": 8344766,
+      "sealMark": "不",
+      "glyphId": "06605_不_Z_說文‧不部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 7,
+      "character": "有",
+      "frequency": 5704528,
+      "sealMark": "有",
+      "glyphId": "13001_有_Z_說文‧有部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 8,
+      "character": "在",
+      "frequency": 5651173,
+      "sealMark": "在",
+      "glyphId": "08936_在_Z_說文‧土部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 10,
+      "character": "人",
+      "frequency": 5170816,
+      "sealMark": "人",
+      "glyphId": "06778_人_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 12,
+      "character": "个",
+      "frequency": 3816069,
+      "sealMark": "箇",
+      "glyphId": "18247_箇_Z_說文‧竹部",
+      "mappingStatus": "converted_needs_review",
+      "alternatives": [
+        "箇"
+      ]
+    },
+    {
+      "rank": 13,
+      "character": "好",
+      "frequency": 3626487,
+      "sealMark": "好",
+      "glyphId": "09533_好_Z_說文‧女部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 14,
+      "character": "来",
+      "frequency": 3599234,
+      "sealMark": "来",
+      "glyphId": "13093_来_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 15,
+      "character": "大",
+      "frequency": 3509745,
+      "sealMark": "大",
+      "glyphId": "09447_大_Z_說文‧大部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 16,
+      "character": "他",
+      "frequency": 3386456,
+      "sealMark": "他",
+      "glyphId": "06806_他_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 17,
+      "character": "和",
+      "frequency": 3339310,
+      "sealMark": "和",
+      "glyphId": "08268_和_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 18,
+      "character": "要",
+      "frequency": 3319241,
+      "sealMark": "要",
+      "glyphId": "21825_要_Z_說文‧𦥑部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 19,
+      "character": "上",
+      "frequency": 3285962,
+      "sealMark": "上",
+      "glyphId": "06602_上_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 20,
+      "character": "中",
+      "frequency": 3257658,
+      "sealMark": "中",
+      "glyphId": "06637_中_Z_說文‧丨部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 21,
+      "character": "为",
+      "frequency": 3059791,
+      "sealMark": "为",
+      "glyphId": "06650_为_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 22,
+      "character": "就",
+      "frequency": 3019608,
+      "sealMark": "就",
+      "glyphId": "10225_就_Z_說文‧京部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 23,
+      "character": "到",
+      "frequency": 2893159,
+      "sealMark": "到",
+      "glyphId": "07664_到_Z_說文‧至部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 24,
+      "character": "国",
+      "frequency": 2887624,
+      "sealMark": "国",
+      "glyphId": "08893_国_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 27,
+      "character": "会",
+      "frequency": 2718106,
+      "sealMark": "会",
+      "glyphId": "06874_会_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 28,
+      "character": "以",
+      "frequency": 2627489,
+      "sealMark": "以",
+      "glyphId": "06821_以_Z_說文‧巳部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 29,
+      "character": "说",
+      "frequency": 2615247,
+      "sealMark": "说",
+      "glyphId": "22452_说_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 30,
+      "character": "么",
+      "frequency": 2566832,
+      "sealMark": "么",
+      "glyphId": "06664_么_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 31,
+      "character": "生",
+      "frequency": 2525880,
+      "sealMark": "生",
+      "glyphId": "16607_生_Z_說文‧生部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 32,
+      "character": "也",
+      "frequency": 2515436,
+      "sealMark": "也",
+      "glyphId": "06687_也_Z_說文‧𠂆部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 33,
+      "character": "地",
+      "frequency": 2317478,
+      "sealMark": "地",
+      "glyphId": "08944_地_Z_說文‧土部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 34,
+      "character": "可",
+      "frequency": 2306877,
+      "sealMark": "可",
+      "glyphId": "08111_可_Z_說文‧可部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 35,
+      "character": "对",
+      "frequency": 2288816,
+      "sealMark": "对",
+      "glyphId": "10169_对_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 36,
+      "character": "发",
+      "frequency": 2267588,
+      "sealMark": "发",
+      "glyphId": "08081_发_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 37,
+      "character": "出",
+      "frequency": 2243002,
+      "sealMark": "出",
+      "glyphId": "07610_出_Z_說文‧出部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 38,
+      "character": "时",
+      "frequency": 2187568,
+      "sealMark": "时",
+      "glyphId": "12726_时_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 39,
+      "character": "没",
+      "frequency": 2164569,
+      "sealMark": "没",
+      "glyphId": "14433_没_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 40,
+      "character": "年",
+      "frequency": 2154615,
+      "sealMark": "年",
+      "glyphId": "10804_年_Z_說文‧禾部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 41,
+      "character": "子",
+      "frequency": 2116164,
+      "sealMark": "子",
+      "glyphId": "10000_子_Z_說文‧子部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 42,
+      "character": "能",
+      "frequency": 2110433,
+      "sealMark": "能",
+      "glyphId": "19645_能_Z_說文‧能部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 43,
+      "character": "那",
+      "frequency": 2103830,
+      "sealMark": "那",
+      "glyphId": "23651_那_Z_說文‧邑部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 44,
+      "character": "还",
+      "frequency": 2090312,
+      "sealMark": "还",
+      "glyphId": "23448_还_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 45,
+      "character": "过",
+      "frequency": 2068698,
+      "sealMark": "过",
+      "glyphId": "23431_过_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 46,
+      "character": "得",
+      "frequency": 2068316,
+      "sealMark": "得",
+      "glyphId": "11095_得_Z_說文‧彳部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 47,
+      "character": "看",
+      "frequency": 2060002,
+      "sealMark": "看",
+      "glyphId": "17099_看_Z_說文‧目部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 48,
+      "character": "下",
+      "frequency": 2047981,
+      "sealMark": "下",
+      "glyphId": "06603_下_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 49,
+      "character": "都",
+      "frequency": 2045330,
+      "sealMark": "都",
+      "glyphId": "23741_都_Z_說文‧邑部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 50,
+      "character": "学",
+      "frequency": 2031528,
+      "sealMark": "学",
+      "glyphId": "10022_学_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 51,
+      "character": "去",
+      "frequency": 2030422,
+      "sealMark": "去",
+      "glyphId": "08059_去_Z_說文‧去部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 52,
+      "character": "天",
+      "frequency": 1993351,
+      "sealMark": "天",
+      "glyphId": "09449_天_Z_說文‧一部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 53,
+      "character": "多",
+      "frequency": 1992214,
+      "sealMark": "多",
+      "glyphId": "09434_多_Z_說文‧多部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 54,
+      "character": "家",
+      "frequency": 1882444,
+      "sealMark": "家",
+      "glyphId": "10102_家_Z_說文‧宀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 55,
+      "character": "作",
+      "frequency": 1866387,
+      "sealMark": "作",
+      "glyphId": "06940_作_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 56,
+      "character": "用",
+      "frequency": 1860767,
+      "sealMark": "用",
+      "glyphId": "16616_用_Z_說文‧用部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 57,
+      "character": "着",
+      "frequency": 1855327,
+      "sealMark": "着",
+      "glyphId": "17152_着_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 58,
+      "character": "自",
+      "frequency": 1732391,
+      "sealMark": "自",
+      "glyphId": "19882_自_Z_說文‧自部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 60,
+      "character": "行",
+      "frequency": 1662767,
+      "sealMark": "行",
+      "glyphId": "21516_行_Z_說文‧行部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 61,
+      "character": "后",
+      "frequency": 1661808,
+      "sealMark": "后",
+      "glyphId": "08142_后_Z_說文‧后部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 62,
+      "character": "心",
+      "frequency": 1633405,
+      "sealMark": "心",
+      "glyphId": "11139_心_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 63,
+      "character": "成",
+      "frequency": 1605457,
+      "sealMark": "成",
+      "glyphId": "11728_成_Z_說文‧戊部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 64,
+      "character": "道",
+      "frequency": 1605067,
+      "sealMark": "道",
+      "glyphId": "23571_道_Z_說文‧辵部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 65,
+      "character": "小",
+      "frequency": 1601913,
+      "sealMark": "小",
+      "glyphId": "10191_小_Z_說文‧小部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 66,
+      "character": "想",
+      "frequency": 1599844,
+      "sealMark": "想",
+      "glyphId": "11443_想_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 67,
+      "character": "里",
+      "frequency": 1595996,
+      "sealMark": "里",
+      "glyphId": "23948_里_Z_說文‧里部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 69,
+      "character": "经",
+      "frequency": 1565277,
+      "sealMark": "经",
+      "glyphId": "19087_经_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 70,
+      "character": "工",
+      "frequency": 1543396,
+      "sealMark": "工",
+      "glyphId": "10661_工_Z_說文‧工部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 71,
+      "character": "开",
+      "frequency": 1492877,
+      "sealMark": "开",
+      "glyphId": "10944_开_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 72,
+      "character": "动",
+      "frequency": 1442298,
+      "sealMark": "动",
+      "glyphId": "07784_动_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 73,
+      "character": "于",
+      "frequency": 1433783,
+      "sealMark": "于",
+      "glyphId": "06734_于_Z_說文‧于部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 74,
+      "character": "业",
+      "frequency": 1432155,
+      "sealMark": "业",
+      "glyphId": "06618_业_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 75,
+      "character": "方",
+      "frequency": 1431231,
+      "sealMark": "方",
+      "glyphId": "12665_方_Z_說文‧方部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 76,
+      "character": "实",
+      "frequency": 1402802,
+      "sealMark": "实",
+      "glyphId": "10078_实_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 77,
+      "character": "分",
+      "frequency": 1383384,
+      "sealMark": "分",
+      "glyphId": "07622_分_Z_說文‧八部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 78,
+      "character": "进",
+      "frequency": 1369769,
+      "sealMark": "进",
+      "glyphId": "23451_进_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 79,
+      "character": "起",
+      "frequency": 1367291,
+      "sealMark": "起",
+      "glyphId": "22839_起_Z_說文‧走部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 80,
+      "character": "主",
+      "frequency": 1367016,
+      "sealMark": "主",
+      "glyphId": "06651_主_Z_說文‧丶部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 81,
+      "character": "理",
+      "frequency": 1358105,
+      "sealMark": "理",
+      "glyphId": "16326_理_Z_說文‧玉部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 82,
+      "character": "面",
+      "frequency": 1353742,
+      "sealMark": "面",
+      "glyphId": "25378_面_Z_說文‧面部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 83,
+      "character": "点",
+      "frequency": 1336475,
+      "sealMark": "点",
+      "glyphId": "15481_点_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 84,
+      "character": "高",
+      "frequency": 1321968,
+      "sealMark": "高",
+      "glyphId": "26264_高_Z_說文‧高部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 85,
+      "character": "同",
+      "frequency": 1314397,
+      "sealMark": "同",
+      "glyphId": "08140_同_Z_說文‧𠔼部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 86,
+      "character": "而",
+      "frequency": 1304104,
+      "sealMark": "而",
+      "glyphId": "19404_而_Z_說文‧而部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 88,
+      "character": "定",
+      "frequency": 1267087,
+      "sealMark": "定",
+      "glyphId": "10074_定_Z_說文‧宀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 89,
+      "character": "事",
+      "frequency": 1256694,
+      "sealMark": "事",
+      "glyphId": "06731_事_Z_說文‧史部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 90,
+      "character": "法",
+      "frequency": 1237200,
+      "sealMark": "法",
+      "glyphId": "14485_法_Z_說文‧廌部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 91,
+      "character": "新",
+      "frequency": 1212341,
+      "sealMark": "新",
+      "glyphId": "12656_新_Z_說文‧斤部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 92,
+      "character": "然",
+      "frequency": 1210394,
+      "sealMark": "然",
+      "glyphId": "15606_然_Z_說文‧火部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 93,
+      "character": "全",
+      "frequency": 1205704,
+      "sealMark": "全",
+      "glyphId": "07464_全_Z_說文‧入部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 94,
+      "character": "样",
+      "frequency": 1196707,
+      "sealMark": "样",
+      "glyphId": "13303_样_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 95,
+      "character": "种",
+      "frequency": 1194855,
+      "sealMark": "种",
+      "glyphId": "17805_种_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 96,
+      "character": "很",
+      "frequency": 1191599,
+      "sealMark": "很",
+      "glyphId": "11080_很_Z_說文‧彳部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 97,
+      "character": "长",
+      "frequency": 1187128,
+      "sealMark": "长",
+      "glyphId": "24895_长_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 98,
+      "character": "之",
+      "frequency": 1186162,
+      "sealMark": "之",
+      "glyphId": "06667_之_Z_說文‧之部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 99,
+      "character": "前",
+      "frequency": 1184587,
+      "sealMark": "前",
+      "glyphId": "07693_前_Z_說文‧止部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 100,
+      "character": "力",
+      "frequency": 1176020,
+      "sealMark": "力",
+      "glyphId": "07771_力_Z_說文‧力部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 101,
+      "character": "加",
+      "frequency": 1170647,
+      "sealMark": "加",
+      "glyphId": "07776_加_Z_說文‧力部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 102,
+      "character": "产",
+      "frequency": 1162824,
+      "sealMark": "产",
+      "glyphId": "06759_产_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 103,
+      "character": "民",
+      "frequency": 1146574,
+      "sealMark": "民",
+      "glyphId": "14289_民_Z_說文‧民部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 104,
+      "character": "本",
+      "frequency": 1144056,
+      "sealMark": "本",
+      "glyphId": "13036_本_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 105,
+      "character": "等",
+      "frequency": 1142599,
+      "sealMark": "等",
+      "glyphId": "18185_等_Z_說文‧竹部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 106,
+      "character": "重",
+      "frequency": 1129530,
+      "sealMark": "重",
+      "glyphId": "23949_重_Z_說文‧重部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 107,
+      "character": "部",
+      "frequency": 1127708,
+      "sealMark": "部",
+      "glyphId": "23720_部_Z_說文‧邑部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 108,
+      "character": "化",
+      "frequency": 1113010,
+      "sealMark": "化",
+      "glyphId": "07894_化_Z_說文‧𠤎部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 109,
+      "character": "回",
+      "frequency": 1087896,
+      "sealMark": "回",
+      "glyphId": "08862_回_Z_說文‧囗部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 110,
+      "character": "日",
+      "frequency": 1066654,
+      "sealMark": "日",
+      "glyphId": "12709_日_Z_說文‧日部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 111,
+      "character": "体",
+      "frequency": 1063130,
+      "sealMark": "体",
+      "glyphId": "06931_体_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 112,
+      "character": "性",
+      "frequency": 1063040,
+      "sealMark": "性",
+      "glyphId": "11239_性_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 113,
+      "character": "明",
+      "frequency": 1060630,
+      "sealMark": "明",
+      "glyphId": "12750_明_Z_說文‧明部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 114,
+      "character": "什",
+      "frequency": 1054505,
+      "sealMark": "什",
+      "glyphId": "06784_什_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 115,
+      "character": "所",
+      "frequency": 1043823,
+      "sealMark": "所",
+      "glyphId": "11776_所_Z_說文‧斤部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 116,
+      "character": "与",
+      "frequency": 1037745,
+      "sealMark": "与",
+      "glyphId": "06606_与_Z_說文‧勺部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 117,
+      "character": "真",
+      "frequency": 1030388,
+      "sealMark": "真",
+      "glyphId": "17119_真_Z_說文‧𠤎部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 118,
+      "character": "合",
+      "frequency": 1023495,
+      "sealMark": "合",
+      "glyphId": "08136_合_Z_說文‧亼部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 119,
+      "character": "只",
+      "frequency": 1007895,
+      "sealMark": "只",
+      "glyphId": "08106_只_Z_說文‧只部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 120,
+      "character": "关",
+      "frequency": 1006284,
+      "sealMark": "关",
+      "glyphId": "07475_关_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 121,
+      "character": "意",
+      "frequency": 1006115,
+      "sealMark": "意",
+      "glyphId": "11471_意_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 122,
+      "character": "其",
+      "frequency": 996871,
+      "sealMark": "其",
+      "glyphId": "07478_其_Z_說文‧箕部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 123,
+      "character": "吃",
+      "frequency": 972655,
+      "sealMark": "吃",
+      "glyphId": "08131_吃_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 124,
+      "character": "从",
+      "frequency": 966015,
+      "sealMark": "从",
+      "glyphId": "06798_从_Z_說文‧从部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 125,
+      "character": "最",
+      "frequency": 965436,
+      "sealMark": "最",
+      "glyphId": "12992_最_Z_說文‧冃部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 126,
+      "character": "当",
+      "frequency": 961849,
+      "sealMark": "当",
+      "glyphId": "11027_当_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 127,
+      "character": "机",
+      "frequency": 958418,
+      "sealMark": "机",
+      "glyphId": "13050_机_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 128,
+      "character": "把",
+      "frequency": 951565,
+      "sealMark": "把",
+      "glyphId": "11850_把_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 129,
+      "character": "如",
+      "frequency": 946057,
+      "sealMark": "如",
+      "glyphId": "09538_如_Z_說文‧女部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 130,
+      "character": "知",
+      "frequency": 938649,
+      "sealMark": "知",
+      "glyphId": "17317_知_Z_說文‧矢部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 131,
+      "character": "者",
+      "frequency": 936144,
+      "sealMark": "者",
+      "glyphId": "19397_者_Z_說文‧𦣹部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 132,
+      "character": "情",
+      "frequency": 927796,
+      "sealMark": "情",
+      "glyphId": "11397_情_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 133,
+      "character": "水",
+      "frequency": 924367,
+      "sealMark": "水",
+      "glyphId": "14324_水_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 134,
+      "character": "问",
+      "frequency": 916106,
+      "sealMark": "问",
+      "glyphId": "25006_问_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 135,
+      "character": "因",
+      "frequency": 911407,
+      "sealMark": "因",
+      "glyphId": "08864_因_Z_說文‧囗部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 136,
+      "character": "展",
+      "frequency": 909912,
+      "sealMark": "展",
+      "glyphId": "10261_展_Z_說文‧尸部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 137,
+      "character": "手",
+      "frequency": 905356,
+      "sealMark": "手",
+      "glyphId": "11787_手_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 138,
+      "character": "应",
+      "frequency": 905341,
+      "sealMark": "应",
+      "glyphId": "10836_应_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 139,
+      "character": "无",
+      "frequency": 905318,
+      "sealMark": "无",
+      "glyphId": "12704_无_Z_說文‧亡部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 140,
+      "character": "度",
+      "frequency": 904540,
+      "sealMark": "度",
+      "glyphId": "10854_度_Z_說文‧又部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 141,
+      "character": "给",
+      "frequency": 904307,
+      "sealMark": "给",
+      "glyphId": "19097_给_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 142,
+      "character": "制",
+      "frequency": 903999,
+      "sealMark": "制",
+      "glyphId": "07670_制_Z_說文‧刀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 143,
+      "character": "又",
+      "frequency": 902951,
+      "sealMark": "又",
+      "glyphId": "08072_又_Z_說文‧又部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 144,
+      "character": "三",
+      "frequency": 901756,
+      "sealMark": "三",
+      "glyphId": "06601_三_Z_說文‧三部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 145,
+      "character": "间",
+      "frequency": 897447,
+      "sealMark": "间",
+      "glyphId": "25012_间_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 146,
+      "character": "文",
+      "frequency": 892138,
+      "sealMark": "文",
+      "glyphId": "12615_文_Z_說文‧文部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 148,
+      "character": "公",
+      "frequency": 883721,
+      "sealMark": "公",
+      "glyphId": "07468_公_Z_說文‧八部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 149,
+      "character": "建",
+      "frequency": 883070,
+      "sealMark": "建",
+      "glyphId": "10938_建_Z_說文‧廴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 150,
+      "character": "两",
+      "frequency": 882296,
+      "sealMark": "两",
+      "glyphId": "06628_两_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 151,
+      "character": "表",
+      "frequency": 875980,
+      "sealMark": "表",
+      "glyphId": "21544_表_Z_說文‧衣部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 152,
+      "character": "十",
+      "frequency": 874650,
+      "sealMark": "十",
+      "glyphId": "07937_十_Z_說文‧十部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 153,
+      "character": "正",
+      "frequency": 870953,
+      "sealMark": "正",
+      "glyphId": "14115_正_Z_說文‧正部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 155,
+      "character": "已",
+      "frequency": 866144,
+      "sealMark": "已",
+      "glyphId": "10674_已_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 156,
+      "character": "老",
+      "frequency": 865593,
+      "sealMark": "老",
+      "glyphId": "19393_老_Z_說文‧老部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 157,
+      "character": "次",
+      "frequency": 864143,
+      "sealMark": "次",
+      "glyphId": "14049_次_Z_說文‧欠部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 158,
+      "character": "些",
+      "frequency": 861300,
+      "sealMark": "些",
+      "glyphId": "06747_些_Z_說文‧此部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 159,
+      "character": "头",
+      "frequency": 860660,
+      "sealMark": "头",
+      "glyphId": "09460_头_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 160,
+      "character": "见",
+      "frequency": 859694,
+      "sealMark": "见",
+      "glyphId": "21889_见_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 161,
+      "character": "但",
+      "frequency": 857005,
+      "sealMark": "但",
+      "glyphId": "06918_但_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 162,
+      "character": "外",
+      "frequency": 826599,
+      "sealMark": "外",
+      "glyphId": "09430_外_Z_說文‧夕部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 163,
+      "character": "教",
+      "frequency": 825380,
+      "sealMark": "教",
+      "glyphId": "12569_教_Z_說文‧教部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 164,
+      "character": "美",
+      "frequency": 814938,
+      "sealMark": "美",
+      "glyphId": "19278_美_Z_說文‧羊部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 165,
+      "character": "市",
+      "frequency": 814725,
+      "sealMark": "市",
+      "glyphId": "10690_市_Z_說文‧冂部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 166,
+      "character": "己",
+      "frequency": 810050,
+      "sealMark": "己",
+      "glyphId": "10673_己_Z_說文‧己部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 167,
+      "character": "结",
+      "frequency": 806276,
+      "sealMark": "结",
+      "glyphId": "19091_结_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 168,
+      "character": "量",
+      "frequency": 805768,
+      "sealMark": "量",
+      "glyphId": "23951_量_Z_說文‧重部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 169,
+      "character": "快",
+      "frequency": 795896,
+      "sealMark": "快",
+      "glyphId": "11179_快_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 170,
+      "character": "政",
+      "frequency": 795053,
+      "sealMark": "政",
+      "glyphId": "12543_政_Z_說文‧攴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 171,
+      "character": "别",
+      "frequency": 787312,
+      "sealMark": "别",
+      "glyphId": "07659_别_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 172,
+      "character": "提",
+      "frequency": 780036,
+      "sealMark": "提",
+      "glyphId": "12176_提_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 173,
+      "character": "比",
+      "frequency": 778244,
+      "sealMark": "比",
+      "glyphId": "14228_比_Z_說文‧比部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 174,
+      "character": "社",
+      "frequency": 777306,
+      "sealMark": "社",
+      "glyphId": "17662_社_Z_說文‧示部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 175,
+      "character": "平",
+      "frequency": 772148,
+      "sealMark": "平",
+      "glyphId": "10803_平_Z_說文‧于部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 176,
+      "character": "月",
+      "frequency": 770216,
+      "sealMark": "月",
+      "glyphId": "13000_月_Z_說文‧月部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 177,
+      "character": "话",
+      "frequency": 762819,
+      "sealMark": "话",
+      "glyphId": "22429_话_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 178,
+      "character": "感",
+      "frequency": 761027,
+      "sealMark": "感",
+      "glyphId": "11487_感_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 179,
+      "character": "相",
+      "frequency": 759627,
+      "sealMark": "相",
+      "glyphId": "17080_相_Z_說文‧目部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 180,
+      "character": "觉",
+      "frequency": 757297,
+      "sealMark": "觉",
+      "glyphId": "21897_觉_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 181,
+      "character": "内",
+      "frequency": 756014,
+      "sealMark": "内",
+      "glyphId": "07493_内_Z_說文‧入部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 182,
+      "character": "系",
+      "frequency": 754309,
+      "sealMark": "系",
+      "glyphId": "18619_系_Z_說文‧系部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 183,
+      "character": "太",
+      "frequency": 754048,
+      "sealMark": "太",
+      "glyphId": "09450_太_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 184,
+      "character": "爱",
+      "frequency": 752644,
+      "sealMark": "爱",
+      "glyphId": "15857_爱_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 185,
+      "character": "安",
+      "frequency": 748866,
+      "sealMark": "安",
+      "glyphId": "10057_安_Z_說文‧宀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 186,
+      "character": "二",
+      "frequency": 746104,
+      "sealMark": "二",
+      "glyphId": "06732_二_Z_說文‧二部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 187,
+      "character": "活",
+      "frequency": 734582,
+      "sealMark": "活",
+      "glyphId": "14587_活_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 188,
+      "character": "电",
+      "frequency": 720965,
+      "sealMark": "电",
+      "glyphId": "16629_电_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 189,
+      "character": "气",
+      "frequency": 719438,
+      "sealMark": "气",
+      "glyphId": "14292_气_Z_說文‧气部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 190,
+      "character": "使",
+      "frequency": 719144,
+      "sealMark": "使",
+      "glyphId": "06975_使_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 191,
+      "character": "特",
+      "frequency": 714454,
+      "sealMark": "特",
+      "glyphId": "15929_特_Z_說文‧牛部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 192,
+      "character": "利",
+      "frequency": 712594,
+      "sealMark": "利",
+      "glyphId": "07657_利_Z_說文‧刀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 193,
+      "character": "果",
+      "frequency": 712249,
+      "sealMark": "果",
+      "glyphId": "13148_果_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 194,
+      "character": "儿",
+      "frequency": 708948,
+      "sealMark": "儿",
+      "glyphId": "07423_儿_Z_說文‧儿部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 195,
+      "character": "西",
+      "frequency": 701573,
+      "sealMark": "西",
+      "glyphId": "21823_西_Z_說文‧西部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 196,
+      "character": "管",
+      "frequency": 690773,
+      "sealMark": "管",
+      "glyphId": "18273_管_Z_說文‧竹部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 197,
+      "character": "代",
+      "frequency": 689068,
+      "sealMark": "代",
+      "glyphId": "06819_代_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 198,
+      "character": "设",
+      "frequency": 686807,
+      "sealMark": "设",
+      "glyphId": "22398_设_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 199,
+      "character": "打",
+      "frequency": 686165,
+      "sealMark": "打",
+      "glyphId": "11795_打_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 200,
+      "character": "身",
+      "frequency": 681107,
+      "sealMark": "身",
+      "glyphId": "23147_身_Z_說文‧身部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 201,
+      "character": "通",
+      "frequency": 671493,
+      "sealMark": "通",
+      "glyphId": "23514_通_Z_說文‧辵部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 202,
+      "character": "女",
+      "frequency": 669438,
+      "sealMark": "女",
+      "glyphId": "09523_女_Z_說文‧女部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 203,
+      "character": "区",
+      "frequency": 668839,
+      "sealMark": "区",
+      "glyphId": "07930_区_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 204,
+      "character": "第",
+      "frequency": 667813,
+      "sealMark": "第",
+      "glyphId": "18156_第_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 205,
+      "character": "走",
+      "frequency": 667271,
+      "sealMark": "走",
+      "glyphId": "22832_走_Z_說文‧走部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 206,
+      "character": "员",
+      "frequency": 665222,
+      "sealMark": "员",
+      "glyphId": "08216_员_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 209,
+      "character": "及",
+      "frequency": 654800,
+      "sealMark": "及",
+      "glyphId": "08074_及_Z_說文‧又部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 210,
+      "character": "位",
+      "frequency": 654247,
+      "sealMark": "位",
+      "glyphId": "06925_位_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 211,
+      "character": "各",
+      "frequency": 648318,
+      "sealMark": "各",
+      "glyphId": "08132_各_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 212,
+      "character": "此",
+      "frequency": 646402,
+      "sealMark": "此",
+      "glyphId": "14116_此_Z_說文‧此部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 213,
+      "character": "场",
+      "frequency": 645406,
+      "sealMark": "场",
+      "glyphId": "08954_场_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 214,
+      "character": "向",
+      "frequency": 644724,
+      "sealMark": "向",
+      "glyphId": "08145_向_Z_說文‧宀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 215,
+      "character": "今",
+      "frequency": 644556,
+      "sealMark": "今",
+      "glyphId": "06794_今_Z_說文‧亼部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 216,
+      "character": "才",
+      "frequency": 641283,
+      "sealMark": "才",
+      "glyphId": "11789_才_Z_說文‧才部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 217,
+      "character": "并",
+      "frequency": 637438,
+      "sealMark": "并",
+      "glyphId": "10806_并_Z_說文‧从部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 218,
+      "character": "将",
+      "frequency": 631658,
+      "sealMark": "将",
+      "glyphId": "10182_将_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 219,
+      "character": "更",
+      "frequency": 629510,
+      "sealMark": "更",
+      "glyphId": "12980_更_Z_說文‧攴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 220,
+      "character": "强",
+      "frequency": 628669,
+      "sealMark": "强",
+      "glyphId": "11002_强_Z_說文‧虫部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 221,
+      "character": "解",
+      "frequency": 627319,
+      "sealMark": "解",
+      "glyphId": "21923_解_Z_說文‧角部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 222,
+      "character": "保",
+      "frequency": 627154,
+      "sealMark": "保",
+      "glyphId": "07069_保_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 223,
+      "character": "题",
+      "frequency": 625627,
+      "sealMark": "题",
+      "glyphId": "25688_题_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 224,
+      "character": "期",
+      "frequency": 625428,
+      "sealMark": "期",
+      "glyphId": "13023_期_Z_說文‧月部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 225,
+      "character": "物",
+      "frequency": 624405,
+      "sealMark": "物",
+      "glyphId": "15913_物_Z_說文‧牛部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 226,
+      "character": "放",
+      "frequency": 623925,
+      "sealMark": "放",
+      "glyphId": "12542_放_Z_說文‧放部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 227,
+      "character": "资",
+      "frequency": 621603,
+      "sealMark": "资",
+      "glyphId": "22788_资_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 228,
+      "character": "常",
+      "frequency": 620166,
+      "sealMark": "常",
+      "glyphId": "10744_常_Z_說文‧巾部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 229,
+      "character": "被",
+      "frequency": 618916,
+      "sealMark": "被",
+      "glyphId": "21611_被_Z_說文‧衣部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 230,
+      "character": "信",
+      "frequency": 618804,
+      "sealMark": "信",
+      "glyphId": "07073_信_Z_說文‧言部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 231,
+      "character": "几",
+      "frequency": 618096,
+      "sealMark": "几",
+      "glyphId": "07584_几_Z_說文‧几部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 232,
+      "character": "少",
+      "frequency": 617005,
+      "sealMark": "少",
+      "glyphId": "10193_少_Z_說文‧小部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 233,
+      "character": "门",
+      "frequency": 615421,
+      "sealMark": "门",
+      "glyphId": "25000_门_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 234,
+      "character": "组",
+      "frequency": 613515,
+      "sealMark": "组",
+      "glyphId": "19076_组_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 235,
+      "character": "计",
+      "frequency": 609035,
+      "sealMark": "计",
+      "glyphId": "22369_计_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 236,
+      "character": "再",
+      "frequency": 608249,
+      "sealMark": "再",
+      "glyphId": "07501_再_Z_說文‧冓部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 237,
+      "character": "入",
+      "frequency": 600872,
+      "sealMark": "入",
+      "glyphId": "07461_入_Z_說文‧入部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 239,
+      "character": "总",
+      "frequency": 600052,
+      "sealMark": "总",
+      "glyphId": "11259_总_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 240,
+      "character": "路",
+      "frequency": 596916,
+      "sealMark": "路",
+      "glyphId": "22959_路_Z_說文‧足部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 241,
+      "character": "基",
+      "frequency": 594241,
+      "sealMark": "基",
+      "glyphId": "09146_基_Z_說文‧土部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 242,
+      "character": "变",
+      "frequency": 593998,
+      "sealMark": "变",
+      "glyphId": "08088_变_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 243,
+      "character": "义",
+      "frequency": 593485,
+      "sealMark": "义",
+      "glyphId": "06665_义_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 244,
+      "character": "由",
+      "frequency": 591327,
+      "sealMark": "由",
+      "glyphId": "16625_由_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 245,
+      "character": "口",
+      "frequency": 588350,
+      "sealMark": "口",
+      "glyphId": "08099_口_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 246,
+      "character": "科",
+      "frequency": 586123,
+      "sealMark": "科",
+      "glyphId": "17809_科_Z_說文‧禾部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 247,
+      "character": "程",
+      "frequency": 583995,
+      "sealMark": "程",
+      "glyphId": "17867_程_Z_說文‧禾部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 248,
+      "character": "目",
+      "frequency": 580982,
+      "sealMark": "目",
+      "glyphId": "17070_目_Z_說文‧目部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 249,
+      "character": "直",
+      "frequency": 571177,
+      "sealMark": "直",
+      "glyphId": "17076_直_Z_說文‧𠃊部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 250,
+      "character": "品",
+      "frequency": 570469,
+      "sealMark": "品",
+      "glyphId": "08321_品_Z_說文‧品部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 251,
+      "character": "先",
+      "frequency": 568877,
+      "sealMark": "先",
+      "glyphId": "07432_先_Z_說文‧先部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 252,
+      "character": "原",
+      "frequency": 567354,
+      "sealMark": "原",
+      "glyphId": "08031_原_Z_說文‧灥部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 253,
+      "character": "数",
+      "frequency": 565804,
+      "sealMark": "数",
+      "glyphId": "12592_数_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 254,
+      "character": "务",
+      "frequency": 563608,
+      "sealMark": "务",
+      "glyphId": "07777_务_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 255,
+      "character": "车",
+      "frequency": 562213,
+      "sealMark": "车",
+      "glyphId": "23334_车_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 256,
+      "character": "完",
+      "frequency": 560894,
+      "sealMark": "完",
+      "glyphId": "10060_完_Z_說文‧宀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 257,
+      "character": "治",
+      "frequency": 560178,
+      "sealMark": "治",
+      "glyphId": "14459_治_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 258,
+      "character": "立",
+      "frequency": 557942,
+      "sealMark": "立",
+      "glyphId": "18059_立_Z_說文‧立部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 259,
+      "character": "干",
+      "frequency": 557915,
+      "sealMark": "干",
+      "glyphId": "10802_干_Z_說文‧干部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 260,
+      "character": "记",
+      "frequency": 556865,
+      "sealMark": "记",
+      "glyphId": "22384_记_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 261,
+      "character": "东",
+      "frequency": 554598,
+      "sealMark": "东",
+      "glyphId": "06620_东_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 262,
+      "character": "统",
+      "frequency": 551262,
+      "sealMark": "统",
+      "glyphId": "19103_统_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 263,
+      "character": "报",
+      "frequency": 550790,
+      "sealMark": "报",
+      "glyphId": "11877_报_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 264,
+      "character": "思",
+      "frequency": 550594,
+      "sealMark": "思",
+      "glyphId": "11229_思_Z_說文‧思部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 266,
+      "character": "接",
+      "frequency": 535021,
+      "sealMark": "接",
+      "glyphId": "12133_接_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 267,
+      "character": "候",
+      "frequency": 533727,
+      "sealMark": "候",
+      "glyphId": "07129_候_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 268,
+      "character": "术",
+      "frequency": 533190,
+      "sealMark": "术",
+      "glyphId": "13039_术_Z_說文‧禾部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 269,
+      "character": "求",
+      "frequency": 532734,
+      "sealMark": "求",
+      "glyphId": "14338_求_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 270,
+      "character": "带",
+      "frequency": 529111,
+      "sealMark": "带",
+      "glyphId": "10726_带_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 271,
+      "character": "谢",
+      "frequency": 526786,
+      "sealMark": "谢",
+      "glyphId": "22498_谢_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 272,
+      "character": "喜",
+      "frequency": 526393,
+      "sealMark": "喜",
+      "glyphId": "08540_喜_Z_說文‧喜部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 273,
+      "character": "处",
+      "frequency": 525268,
+      "sealMark": "处",
+      "glyphId": "09412_处_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 274,
+      "character": "改",
+      "frequency": 523560,
+      "sealMark": "改",
+      "glyphId": "12537_改_Z_說文‧攴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 275,
+      "character": "像",
+      "frequency": 520810,
+      "sealMark": "像",
+      "glyphId": "07311_像_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 276,
+      "character": "难",
+      "frequency": 520754,
+      "sealMark": "难",
+      "glyphId": "25214_难_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 277,
+      "character": "受",
+      "frequency": 518340,
+      "sealMark": "受",
+      "glyphId": "08087_受_Z_說文‧𠬪部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 278,
+      "character": "四",
+      "frequency": 517728,
+      "sealMark": "四",
+      "glyphId": "08859_四_Z_說文‧四部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 279,
+      "character": "白",
+      "frequency": 513266,
+      "sealMark": "白",
+      "glyphId": "16957_白_Z_說文‧白部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 280,
+      "character": "反",
+      "frequency": 512225,
+      "sealMark": "反",
+      "glyphId": "08077_反_Z_說文‧又部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 281,
+      "character": "它",
+      "frequency": 511223,
+      "sealMark": "它",
+      "glyphId": "10051_它_Z_說文‧它部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 282,
+      "character": "欢",
+      "frequency": 503899,
+      "sealMark": "欢",
+      "glyphId": "14050_欢_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 283,
+      "character": "让",
+      "frequency": 503747,
+      "sealMark": "让",
+      "glyphId": "22377_让_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 284,
+      "character": "党",
+      "frequency": 501494,
+      "sealMark": "党",
+      "glyphId": "07450_党_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 285,
+      "character": "病",
+      "frequency": 500448,
+      "sealMark": "病",
+      "glyphId": "16773_病_Z_說文‧疒部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 286,
+      "character": "海",
+      "frequency": 498783,
+      "sealMark": "海",
+      "glyphId": "14647_海_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 287,
+      "character": "早",
+      "frequency": 498124,
+      "sealMark": "早",
+      "glyphId": "12713_早_Z_說文‧日部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 288,
+      "character": "名",
+      "frequency": 496317,
+      "sealMark": "名",
+      "glyphId": "08141_名_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 289,
+      "character": "农",
+      "frequency": 493528,
+      "sealMark": "农",
+      "glyphId": "07516_农_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 290,
+      "character": "件",
+      "frequency": 492477,
+      "sealMark": "件",
+      "glyphId": "06838_件_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 291,
+      "character": "论",
+      "frequency": 492381,
+      "sealMark": "论",
+      "glyphId": "22394_论_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 292,
+      "character": "眼",
+      "frequency": 490789,
+      "sealMark": "眼",
+      "glyphId": "17148_眼_Z_說文‧目部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 293,
+      "character": "神",
+      "frequency": 488861,
+      "sealMark": "神",
+      "glyphId": "17694_神_Z_說文‧示部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 294,
+      "character": "色",
+      "frequency": 488430,
+      "sealMark": "色",
+      "glyphId": "20018_色_Z_說文‧色部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 295,
+      "character": "服",
+      "frequency": 487767,
+      "sealMark": "服",
+      "glyphId": "13005_服_Z_說文‧舟部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 296,
+      "character": "近",
+      "frequency": 484883,
+      "sealMark": "近",
+      "glyphId": "23441_近_Z_說文‧辵部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 297,
+      "character": "声",
+      "frequency": 483533,
+      "sealMark": "声",
+      "glyphId": "09392_声_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 298,
+      "character": "任",
+      "frequency": 482099,
+      "sealMark": "任",
+      "glyphId": "06843_任_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 299,
+      "character": "运",
+      "frequency": 481034,
+      "sealMark": "运",
+      "glyphId": "23440_运_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 300,
+      "character": "该",
+      "frequency": 480348,
+      "sealMark": "该",
+      "glyphId": "22437_该_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 301,
+      "character": "技",
+      "frequency": 480223,
+      "sealMark": "技",
+      "glyphId": "11840_技_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 302,
+      "character": "济",
+      "frequency": 480124,
+      "sealMark": "濟",
+      "glyphId": "15263_濟_Z_說文‧水部",
+      "mappingStatus": "converted_needs_review",
+      "alternatives": [
+        "濟"
+      ]
+    },
+    {
+      "rank": 303,
+      "character": "持",
+      "frequency": 479923,
+      "sealMark": "持",
+      "glyphId": "11969_持_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 304,
+      "character": "质",
+      "frequency": 478647,
+      "sealMark": "质",
+      "glyphId": "22760_质_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 305,
+      "character": "听",
+      "frequency": 478524,
+      "sealMark": "听",
+      "glyphId": "08172_听_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 306,
+      "character": "金",
+      "frequency": 478267,
+      "sealMark": "金",
+      "glyphId": "23953_金_Z_說文‧金部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 307,
+      "character": "世",
+      "frequency": 477316,
+      "sealMark": "世",
+      "glyphId": "06614_世_Z_說文‧卅部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 308,
+      "character": "万",
+      "frequency": 475413,
+      "sealMark": "万",
+      "glyphId": "06599_万_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 309,
+      "character": "或",
+      "frequency": 474723,
+      "sealMark": "或",
+      "glyphId": "11734_或_Z_說文‧戈部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 310,
+      "character": "晚",
+      "frequency": 470795,
+      "sealMark": "晚",
+      "glyphId": "12826_晚_Z_說文‧日部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 311,
+      "character": "每",
+      "frequency": 470245,
+      "sealMark": "每",
+      "glyphId": "14223_每_Z_說文‧屮部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 312,
+      "character": "育",
+      "frequency": 469409,
+      "sealMark": "育",
+      "glyphId": "19570_育_Z_說文‧𠫓部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 313,
+      "character": "调",
+      "frequency": 469206,
+      "sealMark": "调",
+      "glyphId": "22467_调_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 314,
+      "character": "共",
+      "frequency": 468950,
+      "sealMark": "共",
+      "glyphId": "07473_共_Z_說文‧共部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 316,
+      "character": "导",
+      "frequency": 468009,
+      "sealMark": "导",
+      "glyphId": "10172_导_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 317,
+      "character": "北",
+      "frequency": 466707,
+      "sealMark": "北",
+      "glyphId": "07895_北_Z_說文‧北部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 318,
+      "character": "山",
+      "frequency": 462445,
+      "sealMark": "山",
+      "glyphId": "10289_山_Z_說文‧山部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 319,
+      "character": "书",
+      "frequency": 457579,
+      "sealMark": "书",
+      "glyphId": "06694_书_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 320,
+      "character": "斯",
+      "frequency": 456495,
+      "sealMark": "斯",
+      "glyphId": "12655_斯_Z_說文‧斤部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 321,
+      "character": "边",
+      "frequency": 455119,
+      "sealMark": "边",
+      "glyphId": "23417_边_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 322,
+      "character": "式",
+      "frequency": 455026,
+      "sealMark": "式",
+      "glyphId": "10959_式_Z_說文‧工部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 323,
+      "character": "增",
+      "frequency": 452340,
+      "sealMark": "增",
+      "glyphId": "09310_增_Z_說文‧土部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 324,
+      "character": "条",
+      "frequency": 452227,
+      "sealMark": "条",
+      "glyphId": "13089_条_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 325,
+      "character": "形",
+      "frequency": 452064,
+      "sealMark": "形",
+      "glyphId": "11042_形_Z_說文‧彡部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 326,
+      "character": "流",
+      "frequency": 450291,
+      "sealMark": "流",
+      "glyphId": "14593_流_Z_說文‧沝部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 327,
+      "character": "南",
+      "frequency": 448556,
+      "sealMark": "南",
+      "glyphId": "07959_南_Z_說文‧𣎵部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 328,
+      "character": "指",
+      "frequency": 447911,
+      "sealMark": "指",
+      "glyphId": "11975_指_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 329,
+      "character": "马",
+      "frequency": 447089,
+      "sealMark": "马",
+      "glyphId": "26156_马_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 330,
+      "character": "风",
+      "frequency": 446807,
+      "sealMark": "风",
+      "glyphId": "25742_风_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 331,
+      "character": "决",
+      "frequency": 446025,
+      "sealMark": "决",
+      "glyphId": "07539_决_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 332,
+      "character": "友",
+      "frequency": 445873,
+      "sealMark": "友",
+      "glyphId": "08075_友_Z_說文‧又部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 334,
+      "character": "五",
+      "frequency": 442814,
+      "sealMark": "五",
+      "glyphId": "06740_五_Z_說文‧五部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 335,
+      "character": "乐",
+      "frequency": 442799,
+      "sealMark": "乐",
+      "glyphId": "06672_乐_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 336,
+      "character": "光",
+      "frequency": 442771,
+      "sealMark": "光",
+      "glyphId": "07433_光_Z_說文‧火部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 337,
+      "character": "研",
+      "frequency": 440533,
+      "sealMark": "研",
+      "glyphId": "17364_研_Z_說文‧石部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 338,
+      "character": "院",
+      "frequency": 438359,
+      "sealMark": "院",
+      "glyphId": "25122_院_Z_說文‧阜部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 339,
+      "character": "交",
+      "frequency": 437973,
+      "sealMark": "交",
+      "glyphId": "06756_交_Z_說文‧交部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 340,
+      "character": "呀",
+      "frequency": 437929,
+      "sealMark": "呀",
+      "glyphId": "08192_呀_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 341,
+      "character": "必",
+      "frequency": 435404,
+      "sealMark": "必",
+      "glyphId": "11141_必_Z_說文‧八部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 342,
+      "character": "达",
+      "frequency": 433661,
+      "sealMark": "达",
+      "glyphId": "23422_达_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 344,
+      "character": "战",
+      "frequency": 428132,
+      "sealMark": "战",
+      "glyphId": "11736_战_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 345,
+      "character": "规",
+      "frequency": 426650,
+      "sealMark": "规",
+      "glyphId": "21892_规_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 346,
+      "character": "级",
+      "frequency": 426035,
+      "sealMark": "级",
+      "glyphId": "19047_级_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 347,
+      "character": "办",
+      "frequency": 424373,
+      "sealMark": "办",
+      "glyphId": "07774_办_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 348,
+      "character": "收",
+      "frequency": 423329,
+      "sealMark": "收",
+      "glyphId": "12534_收_Z_說文‧攴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 349,
+      "character": "领",
+      "frequency": 423161,
+      "sealMark": "领",
+      "glyphId": "25670_领_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 350,
+      "character": "步",
+      "frequency": 421855,
+      "sealMark": "步",
+      "glyphId": "14117_步_Z_說文‧步部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 351,
+      "character": "深",
+      "frequency": 419219,
+      "sealMark": "深",
+      "glyphId": "14769_深_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 352,
+      "character": "取",
+      "frequency": 417754,
+      "sealMark": "取",
+      "glyphId": "08086_取_Z_說文‧又部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 353,
+      "character": "单",
+      "frequency": 415632,
+      "sealMark": "单",
+      "glyphId": "07957_单_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 354,
+      "character": "师",
+      "frequency": 412196,
+      "sealMark": "师",
+      "glyphId": "10696_师_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 355,
+      "character": "张",
+      "frequency": 410389,
+      "sealMark": "张",
+      "glyphId": "10976_张_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 356,
+      "character": "造",
+      "frequency": 409131,
+      "sealMark": "造",
+      "glyphId": "23520_造_Z_說文‧辵部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 357,
+      "character": "花",
+      "frequency": 407954,
+      "sealMark": "花",
+      "glyphId": "20081_花_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 358,
+      "character": "睡",
+      "frequency": 406372,
+      "sealMark": "睡",
+      "glyphId": "17185_睡_Z_說文‧目部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 359,
+      "character": "尔",
+      "frequency": 406202,
+      "sealMark": "尔",
+      "glyphId": "10196_尔_Z_說文‧八部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 360,
+      "character": "界",
+      "frequency": 405995,
+      "sealMark": "界",
+      "glyphId": "16652_界_Z_說文‧田部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 361,
+      "character": "效",
+      "frequency": 405374,
+      "sealMark": "效",
+      "glyphId": "12552_效_Z_說文‧攴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 362,
+      "character": "命",
+      "frequency": 405337,
+      "sealMark": "命",
+      "glyphId": "08253_命_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 363,
+      "character": "确",
+      "frequency": 402745,
+      "sealMark": "确",
+      "glyphId": "17454_确_Z_說文‧石部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 364,
+      "character": "军",
+      "frequency": 400724,
+      "sealMark": "军",
+      "glyphId": "07515_军_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 365,
+      "character": "据",
+      "frequency": 399755,
+      "sealMark": "据",
+      "glyphId": "12078_据_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 366,
+      "character": "企",
+      "frequency": 397279,
+      "sealMark": "企",
+      "glyphId": "06849_企_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 367,
+      "character": "拉",
+      "frequency": 395904,
+      "sealMark": "拉",
+      "glyphId": "11913_拉_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 368,
+      "character": "亲",
+      "frequency": 395799,
+      "sealMark": "亲",
+      "glyphId": "06770_亲_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 369,
+      "character": "例",
+      "frequency": 395175,
+      "sealMark": "例",
+      "glyphId": "06987_例_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 370,
+      "character": "转",
+      "frequency": 392386,
+      "sealMark": "转",
+      "glyphId": "23340_转_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 371,
+      "character": "识",
+      "frequency": 392072,
+      "sealMark": "识",
+      "glyphId": "22406_识_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 372,
+      "character": "越",
+      "frequency": 391285,
+      "sealMark": "越",
+      "glyphId": "22858_越_Z_說文‧走部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 373,
+      "character": "队",
+      "frequency": 391261,
+      "sealMark": "队",
+      "glyphId": "25055_队_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 374,
+      "character": "清",
+      "frequency": 389743,
+      "sealMark": "清",
+      "glyphId": "14789_清_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 375,
+      "character": "传",
+      "frequency": 386998,
+      "sealMark": "传",
+      "glyphId": "06880_传_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 376,
+      "character": "非",
+      "frequency": 386245,
+      "sealMark": "非",
+      "glyphId": "25374_非_Z_說文‧非部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 377,
+      "character": "较",
+      "frequency": 386098,
+      "sealMark": "较",
+      "glyphId": "23363_较_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 380,
+      "character": "准",
+      "frequency": 383701,
+      "sealMark": "准",
+      "glyphId": "07558_准_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 381,
+      "character": "标",
+      "frequency": 383452,
+      "sealMark": "标",
+      "glyphId": "13255_标_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 382,
+      "character": "死",
+      "frequency": 382850,
+      "sealMark": "死",
+      "glyphId": "14139_死_Z_說文‧死部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 383,
+      "character": "联",
+      "frequency": 382100,
+      "sealMark": "联",
+      "glyphId": "19476_联_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 384,
+      "character": "节",
+      "frequency": 381915,
+      "sealMark": "节",
+      "glyphId": "20034_节_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 385,
+      "character": "克",
+      "frequency": 381782,
+      "sealMark": "克",
+      "glyphId": "07435_克_Z_說文‧克部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 386,
+      "character": "跟",
+      "frequency": 378589,
+      "sealMark": "跟",
+      "glyphId": "22943_跟_Z_說文‧足部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 387,
+      "character": "观",
+      "frequency": 378287,
+      "sealMark": "观",
+      "glyphId": "21890_观_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 388,
+      "character": "便",
+      "frequency": 377785,
+      "sealMark": "便",
+      "glyphId": "07039_便_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 389,
+      "character": "望",
+      "frequency": 375448,
+      "sealMark": "望",
+      "glyphId": "13019_望_Z_說文‧亡部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 390,
+      "character": "究",
+      "frequency": 373934,
+      "sealMark": "究",
+      "glyphId": "17974_究_Z_說文‧穴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 391,
+      "character": "德",
+      "frequency": 372220,
+      "sealMark": "德",
+      "glyphId": "11127_德_Z_說文‧彳部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 392,
+      "character": "华",
+      "frequency": 371356,
+      "sealMark": "华",
+      "glyphId": "07950_华_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 393,
+      "character": "广",
+      "frequency": 369976,
+      "sealMark": "广",
+      "glyphId": "10815_广_Z_說文‧广部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 394,
+      "character": "至",
+      "frequency": 366959,
+      "sealMark": "至",
+      "glyphId": "19891_至_Z_說文‧至部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 395,
+      "character": "照",
+      "frequency": 365817,
+      "sealMark": "照",
+      "glyphId": "15655_照_Z_說文‧火部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 396,
+      "character": "买",
+      "frequency": 365522,
+      "sealMark": "买",
+      "glyphId": "06704_买_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 397,
+      "character": "线",
+      "frequency": 365126,
+      "sealMark": "线",
+      "glyphId": "19071_线_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 398,
+      "character": "切",
+      "frequency": 365084,
+      "sealMark": "切",
+      "glyphId": "07623_切_Z_說文‧刀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 399,
+      "character": "热",
+      "frequency": 364936,
+      "sealMark": "热",
+      "glyphId": "15533_热_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 400,
+      "character": "笑",
+      "frequency": 364641,
+      "sealMark": "笑",
+      "glyphId": "18129_笑_Z_說文‧竹部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 401,
+      "character": "委",
+      "frequency": 363154,
+      "sealMark": "委",
+      "glyphId": "09620_委_Z_說文‧女部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 402,
+      "character": "考",
+      "frequency": 362710,
+      "sealMark": "考",
+      "glyphId": "19395_考_Z_說文‧老部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 403,
+      "character": "需",
+      "frequency": 362489,
+      "sealMark": "需",
+      "glyphId": "25280_需_Z_說文‧雨部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 404,
+      "character": "算",
+      "frequency": 362160,
+      "sealMark": "算",
+      "glyphId": "18263_算_Z_說文‧竹部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 405,
+      "character": "城",
+      "frequency": 361594,
+      "sealMark": "城",
+      "glyphId": "09102_城_Z_說文‧土部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 406,
+      "character": "周",
+      "frequency": 360360,
+      "sealMark": "周",
+      "glyphId": "08232_周_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 407,
+      "character": "革",
+      "frequency": 359131,
+      "sealMark": "革",
+      "glyphId": "25385_革_Z_說文‧革部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 409,
+      "character": "整",
+      "frequency": 358603,
+      "sealMark": "整",
+      "glyphId": "12596_整_Z_說文‧攴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 410,
+      "character": "格",
+      "frequency": 356881,
+      "sealMark": "格",
+      "glyphId": "13308_格_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 411,
+      "character": "复",
+      "frequency": 356017,
+      "sealMark": "复",
+      "glyphId": "09421_复_Z_說文‧夊部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 412,
+      "character": "型",
+      "frequency": 354884,
+      "sealMark": "型",
+      "glyphId": "09035_型_Z_說文‧土部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 413,
+      "character": "元",
+      "frequency": 354205,
+      "sealMark": "元",
+      "glyphId": "07427_元_Z_說文‧一部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 414,
+      "character": "推",
+      "frequency": 353829,
+      "sealMark": "推",
+      "glyphId": "12136_推_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 415,
+      "character": "血",
+      "frequency": 351413,
+      "sealMark": "血",
+      "glyphId": "21504_血_Z_說文‧血部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 416,
+      "character": "显",
+      "frequency": 350530,
+      "sealMark": "显",
+      "glyphId": "12798_显_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 417,
+      "character": "议",
+      "frequency": 350396,
+      "sealMark": "议",
+      "glyphId": "22382_议_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 418,
+      "character": "何",
+      "frequency": 350352,
+      "sealMark": "何",
+      "glyphId": "06933_何_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 419,
+      "character": "空",
+      "frequency": 346113,
+      "sealMark": "空",
+      "glyphId": "17978_空_Z_說文‧穴部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 420,
+      "character": "精",
+      "frequency": 343736,
+      "sealMark": "精",
+      "glyphId": "18558_精_Z_說文‧米部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 421,
+      "character": "油",
+      "frequency": 342979,
+      "sealMark": "油",
+      "glyphId": "14457_油_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 422,
+      "character": "图",
+      "frequency": 342699,
+      "sealMark": "图",
+      "glyphId": "08894_图_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 423,
+      "character": "象",
+      "frequency": 342145,
+      "sealMark": "象",
+      "glyphId": "22561_象_Z_說文‧象部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 424,
+      "character": "根",
+      "frequency": 341379,
+      "sealMark": "根",
+      "glyphId": "13305_根_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 425,
+      "character": "包",
+      "frequency": 338085,
+      "sealMark": "包",
+      "glyphId": "07877_包_Z_說文‧包部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 426,
+      "character": "试",
+      "frequency": 337618,
+      "sealMark": "试",
+      "glyphId": "22421_试_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 427,
+      "character": "医",
+      "frequency": 335547,
+      "sealMark": "医",
+      "glyphId": "07931_医_Z_說文‧匸部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 428,
+      "character": "备",
+      "frequency": 334522,
+      "sealMark": "备",
+      "glyphId": "09415_备_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 429,
+      "character": "告",
+      "frequency": 334131,
+      "sealMark": "告",
+      "glyphId": "08202_告_Z_說文‧告部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 430,
+      "character": "钱",
+      "frequency": 333584,
+      "sealMark": "钱",
+      "glyphId": "24689_钱_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 431,
+      "character": "验",
+      "frequency": 333310,
+      "sealMark": "验",
+      "glyphId": "26188_验_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 432,
+      "character": "省",
+      "frequency": 332737,
+      "sealMark": "省",
+      "glyphId": "17089_省_Z_說文‧眉部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 433,
+      "character": "具",
+      "frequency": 330922,
+      "sealMark": "具",
+      "glyphId": "07479_具_Z_說文‧廾部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 434,
+      "character": "叫",
+      "frequency": 330280,
+      "sealMark": "叫",
+      "glyphId": "08107_叫_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 435,
+      "character": "司",
+      "frequency": 330175,
+      "sealMark": "司",
+      "glyphId": "08120_司_Z_說文‧司部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 436,
+      "character": "注",
+      "frequency": 330154,
+      "sealMark": "注",
+      "glyphId": "14504_注_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 437,
+      "character": "百",
+      "frequency": 328784,
+      "sealMark": "百",
+      "glyphId": "16958_百_Z_說文‧𦣹部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 438,
+      "character": "支",
+      "frequency": 328449,
+      "sealMark": "支",
+      "glyphId": "12527_支_Z_說文‧支部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 439,
+      "character": "集",
+      "frequency": 327659,
+      "sealMark": "集",
+      "glyphId": "25222_集_Z_說文‧雥部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 440,
+      "character": "村",
+      "frequency": 326744,
+      "sealMark": "村",
+      "glyphId": "13073_村_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 441,
+      "character": "男",
+      "frequency": 325270,
+      "sealMark": "男",
+      "glyphId": "16631_男_Z_說文‧男部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 442,
+      "character": "许",
+      "frequency": 324397,
+      "sealMark": "許",
+      "glyphId": "22001_許_Z_說文‧言部",
+      "mappingStatus": "converted_needs_review",
+      "alternatives": [
+        "許"
+      ]
+    },
+    {
+      "rank": 443,
+      "character": "示",
+      "frequency": 322407,
+      "sealMark": "示",
+      "glyphId": "17658_示_Z_說文‧示部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 444,
+      "character": "际",
+      "frequency": 322189,
+      "sealMark": "际",
+      "glyphId": "25093_际_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 445,
+      "character": "众",
+      "frequency": 322010,
+      "sealMark": "众",
+      "glyphId": "06871_众_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 446,
+      "character": "校",
+      "frequency": 321761,
+      "sealMark": "校",
+      "glyphId": "13281_校_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 447,
+      "character": "断",
+      "frequency": 321673,
+      "sealMark": "断",
+      "glyphId": "12653_断_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 448,
+      "character": "料",
+      "frequency": 321397,
+      "sealMark": "料",
+      "glyphId": "12633_料_Z_說文‧斗部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 449,
+      "character": "团",
+      "frequency": 320726,
+      "sealMark": "团",
+      "glyphId": "08866_团_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 450,
+      "character": "京",
+      "frequency": 318734,
+      "sealMark": "京",
+      "glyphId": "06764_京_Z_說文‧京部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 451,
+      "character": "创",
+      "frequency": 318267,
+      "sealMark": "创",
+      "glyphId": "07643_创_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 452,
+      "character": "且",
+      "frequency": 318065,
+      "sealMark": "且",
+      "glyphId": "06612_且_Z_說文‧且部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 453,
+      "character": "证",
+      "frequency": 317406,
+      "sealMark": "证",
+      "glyphId": "22401_证_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 454,
+      "character": "群",
+      "frequency": 316987,
+      "sealMark": "群",
+      "glyphId": "19300_群_Z_說文‧羊部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 456,
+      "character": "争",
+      "frequency": 316306,
+      "sealMark": "争",
+      "glyphId": "06729_争_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 457,
+      "character": "专",
+      "frequency": 315513,
+      "sealMark": "专",
+      "glyphId": "06611_专_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 458,
+      "character": "字",
+      "frequency": 315475,
+      "sealMark": "字",
+      "glyphId": "10007_字_Z_說文‧子部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 459,
+      "character": "极",
+      "frequency": 314356,
+      "sealMark": "极",
+      "glyphId": "13121_极_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 460,
+      "character": "满",
+      "frequency": 311504,
+      "sealMark": "满",
+      "glyphId": "15009_满_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 461,
+      "character": "请",
+      "frequency": 310717,
+      "sealMark": "请",
+      "glyphId": "22455_请_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 462,
+      "character": "远",
+      "frequency": 309897,
+      "sealMark": "远",
+      "glyphId": "23452_远_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 463,
+      "character": "类",
+      "frequency": 309852,
+      "sealMark": "类",
+      "glyphId": "18491_类_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 464,
+      "character": "细",
+      "frequency": 309309,
+      "sealMark": "细",
+      "glyphId": "19078_细_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 465,
+      "character": "养",
+      "frequency": 309056,
+      "sealMark": "养",
+      "glyphId": "07483_养_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 466,
+      "character": "始",
+      "frequency": 308932,
+      "sealMark": "始",
+      "glyphId": "09611_始_Z_說文‧女部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 467,
+      "character": "息",
+      "frequency": 308857,
+      "sealMark": "息",
+      "glyphId": "11311_息_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 468,
+      "character": "低",
+      "frequency": 307963,
+      "sealMark": "低",
+      "glyphId": "06926_低_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 469,
+      "character": "约",
+      "frequency": 307716,
+      "sealMark": "约",
+      "glyphId": "19046_约_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 470,
+      "character": "王",
+      "frequency": 307140,
+      "sealMark": "王",
+      "glyphId": "16203_王_Z_說文‧王部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 471,
+      "character": "红",
+      "frequency": 306729,
+      "sealMark": "紅",
+      "glyphId": "18629_紅_Z_說文‧糸部",
+      "mappingStatus": "converted_needs_review",
+      "alternatives": [
+        "紅"
+      ]
+    },
+    {
+      "rank": 472,
+      "character": "消",
+      "frequency": 305009,
+      "sealMark": "消",
+      "glyphId": "14664_消_Z_說文‧水部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 473,
+      "character": "哦",
+      "frequency": 304351,
+      "sealMark": "哦",
+      "glyphId": "08358_哦_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 474,
+      "character": "药",
+      "frequency": 304218,
+      "sealMark": "药",
+      "glyphId": "20271_药_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 475,
+      "character": "容",
+      "frequency": 303885,
+      "sealMark": "容",
+      "glyphId": "10105_容_Z_說文‧宀部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 476,
+      "character": "连",
+      "frequency": 300735,
+      "sealMark": "连",
+      "glyphId": "23454_连_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 477,
+      "character": "台",
+      "frequency": 299373,
+      "sealMark": "台",
+      "glyphId": "08112_台_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 478,
+      "character": "错",
+      "frequency": 299005,
+      "sealMark": "错",
+      "glyphId": "24793_错_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 479,
+      "character": "选",
+      "frequency": 298950,
+      "sealMark": "选",
+      "glyphId": "23497_选_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 480,
+      "character": "局",
+      "frequency": 298694,
+      "sealMark": "局",
+      "glyphId": "10240_局_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 481,
+      "character": "失",
+      "frequency": 298208,
+      "sealMark": "失",
+      "glyphId": "09457_失_Z_說文‧手部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 482,
+      "character": "房",
+      "frequency": 297733,
+      "sealMark": "房",
+      "glyphId": "11775_房_Z_說文‧戶部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 483,
+      "character": "项",
+      "frequency": 297469,
+      "sealMark": "项",
+      "glyphId": "25657_项_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 484,
+      "character": "则",
+      "frequency": 297460,
+      "sealMark": "则",
+      "glyphId": "07641_则_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 485,
+      "character": "率",
+      "frequency": 297307,
+      "sealMark": "率",
+      "glyphId": "16199_率_Z_說文‧率部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 486,
+      "character": "环",
+      "frequency": 297134,
+      "sealMark": "环",
+      "glyphId": "16239_环_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 487,
+      "character": "习",
+      "frequency": 295888,
+      "sealMark": "习",
+      "glyphId": "06688_习_Z_說文‧羽部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 488,
+      "character": "施",
+      "frequency": 295610,
+      "sealMark": "施",
+      "glyphId": "12669_施_Z_說文‧㫃部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 489,
+      "character": "易",
+      "frequency": 295565,
+      "sealMark": "易",
+      "glyphId": "12755_易_Z_說文‧易部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 490,
+      "character": "视",
+      "frequency": 295032,
+      "sealMark": "视",
+      "glyphId": "21894_视_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 491,
+      "character": "片",
+      "frequency": 294695,
+      "sealMark": "片",
+      "glyphId": "15879_片_Z_說文‧片部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 492,
+      "character": "价",
+      "frequency": 294690,
+      "sealMark": "价",
+      "glyphId": "06839_价_Z_說文‧人部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 493,
+      "character": "哥",
+      "frequency": 292533,
+      "sealMark": "哥",
+      "glyphId": "08357_哥_Z_說文‧可部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 494,
+      "character": "织",
+      "frequency": 292113,
+      "sealMark": "织",
+      "glyphId": "19079_织_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 495,
+      "character": "却",
+      "frequency": 291030,
+      "sealMark": "却",
+      "glyphId": "07988_却_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 496,
+      "character": "装",
+      "frequency": 290819,
+      "sealMark": "装",
+      "glyphId": "21637_装_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 497,
+      "character": "费",
+      "frequency": 290628,
+      "sealMark": "费",
+      "glyphId": "22777_费_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 498,
+      "character": "布",
+      "frequency": 290479,
+      "sealMark": "布",
+      "glyphId": "10691_布_Z_說文‧巾部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 499,
+      "character": "构",
+      "frequency": 290176,
+      "sealMark": "构",
+      "glyphId": "13124_构_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 500,
+      "character": "刚",
+      "frequency": 289877,
+      "sealMark": "刚",
+      "glyphId": "07642_刚_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 501,
+      "character": "商",
+      "frequency": 288743,
+      "sealMark": "商",
+      "glyphId": "08454_商_Z_說文‧㕯部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 502,
+      "character": "参",
+      "frequency": 286156,
+      "sealMark": "参",
+      "glyphId": "08066_参_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 503,
+      "character": "离",
+      "frequency": 285829,
+      "sealMark": "离",
+      "glyphId": "17787_离_Z_說文‧禸部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 504,
+      "character": "续",
+      "frequency": 285234,
+      "sealMark": "续",
+      "glyphId": "19117_续_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 505,
+      "character": "号",
+      "frequency": 285132,
+      "sealMark": "号",
+      "glyphId": "08119_号_Z_說文‧号部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 506,
+      "character": "采",
+      "frequency": 285110,
+      "sealMark": "采",
+      "glyphId": "23943_采_Z_說文‧木部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 507,
+      "character": "往",
+      "frequency": 285001,
+      "sealMark": "往",
+      "glyphId": "11072_往_Z_說文‧彳部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 508,
+      "character": "权",
+      "frequency": 284878,
+      "sealMark": "权",
+      "glyphId": "13059_权_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 509,
+      "character": "孩",
+      "frequency": 283364,
+      "sealMark": "孩",
+      "glyphId": "10025_孩_Z_說文‧口部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 510,
+      "character": "功",
+      "frequency": 283323,
+      "sealMark": "功",
+      "glyphId": "07775_功_Z_說文‧力部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 511,
+      "character": "火",
+      "frequency": 283093,
+      "sealMark": "火",
+      "glyphId": "15403_火_Z_說文‧火部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 512,
+      "character": "志",
+      "frequency": 281931,
+      "sealMark": "志",
+      "glyphId": "11159_志_Z_說文‧心部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 513,
+      "character": "半",
+      "frequency": 281559,
+      "sealMark": "半",
+      "glyphId": "07946_半_Z_說文‧半部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 514,
+      "character": "响",
+      "frequency": 281443,
+      "sealMark": "响",
+      "glyphId": "08333_响_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 515,
+      "character": "谁",
+      "frequency": 281189,
+      "sealMark": "谁",
+      "glyphId": "22465_谁_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 516,
+      "character": "玩",
+      "frequency": 280481,
+      "sealMark": "玩",
+      "glyphId": "16233_玩_Z_說文‧玉部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 517,
+      "character": "态",
+      "frequency": 280026,
+      "sealMark": "态",
+      "glyphId": "11201_态_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 518,
+      "character": "阿",
+      "frequency": 279576,
+      "sealMark": "阿",
+      "glyphId": "25087_阿_Z_說文‧阜部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 520,
+      "character": "况",
+      "frequency": 277720,
+      "sealMark": "况",
+      "glyphId": "07541_况_Z_小篆",
+      "mappingStatus": "exact",
+      "alternatives": []
+    },
+    {
+      "rank": 521,
+      "character": "姐",
+      "frequency": 277103,
+      "sealMark": "姐",
+      "glyphId": "09616_姐_Z_說文‧女部",
+      "mappingStatus": "exact",
+      "alternatives": []
+    }
+  ]
+}

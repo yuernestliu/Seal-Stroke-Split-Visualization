@@ -11,7 +11,9 @@ button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible {
 .sr-only { position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 .skip-link { position:fixed; top:-80px; left:20px; padding:12px; background:#eeeadf; color:#242b25; z-index:50; }
 .skip-link:focus { top:10px; }
-.page-shell { display:grid; grid-template-columns:66px minmax(0,1fr); gap:24px; max-width:1310px; margin:auto; padding:30px 32px 0; }
+.page-shell { display:grid; grid-template-columns:66px minmax(0,1fr); gap:24px; max-width:1310px; margin:auto; padding:30px 32px 0; position:relative; }
+.page-shell::before { content:""; position:fixed; inset:0; z-index:20; background:rgba(8,12,9,.72); opacity:0; pointer-events:none; transition:opacity .28s ease; }
+body.template-focus-active .page-shell::before { opacity:1; }
 .utility-rail { position:sticky; top:32px; display:flex; flex-direction:column; gap:10px; align-self:start; padding-top:5px; }
 .utility-button { padding:11px 8px; border:1px solid #67735a55; border-radius:8px; background:none; font-size:11px; color:#b5c09f; transition:background .2s; }
 .utility-button:hover { background:#3c4934; color:#eed8ad; }
@@ -20,10 +22,20 @@ main { min-width:0; }
 .writing-panel { display:flex; flex-direction:column; min-width:0; padding:27px 29px 26px; background:#30392f; border:1px solid #59644c80; border-radius:18px; color:#ece2c5; }
 .panel-title { font:500 23px var(--serif); margin:0; letter-spacing:1px; }
 .glyph-stage { flex:1; min-height:400px; display:flex; align-items:center; justify-content:center; position:relative; }
-.stage-art { width:216px; height:303px; position:relative; display:flex; align-items:center; justify-content:center; }
+.stage-art { width:216px; height:303px; position:relative; z-index:30; display:flex; align-items:center; justify-content:center; transition:transform .38s cubic-bezier(.2,.75,.25,1); transform-origin:center; }
+body.template-focus-active .stage-art { transform:scale(1.34); }
 .stage-art>img { width:100%; height:100%; object-fit:contain; filter:invert(1); mix-blend-mode:screen; }
 .vector-stage,.seal-font-stage { width:100%; height:100%; color:#eadfbb; display:flex; align-items:center; justify-content:center; }
 .vector-stage svg,.glyph-vector { width:100%; height:100%; display:block; }
+.template-character { overflow:visible; }
+.template-character[tabindex] { cursor:pointer; }
+.template-part { transition:transform .42s cubic-bezier(.2,.7,.25,1),color .25s ease; }
+.template-character.is-exploded .template-part { color:var(--part-color); }
+.template-annotation { opacity:0; pointer-events:none; transition:opacity .3s ease; }
+.template-character.is-exploded .template-annotation { opacity:1; }
+.template-annotation line { stroke:#f4efdf; stroke-width:.48; stroke-linecap:round; }
+.template-annotation text { fill:#eee9d9; font:3px "Songti SC","Noto Serif CJK SC","STSong",serif; letter-spacing:.05px; }
+.glyph-item-mark .template-character { width:100%; height:100%; }
 .seal-font-letter { font-family:'Chongxi Seal'; font-weight:400; font-style:normal; line-height:1; font-synthesis:none; }
 .seal-font-stage .seal-font-letter { font-size:305px; }
 .split-button { display:flex; align-items:center; gap:14px; margin:0 auto; border:1px solid #87957065; border-radius:22px; padding:10px 26px; background:none; color:#d5daba; font-size:12px; transition:background .2s; }
@@ -134,3 +146,13 @@ main { min-width:0; }
   .license-page article { padding:24px; }
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*:before,*:after { transition:none!important; } }
+
+/* The inventory choices live inside the catalog, leaving the main page quiet. */
+.catalog-scopes { display:flex; gap:8px; margin:20px 0 14px; flex-wrap:wrap; }
+.catalog-scopes button,.catalog-more { border:1px solid #b4bca344; border-radius:6px; padding:9px 13px; color:#cbd1bf; background:transparent; font:inherit; font-size:12px; cursor:pointer; }
+.catalog-scopes button[aria-pressed="true"] { background:#c8cfb6; color:#242c25; border-color:#c8cfb6; }
+.catalog-more { display:block; margin:20px auto 0; }
+.catalog-more[hidden] { display:none; }
+.split-button:disabled { cursor:default; opacity:.45; }
+.site-footer { display:flex; gap:22px; }
+@media (prefers-reduced-motion:reduce) { .stage-art,.template-part,.template-annotation,.page-shell::before { transition:none; } }
