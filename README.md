@@ -7,7 +7,7 @@
 > **学生必读：[学生 To-Do Plan：先完成500字的高质量字形与骨架](docs/项目计划.md)**  
 > 首要任务：逐字完成原图清理、高质量轮廓SVG、骨架与拓扑记录，并通过人工核对。组成单元、梯径和其他结构分析使用这批标准结果继续推进。
 
-**信息入口：** [学生计划](docs/项目计划.md) · [500字任务认领](字库/字表/500字任务表.csv) · [全部字库](字库/README.md) · [学生原资料与梯径参考](资料/部件与笔画/README.md) · [发布说明](docs/发布说明.md)
+**信息入口：** [学生计划](docs/项目计划.md) · [500字任务认领](字库/字表/500字任务表.csv) · [全部字库](字库/README.md) · [小篆与《说文解字》资料](资料/小篆与说文解字资料.md) · [学生原资料与梯径参考](资料/部件与笔画/README.md) · [发布说明](docs/发布说明.md)
 
 ```mermaid
 flowchart LR
@@ -26,6 +26,12 @@ flowchart LR
 3. 进入 [字形展示](模块/字形展示/README.md)、[字源故事](模块/字源故事/README.md) 或 [字间关系](模块/字间关系/README.md)。
 
 `npm run dev` → <http://127.0.0.1:4186>，也支持直接打开 index.html。默认安；字库默认500字，可切换2000字／全部，分批显示。
+
+## 小篆与《说文解字》资料来源
+
+学生查字形优先用[中研院「小学堂」小篆资料库](https://xiaoxue.iis.sinica.edu.tw/xiaozhuan/)，查释文和形义解释用[港中文「汉语多功能字库」](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/)及其[《说文》全文索引](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/shuowen.php)，核对异体用[教育部《异体字字典》](https://dict.variants.moe.edu.tw/)。原书与段玉裁《说文解字注》的版本线索可查[中国哲学书电子化计划](https://ctext.org/searchbooks.pl?if=gb&searchu=%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97)和[台湾华文电子书库](https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-004638006)。
+
+完整入口、版本依据、访问核查情况和逐字引用方法见[学生查阅指南](资料/小篆与说文解字资料.md)（2026-10-21整理）。提交时记录具体条目、原书版本与页码、字形对应和复核状态。项目展示用的[崇羲篆体](assets/fonts/LICENSE.md)另有制作与授权说明，与字库字形、古籍书影分别登记。
 
 ## 现在做到哪里
 
