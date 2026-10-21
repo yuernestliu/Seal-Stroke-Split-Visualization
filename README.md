@@ -2,6 +2,8 @@
 
 让本科生从字形出发，拆开结构、读故事、发现联系。先跑通500字，再扩展到2000字和全库。
 
+**唯一维护主线：[Ernest 的仓库](https://github.com/yuernestliu/Seal-Stroke-Split-Visualization)。** 后续开发和网页发布都从这里进行；Yibin仓库仅保留为历史资料来源，不再单独维护或定期同步。
+
 > **学生必读：[学生 To-Do Plan：先完成500字的高质量字形与骨架](docs/项目计划.md)**  
 > 首要任务：逐字完成原图清理、高质量轮廓SVG、骨架与拓扑记录，并通过人工核对。组成单元、梯径和其他结构分析使用这批标准结果继续推进。
 
@@ -81,7 +83,9 @@ build:library重建字表、任务表、浏览与先验索引，保留任务表�
 
 网页是纯静态HTML、CSS、JavaScript与资源，不需要后端。已准备 [发布工作流](.github/workflows/pages.yml)：在仓库 Settings → Pages 把 Source 设为 GitHub Actions，再将本地修改提交并推送到main，即可触发发布。完整步骤见 [发布说明](docs/发布说明.md)。
 
-发布后的预定地址：[在线网站](https://yuernestliu.github.io/Seal-Stroke-Split-Visualization/) · [学生计划网页](https://yuernestliu.github.io/Seal-Stroke-Split-Visualization/plan.html)。截至本次检查，Pages尚未启用；这些地址不表示已经上线。GitHub上的学生计划Markdown入口不依赖Pages。
+部署地址：[在线网站](https://yuernestliu.github.io/Seal-Stroke-Split-Visualization/) · [学生计划网页](https://yuernestliu.github.io/Seal-Stroke-Split-Visualization/plan.html)。发布状态见仓库Actions；GitHub上的学生计划Markdown入口不依赖Pages。
+
+**网页只发布展示内容。** 发布器从页面依赖生成产物，只导出必要的展示字段、几何、字形图片及字体；完整数据库、原始CSV／JSON、逐字研究记录、处理参数和算法资料保留在仓库，不部署到Pages。
 
 授权见 [页面说明](license.html)、[字体许可](assets/fonts/LICENSE.md)、[字频来源](字库/来源/字频来源.json)。
 
