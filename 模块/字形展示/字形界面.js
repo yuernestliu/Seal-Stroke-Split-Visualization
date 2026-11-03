@@ -33,7 +33,13 @@
   function vectorShape(vector, fill = 'currentColor', extra = {}) {
     return svgElement('path', {d:vector.path, fill, 'fill-rule':'evenodd', ...extra});
   }
+  function manualAsset(glyph, kind = 'display') {
+    const asset = window.MANUAL_167_ASSETS?.[glyph.id]?.[kind];
+    return asset ? encodeURI(asset) : null;
+  }
   function vectorMarkup(glyph, vector = window.GLYPH_VECTORS?.[glyph.id]) {
+    const manual = manualAsset(glyph, 'solid');
+    if (manual) return `<img class="glyph-vector manual-glyph-asset" src="${escapeHtml(manual)}" alt="${escapeHtml(glyph.mark)} 小篆" loading="lazy" />`;
     const clean = window.CleanGlyphShapes?.svg(glyph);
     if (clean) return clean.outerHTML;
     if (!vector) return `<img src="${escapeHtml(encodeURI(glyph.assets.original))}" alt="${escapeHtml(glyph.mark)} 小篆" loading="lazy" />`;
@@ -149,7 +155,18 @@
     const image = $('#glyphImage'), canvas = $('#glyphVector'), fontLayer = $('#fontGlyph');
     document.body.classList.remove('template-focus-active');
     image.hidden = true; canvas.hidden = true; fontLayer.hidden = true;
+    image.className = '';
     canvas.replaceChildren(); fontLayer.replaceChildren();
+    const manualDisplay = manualAsset(glyph, split ? 'color' : 'solid');
+    if (manualDisplay) {
+      image.src = manualDisplay;
+      image.alt = split ? `${glyph.title} 的彩色拆笔展示 SVG` : `${glyph.title} 的纯色展示版 SVG`;
+      image.loading = 'lazy';
+      image.className = 'manual-glyph-asset';
+      image.hidden = false;
+      $('#imageCaption').textContent = split ? `${glyph.mark} 的彩色拆笔展示` : `${glyph.mark} 的纯色展示`;
+      return;
+    }
     const clean = window.CleanGlyphShapes?.svg(glyph,{colored:split});
     const template = clean ? null : templateSvg(glyph,{interactive:!split,expanded:split});
     if (template) {
@@ -193,6 +210,21 @@
   }
   function renderSegments(glyph) {
     const list = $('#splitStrokes'); list.replaceChildren();
+    const manualStrokes = window.MANUAL_167_ASSETS?.[glyph.id]?.strokes;
+    if (manualStrokes?.length) {
+      manualStrokes.forEach((asset, index) => {
+        const piece = document.createElement('div');
+        piece.className = 'stroke-piece';
+        const image = document.createElement('img');
+        image.src = encodeURI(asset);
+        image.alt = `${glyph.mark} 第 ${index + 1} 笔`;
+        image.loading = 'lazy';
+        image.className = 'manual-glyph-asset';
+        piece.append(image);
+        list.append(piece);
+      });
+      return;
+    }
     if (glyph.templateParts?.length) {
       glyph.templateParts.forEach((part,index) => {
         const piece = document.createElement('div'); piece.className = 'stroke-piece'; piece.style.color = part.palette || palette[index % palette.length];
@@ -215,6 +247,8 @@
     });
   }
   function catalogMark(glyph) {
+    const manual = manualAsset(glyph, 'solid');
+    if (manual) return `<img class="manual-glyph-asset" src="${escapeHtml(manual)}" alt="${escapeHtml(glyph.mark)} 小篆" loading="lazy" />`;
     const clean = window.CleanGlyphShapes?.svg(glyph);
     if (clean) return clean.outerHTML;
     const template = templateSvg(glyph);
