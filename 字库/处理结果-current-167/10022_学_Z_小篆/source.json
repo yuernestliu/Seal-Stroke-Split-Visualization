@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10022_学_Z_小篆",
+  "raw_png": "167个字/10022_学_Z_小篆.png",
+  "raw_sha256": "723d9c25e7096a3d77bd0b40327692f42042f3177aaed0d56dcfacb69a38551f",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/10022_学_Z_小篆/label.png",
+  "label_sha256": "d6944fec9d409781565e4b8e59970a691b4f32b7ccb4b9e238f4c00f71ad7d03",
+  "width": 45,
+  "height": 79,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

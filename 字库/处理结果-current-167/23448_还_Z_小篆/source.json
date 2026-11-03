@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "23448_还_Z_小篆",
+  "raw_png": "167个字/23448_还_Z_小篆.png",
+  "raw_sha256": "a7924eb5e5cd44526c213d8a79c937761a830f78f1f7b1dd2bacb1a28d44c3eb",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/23448_还_Z_小篆/label.png",
+  "label_sha256": "eede80f3e6390aa68a34fcfd1978e14d32987d0355b041fcdc044d7d11d6bb5b",
+  "width": 53,
+  "height": 78,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

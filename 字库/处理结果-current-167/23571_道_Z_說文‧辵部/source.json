@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "23571_道_Z_說文‧辵部",
+  "raw_png": "167个字/23571_道_Z_說文‧辵部.png",
+  "raw_sha256": "2ee4b6940139c8e293ac839c934a1b29204250702e0a1c8099188275e0b8c2fe",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/23571_道_Z_說文‧辵部/label.png",
+  "label_sha256": "56c32124b24b5e46ef6ef4ebfc53f790d54c77e9b371dbdd618cdc012b2e2fd5",
+  "width": 62,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

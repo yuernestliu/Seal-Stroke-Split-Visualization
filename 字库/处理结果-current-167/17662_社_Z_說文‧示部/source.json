@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "17662_社_Z_說文‧示部",
+  "raw_png": "167个字/17662_社_Z_說文‧示部.png",
+  "raw_sha256": "ac42c11b7c71d715b5564bcabc6b402026c68daf60f3c49bc2cb398943d6bbd3",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/17662_社_Z_說文‧示部/label.png",
+  "label_sha256": "6de7b33fe49fef1965ceb16deeb4f3cbe1a0a0dcaa2abeec88e6d498b2e516bf",
+  "width": 60,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

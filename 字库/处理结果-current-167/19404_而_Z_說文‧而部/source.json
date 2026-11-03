@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "19404_而_Z_說文‧而部",
+  "raw_png": "167个字/19404_而_Z_說文‧而部.png",
+  "raw_sha256": "63d3b5f88f1a1a674edbebdddd11fca1cf7a71116c1e34344d7674c456f7fc89",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/19404_而_Z_說文‧而部/label.png",
+  "label_sha256": "e5284bddda82f39181160e41e017d63aa3b6d5fb3a2cb1886fb1dee66c8ebfd4",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06731_事_Z_說文‧史部",
+  "raw_png": "167个字/06731_事_Z_說文‧史部.png",
+  "raw_sha256": "202ee4648f478480d4dd683ff339cbe709a0511ccb84ce0a8fa0e6d10ac95df3",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06731_事_Z_說文‧史部/label.png",
+  "label_sha256": "a911673ba872fb821909d06f5b852ca93a34a01f29fcfb79c41ffd02cc43a28f",
+  "width": 51,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06798_从_Z_說文‧从部",
+  "raw_png": "167个字/06798_从_Z_說文‧从部.png",
+  "raw_sha256": "fd19d55b4bcd64eb1c61ccd90a89696937f379d7dd4feb7c3024466dc1e87881",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06798_从_Z_說文‧从部/label.png",
+  "label_sha256": "bd8f6d54a89c014a00c736791d3f3c012d89df662e4128946ac95ed5b5ccfbc0",
+  "width": 57,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

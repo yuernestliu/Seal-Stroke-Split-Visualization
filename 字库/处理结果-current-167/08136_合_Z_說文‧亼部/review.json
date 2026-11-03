@@ -1,0 +1,299 @@
+{
+  "schema": "current-split-review-v1",
+  "glyph_id": "08136_合_Z_說文‧亼部",
+  "status": "candidate-needs-manual-review",
+  "outline_reviewed": false,
+  "skeleton_reviewed": false,
+  "stroke_split_reviewed": false,
+  "owner": null,
+  "reviewer": null,
+  "review_date": "2026-11-03",
+  "source": {
+    "raw_png": "167个字/08136_合_Z_說文‧亼部.png",
+    "raw_sha256": "a27392e1eccd9834a0f6bd25525dd2afb0e2b28ddb9738d5e59b8e799d1a60f5",
+    "manual_label": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08136_合_Z_說文‧亼部/label.png",
+    "manual_label_sha256": "1dcc5e080c016a5d1f2090836a6c1bf3e5c210245339ebc8c55a8f9cbed2280e",
+    "label_auto": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08136_合_Z_說文‧亼部/label_auto.png",
+    "previous_candidate_package": "字库/处理结果/08136_合_Z_說文‧亼部"
+  },
+  "parameters": {
+    "connectivity": 8,
+    "route_cost": "1 + 7 / (foreground_distance + 0.5)",
+    "repair_trigger": "8-connected component count greater than 1 for a single manual stroke",
+    "corridor": "smoothed centerline distance field with Gaussian-smoothed endpoint-width profile",
+    "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
+    "vector_smoothing": "gaussian sigma 0.60 followed by bounded quadratic-midpoint contour",
+    "bridge_is_fixed_width": false,
+    "preserve_blank": true,
+    "manual_label_ids": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "missing_manual_label_ids": []
+  },
+  "validation": {
+    "canvas": {
+      "width": 64,
+      "height": 79
+    },
+    "stroke_count": 5,
+    "manual_label_ids": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "missing_manual_label_ids": [],
+    "per_stroke": [
+      {
+        "stroke_id": "S1",
+        "color": "#2f6fdb",
+        "original_pixels": 49,
+        "fused_pixels": 49,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.497,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.249
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S2",
+        "color": "#d68a16",
+        "original_pixels": 134,
+        "fused_pixels": 134,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.828,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S3",
+        "color": "#2b9b68",
+        "original_pixels": 221,
+        "fused_pixels": 231,
+        "corridor_added_pixels": 10,
+        "components_before": 3,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 4.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 2
+      },
+      {
+        "stroke_id": "S4",
+        "color": "#9254c8",
+        "original_pixels": 67,
+        "fused_pixels": 67,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 4.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S5",
+        "color": "#c34f8d",
+        "original_pixels": 137,
+        "fused_pixels": 137,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.828,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      }
+    ],
+    "all_strokes_continuous": true,
+    "fused_union_covers_original_label": true,
+    "fused_regions_subset_original_foreground": false,
+    "blank_preserved_by_recorded_gap_closures": true,
+    "recorded_gap_closure_pixels": 3,
+    "bridge_overlap_pixels_at_crossings": 615,
+    "source_coordinates_preserved": true,
+    "svg_contains_embedded_raster": false,
+    "svg_contains_external_raster_reference": false
+  },
+  "repairs": [
+    {
+      "stroke_id": "S3",
+      "status": "connected-by-smooth-width-fused-region",
+      "components": [
+        3,
+        1
+      ],
+      "gap_pixels": 2.0,
+      "route_points": [
+        [
+          19,
+          54
+        ],
+        [
+          19,
+          53
+        ],
+        [
+          19,
+          52
+        ]
+      ],
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "corridor_added_pixels": 5,
+      "route_foreground_pixel_count": 3,
+      "route_nonforeground_pixel_count": 3,
+      "gap_closure_points": [
+        [
+          18,
+          52
+        ],
+        [
+          18,
+          53
+        ],
+        [
+          18,
+          54
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 3,
+        "smoothed_route_point_count": 3,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "connected-components-first; shortest foreground route; smoothed centerline; adaptive width field; unified contour extraction",
+      "route_point_count": 3
+    },
+    {
+      "stroke_id": "S3",
+      "status": "connected-by-smooth-width-fused-region",
+      "components": [
+        3,
+        2
+      ],
+      "gap_pixels": 2.0,
+      "route_points": [
+        [
+          42,
+          54
+        ],
+        [
+          42,
+          53
+        ],
+        [
+          42,
+          52
+        ]
+      ],
+      "width_radius_start": 1.25,
+      "width_radius_end": 1.25,
+      "corridor_added_pixels": 5,
+      "route_foreground_pixel_count": 3,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 3,
+        "smoothed_route_point_count": 3,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.25,
+        "radius_profile_max": 1.25
+      },
+      "method": "connected-components-first; shortest foreground route; smoothed centerline; adaptive width field; unified contour extraction",
+      "route_point_count": 3
+    }
+  ],
+  "issues": [
+    "manual-v2 is a candidate and requires human visual confirmation",
+    "modern stroke semantics and crossing ownership remain tied to the manual label map",
+    "minimal route gap closures outside the threshold foreground require visual review"
+  ],
+  "files": {
+    "display_split": "manual-v2-display-split.svg",
+    "separated_preview": "manual-v2-strokes-separated.svg",
+    "outline_split": "manual-v2-outline-split.svg",
+    "skeleton_svg": "manual-v2-skeleton.svg",
+    "skeleton_json": "skeleton.json",
+    "overlay": "overlay.svg",
+    "stroke_label_preview": "manual-v2-stroke-label.png",
+    "source": "source.json",
+    "mask": "mask.png",
+    "outline": "outline.svg",
+    "skeleton": "skeleton.svg",
+    "split_outline": "outline-split.svg",
+    "split_preview": "strokes-separated.svg",
+    "split_display": "display-split.svg"
+  },
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "actor": "manual-v2 generator",
+      "change": "Generated independent fused-region contours, skeleton, separated preview, and vector-only overlay from the current manual label map.",
+      "status": "candidate-needs-manual-review"
+    }
+  ],
+  "package": "字库/处理结果-current-167",
+  "split_package": "拆解结果-current-167",
+  "readme_compliance": {
+    "outline_is_vector": true,
+    "skeleton_is_reusable_json": true,
+    "overlay_is_separate_from_outline": true,
+    "original_png_preserved": true,
+    "manual_label_source_preserved": true
+  }
+}

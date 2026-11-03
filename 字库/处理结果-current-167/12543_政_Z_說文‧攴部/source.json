@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12543_政_Z_說文‧攴部",
+  "raw_png": "167个字/12543_政_Z_說文‧攴部.png",
+  "raw_sha256": "1f786389be53f0ece5ccb7151a14b3532515e94491bfa1b20c87b103afd81b6d",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/12543_政_Z_說文‧攴部/label.png",
+  "label_sha256": "29e08b74ec765858f352fadee71fcf492771ec3cf5f70935e2854ceca95604b8",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

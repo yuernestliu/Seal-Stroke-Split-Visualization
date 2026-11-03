@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07937_十_Z_說文‧十部",
+  "raw_png": "167个字/07937_十_Z_說文‧十部.png",
+  "raw_sha256": "c15dd7b8a13c5a72ac276592082cb7df27ce7d85fd1f445fe26f3c5c6412bc06",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/07937_十_Z_說文‧十部/label.png",
+  "label_sha256": "2a2deddfeb57ef624a4b0142bc8cabf8052af05561c76637d70d9a56cbbf660f",
+  "width": 51,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08142_后_Z_說文‧后部",
+  "raw_png": "167个字/08142_后_Z_說文‧后部.png",
+  "raw_sha256": "c51b3da09419bfba0bfd4a9e79643cdc003b715fc3eb60bb9acf85afd4e3828e",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08142_后_Z_說文‧后部/label.png",
+  "label_sha256": "83d8b4ba68796c759fe159ebfccd8895ac25c1ed25845c12f3b3f9092a929d39",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

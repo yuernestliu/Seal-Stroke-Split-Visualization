@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10102_家_Z_說文‧宀部",
+  "raw_png": "167个字/10102_家_Z_說文‧宀部.png",
+  "raw_sha256": "4e7a5fed60d9d2cda020be1d7c617035b9b2f839cd9849ca6e38d14119c73ce3",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/10102_家_Z_說文‧宀部/label.png",
+  "label_sha256": "369bd5ca549c49581c3c486c408c0072948bdc250fe3773beac7c9f09737f34f",
+  "width": 55,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

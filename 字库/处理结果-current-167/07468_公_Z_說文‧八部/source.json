@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07468_公_Z_說文‧八部",
+  "raw_png": "167个字/07468_公_Z_說文‧八部.png",
+  "raw_sha256": "97242193497a1472a85e8312df7815f249ccf0d14ead106511a0c1efedbb5fd4",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/07468_公_Z_說文‧八部/label.png",
+  "label_sha256": "fef6da5d6afe561e64ed06f70c54bbfeafb608080d546a5200f551ec7077db6e",
+  "width": 59,
+  "height": 71,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

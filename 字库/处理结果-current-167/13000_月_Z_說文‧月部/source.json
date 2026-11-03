@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "13000_月_Z_說文‧月部",
+  "raw_png": "167个字/13000_月_Z_說文‧月部.png",
+  "raw_sha256": "cda9afea2bfb9c590503a3e36107781f44b4efe53d1ee99293bba859af37bb49",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/13000_月_Z_說文‧月部/label.png",
+  "label_sha256": "0087ffd7b4e2885e5ae568a5e8d3d6ad17b8385a8c055e38eecb267fa2311c9f",
+  "width": 44,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

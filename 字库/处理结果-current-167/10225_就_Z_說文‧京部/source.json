@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10225_就_Z_說文‧京部",
+  "raw_png": "167个字/10225_就_Z_說文‧京部.png",
+  "raw_sha256": "9515fd940c2d56b4c37e720756ded6eb252408dd8165042fa88a9934a0b1570c",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/10225_就_Z_說文‧京部/label.png",
+  "label_sha256": "9a4a628c129e006897ab4950dd2688d49623c492fa53d5f8351e4a50f2bf5259",
+  "width": 60,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

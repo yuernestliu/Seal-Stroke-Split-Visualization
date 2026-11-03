@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07693_前_Z_說文‧止部",
+  "raw_png": "167个字/07693_前_Z_說文‧止部.png",
+  "raw_sha256": "b4bc4c4ff4c9bfb3963b415eb2e60e0ca50b419ca294899220d67c22024f3ca5",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/07693_前_Z_說文‧止部/label.png",
+  "label_sha256": "e8574ee7a7ec0bfd1c0de0fef2af627e554de19d104074e8782c415e643f7d75",
+  "width": 46,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

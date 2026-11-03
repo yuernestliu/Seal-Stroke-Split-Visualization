@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07771_力_Z_說文‧力部",
+  "raw_png": "167个字/07771_力_Z_說文‧力部.png",
+  "raw_sha256": "338540cf92a471164469614eba7ace180211ae7669fd219e4df0fca5440607aa",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/07771_力_Z_說文‧力部/label.png",
+  "label_sha256": "6dacb62166bea755b8bd536821935cca2311df0dcdae6493d2cf75b3c96ab301",
+  "width": 48,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

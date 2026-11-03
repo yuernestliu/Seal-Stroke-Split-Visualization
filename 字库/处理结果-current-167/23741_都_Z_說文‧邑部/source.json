@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "23741_都_Z_說文‧邑部",
+  "raw_png": "167个字/23741_都_Z_說文‧邑部.png",
+  "raw_sha256": "3ea8ea27e23af8a302ef646f394527811cabae5b564158444c5d309c01d1ec9d",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/23741_都_Z_說文‧邑部/label.png",
+  "label_sha256": "43bf27e3aaed41943f2c1bf3c2eee2d2cbb37618e619d0a6e98093e68e97ef24",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

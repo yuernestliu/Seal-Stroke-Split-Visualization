@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08111_可_Z_說文‧可部",
+  "raw_png": "167个字/08111_可_Z_說文‧可部.png",
+  "raw_sha256": "aeb791ff502c61ce89c30cf83cfca837319de43c44951993c7d8f5e546c80c89",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08111_可_Z_說文‧可部/label.png",
+  "label_sha256": "00f901a0bf488adee899b76f424b338c6cb0d931b3263e3d4ecd2684d3153f59",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

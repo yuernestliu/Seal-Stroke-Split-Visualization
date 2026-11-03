@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08268_和_Z_說文‧口部",
+  "raw_png": "167个字/08268_和_Z_說文‧口部.png",
+  "raw_sha256": "7d3788e976cd56e03daaef2a51d10aa97f3245e8dc982415fce1ecc0b79c0f05",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08268_和_Z_說文‧口部/label.png",
+  "label_sha256": "4380785ae80041d5a8ba7b5478a199cc06117c381a7dbc32ff77366ece6b6476",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

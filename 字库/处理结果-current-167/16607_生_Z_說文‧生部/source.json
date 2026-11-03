@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "16607_生_Z_說文‧生部",
+  "raw_png": "167个字/16607_生_Z_說文‧生部.png",
+  "raw_sha256": "a09306f0f5da4d474ce1c98b7aa3cd4ab3408ec7b830d8c9778bbd313ba25da7",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/16607_生_Z_說文‧生部/label.png",
+  "label_sha256": "e96b781de6580612490b4a36c24016282f6aa12131f0563f51c81d4c57eddcbd",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

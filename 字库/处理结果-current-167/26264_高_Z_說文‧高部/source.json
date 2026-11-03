@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "26264_高_Z_說文‧高部",
+  "raw_png": "167个字/26264_高_Z_說文‧高部.png",
+  "raw_sha256": "58ef7dc0344cea941df67754e1162d2069a45da97e733d4cd3ace23b553136f9",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/26264_高_Z_說文‧高部/label.png",
+  "label_sha256": "f2fbe257c7b7d22d3390ca3bbf27cf301f869ab98c33a2229c1f49dd001848ca",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06918_但_Z_說文‧人部",
+  "raw_png": "167个字/06918_但_Z_說文‧人部.png",
+  "raw_sha256": "69ea5ce04c0a7666ce6e3a6c318868a3f0b8e4415b73213e389dd70d052f4f05",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06918_但_Z_說文‧人部/label.png",
+  "label_sha256": "70c0aebcbf71ae273e45f45e9d284939bf442e5572093df4e6b162bd37ddf025",
+  "width": 59,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12992_最_Z_說文‧冃部",
+  "raw_png": "167个字/12992_最_Z_說文‧冃部.png",
+  "raw_sha256": "14db0e17cfce0b363e14172dfedcad68468063386a8d82a3dcdaa44e5e07f307",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/12992_最_Z_說文‧冃部/label.png",
+  "label_sha256": "9a9efa34fbeff4ff92040090c96606f90221bdf1618e77e653f873224c3d8dbb",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

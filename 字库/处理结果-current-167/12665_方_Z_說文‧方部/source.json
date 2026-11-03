@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12665_方_Z_說文‧方部",
+  "raw_png": "167个字/12665_方_Z_說文‧方部.png",
+  "raw_sha256": "7f35f9b72402fd8f3c611bb30cae7fcc749a357bab00fd38331ef289d2d6522a",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/12665_方_Z_說文‧方部/label.png",
+  "label_sha256": "f653ce5841c8e2f6a8b3b8dc79a421a4982b150ad2852311692ea9819b068709",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

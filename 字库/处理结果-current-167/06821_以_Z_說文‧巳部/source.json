@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06821_以_Z_說文‧巳部",
+  "raw_png": "167个字/06821_以_Z_說文‧巳部.png",
+  "raw_sha256": "28f48eb9e84b2672622ef818c379e4c104706ebf737a1a607f6f9c098aea4dab",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06821_以_Z_說文‧巳部/label.png",
+  "label_sha256": "70d6839d9885e14430585e0fa816a0965f6b72941758421b3638435372117c73",
+  "width": 45,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

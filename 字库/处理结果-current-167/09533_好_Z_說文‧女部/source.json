@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "09533_好_Z_說文‧女部",
+  "raw_png": "167个字/09533_好_Z_說文‧女部.png",
+  "raw_sha256": "703152f54b85bfdc139b6edc3b83ba782fe43f774d5285568488895cac93b693",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/09533_好_Z_說文‧女部/label.png",
+  "label_sha256": "6cdbc4252785cdfefb8930618b737ae39dba73308b806bfd3d9224774d85a284",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

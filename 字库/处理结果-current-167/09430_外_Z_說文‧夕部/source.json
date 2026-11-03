@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "09430_外_Z_說文‧夕部",
+  "raw_png": "167个字/09430_外_Z_說文‧夕部.png",
+  "raw_sha256": "7b3abb26e3ff188cafa749b855e77e72821891d6e178dfdcf3e80fe2cee598b2",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/09430_外_Z_說文‧夕部/label.png",
+  "label_sha256": "4680041ca5b087e77a0a4a6843af28bfacfa1112a81daa12edc6fbfcab2cd13c",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

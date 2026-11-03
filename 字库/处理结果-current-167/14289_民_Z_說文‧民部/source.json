@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "14289_民_Z_說文‧民部",
+  "raw_png": "167个字/14289_民_Z_說文‧民部.png",
+  "raw_sha256": "9f6491a33dec4e7c2de4ee3a442b725dcc8d7b255cad0d3b8032bc82401611e2",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/14289_民_Z_說文‧民部/label.png",
+  "label_sha256": "cb36960ac55a1ec1fc7790ccf5ba71d049b4d4245647fa3d84df58b91bc9142e",
+  "width": 52,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

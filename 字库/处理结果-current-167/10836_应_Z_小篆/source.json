@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10836_应_Z_小篆",
+  "raw_png": "167个字/10836_应_Z_小篆.png",
+  "raw_sha256": "c49188602b19401862ec08c17121fe407725b8ff251d3bc53f13d58a3dc6a162",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/10836_应_Z_小篆/label.png",
+  "label_sha256": "100301421a688470834a351560ab51f874246593d1e9c4e246a5a0e401852693",
+  "width": 51,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06601_三_Z_說文‧三部",
+  "raw_png": "167个字/06601_三_Z_說文‧三部.png",
+  "raw_sha256": "afacd35b7371ff3fb35233d26aea43af63e6b1a439cb551b222e02eb46d4e76b",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06601_三_Z_說文‧三部/label.png",
+  "label_sha256": "f66f906be54c43ab3fd5252fbc622aa362942b8b202298aa61a457450418fdec",
+  "width": 44,
+  "height": 74,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

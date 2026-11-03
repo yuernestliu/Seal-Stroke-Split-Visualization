@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12750_明_Z_說文‧明部",
+  "raw_png": "167个字/12750_明_Z_說文‧明部.png",
+  "raw_sha256": "7475a4dec7d6c049aaec4f94031fb7b4a65c06041ca166cc45ea8bf3788160f6",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/12750_明_Z_說文‧明部/label.png",
+  "label_sha256": "a4e613c1970e17175ef0a722b38b7322ae6bda309f07998ce9e5293b327e58da",
+  "width": 61,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

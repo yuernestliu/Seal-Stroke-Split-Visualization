@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06726_了_Z_說文‧了部",
+  "raw_png": "167个字/06726_了_Z_說文‧了部.png",
+  "raw_sha256": "39a34c2636dfd12fe8fe5d629dca8347488101d9f59f1fa2e9ce2dfce40ec103",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06726_了_Z_說文‧了部/label.png",
+  "label_sha256": "477739ca5239f3b0d8585746b4ac3451e0b082ef1a38b480c8f33f6a49f91abd",
+  "width": 40,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

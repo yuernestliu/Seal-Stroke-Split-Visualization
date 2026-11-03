@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08893_国_Z_小篆",
+  "raw_png": "167个字/08893_国_Z_小篆.png",
+  "raw_sha256": "cf7be08acb83cf82042ae22a47f5a7dfcedbd849c2b3b2261cdc013856615b93",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08893_国_Z_小篆/label.png",
+  "label_sha256": "0ee73cd6164d1614a9ce6c0f112ecf588f535c1a542cc2c81fc371aa1209a0be",
+  "width": 46,
+  "height": 69,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "17317_知_Z_說文‧矢部",
+  "raw_png": "167个字/17317_知_Z_說文‧矢部.png",
+  "raw_sha256": "5c81e64332a317708d44510e8aa1461e2998f69f3c484eb2ea15128ab085c73a",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/17317_知_Z_說文‧矢部/label.png",
+  "label_sha256": "f2411139626bc4e314b1dd3201145f4bf8fe57742ce4fb0e38c1c4a37ea55f71",
+  "width": 59,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "13050_机_Z_說文‧木部",
+  "raw_png": "167个字/13050_机_Z_說文‧木部.png",
+  "raw_sha256": "c1b24c11731f82bebca3210b1aacb4d39602c71106827e63dd49c3a462f99aa4",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/13050_机_Z_說文‧木部/label.png",
+  "label_sha256": "f162f404f21f5f74de55a60b64b254ea7932b9d4eb5fef2c483be72f9bc44bc8",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

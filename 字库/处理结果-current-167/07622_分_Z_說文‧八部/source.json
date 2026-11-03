@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07622_分_Z_說文‧八部",
+  "raw_png": "167个字/07622_分_Z_說文‧八部.png",
+  "raw_sha256": "77fcb1b2bcc0976c64eab7e852531eec78bd73b078e7837b1b814f3663c2bca7",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/07622_分_Z_說文‧八部/label.png",
+  "label_sha256": "dd968a85827a3ce3db79976c6b53fec08f6190ba5bfd925c227544104e50fe1e",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

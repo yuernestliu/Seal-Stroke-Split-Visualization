@@ -1,0 +1,43 @@
+{
+  "schema": "manual-v2-parameters-v1",
+  "glyph_id": "06650_为_Z_小篆",
+  "date": "2026-11-02",
+  "source_label": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06650_为_Z_小篆/label.png",
+  "source_raw_png": "167个字/06650_为_Z_小篆.png",
+  "parameters": {
+    "connectivity": 8,
+    "route_cost": "1 + 7 / (foreground_distance + 0.5)",
+    "repair_trigger": "8-connected component count greater than 1 for a single manual stroke",
+    "corridor": "smoothed centerline distance field with Gaussian-smoothed endpoint-width profile",
+    "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
+    "vector_smoothing": "gaussian sigma 0.60 followed by bounded quadratic-midpoint contour",
+    "bridge_is_fixed_width": false,
+    "preserve_blank": true,
+    "manual_label_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "missing_manual_label_ids": [
+      8
+    ]
+  },
+  "output_files": {
+    "display_split": "manual-v2-display-split.svg",
+    "separated_preview": "manual-v2-strokes-separated.svg",
+    "outline_split": "manual-v2-outline-split.svg",
+    "skeleton_svg": "manual-v2-skeleton.svg",
+    "skeleton_json": "manual-v2-skeleton.json",
+    "overlay": "manual-v2-overlay.svg",
+    "stroke_label_preview": "manual-v2-stroke-label.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12709_日_Z_說文‧日部",
+  "raw_png": "167个字/12709_日_Z_說文‧日部.png",
+  "raw_sha256": "66032e22eaaa98886258df5e34a35780190d0c8f1d0be81404b25143bfb23b7b",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/12709_日_Z_說文‧日部/label.png",
+  "label_sha256": "bc5d0b22ccb794b8517652662925b2b1a06dfd978577b9ac055c646943903048",
+  "width": 55,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

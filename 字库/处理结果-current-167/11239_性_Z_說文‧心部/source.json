@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11239_性_Z_說文‧心部",
+  "raw_png": "167个字/11239_性_Z_說文‧心部.png",
+  "raw_sha256": "469dd8f87e48dfc35d94b04559a484c5c6b89cc7b47af191d4ffa9e32e5523f4",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/11239_性_Z_說文‧心部/label.png",
+  "label_sha256": "fb623019d4895a25571334e4e788c1443e6c0219b114daaf402062912b5462d3",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

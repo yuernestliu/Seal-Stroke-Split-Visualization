@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10261_展_Z_說文‧尸部",
+  "raw_png": "167个字/10261_展_Z_說文‧尸部.png",
+  "raw_sha256": "89791f93e2257b21ec4ce1056eb7f05354eed566f3d746c0bf1937daf09fc070",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/10261_展_Z_說文‧尸部/label.png",
+  "label_sha256": "4ecaa2f790d0d9364a8b5f44faf136056388cbbf1ff42e0d9f37bc81c3920c5a",
+  "width": 53,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

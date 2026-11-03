@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07664_到_Z_說文‧至部",
+  "raw_png": "167个字/07664_到_Z_說文‧至部.png",
+  "raw_sha256": "e4e32350baefab48f231b9fb9ee7ccb342b54427a67654408ffab16024de0002",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/07664_到_Z_說文‧至部/label.png",
+  "label_sha256": "a088f8bb63712dc34b056fbad67a69faba579294e90a7907d2c47b3a4358f58b",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

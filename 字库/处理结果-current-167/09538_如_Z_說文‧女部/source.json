@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "09538_如_Z_說文‧女部",
+  "raw_png": "167个字/09538_如_Z_說文‧女部.png",
+  "raw_sha256": "aba7e3247c85197daff25c73de014bd5f519b040ef9a83fe5b6b2509c47b9258",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/09538_如_Z_說文‧女部/label.png",
+  "label_sha256": "4c156b812218a8ba129c0b15c5b804582aab4d650f267a1a3db96a5c503221e1",
+  "width": 54,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

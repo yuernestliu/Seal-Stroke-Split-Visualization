@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08072_又_Z_說文‧又部",
+  "raw_png": "167个字/08072_又_Z_說文‧又部.png",
+  "raw_sha256": "535c4cd768514305b864f768597754d4efdb33e4f8f2b8ab10ce64383a9e67c4",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08072_又_Z_說文‧又部/label.png",
+  "label_sha256": "dc563f13245678286e2dff17a19441d3fd0a8ff63618619be43bdebdb36bf540",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

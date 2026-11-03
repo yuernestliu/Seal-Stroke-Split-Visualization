@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11776_所_Z_說文‧斤部",
+  "raw_png": "167个字/11776_所_Z_說文‧斤部.png",
+  "raw_sha256": "1dd1aa3078cbe0cdea07ddadc95938479b7ea11680bbf1b30eaa49eb2bdf2c1c",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/11776_所_Z_說文‧斤部/label.png",
+  "label_sha256": "83b327dd6b8bb42c3b0092709503eccd694a71513a4df0c6b09a34e812f861de",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

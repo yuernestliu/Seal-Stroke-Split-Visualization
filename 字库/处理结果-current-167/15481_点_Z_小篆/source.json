@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "15481_点_Z_小篆",
+  "raw_png": "167个字/15481_点_Z_小篆.png",
+  "raw_sha256": "ebacff682124789416c46e6f48979c5baad2525311401c222670e878bac0ca39",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/15481_点_Z_小篆/label.png",
+  "label_sha256": "e9d5f103242d33ac616f124ec9da098cae880d1c49b71468e91044ab20299c14",
+  "width": 50,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

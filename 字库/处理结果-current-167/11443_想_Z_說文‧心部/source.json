@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11443_想_Z_說文‧心部",
+  "raw_png": "167个字/11443_想_Z_說文‧心部.png",
+  "raw_sha256": "70889ab65372a8119a73797a1f68787f69ecc15a68aaf445afd61623ad6d13ce",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/11443_想_Z_說文‧心部/label.png",
+  "label_sha256": "6519eb419b7c2a563d2a3e25f8075dfa6731a5da25980c1eedeb2257ff853115",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10944_开_Z_小篆",
+  "raw_png": "167个字/10944_开_Z_小篆.png",
+  "raw_sha256": "8bc2c2ea588773eaaafcaf8bc6ef1d1332ffb49415cd26688a7716e9f5ba0557",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/10944_开_Z_小篆/label.png",
+  "label_sha256": "106584b561237efb090ca735a7ed8d8c929b6b5dac3e48752fc6f62264bed688",
+  "width": 48,
+  "height": 78,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

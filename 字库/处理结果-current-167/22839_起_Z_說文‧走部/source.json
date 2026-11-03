@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "22839_起_Z_說文‧走部",
+  "raw_png": "167个字/22839_起_Z_說文‧走部.png",
+  "raw_sha256": "56a022169302a824072497531e951cdd0b707dea215b133219d5ed0214fdf959",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/22839_起_Z_說文‧走部/label.png",
+  "label_sha256": "45a590966711db819da7327f1013511fc0638d724d9299619d565b6b67226898",
+  "width": 66,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06734_于_Z_說文‧于部",
+  "raw_png": "167个字/06734_于_Z_說文‧于部.png",
+  "raw_sha256": "6b77a6d11ce24bbc8b62c54fef3a26cea3c6e74b4abda2a5859bd4b2a574af29",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06734_于_Z_說文‧于部/label.png",
+  "label_sha256": "67e3e7b80629e51fa2314a29e044c507d551e62be215c3d14b0317a990c8ca2d",
+  "width": 55,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

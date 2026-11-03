@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "25378_面_Z_說文‧面部",
+  "raw_png": "167个字/25378_面_Z_說文‧面部.png",
+  "raw_sha256": "b0dce4cdf32b704a9c60107e7003a753262ef8ae7450a18a5a3be9c303305c7d",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/25378_面_Z_說文‧面部/label.png",
+  "label_sha256": "9651fd5fdc56f68bcf4130ca39ed9a276e73581a9254b57c3d9b3775e0c479e2",
+  "width": 55,
+  "height": 77,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

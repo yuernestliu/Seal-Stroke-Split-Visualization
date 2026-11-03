@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11080_很_Z_說文‧彳部",
+  "raw_png": "167个字/11080_很_Z_說文‧彳部.png",
+  "raw_sha256": "be4b05efdf3f1b06dc47ef50ec25007208d8faad50d5ccb73f03e5768b267434",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/11080_很_Z_說文‧彳部/label.png",
+  "label_sha256": "82a230a79406e66b013b608ee587ffdcc84cfacd21f427c708a6e0872e78911c",
+  "width": 55,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "23948_里_Z_說文‧里部",
+  "raw_png": "167个字/23948_里_Z_說文‧里部.png",
+  "raw_sha256": "343b4ec784d9142745d341ef301d7cd734573c9339fcc05948596e80f8ec7634",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/23948_里_Z_說文‧里部/label.png",
+  "label_sha256": "b5e67f9784395489f22aa02b41ab3736febcc2c594906b7be2aa90109c18bee4",
+  "width": 53,
+  "height": 79,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

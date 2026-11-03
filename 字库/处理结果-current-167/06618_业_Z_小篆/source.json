@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06618_业_Z_小篆",
+  "raw_png": "167个字/06618_业_Z_小篆.png",
+  "raw_sha256": "6a432d697b1d4ce89cb0511f033c44bafd95491ef1057148d78d8b452acea5ff",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06618_业_Z_小篆/label.png",
+  "label_sha256": "3cbb77080712bb8ea6397777082de7fbab78d8523d1cbad30227db06d5bdbf1f",
+  "width": 46,
+  "height": 77,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

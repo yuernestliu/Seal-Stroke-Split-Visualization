@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "14049_次_Z_說文‧欠部",
+  "raw_png": "167个字/14049_次_Z_說文‧欠部.png",
+  "raw_sha256": "596bab611ae3af82a50a39024a9902e9ca9999b9e6288a559957fad853c3d743",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/14049_次_Z_說文‧欠部/label.png",
+  "label_sha256": "79edae9a7dedb7363c1ec6c245c6c8f99e873f780fb381131c897f883ecaa649",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

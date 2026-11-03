@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11179_快_Z_說文‧心部",
+  "raw_png": "167个字/11179_快_Z_說文‧心部.png",
+  "raw_sha256": "ba17ec2e5bd176c9c088d79cc68819ed8e86c2b86e1a986a3ead70412c5eab5f",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/11179_快_Z_說文‧心部/label.png",
+  "label_sha256": "4adeae72d46d2fb4eee64c43db1f50f8fae9df30f8a9f1c06fb50d05f53b2057",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

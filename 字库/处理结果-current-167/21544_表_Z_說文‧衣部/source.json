@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "21544_表_Z_說文‧衣部",
+  "raw_png": "167个字/21544_表_Z_說文‧衣部.png",
+  "raw_sha256": "4fdd1249521e209a25bea45c82b7733d2e1289945ef46029d4f6861241cc1274",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/21544_表_Z_說文‧衣部/label.png",
+  "label_sha256": "ea364a2e7f3f6282ea6437e79059f74f59285ab1b40e8866e7be70720432d465",
+  "width": 54,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

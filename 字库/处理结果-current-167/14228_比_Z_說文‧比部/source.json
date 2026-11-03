@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "14228_比_Z_說文‧比部",
+  "raw_png": "167个字/14228_比_Z_說文‧比部.png",
+  "raw_sha256": "471733541a619222755e150f8be249dd3b1d6a6e9005fb41184b23c07be178f0",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/14228_比_Z_說文‧比部/label.png",
+  "label_sha256": "0e1ba3bcb114b88f3ae08031fcb1ee519f9b256c6e31bdb8b81000d6f29a662f",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

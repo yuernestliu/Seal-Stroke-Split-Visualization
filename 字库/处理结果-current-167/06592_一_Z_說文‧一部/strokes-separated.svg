@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 84" width="320" height="84" role="img" aria-label="06592_一_Z_說文‧一部 展示版与单笔分离预览 v2">
+<rect width="320" height="84" fill="#ffffff"/>
+<text x="10" y="18" font-size="11" fill="#555">完整字形</text>
+<path d="M 59.8 4.23 Q 59.55 4.82 58.88 5.19 Q 58.21 5.56 57.32 5.67 Q 56.44 5.78 52.36 5.58 Q 48.28 5.37 29.05 5.5 Q 9.83 5.63 7.78 5.44 Q 5.74 5.25 4.54 4.78 Q 3.34 4.3 3.36 4.03 Q 3.38 3.77 3.93 3.29 Q 4.49 2.81 5.79 2.56 Q 7.09 2.31 30.38 2.36 Q 53.67 2.4 56.67 2.79 Q 59.67 3.19 59.86 3.41 Q 60.06 3.64 59.8 4.23 Z" fill="#2f6fdb" fill-rule="evenodd" stroke="none" opacity="1" data-stroke-id="S1" transform="translate(10 18)"/>
+<path d="M 84 8 V 76" stroke="#dddddd" stroke-width="1"/>
+<text x="94" y="18" font-size="11" fill="#555">单笔分离预览</text>
+<rect x="94" y="26" width="48" height="48" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<path d="M 59.8 4.23 Q 59.55 4.82 58.88 5.19 Q 58.21 5.56 57.32 5.67 Q 56.44 5.78 52.36 5.58 Q 48.28 5.37 29.05 5.5 Q 9.83 5.63 7.78 5.44 Q 5.74 5.25 4.54 4.78 Q 3.34 4.3 3.36 4.03 Q 3.38 3.77 3.93 3.29 Q 4.49 2.81 5.79 2.56 Q 7.09 2.31 30.38 2.36 Q 53.67 2.4 56.67 2.79 Q 59.67 3.19 59.86 3.41 Q 60.06 3.64 59.8 4.23 Z" fill="#2f6fdb" fill-rule="evenodd" stroke="none" opacity="1" data-stroke-id="S1" transform="translate(99 53.07) scale(0.6)"/>
+<text x="98" y="38" font-size="10" fill="#2f6fdb">S1</text>
+</svg>

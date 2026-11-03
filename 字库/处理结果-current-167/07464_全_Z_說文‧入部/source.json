@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07464_全_Z_說文‧入部",
+  "raw_png": "167个字/07464_全_Z_說文‧入部.png",
+  "raw_sha256": "5bf7e2486a5114235641436f9655e14260d81cdfb3f07cc230c7e811fb80622f",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/07464_全_Z_說文‧入部/label.png",
+  "label_sha256": "ebeb346523a9e91362f05c5406cf253896782f72e777d526234685c07ecdc4a3",
+  "width": 57,
+  "height": 79,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

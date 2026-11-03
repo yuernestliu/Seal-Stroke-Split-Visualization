@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06784_什_Z_說文‧人部",
+  "raw_png": "167个字/06784_什_Z_說文‧人部.png",
+  "raw_sha256": "979dbe6e2100a88f8fa1954e26b0e6b1ad81ffbfa35368998592a676460e281d",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06784_什_Z_說文‧人部/label.png",
+  "label_sha256": "6621d1d4f369d9b818b8690db9689717d7324528ff42de93ed452f52d3f68ffb",
+  "width": 62,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

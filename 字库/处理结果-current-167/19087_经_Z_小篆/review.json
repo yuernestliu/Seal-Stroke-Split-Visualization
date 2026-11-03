@@ -1,0 +1,504 @@
+{
+  "schema": "current-split-review-v1",
+  "glyph_id": "19087_经_Z_小篆",
+  "status": "candidate-needs-manual-review",
+  "outline_reviewed": false,
+  "skeleton_reviewed": false,
+  "stroke_split_reviewed": false,
+  "owner": null,
+  "reviewer": null,
+  "review_date": "2026-11-03",
+  "source": {
+    "raw_png": "167个字/19087_经_Z_小篆.png",
+    "raw_sha256": "0a4d6cc396ca07fb0c2415bc49425391103e263d53c661e62b51edc131aee51a",
+    "manual_label": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/19087_经_Z_小篆/label.png",
+    "manual_label_sha256": "bfb0de4ae1ffad726ed193bf5b5f3cbe58e1885480b66da707edc71964d6dd2d",
+    "label_auto": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/19087_经_Z_小篆/label_auto.png",
+    "previous_candidate_package": "字库/处理结果/19087_经_Z_小篆"
+  },
+  "parameters": {
+    "connectivity": 8,
+    "route_cost": "1 + 7 / (foreground_distance + 0.5)",
+    "repair_trigger": "8-connected component count greater than 1 for a single manual stroke",
+    "corridor": "smoothed centerline distance field with Gaussian-smoothed endpoint-width profile",
+    "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
+    "vector_smoothing": "gaussian sigma 0.60 followed by bounded quadratic-midpoint contour",
+    "bridge_is_fixed_width": false,
+    "preserve_blank": true,
+    "manual_label_ids": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "missing_manual_label_ids": [
+      2
+    ]
+  },
+  "validation": {
+    "canvas": {
+      "width": 48,
+      "height": 78
+    },
+    "stroke_count": 13,
+    "manual_label_ids": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "missing_manual_label_ids": [
+      2
+    ],
+    "per_stroke": [
+      {
+        "stroke_id": "S1",
+        "color": "#2f6fdb",
+        "original_pixels": 65,
+        "fused_pixels": 75,
+        "corridor_added_pixels": 10,
+        "components_before": 2,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 3.18,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.59
+        },
+        "repair_count": 1
+      },
+      {
+        "stroke_id": "S3",
+        "color": "#2b9b68",
+        "original_pixels": 106,
+        "fused_pixels": 106,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 2,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 4.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S4",
+        "color": "#9254c8",
+        "original_pixels": 106,
+        "fused_pixels": 106,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 2,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 4.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S5",
+        "color": "#c34f8d",
+        "original_pixels": 96,
+        "fused_pixels": 96,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.828,
+          "max": 2.828,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S6",
+        "color": "#168aad",
+        "original_pixels": 59,
+        "fused_pixels": 59,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 4.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S7",
+        "color": "#7a6a32",
+        "original_pixels": 60,
+        "fused_pixels": 60,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.828,
+          "max": 2.828,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S8",
+        "color": "#e05a33",
+        "original_pixels": 47,
+        "fused_pixels": 47,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.0,
+          "max": 2.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S9",
+        "color": "#3f7cac",
+        "original_pixels": 60,
+        "fused_pixels": 60,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.828,
+          "max": 2.828,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S10",
+        "color": "#8c5e34",
+        "original_pixels": 63,
+        "fused_pixels": 68,
+        "corridor_added_pixels": 5,
+        "components_before": 2,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 4.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 1
+      },
+      {
+        "stroke_id": "S11",
+        "color": "#5964b4",
+        "original_pixels": 48,
+        "fused_pixels": 48,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S12",
+        "color": "#009688",
+        "original_pixels": 38,
+        "fused_pixels": 38,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 4.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S13",
+        "color": "#f06292",
+        "original_pixels": 20,
+        "fused_pixels": 20,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 2.887,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.444
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S14",
+        "color": "#795548",
+        "original_pixels": 12,
+        "fused_pixels": 12,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 2.0,
+          "p05": 2.0,
+          "median": 2.0,
+          "p95": 4.0,
+          "max": 4.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 0
+      }
+    ],
+    "all_strokes_continuous": true,
+    "fused_union_covers_original_label": true,
+    "fused_regions_subset_original_foreground": false,
+    "blank_preserved_by_recorded_gap_closures": true,
+    "recorded_gap_closure_pixels": 6,
+    "bridge_overlap_pixels_at_crossings": 789,
+    "source_coordinates_preserved": true,
+    "svg_contains_embedded_raster": false,
+    "svg_contains_external_raster_reference": false
+  },
+  "repairs": [
+    {
+      "stroke_id": "S1",
+      "status": "connected-by-smooth-width-fused-region",
+      "components": [
+        2,
+        1
+      ],
+      "gap_pixels": 3.0,
+      "route_points": [
+        [
+          10,
+          47
+        ],
+        [
+          10,
+          46
+        ],
+        [
+          10,
+          45
+        ],
+        [
+          10,
+          44
+        ]
+      ],
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "corridor_added_pixels": 10,
+      "route_foreground_pixel_count": 4,
+      "route_nonforeground_pixel_count": 3,
+      "gap_closure_points": [
+        [
+          10,
+          43
+        ],
+        [
+          9,
+          44
+        ],
+        [
+          10,
+          48
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 4,
+        "smoothed_route_point_count": 4,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "connected-components-first; shortest foreground route; smoothed centerline; adaptive width field; unified contour extraction",
+      "route_point_count": 4
+    },
+    {
+      "stroke_id": "S10",
+      "status": "connected-by-smooth-width-fused-region",
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 2.0,
+      "route_points": [
+        [
+          33,
+          45
+        ],
+        [
+          34,
+          45
+        ],
+        [
+          35,
+          45
+        ]
+      ],
+      "width_radius_start": 1.207,
+      "width_radius_end": 1.207,
+      "corridor_added_pixels": 5,
+      "route_foreground_pixel_count": 3,
+      "route_nonforeground_pixel_count": 3,
+      "gap_closure_points": [
+        [
+          33,
+          44
+        ],
+        [
+          34,
+          44
+        ],
+        [
+          35,
+          44
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 3,
+        "smoothed_route_point_count": 3,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.207,
+        "radius_profile_max": 1.207
+      },
+      "method": "connected-components-first; shortest foreground route; smoothed centerline; adaptive width field; unified contour extraction",
+      "route_point_count": 3
+    }
+  ],
+  "issues": [
+    "manual-v2 is a candidate and requires human visual confirmation",
+    "modern stroke semantics and crossing ownership remain tied to the manual label map",
+    "minimal route gap closures outside the threshold foreground require visual review"
+  ],
+  "files": {
+    "display_split": "manual-v2-display-split.svg",
+    "separated_preview": "manual-v2-strokes-separated.svg",
+    "outline_split": "manual-v2-outline-split.svg",
+    "skeleton_svg": "manual-v2-skeleton.svg",
+    "skeleton_json": "skeleton.json",
+    "overlay": "overlay.svg",
+    "stroke_label_preview": "manual-v2-stroke-label.png",
+    "source": "source.json",
+    "mask": "mask.png",
+    "outline": "outline.svg",
+    "skeleton": "skeleton.svg",
+    "split_outline": "outline-split.svg",
+    "split_preview": "strokes-separated.svg",
+    "split_display": "display-split.svg"
+  },
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "actor": "manual-v2 generator",
+      "change": "Generated independent fused-region contours, skeleton, separated preview, and vector-only overlay from the current manual label map.",
+      "status": "candidate-needs-manual-review"
+    }
+  ],
+  "package": "字库/处理结果-current-167",
+  "split_package": "拆解结果-current-167",
+  "readme_compliance": {
+    "outline_is_vector": true,
+    "skeleton_is_reusable_json": true,
+    "overlay_is_separate_from_outline": true,
+    "original_png_preserved": true,
+    "manual_label_source_preserved": true
+  }
+}

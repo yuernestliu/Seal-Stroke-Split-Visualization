@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "19097_给_Z_小篆",
+  "raw_png": "167个字/19097_给_Z_小篆.png",
+  "raw_sha256": "4c80388528071fb36349061301a237468b476077ed9b65e4390ba5d7429f899f",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/19097_给_Z_小篆/label.png",
+  "label_sha256": "76936b42c1118dcbcc038e45eff46d4273f8d657815f8ebfe4dc4de2482906dd",
+  "width": 52,
+  "height": 75,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

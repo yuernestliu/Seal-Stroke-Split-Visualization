@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08131_吃_Z_說文‧口部",
+  "raw_png": "167个字/08131_吃_Z_說文‧口部.png",
+  "raw_sha256": "6809ff497554b8c4488b72b5ba39695c81999b08cc87993a4aa4035fcdaca986",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08131_吃_Z_說文‧口部/label.png",
+  "label_sha256": "33152d7dfa39ddfa3f06b547155fc9ad94d3c279bb85f6a512935b6eb2d15bdb",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

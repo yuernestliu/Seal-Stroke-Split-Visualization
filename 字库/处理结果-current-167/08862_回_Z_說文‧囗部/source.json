@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08862_回_Z_說文‧囗部",
+  "raw_png": "167个字/08862_回_Z_說文‧囗部.png",
+  "raw_sha256": "e04bf181b22d55c6c906c84c0a14e8f1c3ccc3dcd0e934e0c3d75f1b67375f74",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/08862_回_Z_說文‧囗部/label.png",
+  "label_sha256": "b744d0c81917b712797473fbd8273140ee9e6f535a4bc325b798a6c39be1f6c3",
+  "width": 62,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

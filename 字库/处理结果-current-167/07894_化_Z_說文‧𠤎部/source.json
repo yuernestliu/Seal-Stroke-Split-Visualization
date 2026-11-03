@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07894_化_Z_說文‧𠤎部",
+  "raw_png": "167个字/07894_化_Z_說文‧𠤎部.png",
+  "raw_sha256": "8c3a85aeee000de32cf0c8080064c10c106beaadd5b6fe1f575ac4489367bdda",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/07894_化_Z_說文‧𠤎部/label.png",
+  "label_sha256": "28dde8cb07d08efaf528b77b6845c303070ed620db89b6dd6197f35579ca28ab",
+  "width": 53,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

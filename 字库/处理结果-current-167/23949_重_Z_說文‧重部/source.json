@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "23949_重_Z_說文‧重部",
+  "raw_png": "167个字/23949_重_Z_說文‧重部.png",
+  "raw_sha256": "8470fdaaee41a1e000770849457c239a7a2984aa0fcaef4ccd8139a652528142",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/23949_重_Z_說文‧重部/label.png",
+  "label_sha256": "40f38378f9d71da756e3acb69215c9ecc535a6e524f2e4771d1e776f0fd1fbd8",
+  "width": 53,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

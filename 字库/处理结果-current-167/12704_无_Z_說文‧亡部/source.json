@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12704_无_Z_說文‧亡部",
+  "raw_png": "167个字/12704_无_Z_說文‧亡部.png",
+  "raw_sha256": "17910ef35cef72aed6ba896387c2dbe2205e01ec84e59a6c1e96cd5774452d51",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/12704_无_Z_說文‧亡部/label.png",
+  "label_sha256": "deeb2487c27af04e2ad5c77aa379fb53b635ff5c97c2d3b4e756575bdc015fc6",
+  "width": 57,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

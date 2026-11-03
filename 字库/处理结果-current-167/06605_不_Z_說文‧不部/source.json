@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06605_不_Z_說文‧不部",
+  "raw_png": "167个字/06605_不_Z_說文‧不部.png",
+  "raw_sha256": "1b959fedf7ea7fe083dadbc35847d1d61207f4fd4ec3ff9e053fa0648114e8a3",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06605_不_Z_說文‧不部/label.png",
+  "label_sha256": "e75967e8c5f5b2456ee99bbc5a73acd53bb2207158058f108a3748e7d96fa181",
+  "width": 52,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

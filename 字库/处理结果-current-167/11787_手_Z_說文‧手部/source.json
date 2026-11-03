@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11787_手_Z_說文‧手部",
+  "raw_png": "167个字/11787_手_Z_說文‧手部.png",
+  "raw_sha256": "0780c207220fd9a78467a58d85dc248ca7fa5fe8b0e85b513933c70b1338dfb0",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/11787_手_Z_說文‧手部/label.png",
+  "label_sha256": "51bc8d3825b2b4665727de60daa7154e8096b9b1535fc4eea6601ca70440dbae",
+  "width": 47,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "21825_要_Z_說文‧𦥑部",
+  "raw_png": "167个字/21825_要_Z_說文‧𦥑部.png",
+  "raw_sha256": "e0dee4e072c9efb64f5b1832e36c3a682758431750b4a5266f2a3125234dc5b1",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/21825_要_Z_說文‧𦥑部/label.png",
+  "label_sha256": "ded004db5c566869e1dd154f447ccf8eb4d3bf3672a699f9443f3e0907d2a7bd",
+  "width": 51,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,669 @@
+{
+  "schema": "glyph-skeleton-v2",
+  "status": "manual-v2-candidate-needs-review",
+  "glyph_id": "06726_了_Z_說文‧了部",
+  "coordinate_system": {
+    "origin": "top-left",
+    "x_axis": "right",
+    "y_axis": "down",
+    "units": "source PNG pixels",
+    "canvas": {
+      "width": 40,
+      "height": 80
+    },
+    "normalization": {
+      "x_norm": "x / canvas.width",
+      "y_norm": "y / canvas.height",
+      "reversible": true
+    }
+  },
+  "source": {
+    "raw_png": "167个字/06726_了_Z_說文‧了部.png",
+    "label_map": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06726_了_Z_說文‧了部/label.png",
+    "skeleton_svg": "manual-v2-skeleton.svg"
+  },
+  "node_rule": "Nodes are retained from the skeleton graph of the fused per-stroke foreground region; crossings remain shared-coordinate candidates.",
+  "nodes": [
+    {
+      "node_id": "N0001",
+      "point": [
+        11,
+        1
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0001",
+        "E0001"
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0002",
+      "point": [
+        20,
+        25
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0002"
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0003",
+      "point": [
+        17,
+        75
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0002"
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E0001",
+      "source_stroke_id": "S1",
+      "points": [
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          24,
+          1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          29,
+          2
+        ],
+        [
+          30,
+          2
+        ],
+        [
+          31,
+          2
+        ],
+        [
+          32,
+          3
+        ],
+        [
+          33,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          34,
+          5
+        ],
+        [
+          35,
+          6
+        ],
+        [
+          35,
+          7
+        ],
+        [
+          35,
+          8
+        ],
+        [
+          35,
+          9
+        ],
+        [
+          35,
+          10
+        ],
+        [
+          35,
+          11
+        ],
+        [
+          35,
+          12
+        ],
+        [
+          35,
+          13
+        ],
+        [
+          35,
+          14
+        ],
+        [
+          35,
+          15
+        ],
+        [
+          34,
+          16
+        ],
+        [
+          34,
+          17
+        ],
+        [
+          34,
+          18
+        ],
+        [
+          33,
+          19
+        ],
+        [
+          33,
+          20
+        ],
+        [
+          32,
+          21
+        ],
+        [
+          31,
+          21
+        ],
+        [
+          30,
+          22
+        ],
+        [
+          29,
+          22
+        ],
+        [
+          28,
+          23
+        ],
+        [
+          27,
+          23
+        ],
+        [
+          26,
+          23
+        ],
+        [
+          25,
+          23
+        ],
+        [
+          24,
+          23
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          16,
+          23
+        ],
+        [
+          15,
+          23
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          13,
+          23
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          11,
+          22
+        ],
+        [
+          10,
+          22
+        ],
+        [
+          9,
+          22
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "point_coordinate_order": "x,y",
+      "start_node": "N0001",
+      "end_node": "N0001",
+      "closed": true,
+      "curve": {
+        "representation": "sampled-polyline",
+        "sampling": "one point per skeleton pixel"
+      },
+      "width": 2.0,
+      "semantic_status": "manual-v2-label-derived; review pending"
+    },
+    {
+      "edge_id": "E0002",
+      "source_stroke_id": "S2",
+      "points": [
+        [
+          20,
+          25
+        ],
+        [
+          20,
+          26
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          20,
+          28
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          20,
+          31
+        ],
+        [
+          20,
+          32
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          20,
+          34
+        ],
+        [
+          20,
+          35
+        ],
+        [
+          20,
+          36
+        ],
+        [
+          20,
+          37
+        ],
+        [
+          20,
+          38
+        ],
+        [
+          20,
+          39
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          20,
+          41
+        ],
+        [
+          20,
+          42
+        ],
+        [
+          20,
+          43
+        ],
+        [
+          20,
+          44
+        ],
+        [
+          20,
+          45
+        ],
+        [
+          20,
+          46
+        ],
+        [
+          20,
+          47
+        ],
+        [
+          20,
+          48
+        ],
+        [
+          20,
+          49
+        ],
+        [
+          20,
+          50
+        ],
+        [
+          20,
+          51
+        ],
+        [
+          20,
+          52
+        ],
+        [
+          20,
+          53
+        ],
+        [
+          20,
+          54
+        ],
+        [
+          20,
+          55
+        ],
+        [
+          20,
+          56
+        ],
+        [
+          20,
+          57
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          20,
+          62
+        ],
+        [
+          20,
+          63
+        ],
+        [
+          20,
+          64
+        ],
+        [
+          19,
+          65
+        ],
+        [
+          19,
+          66
+        ],
+        [
+          19,
+          67
+        ],
+        [
+          19,
+          68
+        ],
+        [
+          19,
+          69
+        ],
+        [
+          18,
+          70
+        ],
+        [
+          18,
+          71
+        ],
+        [
+          18,
+          72
+        ],
+        [
+          18,
+          73
+        ],
+        [
+          18,
+          74
+        ],
+        [
+          17,
+          75
+        ]
+      ],
+      "point_coordinate_order": "x,y",
+      "start_node": "N0002",
+      "end_node": "N0003",
+      "closed": false,
+      "curve": {
+        "representation": "sampled-polyline",
+        "sampling": "one point per skeleton pixel"
+      },
+      "width": 2.0,
+      "semantic_status": "manual-v2-label-derived; review pending"
+    }
+  ],
+  "closed_loops": [
+    "E0001"
+  ],
+  "width_recording": {
+    "available": true,
+    "value_policy": "median local fused-mask diameter per edge"
+  },
+  "stroke_truth": {
+    "modern_stroke_definition": "manual label ordering and colors",
+    "confirmed": false,
+    "warning": "manual-v2 candidate still needs visual review"
+  }
+}

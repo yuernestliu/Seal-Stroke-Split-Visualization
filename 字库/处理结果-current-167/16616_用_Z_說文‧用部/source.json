@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "16616_用_Z_說文‧用部",
+  "raw_png": "167个字/16616_用_Z_說文‧用部.png",
+  "raw_sha256": "ba9240a6925908e6ce3b7d121422997240b588d160af042350557829b0a0e1b2",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/16616_用_Z_說文‧用部/label.png",
+  "label_sha256": "8851b2d1a2fe8fc3d689c7064c41134da53596aead293f11a16d68a1a975f593",
+  "width": 48,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

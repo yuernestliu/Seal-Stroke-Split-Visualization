@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10674_已_Z_小篆",
+  "raw_png": "167个字/10674_已_Z_小篆.png",
+  "raw_sha256": "6f1df45a3c5d5e09f9f617789b006ed9d5a8a296b57ce6ba48f12ceb62b29d38",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/10674_已_Z_小篆/label.png",
+  "label_sha256": "ffef56abdf421f6c8623b3f593a6ce49a8028b30b3d702bbe11ca6475defb7f0",
+  "width": 38,
+  "height": 73,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}

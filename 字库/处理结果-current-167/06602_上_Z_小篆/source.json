@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06602_上_Z_小篆",
+  "raw_png": "167个字/06602_上_Z_小篆.png",
+  "raw_sha256": "85eee4133f91e79be1fe85359c706d92aa43c29c58002a012dc085f9a7f3ad2c",
+  "label_png": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/06602_上_Z_小篆/label.png",
+  "label_sha256": "74a828b677e9ad489ad902c1d5b1384dde8c13d62e8a98363fcccd42b054ecf5",
+  "width": 56,
+  "height": 73,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "current manual label map",
+  "processing_package": "字库/处理结果-current-167",
+  "split_result_package": "拆解结果-current-167",
+  "manual_label_record_preserved": true
+}
