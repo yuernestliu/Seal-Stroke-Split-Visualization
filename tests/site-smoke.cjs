@@ -35,58 +35,39 @@ for(const glyph of w.GLYPH_DATA.glyphs) {
   click('#openCatalog');search(glyph.sourceId);
   const item=[...d.querySelectorAll('.glyph-item')].find(e=>e.dataset.glyphId===glyph.id);assert(item);item.click();
   assert.equal(d.querySelector('#glyphTitle').textContent,glyph.title);
-  const manual=w.MANUAL_167_ASSETS?.[glyph.id];
-  if (manual) assert(d.querySelector('#glyphImage.manual-glyph-asset'));
-  else assert(d.querySelector('#glyphVector svg path'));
+  assert(d.querySelector('#glyphVector svg path'));
   assert(d.querySelector('#splitStrokes').hidden,'switching glyph resets split state');
-  click('#splitGlyph');
-  if (manual) {
-    assert.equal(d.querySelectorAll('.stroke-piece').length,manual.strokes.length);
-    assert.equal(d.querySelectorAll('.stroke-piece img.manual-glyph-asset').length,manual.strokes.length);
-  } else {
-    assert.equal(d.querySelectorAll('.stroke-piece').length,glyph.segments.length);
-    assert.equal(d.querySelectorAll('.stroke-piece svg').length,glyph.segments.length);
-    assert.equal(d.querySelectorAll('#glyphVector image').length,0);
-  }
+  click('#splitGlyph');assert.equal(d.querySelectorAll('.stroke-piece').length,glyph.segments.length);
+  assert.equal(d.querySelectorAll('.stroke-piece svg').length,glyph.segments.length);
+  assert.equal(d.querySelectorAll('#glyphVector image').length,0);
   assert(!d.querySelector('#story').textContent.includes('undefined'));
   for(const asset of [...Object.values(glyph.assets),...glyph.segments.map(s=>s.image)]) {assert(fs.statSync(safeFile(asset)).isFile());assets++;}
 }
 w.SEAL_FONT.ready=true;
-const covered=w.GLYPH_DATA.glyphs.find(g=>w.SEAL_FONT.glyphIds.includes(g.id) && !w.CLEANED_GLYPHS[g.id] && !w.MANUAL_167_ASSETS?.[g.id]);
-if (covered) {
-  w.GlyphUI.renderImage(covered,{split:false});assert(!d.querySelector('#fontGlyph').hidden);
-  w.GlyphUI.renderImage(covered,{split:true});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
-}
-const missing=w.GLYPH_DATA.glyphs.find(g=>!w.SEAL_FONT.glyphIds.includes(g.id) && !w.MANUAL_167_ASSETS?.[g.id]);
-if (missing) {
-  w.GlyphUI.renderImage(missing,{split:false});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
-}
+const covered=w.GLYPH_DATA.glyphs.find(g=>w.SEAL_FONT.glyphIds.includes(g.id) && !w.CLEANED_GLYPHS[g.id]);
+w.GlyphUI.renderImage(covered,{split:false});assert(!d.querySelector('#fontGlyph').hidden);
+w.GlyphUI.renderImage(covered,{split:true});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
+const missing=w.GLYPH_DATA.glyphs.find(g=>!w.SEAL_FONT.glyphIds.includes(g.id));
+w.GlyphUI.renderImage(missing,{split:false});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
 // Cleaned examples take priority even after the official font finishes loading.
-assert.equal(Object.keys(w.CLEANED_GLYPHS).length,4);
+assert.equal(Object.keys(w.CLEANED_GLYPHS).length,169);
 const geometry=svg=>[...svg.querySelectorAll('path')].map(p=>['data-stroke-id','d','stroke-width','stroke-linecap','stroke-linejoin'].map(a=>p.getAttribute(a)));
 for(const mark of ['安','宇','包','光']) {
   const glyph=w.GLYPH_DATA.glyphs.find(g=>g.mark===mark),record=w.CLEANED_GLYPHS[glyph.id];
   assert(record);assert.equal(record.strokes.length,glyph.segments.length);
   w.GlyphUI.renderImage(glyph,{split:false});assert(d.querySelector('#fontGlyph').hidden);
-  if (w.MANUAL_167_ASSETS?.[glyph.id]) {
-    assert(d.querySelector('#glyphImage.manual-glyph-asset'));
-    w.GlyphUI.renderImage(glyph,{split:true});assert(d.querySelector('#glyphImage.manual-glyph-asset').src.includes('site-color.svg'));
-    w.GlyphUI.renderSegments(glyph);assert.equal(d.querySelectorAll('.stroke-piece img.manual-glyph-asset').length,w.MANUAL_167_ASSETS[glyph.id].strokes.length);
-  } else {
-    const combined=geometry(d.querySelector('#glyphVector svg'));
-    w.GlyphUI.renderImage(glyph,{split:true});assert.deepEqual(geometry(d.querySelector('#glyphVector svg')),combined);
-    w.GlyphUI.renderSegments(glyph);
-    [...d.querySelectorAll('.stroke-piece svg')].forEach((svg,i)=>assert.deepEqual(geometry(svg),[combined[i]]));
-  }
+  const combined=geometry(d.querySelector('#glyphVector svg'));
+  w.GlyphUI.renderImage(glyph,{split:true});assert.deepEqual(geometry(d.querySelector('#glyphVector svg')),combined);
+  w.GlyphUI.renderSegments(glyph);
+  [...d.querySelectorAll('.stroke-piece svg')].forEach((svg,i)=>assert.deepEqual(geometry(svg),[combined[i]]));
   w.GlyphUI.renderCatalog(w.GLYPH_DATA.glyphs,{query:mark,selectedId:glyph.id},()=>{});
-  if (w.MANUAL_167_ASSETS?.[glyph.id]) assert(d.querySelector(`.glyph-item[data-glyph-id="${glyph.id}"] img.manual-glyph-asset`));
-  else assert(d.querySelector(`.glyph-item[data-glyph-id="${glyph.id}"] .cleaned-glyph`));
+  assert(d.querySelector(`.glyph-item[data-glyph-id="${glyph.id}"] .cleaned-glyph`));
 }
 const license=fs.readFileSync(safeFile('license.html'),'utf8');assert(license.includes('Academia Sinica'));assert(license.includes('CC-BY-ND-3.0-TW-or-later'));
 assert(d.querySelector('.site-footer a[href="./license.html"]'));
 assert(d.querySelector('.site-footer a[href="./plan.html"]'));
 const all=JSON.parse(fs.readFileSync(safeFile('字库/字表/全部字形.json'),'utf8'));
-assert.equal(w.GlyphLibrary.glyphs.length,all.glyphs.length);assert.equal(w.GLYPH_DATA.glyphs.length,124);
+assert.equal(w.GlyphLibrary.glyphs.length,all.glyphs.length);assert.equal(w.GLYPH_DATA.glyphs.length,282);
 for(const glyph of all.glyphs) assert(fs.statSync(safeFile(glyph.image)).isFile());
 const sets=[500,2000].map(size=>JSON.parse(fs.readFileSync(safeFile(`字库/字表/常用${size}字.json`),'utf8')));
 assert.equal(sets[0].targets.length,500);assert.equal(sets[1].targets.length,2000);

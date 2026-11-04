@@ -94,10 +94,6 @@ def main():
     clean = payload('data/cleaned-glyphs.js')
     export('data/cleaned-glyphs.js','CLEANED_GLYPHS',
         {key:{k:v for k,v in value.items() if k in ('id','mark','width','height','status','strokes')} for key,value in clean.items()})
-    manual = payload('data/manual-167-assets.js')
-    for record in manual.values():
-        for url in [record.get('solid'), record.get('color'), *record.get('strokes', [])]:
-            if url: add_url(url)
     priors = payload('字库/部件候选/先验索引.js')
     export('字库/部件候选/先验索引.js','COMPONENT_PRIORS',
         {key:{k:v for k,v in value.items() if k in ('parts','status','confirmed','method')} for key,value in priors.items()})

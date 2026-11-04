@@ -10,11 +10,11 @@
     "convertedTargets": 4,
     "frequencyRankCutoff": 521,
     "missingInSourceTopN": 20,
-    "cleanedGlyphs": 3,
+    "cleanedGlyphs": 168,
     "outlineGlyphs": 18,
-    "strokeDataGlyphs": 18,
+    "strokeDataGlyphs": 174,
     "templateGlyphs": 12,
-    "storyGlyphs": 18
+    "storyGlyphs": 174
   },
   "targets": [
     {

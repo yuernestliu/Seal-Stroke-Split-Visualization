@@ -8,13 +8,14 @@
   <link rel="icon" href="data:," />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./模块/字间关系/关系面板.css" />
+  <link rel="stylesheet" href="./模块/抽签偶遇/抽签.css" />
 </head>
 <body>
   <a href="#workspace" class="skip-link">跳到字形</a>
   <div class="page-shell">
     <aside class="utility-rail" aria-label="选择字形">
       <button id="openCatalog" type="button" class="utility-button">字库</button>
-      <button id="randomGlyph" type="button" class="utility-button" aria-label="偶遇一个字">偶遇</button>
+      <button id="randomGlyph" type="button" class="utility-button" aria-label="抽签猜一个字">抽签</button>
     </aside>
     <main>
       <section class="explorer" id="workspace" aria-label="字形与字源故事">
@@ -42,7 +43,8 @@
     </main>
   </div>
   <dialog id="catalogDialog" class="catalog-dialog" aria-labelledby="catalogTitle"><div class="dialog-heading"><h2 id="catalogTitle">字库 <span id="glyphCount">124</span></h2><button id="closeCatalog" type="button" class="icon-button" aria-label="关闭字库">×</button></div><div class="catalog-scopes" aria-label="字库范围"><button type="button" data-library-scope="500" aria-pressed="true">常用500字</button><button type="button" data-library-scope="2000" aria-pressed="false">常用2000字</button><button type="button" data-library-scope="all" aria-pressed="false">全部</button></div><label class="search-field"><input id="glyphSearch" type="search" placeholder="搜索字、部首或编号" aria-label="搜索字库" /></label><p class="catalog-result" id="catalogResult" aria-live="polite"></p><div class="glyph-list" id="glyphList"></div><button id="catalogMore" type="button" class="catalog-more" hidden>再看一些</button></dialog>
+  <dialog id="fortuneDialog" class="fortune-dialog" aria-labelledby="fortuneTitle"><div class="dialog-heading"><h2 id="fortuneTitle">抽签猜字</h2><button id="closeFortune" type="button" class="icon-button" aria-label="关闭抽签">×</button></div><div class="fortune-stage" id="fortuneStage"><div class="fortune-bucket" id="fortuneBucket" aria-hidden="true"><div class="fortune-sticks"><span></span><span></span><span></span><span></span><span></span></div><div class="fortune-bucket-body"></div></div><p class="fortune-tip" id="fortuneTip">心里默想，点击抽签。</p><button id="fortuneDraw" type="button" class="fortune-draw-button">抽签</button></div><div class="fortune-quiz" id="fortuneQuiz" hidden><figure class="fortune-figure"><img id="fortuneImage" alt="抽到的小篆字形" /><figcaption>这是哪个字？</figcaption></figure><div class="fortune-hints"><h3>谜语提示</h3><ul id="fortuneHints"></ul></div><div class="fortune-options" id="fortuneOptions" role="group" aria-label="候选字"></div><p class="fortune-result" id="fortuneResult" aria-live="polite"></p><div class="fortune-actions"><button id="fortuneAgain" type="button">再抽一次</button><button id="fortuneReveal" type="button" hidden>去看看这个字</button></div></div></dialog>
   <noscript><p class="noscript-note">请启用 JavaScript 查看字形。</p></noscript>
-  <script src="./data/xiaozhuan-index.js"></script> <script src="./data/manual-167-assets.js"></script> <script src="./模块/字形展示/小篆标记.js"></script> <script src="./data/glyphs.js"></script> <script src="./data/template-glyphs.js"></script> <script src="./模块/字形展示/部件简释.js"></script> <script src="./模块/字源故事/故事数据.js"></script> <script src="./data/glyph-vectors.js"></script> <script src="./data/seal-font.js"></script> <script src="./data/cleaned-glyphs.js"></script> <script src="./字库/浏览索引.js"></script> <script src="./字库/部件候选/先验索引.js"></script> <script src="./模块/字形展示/平滑字形.js"></script> <script src="./src/library.js"></script> <script src="./模块/字间关系/部件推断.js"></script> <script src="./模块/字间关系/关系规则.js"></script> <script src="./模块/字间关系/关系绘图.js"></script> <script src="./模块/字间关系/关系面板.js"></script> <script src="./模块/字形展示/字形界面.js"></script> <script src="./模块/字源故事/故事展示.js"></script> <script src="./src/app.js"></script>
+  <script src="./data/xiaozhuan-index.js"></script> <script src="./模块/字形展示/小篆标记.js"></script> <script src="./data/glyphs.js"></script> <script src="./data/template-glyphs.js"></script> <script src="./模块/字形展示/部件简释.js"></script> <script src="./模块/字源故事/故事数据.js"></script> <script src="./data/glyph-vectors.js"></script> <script src="./data/seal-font.js"></script> <script src="./data/cleaned-glyphs.js"></script> <script src="./字库/浏览索引.js"></script> <script src="./字库/部件候选/先验索引.js"></script> <script src="./模块/字形展示/平滑字形.js"></script> <script src="./src/library.js"></script> <script src="./模块/字间关系/部件推断.js"></script> <script src="./模块/字间关系/关系规则.js"></script> <script src="./模块/字间关系/关系绘图.js"></script> <script src="./模块/字间关系/关系面板.js"></script> <script src="./模块/字形展示/字形界面.js"></script> <script src="./模块/字源故事/故事展示.js"></script> <script src="./模块/字源故事/释义评论.js"></script> <script src="./模块/抽签偶遇/谜语数据.js"></script> <script src="./模块/抽签偶遇/抽签.js"></script> <script src="./src/app.js"></script>
 </body>
 </html>

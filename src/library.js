@@ -38,7 +38,6 @@
     return scope === 'all' ? glyphs : (inventory.sets[scope] || []).map(id => byId.get(id)).filter(Boolean);
   }
   function splitKind(glyph) {
-    if (window.MANUAL_167_ASSETS?.[glyph.id]) return 'strokes';
     if (window.CLEANED_GLYPHS?.[glyph.id] || glyph.segments?.length) return 'strokes';
     return glyph.templateParts?.length > 1 ? 'parts' : null;
   }

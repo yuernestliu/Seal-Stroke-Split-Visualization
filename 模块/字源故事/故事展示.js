@@ -10,7 +10,7 @@
     setText('#glyphTitle', glyph.title);
     setText('#glyphSource', `${glyph.source.collection} · ${glyph.source.section.replace(/^說文‧/, '')}`);
     const description = glyph.structure_desc || '';
-    const formation = description.match(/形声字|会意字|象形字|指事字|独体字/)?.[0] || '字形观察';
+    const formation = `${glyph.formation || ''}${description}`.match(/形声字|会意字|象形字|指事字|独体字/)?.[0] || '字形观察';
     setText('#formationType', formation);
     setText('#storyHeadline', story.headline || (glyph.original_meaning ? `「${glyph.mark}」的来处。` : '故事待补。'));
     $('#glyphOriginalMeaning').innerHTML = glyph.original_meaning ? `${xz(glyph.original_meaning)}` : '释读资料正在整理。';
@@ -46,6 +46,7 @@
     setText('#storySource', story.source || '');
     $('#sourceOriginal').src = glyph.assets.original; $('#sourceOriginal').alt = `${glyph.mark} 的原始样本`;
     document.querySelector('.source-note').open = false;
+    window.CommentNotes?.refresh(glyph.id);
   }
 
   window.StoryPanel = {renderRecord};

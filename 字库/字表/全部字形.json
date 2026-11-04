@@ -1,12 +1,12 @@
 {
   "stats": {
     "totalGlyphs": 14120,
-    "preparedGlyphs": 582,
-    "cleanedGlyphs": 4,
+    "preparedGlyphs": 738,
+    "cleanedGlyphs": 169,
     "outlineGlyphs": 124,
-    "strokeDataGlyphs": 124,
+    "strokeDataGlyphs": 280,
     "templateGlyphs": 458,
-    "storyGlyphs": 61,
+    "storyGlyphs": 217,
     "inventories": {
       "500": {
         "targetCharacters": 500,
@@ -16,11 +16,11 @@
         "convertedTargets": 4,
         "frequencyRankCutoff": 521,
         "missingInSourceTopN": 20,
-        "cleanedGlyphs": 3,
+        "cleanedGlyphs": 168,
         "outlineGlyphs": 18,
-        "strokeDataGlyphs": 18,
+        "strokeDataGlyphs": 174,
         "templateGlyphs": 12,
-        "storyGlyphs": 18
+        "storyGlyphs": 174
       },
       "2000": {
         "targetCharacters": 2000,
@@ -30,11 +30,11 @@
         "convertedTargets": 31,
         "frequencyRankCutoff": 2215,
         "missingInSourceTopN": 184,
-        "cleanedGlyphs": 4,
+        "cleanedGlyphs": 169,
         "outlineGlyphs": 47,
-        "strokeDataGlyphs": 47,
+        "strokeDataGlyphs": 203,
         "templateGlyphs": 68,
-        "storyGlyphs": 46
+        "storyGlyphs": 202
       }
     }
   },
@@ -13330,10 +13330,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/06599_万_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06600_丈_Z_說文‧十部",
@@ -13486,10 +13486,10 @@
       "section": "說文‧卅部",
       "image": "./字库/原始字形/06614_世_Z_說文‧卅部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06615_丗_Z_說文‧卅部",
@@ -13558,10 +13558,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/06620_东_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06621_丝_Z_小篆",
@@ -13978,10 +13978,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/06665_义_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06667_之_Z_說文‧之部",
@@ -14050,10 +14050,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/06672_乐_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06676_乔_Z_小篆",
@@ -14170,10 +14170,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/06694_书_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06704_买_Z_小篆",
@@ -14302,10 +14302,10 @@
       "section": "說文‧二部",
       "image": "./字库/原始字形/06732_二_Z_說文‧二部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06733_亍_Z_說文‧彳部",
@@ -14386,10 +14386,10 @@
       "section": "說文‧五部",
       "image": "./字库/原始字形/06740_五_Z_說文‧五部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06741_井_Z_說文‧井部",
@@ -14518,10 +14518,10 @@
       "section": "說文‧交部",
       "image": "./字库/原始字形/06756_交_Z_說文‧交部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06757_亥_Z_說文‧亥部",
@@ -14830,10 +14830,10 @@
       "section": "說文‧亼部",
       "image": "./字库/原始字形/06794_今_Z_說文‧亼部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06795_介_Z_說文‧八部",
@@ -15046,10 +15046,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/06819_代_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06820_令_Z_說文‧卩部",
@@ -15130,10 +15130,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/06838_件_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06839_价_Z_說文‧人部",
@@ -15166,10 +15166,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/06843_任_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06845_份_Z_說文‧人部",
@@ -15646,10 +15646,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/06925_位_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06926_低_Z_說文‧人部",
@@ -15994,10 +15994,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/06975_使_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "06977_侁_Z_說文‧人部",
@@ -16714,10 +16714,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/07069_保_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07070_俞_Z_說文‧舟部",
@@ -16762,10 +16762,10 @@
       "section": "說文‧言部",
       "image": "./字库/原始字形/07073_信_Z_說文‧言部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07076_俤_Z_說文‧弟部",
@@ -17038,10 +17038,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/07129_候_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07130_倚_Z_說文‧人部",
@@ -17902,10 +17902,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/07311_像_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07312_僐_Z_說文‧人部",
@@ -18562,10 +18562,10 @@
       "section": "說文‧儿部",
       "image": "./字库/原始字形/07423_儿_Z_說文‧儿部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07424_兀_Z_說文‧儿部",
@@ -18670,7 +18670,7 @@
       "section": "說文‧先部",
       "image": "./字库/原始字形/07432_先_Z_說文‧先部.png",
       "outlineReady": true,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": true,
       "hasTemplateParts": false,
       "hasStory": true
@@ -18790,10 +18790,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/07450_党_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07452_兜_Z_說文‧𠑹部",
@@ -18838,10 +18838,10 @@
       "section": "說文‧入部",
       "image": "./字库/原始字形/07461_入_Z_說文‧入部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07463_內_Z_說文‧入部",
@@ -18946,10 +18946,10 @@
       "section": "說文‧共部",
       "image": "./字库/原始字形/07473_共_Z_說文‧共部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07475_关_Z_小篆",
@@ -19138,10 +19138,10 @@
       "section": "說文‧入部",
       "image": "./字库/原始字形/07493_内_Z_說文‧入部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07496_冈_Z_說文‧网部",
@@ -19210,10 +19210,10 @@
       "section": "說文‧冓部",
       "image": "./字库/原始字形/07501_再_Z_說文‧冓部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07502_冎_Z_說文‧冎部",
@@ -19342,10 +19342,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/07516_农_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07519_冟_Z_說文‧皀部",
@@ -19498,10 +19498,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/07539_决_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07541_况_Z_小篆",
@@ -19762,10 +19762,10 @@
       "section": "說文‧几部",
       "image": "./字库/原始字形/07584_几_Z_說文‧几部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07585_凡_Z_說文‧二部",
@@ -20290,7 +20290,7 @@
       "section": "說文‧刀部",
       "image": "./字库/原始字形/07657_利_Z_說文‧刀部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": false,
       "hasTemplateParts": true,
       "hasStory": false
@@ -21022,10 +21022,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/07774_办_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07775_功_Z_說文‧力部",
@@ -21058,10 +21058,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/07777_务_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07779_劣_Z_說文‧力部",
@@ -21850,10 +21850,10 @@
       "section": "說文‧北部",
       "image": "./字库/原始字形/07895_北_Z_說文‧北部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07896_匘_Z_說文‧匕部",
@@ -22090,10 +22090,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/07930_区_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "07931_医_Z_說文‧匸部",
@@ -22342,7 +22342,7 @@
       "section": "說文‧𣎵部",
       "image": "./字库/原始字形/07959_南_Z_說文‧𣎵部.png",
       "outlineReady": true,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": true,
       "hasTemplateParts": false,
       "hasStory": true
@@ -22990,10 +22990,10 @@
       "section": "說文‧灥部",
       "image": "./字库/原始字形/08031_原_Z_說文‧灥部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08033_厡_Z_說文‧灥部",
@@ -23266,10 +23266,10 @@
       "section": "說文‧又部",
       "image": "./字库/原始字形/08074_及_Z_說文‧又部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08075_友_Z_說文‧又部",
@@ -23278,10 +23278,10 @@
       "section": "說文‧又部",
       "image": "./字库/原始字形/08075_友_Z_說文‧又部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08076_双_Z_小篆",
@@ -23302,10 +23302,10 @@
       "section": "說文‧又部",
       "image": "./字库/原始字形/08077_反_Z_說文‧又部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08081_发_Z_小篆",
@@ -23386,10 +23386,10 @@
       "section": "說文‧𠬪部",
       "image": "./字库/原始字形/08087_受_Z_說文‧𠬪部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08088_变_Z_小篆",
@@ -23398,10 +23398,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/08088_变_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08089_叙_Z_小篆",
@@ -23506,10 +23506,10 @@
       "section": "說文‧口部",
       "image": "./字库/原始字形/08099_口_Z_說文‧口部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08100_古_Z_說文‧古部",
@@ -23746,10 +23746,10 @@
       "section": "說文‧口部",
       "image": "./字库/原始字形/08132_各_Z_說文‧口部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08133_吅_Z_說文‧吅部",
@@ -23818,10 +23818,10 @@
       "section": "說文‧口部",
       "image": "./字库/原始字形/08141_名_Z_說文‧口部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08142_后_Z_說文‧后部",
@@ -23866,7 +23866,7 @@
       "section": "說文‧宀部",
       "image": "./字库/原始字形/08145_向_Z_說文‧宀部.png",
       "outlineReady": true,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": true,
       "hasTemplateParts": false,
       "hasStory": true
@@ -23998,10 +23998,10 @@
       "section": "說文‧口部",
       "image": "./字库/原始字形/08172_听_Z_說文‧口部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08174_吮_Z_說文‧口部",
@@ -24130,10 +24130,10 @@
       "section": "說文‧口部",
       "image": "./字库/原始字形/08192_呀_Z_說文‧口部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08194_呂_Z_說文‧呂部",
@@ -24202,10 +24202,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/08216_员_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08221_呝_Z_說文‧口部",
@@ -24694,10 +24694,10 @@
       "section": "說文‧品部",
       "image": "./字库/原始字形/08321_品_Z_說文‧品部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08326_哆_Z_說文‧口部",
@@ -25510,10 +25510,10 @@
       "section": "說文‧喜部",
       "image": "./字库/原始字形/08540_喜_Z_說文‧喜部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08541_喝_Z_說文‧口部",
@@ -26758,10 +26758,10 @@
       "section": "說文‧四部",
       "image": "./字库/原始字形/08859_四_Z_說文‧四部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08861_囝_Z_小篆",
@@ -27322,10 +27322,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/08954_场_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "08955_圻_Z_說文‧土部",
@@ -28318,10 +28318,10 @@
       "section": "說文‧土部",
       "image": "./字库/原始字形/09146_基_Z_說文‧土部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "09147_埻_Z_說文‧土部",
@@ -28918,10 +28918,10 @@
       "section": "說文‧土部",
       "image": "./字库/原始字形/09310_增_Z_說文‧土部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "09312_墠_Z_說文‧土部",
@@ -29314,10 +29314,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/09392_声_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "09395_壳_Z_小篆",
@@ -29458,10 +29458,10 @@
       "section": "說文‧人部",
       "image": "./字库/原始字形/09412_处_Z_說文‧人部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "09413_夅_Z_說文‧夂部",
@@ -29758,10 +29758,10 @@
       "section": "說文‧水部",
       "image": "./字库/原始字形/09450_太_Z_說文‧水部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "09451_夫_Z_說文‧夫部",
@@ -30346,10 +30346,10 @@
       "section": "說文‧女部",
       "image": "./字库/原始字形/09523_女_Z_說文‧女部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "09524_奴_Z_說文‧女部",
@@ -33490,10 +33490,10 @@
       "section": "說文‧它部",
       "image": "./字库/原始字形/10051_它_Z_說文‧它部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10052_宄_Z_說文‧宀部",
@@ -33574,7 +33574,7 @@
       "section": "說文‧宀部",
       "image": "./字库/原始字形/10060_完_Z_說文‧宀部.png",
       "outlineReady": true,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": true,
       "hasTemplateParts": false,
       "hasStory": true
@@ -34570,10 +34570,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/10172_导_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10173_寽_Z_說文‧𠬪部",
@@ -34642,10 +34642,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/10182_将_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10183_將_Z_說文‧寸部",
@@ -34774,10 +34774,10 @@
       "section": "說文‧小部",
       "image": "./字库/原始字形/10193_少_Z_說文‧小部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10194_尒_Z_說文‧八部",
@@ -35494,10 +35494,10 @@
       "section": "說文‧山部",
       "image": "./字库/原始字形/10289_山_Z_說文‧山部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10293_屵_Z_說文‧屵部",
@@ -37054,10 +37054,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/10726_带_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10728_帨_Z_說文‧巾部",
@@ -37162,10 +37162,10 @@
       "section": "說文‧巾部",
       "image": "./字库/原始字形/10744_常_Z_說文‧巾部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10749_帽_Z_小篆",
@@ -37498,10 +37498,10 @@
       "section": "說文‧干部",
       "image": "./字库/原始字形/10802_干_Z_說文‧干部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10803_平_Z_說文‧于部",
@@ -37546,10 +37546,10 @@
       "section": "說文‧从部",
       "image": "./字库/原始字形/10806_并_Z_說文‧从部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10807_幷_Z_說文‧从部",
@@ -38662,10 +38662,10 @@
       "section": "說文‧工部",
       "image": "./字库/原始字形/10959_式_Z_說文‧工部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "10962_弒_Z_說文‧殺部",
@@ -38998,10 +38998,10 @@
       "section": "說文‧虫部",
       "image": "./字库/原始字形/11002_强_Z_說文‧虫部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11004_弼_Z_說文‧弜部",
@@ -39298,10 +39298,10 @@
       "section": "說文‧彡部",
       "image": "./字库/原始字形/11042_形_Z_說文‧彡部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11043_彣_Z_說文‧彣部",
@@ -39934,7 +39934,7 @@
       "section": "說文‧八部",
       "image": "./字库/原始字形/11141_必_Z_說文‧八部.png",
       "outlineReady": true,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": true,
       "hasTemplateParts": false,
       "hasStory": true
@@ -40438,10 +40438,10 @@
       "section": "說文‧思部",
       "image": "./字库/原始字形/11229_思_Z_說文‧思部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11230_怞_Z_說文‧心部",
@@ -40630,10 +40630,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/11259_总_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11265_恁_Z_說文‧心部",
@@ -42070,7 +42070,7 @@
       "section": "說文‧心部",
       "image": "./字库/原始字形/11487_感_Z_說文‧心部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": false,
       "hasTemplateParts": true,
       "hasStory": false
@@ -43426,10 +43426,10 @@
       "section": "說文‧戈部",
       "image": "./字库/原始字形/11734_或_Z_說文‧戈部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11736_战_Z_小篆",
@@ -43438,10 +43438,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/11736_战_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11738_戚_Z_說文‧戉部",
@@ -43846,7 +43846,7 @@
       "section": "說文‧才部",
       "image": "./字库/原始字形/11789_才_Z_說文‧才部.png",
       "outlineReady": true,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": true,
       "hasTemplateParts": false,
       "hasStory": true
@@ -43882,10 +43882,10 @@
       "section": "說文‧手部",
       "image": "./字库/原始字形/11795_打_Z_說文‧手部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11796_扔_Z_說文‧手部",
@@ -44158,10 +44158,10 @@
       "section": "說文‧手部",
       "image": "./字库/原始字形/11840_技_Z_說文‧手部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11848_抈_Z_說文‧手部",
@@ -44338,10 +44338,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/11877_报_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11879_抧_Z_說文‧手部",
@@ -44938,10 +44938,10 @@
       "section": "說文‧手部",
       "image": "./字库/原始字形/11969_持_Z_說文‧手部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11970_挂_Z_說文‧手部",
@@ -44974,10 +44974,10 @@
       "section": "說文‧手部",
       "image": "./字库/原始字形/11975_指_Z_說文‧手部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "11976_挈_Z_說文‧手部",
@@ -45790,10 +45790,10 @@
       "section": "說文‧手部",
       "image": "./字库/原始字形/12133_接_Z_說文‧手部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12135_控_Z_說文‧手部",
@@ -47506,10 +47506,10 @@
       "section": "說文‧攴部",
       "image": "./字库/原始字形/12534_收_Z_說文‧攴部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12535_攷_Z_說文‧攴部",
@@ -47542,10 +47542,10 @@
       "section": "說文‧攴部",
       "image": "./字库/原始字形/12537_改_Z_說文‧攴部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12538_攺_Z_說文‧攴部",
@@ -47590,10 +47590,10 @@
       "section": "說文‧放部",
       "image": "./字库/原始字形/12542_放_Z_說文‧放部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12543_政_Z_說文‧攴部",
@@ -48034,10 +48034,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/12592_数_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12594_敲_Z_說文‧攴部",
@@ -48574,10 +48574,10 @@
       "section": "說文‧斤部",
       "image": "./字库/原始字形/12655_斯_Z_說文‧斤部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12656_新_Z_說文‧斤部",
@@ -49018,10 +49018,10 @@
       "section": "說文‧日部",
       "image": "./字库/原始字形/12713_早_Z_說文‧日部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12714_旪_Z_說文‧劦部",
@@ -49726,10 +49726,10 @@
       "section": "說文‧日部",
       "image": "./字库/原始字形/12826_晚_Z_說文‧日部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12827_晛_Z_說文‧日部",
@@ -50518,10 +50518,10 @@
       "section": "說文‧攴部",
       "image": "./字库/原始字形/12980_更_Z_說文‧攴部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "12982_曶_Z_說文‧曰部",
@@ -50686,10 +50686,10 @@
       "section": "說文‧月部",
       "image": "./字库/原始字形/13000_月_Z_說文‧月部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "13001_有_Z_說文‧有部",
@@ -50722,10 +50722,10 @@
       "section": "說文‧舟部",
       "image": "./字库/原始字形/13005_服_Z_說文‧舟部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "13007_朏_Z_說文‧月部",
@@ -50854,10 +50854,10 @@
       "section": "說文‧月部",
       "image": "./字库/原始字形/13023_期_Z_說文‧月部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "13026_朢_Z_說文‧𡈼部",
@@ -50974,10 +50974,10 @@
       "section": "說文‧禾部",
       "image": "./字库/原始字形/13039_术_Z_說文‧禾部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "13041_朱_Z_說文‧木部",
@@ -51394,10 +51394,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/13089_条_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "13093_来_Z_小篆",
@@ -51826,10 +51826,10 @@
       "section": "說文‧木部",
       "image": "./字库/原始字形/13148_果_Z_說文‧木部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "13149_枝_Z_說文‧木部",
@@ -56626,10 +56626,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/14050_欢_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14051_欣_Z_說文‧欠部",
@@ -57202,10 +57202,10 @@
       "section": "說文‧此部",
       "image": "./字库/原始字形/14116_此_Z_說文‧此部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14117_步_Z_說文‧步部",
@@ -57886,10 +57886,10 @@
       "section": "說文‧屮部",
       "image": "./字库/原始字形/14223_每_Z_說文‧屮部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14224_毐_Z_說文‧毋部",
@@ -58198,10 +58198,10 @@
       "section": "說文‧气部",
       "image": "./字库/原始字形/14292_气_Z_說文‧气部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14299_氛_Z_說文‧气部",
@@ -58330,10 +58330,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/14338_求_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14339_汃_Z_說文‧水部",
@@ -59206,10 +59206,10 @@
       "section": "說文‧水部",
       "image": "./字库/原始字形/14459_治_Z_說文‧水部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14460_沼_Z_說文‧水部",
@@ -60154,10 +60154,10 @@
       "section": "說文‧水部",
       "image": "./字库/原始字形/14587_活_Z_說文‧水部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14588_洼_Z_說文‧水部",
@@ -60214,10 +60214,10 @@
       "section": "說文‧沝部",
       "image": "./字库/原始字形/14593_流_Z_說文‧沝部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14597_浅_Z_小篆",
@@ -60442,10 +60442,10 @@
       "section": "說文‧水部",
       "image": "./字库/原始字形/14647_海_Z_說文‧水部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "14648_浸_Z_說文‧水部",
@@ -63934,10 +63934,10 @@
       "section": "說文‧水部",
       "image": "./字库/原始字形/15263_濟_Z_說文‧水部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "15265_濡_Z_說文‧水部",
@@ -66454,10 +66454,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/15857_爱_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "15858_爲_Z_說文‧爪部",
@@ -66790,10 +66790,10 @@
       "section": "說文‧牛部",
       "image": "./字库/原始字形/15913_物_Z_說文‧牛部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "15917_牭_Z_說文‧牛部",
@@ -66862,10 +66862,10 @@
       "section": "說文‧牛部",
       "image": "./字库/原始字形/15929_特_Z_說文‧牛部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "15930_牺_Z_小篆",
@@ -70546,10 +70546,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/16625_由_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "16626_甲_Z_說文‧甲部",
@@ -70582,10 +70582,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/16629_电_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "16630_甶_Z_說文‧甶部",
@@ -71590,10 +71590,10 @@
       "section": "說文‧疒部",
       "image": "./字库/原始字形/16773_病_Z_說文‧疒部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "16779_痋_Z_說文‧疒部",
@@ -72454,7 +72454,7 @@
       "section": "說文‧白部",
       "image": "./字库/原始字形/16957_白_Z_說文‧白部.png",
       "outlineReady": true,
-      "strokeCleanupChecked": false,
+      "strokeCleanupChecked": true,
       "hasStrokeData": true,
       "hasTemplateParts": false,
       "hasStory": true
@@ -73126,10 +73126,10 @@
       "section": "說文‧目部",
       "image": "./字库/原始字形/17070_目_Z_說文‧目部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "17072_盰_Z_說文‧目部",
@@ -73174,10 +73174,10 @@
       "section": "說文‧𠃊部",
       "image": "./字库/原始字形/17076_直_Z_說文‧𠃊部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "17080_相_Z_說文‧目部",
@@ -73186,10 +73186,10 @@
       "section": "說文‧目部",
       "image": "./字库/原始字形/17080_相_Z_說文‧目部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "17083_盻_Z_說文‧目部",
@@ -73654,10 +73654,10 @@
       "section": "說文‧目部",
       "image": "./字库/原始字形/17148_眼_Z_說文‧目部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "17149_眽_Z_說文‧目部",
@@ -74650,10 +74650,10 @@
       "section": "說文‧石部",
       "image": "./字库/原始字形/17364_研_Z_說文‧石部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "17366_砖_Z_小篆",
@@ -75694,10 +75694,10 @@
       "section": "說文‧示部",
       "image": "./字库/原始字形/17694_神_Z_說文‧示部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "17695_祟_Z_說文‧示部",
@@ -76522,10 +76522,10 @@
       "section": "說文‧禾部",
       "image": "./字库/原始字形/17809_科_Z_說文‧禾部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "17810_秒_Z_說文‧禾部",
@@ -76858,10 +76858,10 @@
       "section": "說文‧禾部",
       "image": "./字库/原始字形/17867_程_Z_說文‧禾部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "17868_稌_Z_說文‧禾部",
@@ -78106,10 +78106,10 @@
       "section": "說文‧立部",
       "image": "./字库/原始字形/18059_立_Z_說文‧立部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "18070_竖_Z_小篆",
@@ -78622,10 +78622,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/18156_第_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "18157_笭_Z_說文‧竹部",
@@ -79246,10 +79246,10 @@
       "section": "說文‧竹部",
       "image": "./字库/原始字形/18273_管_Z_說文‧竹部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "18284_箬_Z_說文‧竹部",
@@ -80782,10 +80782,10 @@
       "section": "說文‧系部",
       "image": "./字库/原始字形/18619_系_Z_說文‧系部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "18622_糾_Z_說文‧丩部",
@@ -83902,10 +83902,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/19047_级_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "19050_纪_Z_小篆",
@@ -84070,10 +84070,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/19076_组_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "19078_细_Z_小篆",
@@ -84238,10 +84238,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/19103_统_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "19107_绣_Z_小篆",
@@ -87142,10 +87142,10 @@
       "section": "說文‧𠫓部",
       "image": "./字库/原始字形/19570_育_Z_說文‧𠫓部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "19572_肴_Z_說文‧肉部",
@@ -89494,10 +89494,10 @@
       "section": "說文‧色部",
       "image": "./字库/原始字形/20018_色_Z_說文‧色部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "20019_艳_Z_小篆",
@@ -98134,10 +98134,10 @@
       "section": "說文‧衣部",
       "image": "./字库/原始字形/21611_被_Z_說文‧衣部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "21613_袭_Z_小篆",
@@ -99166,10 +99166,10 @@
       "section": "說文‧西部",
       "image": "./字库/原始字形/21823_西_Z_說文‧西部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "21825_要_Z_說文‧𦥑部",
@@ -99586,10 +99586,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/21892_规_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "21893_觅_Z_小篆",
@@ -99634,10 +99634,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/21897_觉_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "21906_角_Z_說文‧角部",
@@ -99766,10 +99766,10 @@
       "section": "說文‧角部",
       "image": "./字库/原始字形/21923_解_Z_說文‧角部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "21924_觤_Z_說文‧角部",
@@ -102946,10 +102946,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22369_计_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22370_订_Z_小篆",
@@ -102982,10 +102982,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22377_让_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22381_训_Z_小篆",
@@ -103030,10 +103030,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22384_记_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22386_讲_Z_小篆",
@@ -103054,10 +103054,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22394_论_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22396_讼_Z_小篆",
@@ -103090,10 +103090,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22398_设_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22399_访_Z_小篆",
@@ -103270,10 +103270,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22429_话_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22430_诞_Z_小篆",
@@ -103330,10 +103330,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22437_该_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22438_详_Z_小篆",
@@ -103510,10 +103510,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22467_调_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22469_谅_Z_小篆",
@@ -103654,10 +103654,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22498_谢_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22499_谣_Z_小篆",
@@ -105538,10 +105538,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22760_质_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22761_贩_Z_小篆",
@@ -105742,10 +105742,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/22788_资_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22795_赋_Z_小篆",
@@ -105994,10 +105994,10 @@
       "section": "說文‧走部",
       "image": "./字库/原始字形/22832_走_Z_說文‧走部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22835_赳_Z_說文‧走部",
@@ -106714,10 +106714,10 @@
       "section": "說文‧足部",
       "image": "./字库/原始字形/22959_路_Z_說文‧足部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "22962_跲_Z_說文‧足部",
@@ -107482,10 +107482,10 @@
       "section": "說文‧身部",
       "image": "./字库/原始字形/23147_身_Z_說文‧身部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "23148_躬_Z_說文‧呂部",
@@ -108538,10 +108538,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/23334_车_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "23336_轨_Z_小篆",
@@ -109054,10 +109054,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/23417_边_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "23421_辽_Z_小篆",
@@ -109078,10 +109078,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/23422_达_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "23424_迀_Z_說文‧辵部",
@@ -109210,10 +109210,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/23440_运_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "23441_近_Z_說文‧辵部",
@@ -109222,10 +109222,10 @@
       "section": "說文‧辵部",
       "image": "./字库/原始字形/23441_近_Z_說文‧辵部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "23442_迒_Z_說文‧辵部",
@@ -109762,10 +109762,10 @@
       "section": "說文‧辵部",
       "image": "./字库/原始字形/23514_通_Z_說文‧辵部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "23517_逝_Z_說文‧辵部",
@@ -113110,10 +113110,10 @@
       "section": "說文‧金部",
       "image": "./字库/原始字形/23953_金_Z_說文‧金部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "23959_釗_Z_說文‧刀部",
@@ -117094,10 +117094,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/25000_门_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "25002_闪_Z_小篆",
@@ -117874,10 +117874,10 @@
       "section": "說文‧阜部",
       "image": "./字库/原始字形/25122_院_Z_說文‧阜部.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "25124_除_Z_說文‧阜部",
@@ -118558,10 +118558,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/25214_难_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "25215_隿_Z_說文‧隹部",
@@ -121534,10 +121534,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/25670_领_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "25671_颇_Z_小篆",
@@ -121630,10 +121630,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/25688_题_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "25692_颜_Z_小篆",
@@ -121834,10 +121834,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/25742_风_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "25752_飘_Z_小篆",
@@ -124066,10 +124066,10 @@
       "section": "小篆",
       "image": "./字库/原始字形/26156_马_Z_小篆.png",
       "outlineReady": false,
-      "strokeCleanupChecked": false,
-      "hasStrokeData": false,
+      "strokeCleanupChecked": true,
+      "hasStrokeData": true,
       "hasTemplateParts": false,
-      "hasStory": false
+      "hasStory": true
     },
     {
       "id": "26157_驭_Z_小篆",

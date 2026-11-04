@@ -33,10 +33,7 @@
   }
   $('#splitGlyph').addEventListener('click',() => {state.split = !state.split; paintStage();});
   $('#randomGlyph').addEventListener('click',() => {
-    const poolGlyphs = window.GlyphLibrary.forScope(state.scope);
-    const withStories = poolGlyphs.filter(g => g.id !== state.selectedId && g.original_meaning);
-    const pool = withStories.length ? withStories : poolGlyphs.filter(g => g.id !== state.selectedId);
-    if (pool.length) selectGlyph(pool[Math.floor(Math.random()*pool.length)].id);
+    window.FortuneDraw.open(window.GlyphLibrary.forScope(state.scope),id => selectGlyph(id));
   });
   $('#openCatalog').addEventListener('click',() => {paintCatalog(); $('#catalogDialog').showModal(); $('#glyphSearch').focus();});
   $('#closeCatalog').addEventListener('click',() => $('#catalogDialog').close());
