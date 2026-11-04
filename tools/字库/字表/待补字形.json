@@ -1,0 +1,9533 @@
+[
+  {
+    "rank": 9,
+    "character": "你",
+    "frequency": 5514875,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 11,
+    "character": "这",
+    "frequency": 4287572,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 25,
+    "character": "哈",
+    "frequency": 2854756,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 26,
+    "character": "们",
+    "frequency": 2761008,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 59,
+    "character": "啊",
+    "frequency": 1680663,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 68,
+    "character": "现",
+    "frequency": 1595540,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 87,
+    "character": "她",
+    "frequency": 1278865,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 147,
+    "character": "吧",
+    "frequency": 888126,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 154,
+    "character": "吗",
+    "frequency": 867996,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 207,
+    "character": "做",
+    "frequency": 663693,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 208,
+    "character": "呢",
+    "frequency": 655755,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 238,
+    "character": "怎",
+    "frequency": 600736,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 265,
+    "character": "认",
+    "frequency": 548442,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 315,
+    "character": "啦",
+    "frequency": 468619,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 333,
+    "character": "哪",
+    "frequency": 443680,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 343,
+    "character": "住",
+    "frequency": 432077,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 378,
+    "character": "找",
+    "frequency": 385530,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 379,
+    "character": "影",
+    "frequency": 383932,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 408,
+    "character": "嗯",
+    "frequency": 358621,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 455,
+    "character": "查",
+    "frequency": 316523,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 519,
+    "character": "嘛",
+    "frequency": 278566,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 538,
+    "character": "脸",
+    "frequency": 269107,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 561,
+    "character": "啥",
+    "frequency": 252548,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 573,
+    "character": "站",
+    "frequency": 245469,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 619,
+    "character": "够",
+    "frequency": 220490,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 648,
+    "character": "您",
+    "frequency": 205879,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 654,
+    "character": "评",
+    "frequency": 203285,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 658,
+    "character": "帮",
+    "frequency": 200999,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 702,
+    "character": "妈",
+    "frequency": 181386,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 714,
+    "character": "卡",
+    "frequency": 176112,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 741,
+    "character": "另",
+    "frequency": 165953,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 750,
+    "character": "跑",
+    "frequency": 162801,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 762,
+    "character": "呵",
+    "frequency": 158113,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 777,
+    "character": "懂",
+    "frequency": 153983,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 788,
+    "character": "抓",
+    "frequency": 148625,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 819,
+    "character": "努",
+    "frequency": 139175,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 827,
+    "character": "嘿",
+    "frequency": 137979,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 832,
+    "character": "蛋",
+    "frequency": 137082,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 852,
+    "character": "套",
+    "frequency": 132062,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 857,
+    "character": "忙",
+    "frequency": 130405,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 890,
+    "character": "搞",
+    "frequency": 123522,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 897,
+    "character": "座",
+    "frequency": 123032,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 919,
+    "character": "洲",
+    "frequency": 118975,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 921,
+    "character": "嘴",
+    "frequency": 118582,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 926,
+    "character": "嘻",
+    "frequency": 118095,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 941,
+    "character": "睛",
+    "frequency": 115377,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 961,
+    "character": "哎",
+    "frequency": 110919,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 970,
+    "character": "奶",
+    "frequency": 108523,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 974,
+    "character": "牌",
+    "frequency": 107475,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 981,
+    "character": "棒",
+    "frequency": 105835,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 986,
+    "character": "腿",
+    "frequency": 104445,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 989,
+    "character": "扩",
+    "frequency": 103562,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 993,
+    "character": "咋",
+    "frequency": 102220,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1014,
+    "character": "咱",
+    "frequency": 97978,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1052,
+    "character": "爷",
+    "frequency": 92317,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1057,
+    "character": "茶",
+    "frequency": 91773,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1062,
+    "character": "癌",
+    "frequency": 90676,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1063,
+    "character": "硬",
+    "frequency": 90504,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1077,
+    "character": "症",
+    "frequency": 89270,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1082,
+    "character": "钢",
+    "frequency": 88675,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1085,
+    "character": "灯",
+    "frequency": 88291,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1087,
+    "character": "疼",
+    "frequency": 88200,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1114,
+    "character": "估",
+    "frequency": 83103,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1141,
+    "character": "婆",
+    "frequency": 78990,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1144,
+    "character": "摸",
+    "frequency": 78511,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1161,
+    "character": "偷",
+    "frequency": 76384,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1181,
+    "character": "爸",
+    "frequency": 74519,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1190,
+    "character": "咯",
+    "frequency": 73503,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1192,
+    "character": "扎",
+    "frequency": 73337,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1196,
+    "character": "俩",
+    "frequency": 73101,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1198,
+    "character": "哟",
+    "frequency": 72728,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1199,
+    "character": "抢",
+    "frequency": 72694,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1209,
+    "character": "摆",
+    "frequency": 71775,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1228,
+    "character": "喊",
+    "frequency": 69231,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1231,
+    "character": "码",
+    "frequency": 68663,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1236,
+    "character": "哒",
+    "frequency": 68096,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1258,
+    "character": "励",
+    "frequency": 65640,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1266,
+    "character": "毫",
+    "frequency": 64874,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1285,
+    "character": "娜",
+    "frequency": 63130,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1299,
+    "character": "锅",
+    "frequency": 62460,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1305,
+    "character": "煤",
+    "frequency": 61558,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1306,
+    "character": "萨",
+    "frequency": 61538,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1318,
+    "character": "骗",
+    "frequency": 60172,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1336,
+    "character": "辣",
+    "frequency": 58513,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1343,
+    "character": "脏",
+    "frequency": 58106,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1359,
+    "character": "惯",
+    "frequency": 57181,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1361,
+    "character": "腰",
+    "frequency": 57168,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1365,
+    "character": "吓",
+    "frequency": 56798,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1372,
+    "character": "撒",
+    "frequency": 56319,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1373,
+    "character": "忆",
+    "frequency": 56287,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1376,
+    "character": "姆",
+    "frequency": 55929,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1381,
+    "character": "哼",
+    "frequency": 55406,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1403,
+    "character": "粘",
+    "frequency": 53750,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1405,
+    "character": "丢",
+    "frequency": 53478,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1413,
+    "character": "噢",
+    "frequency": 53018,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1414,
+    "character": "辆",
+    "frequency": 52983,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1415,
+    "character": "疯",
+    "frequency": 52939,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1418,
+    "character": "碰",
+    "frequency": 52758,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1427,
+    "character": "湾",
+    "frequency": 52140,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1435,
+    "character": "瞧",
+    "frequency": 51346,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1444,
+    "character": "傻",
+    "frequency": 50733,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1449,
+    "character": "玛",
+    "frequency": 50366,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1459,
+    "character": "氧",
+    "frequency": 49786,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1461,
+    "character": "岗",
+    "frequency": 49623,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1465,
+    "character": "炸",
+    "frequency": 49112,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1466,
+    "character": "尖",
+    "frequency": 49061,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1467,
+    "character": "棉",
+    "frequency": 48973,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1489,
+    "character": "搭",
+    "frequency": 47331,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1498,
+    "character": "肚",
+    "frequency": 47021,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1500,
+    "character": "描",
+    "frequency": 46920,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1507,
+    "character": "耶",
+    "frequency": 46320,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1526,
+    "character": "搬",
+    "frequency": 45079,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1527,
+    "character": "玻",
+    "frequency": 45003,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1529,
+    "character": "剩",
+    "frequency": 44834,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1538,
+    "character": "吨",
+    "frequency": 44109,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1542,
+    "character": "爬",
+    "frequency": 43800,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1553,
+    "character": "躺",
+    "frequency": 42642,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1559,
+    "character": "抬",
+    "frequency": 42192,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1562,
+    "character": "喂",
+    "frequency": 42066,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1582,
+    "character": "拒",
+    "frequency": 41127,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1583,
+    "character": "璃",
+    "frequency": 41082,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1592,
+    "character": "呜",
+    "frequency": 40549,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1595,
+    "character": "呗",
+    "frequency": 40493,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1605,
+    "character": "炉",
+    "frequency": 39695,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1624,
+    "character": "眠",
+    "frequency": 38992,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1635,
+    "character": "腺",
+    "frequency": 38417,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1647,
+    "character": "拼",
+    "frequency": 37884,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1656,
+    "character": "辉",
+    "frequency": 37490,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1666,
+    "character": "烤",
+    "frequency": 36914,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1667,
+    "character": "呐",
+    "frequency": 36896,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1673,
+    "character": "挖",
+    "frequency": 36597,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1674,
+    "character": "窝",
+    "frequency": 36541,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1678,
+    "character": "撑",
+    "frequency": 36432,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1699,
+    "character": "塑",
+    "frequency": 35358,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1702,
+    "character": "档",
+    "frequency": 35284,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1709,
+    "character": "爹",
+    "frequency": 34935,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1710,
+    "character": "纹",
+    "frequency": 34915,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1713,
+    "character": "瞎",
+    "frequency": 34797,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1714,
+    "character": "耍",
+    "frequency": 34783,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1720,
+    "character": "酶",
+    "frequency": 34512,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1727,
+    "character": "滚",
+    "frequency": 34231,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1733,
+    "character": "邀",
+    "frequency": 33916,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1753,
+    "character": "寨",
+    "frequency": 32505,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1774,
+    "character": "抖",
+    "frequency": 31807,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1775,
+    "character": "砂",
+    "frequency": 31723,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1776,
+    "character": "扭",
+    "frequency": 31595,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1784,
+    "character": "擦",
+    "frequency": 31138,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1798,
+    "character": "添",
+    "frequency": 30669,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1800,
+    "character": "吵",
+    "frequency": 30632,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1803,
+    "character": "耀",
+    "frequency": 30411,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1805,
+    "character": "涨",
+    "frequency": 30383,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1809,
+    "character": "踏",
+    "frequency": 30266,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1812,
+    "character": "屁",
+    "frequency": 30169,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1817,
+    "character": "垃",
+    "frequency": 29685,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1824,
+    "character": "圾",
+    "frequency": 29421,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1829,
+    "character": "咖",
+    "frequency": 29180,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1852,
+    "character": "拆",
+    "frequency": 27977,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1856,
+    "character": "妮",
+    "frequency": 27670,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1858,
+    "character": "圳",
+    "frequency": 27599,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1860,
+    "character": "逛",
+    "frequency": 27526,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1861,
+    "character": "堡",
+    "frequency": 27521,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1872,
+    "character": "挡",
+    "frequency": 27143,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1876,
+    "character": "恼",
+    "frequency": 27022,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1877,
+    "character": "挣",
+    "frequency": 26966,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1881,
+    "character": "摔",
+    "frequency": 26733,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1884,
+    "character": "啡",
+    "frequency": 26694,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1899,
+    "character": "躲",
+    "frequency": 26069,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1907,
+    "character": "旺",
+    "frequency": 25819,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1912,
+    "character": "撤",
+    "frequency": 25695,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1915,
+    "character": "脖",
+    "frequency": 25473,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1926,
+    "character": "帕",
+    "frequency": 25264,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1931,
+    "character": "慌",
+    "frequency": 25074,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1932,
+    "character": "账",
+    "frequency": 25060,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1934,
+    "character": "葡",
+    "frequency": 25025,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1938,
+    "character": "匆",
+    "frequency": 24906,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1945,
+    "character": "嗨",
+    "frequency": 24725,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1946,
+    "character": "吼",
+    "frequency": 24672,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1952,
+    "character": "烊",
+    "frequency": 24450,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1959,
+    "character": "盒",
+    "frequency": 24284,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1966,
+    "character": "哩",
+    "frequency": 24170,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1972,
+    "character": "渣",
+    "frequency": 24000,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1975,
+    "character": "胀",
+    "frequency": 23903,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1977,
+    "character": "框",
+    "frequency": 23838,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 1987,
+    "character": "碳",
+    "frequency": 23517,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2007,
+    "character": "扯",
+    "frequency": 22625,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2030,
+    "character": "峡",
+    "frequency": 22066,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2033,
+    "character": "螺",
+    "frequency": 21961,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2038,
+    "character": "抹",
+    "frequency": 21845,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2039,
+    "character": "嫩",
+    "frequency": 21820,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2060,
+    "character": "滤",
+    "frequency": 21042,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2073,
+    "character": "盯",
+    "frequency": 20842,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2074,
+    "character": "磁",
+    "frequency": 20803,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2085,
+    "character": "瞬",
+    "frequency": 20509,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2088,
+    "character": "衬",
+    "frequency": 20481,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2096,
+    "character": "歪",
+    "frequency": 20321,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2098,
+    "character": "媳",
+    "frequency": 20303,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2099,
+    "character": "赔",
+    "frequency": 20292,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2101,
+    "character": "纱",
+    "frequency": 20254,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2107,
+    "character": "抄",
+    "frequency": 20115,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2108,
+    "character": "氨",
+    "frequency": 20101,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2111,
+    "character": "窄",
+    "frequency": 20063,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2129,
+    "character": "妞",
+    "frequency": 19716,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2132,
+    "character": "痘",
+    "frequency": 19591,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2138,
+    "character": "捏",
+    "frequency": 19476,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2145,
+    "character": "茫",
+    "frequency": 19310,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2147,
+    "character": "睁",
+    "frequency": 19234,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2158,
+    "character": "尴",
+    "frequency": 18884,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2159,
+    "character": "押",
+    "frequency": 18829,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2164,
+    "character": "绒",
+    "frequency": 18638,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2179,
+    "character": "埔",
+    "frequency": 18398,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2186,
+    "character": "嘎",
+    "frequency": 18267,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2190,
+    "character": "踢",
+    "frequency": 18120,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2198,
+    "character": "吖",
+    "frequency": 17883,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2207,
+    "character": "皱",
+    "frequency": 17758,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2211,
+    "character": "棵",
+    "frequency": 17492,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2216,
+    "character": "捞",
+    "frequency": 17390,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2220,
+    "character": "坝",
+    "frequency": 17315,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2230,
+    "character": "烫",
+    "frequency": 17135,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2231,
+    "character": "捧",
+    "frequency": 17134,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2232,
+    "character": "趟",
+    "frequency": 17127,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2235,
+    "character": "憾",
+    "frequency": 17097,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2243,
+    "character": "砸",
+    "frequency": 16826,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2245,
+    "character": "陌",
+    "frequency": 16766,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2253,
+    "character": "磷",
+    "frequency": 16682,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2256,
+    "character": "拐",
+    "frequency": 16587,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2257,
+    "character": "钙",
+    "frequency": 16571,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2267,
+    "character": "魏",
+    "frequency": 16354,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2274,
+    "character": "淘",
+    "frequency": 16204,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2277,
+    "character": "泼",
+    "frequency": 16125,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2285,
+    "character": "撕",
+    "frequency": 15969,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2289,
+    "character": "躁",
+    "frequency": 15899,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2292,
+    "character": "掏",
+    "frequency": 15832,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2293,
+    "character": "丫",
+    "frequency": 15790,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2300,
+    "character": "砍",
+    "frequency": 15707,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2305,
+    "character": "咧",
+    "frequency": 15620,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2306,
+    "character": "伞",
+    "frequency": 15601,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2319,
+    "character": "棍",
+    "frequency": 15361,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2325,
+    "character": "饺",
+    "frequency": 15280,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2341,
+    "character": "泵",
+    "frequency": 14908,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2351,
+    "character": "踩",
+    "frequency": 14776,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2354,
+    "character": "喃",
+    "frequency": 14676,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2358,
+    "character": "嚷",
+    "frequency": 14593,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2362,
+    "character": "拌",
+    "frequency": 14533,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2369,
+    "character": "膨",
+    "frequency": 14385,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2372,
+    "character": "嗓",
+    "frequency": 14245,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2378,
+    "character": "嘞",
+    "frequency": 14127,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2380,
+    "character": "拦",
+    "frequency": 14058,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2383,
+    "character": "舰",
+    "frequency": 14006,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2384,
+    "character": "噗",
+    "frequency": 13997,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2398,
+    "character": "帆",
+    "frequency": 13637,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2400,
+    "character": "呃",
+    "frequency": 13586,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2405,
+    "character": "塌",
+    "frequency": 13455,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2406,
+    "character": "硫",
+    "frequency": 13434,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2412,
+    "character": "薯",
+    "frequency": 13362,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2414,
+    "character": "狮",
+    "frequency": 13312,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2415,
+    "character": "苔",
+    "frequency": 13294,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2416,
+    "character": "瞪",
+    "frequency": 13280,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2417,
+    "character": "铝",
+    "frequency": 13266,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2424,
+    "character": "佬",
+    "frequency": 13118,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2430,
+    "character": "椒",
+    "frequency": 13013,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2432,
+    "character": "谎",
+    "frequency": 12930,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2434,
+    "character": "甩",
+    "frequency": 12864,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2435,
+    "character": "喽",
+    "frequency": 12863,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2443,
+    "character": "挝",
+    "frequency": 12706,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2449,
+    "character": "啤",
+    "frequency": 12639,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2457,
+    "character": "嘟",
+    "frequency": 12511,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2459,
+    "character": "喵",
+    "frequency": 12502,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2462,
+    "character": "咪",
+    "frequency": 12470,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2467,
+    "character": "晗",
+    "frequency": 12383,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2471,
+    "character": "栓",
+    "frequency": 12230,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2475,
+    "character": "熔",
+    "frequency": 12189,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2476,
+    "character": "挪",
+    "frequency": 12183,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2480,
+    "character": "泻",
+    "frequency": 12158,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2481,
+    "character": "榴",
+    "frequency": 12112,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2485,
+    "character": "氮",
+    "frequency": 11978,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2486,
+    "character": "咕",
+    "frequency": 11964,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2491,
+    "character": "憋",
+    "frequency": 11900,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2500,
+    "character": "倘",
+    "frequency": 11799,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2507,
+    "character": "蕾",
+    "frequency": 11620,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2508,
+    "character": "凳",
+    "frequency": 11619,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2511,
+    "character": "硅",
+    "frequency": 11561,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2515,
+    "character": "绑",
+    "frequency": 11428,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2524,
+    "character": "噶",
+    "frequency": 11327,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2528,
+    "character": "钥",
+    "frequency": 11266,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2541,
+    "character": "轿",
+    "frequency": 11059,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2545,
+    "character": "氯",
+    "frequency": 10969,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2548,
+    "character": "喀",
+    "frequency": 10932,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2559,
+    "character": "筛",
+    "frequency": 10711,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2560,
+    "character": "瞅",
+    "frequency": 10709,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2566,
+    "character": "姥",
+    "frequency": 10625,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2570,
+    "character": "娅",
+    "frequency": 10542,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2571,
+    "character": "喇",
+    "frequency": 10531,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2590,
+    "character": "篷",
+    "frequency": 10282,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2603,
+    "character": "毯",
+    "frequency": 10106,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2605,
+    "character": "琪",
+    "frequency": 10087,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2606,
+    "character": "搁",
+    "frequency": 10079,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2609,
+    "character": "叮",
+    "frequency": 10040,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2612,
+    "character": "蝶",
+    "frequency": 9984,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2615,
+    "character": "咐",
+    "frequency": 9940,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2624,
+    "character": "橡",
+    "frequency": 9862,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2631,
+    "character": "瘫",
+    "frequency": 9815,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2633,
+    "character": "芯",
+    "frequency": 9803,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2634,
+    "character": "焊",
+    "frequency": 9802,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2641,
+    "character": "婶",
+    "frequency": 9764,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2643,
+    "character": "菇",
+    "frequency": 9751,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2646,
+    "character": "蹦",
+    "frequency": 9720,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2648,
+    "character": "艘",
+    "frequency": 9697,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2654,
+    "character": "舱",
+    "frequency": 9574,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2664,
+    "character": "恍",
+    "frequency": 9463,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2668,
+    "character": "斌",
+    "frequency": 9417,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2671,
+    "character": "烯",
+    "frequency": 9390,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2674,
+    "character": "瘾",
+    "frequency": 9354,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2682,
+    "character": "攒",
+    "frequency": 9224,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2691,
+    "character": "嘱",
+    "frequency": 9126,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2692,
+    "character": "趴",
+    "frequency": 9126,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2693,
+    "character": "唧",
+    "frequency": 9121,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2698,
+    "character": "揉",
+    "frequency": 9015,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2703,
+    "character": "钠",
+    "frequency": 8948,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2709,
+    "character": "揍",
+    "frequency": 8900,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2714,
+    "character": "苯",
+    "frequency": 8772,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2716,
+    "character": "啃",
+    "frequency": 8757,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2717,
+    "character": "胰",
+    "frequency": 8733,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2718,
+    "character": "靴",
+    "frequency": 8722,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2731,
+    "character": "噜",
+    "frequency": 8498,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2735,
+    "character": "凹",
+    "frequency": 8478,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2739,
+    "character": "撸",
+    "frequency": 8439,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2742,
+    "character": "啪",
+    "frequency": 8381,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2743,
+    "character": "捂",
+    "frequency": 8379,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2744,
+    "character": "鸦",
+    "frequency": 8371,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2748,
+    "character": "乒",
+    "frequency": 8310,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2757,
+    "character": "凸",
+    "frequency": 8116,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2758,
+    "character": "棕",
+    "frequency": 8114,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2761,
+    "character": "嗦",
+    "frequency": 8099,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2769,
+    "character": "吱",
+    "frequency": 8020,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2770,
+    "character": "咔",
+    "frequency": 8005,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2771,
+    "character": "沪",
+    "frequency": 7961,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2772,
+    "character": "驼",
+    "frequency": 7918,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2773,
+    "character": "叭",
+    "frequency": 7914,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2776,
+    "character": "垮",
+    "frequency": 7882,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2783,
+    "character": "钾",
+    "frequency": 7793,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2785,
+    "character": "硝",
+    "frequency": 7782,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2786,
+    "character": "拢",
+    "frequency": 7765,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2787,
+    "character": "捆",
+    "frequency": 7759,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2790,
+    "character": "粑",
+    "frequency": 7696,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2799,
+    "character": "愣",
+    "frequency": 7569,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2800,
+    "character": "馋",
+    "frequency": 7568,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2801,
+    "character": "睫",
+    "frequency": 7565,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2815,
+    "character": "婷",
+    "frequency": 7419,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2821,
+    "character": "氢",
+    "frequency": 7343,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2827,
+    "character": "舔",
+    "frequency": 7282,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2828,
+    "character": "吩",
+    "frequency": 7277,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2829,
+    "character": "楠",
+    "frequency": 7252,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2832,
+    "character": "舶",
+    "frequency": 7233,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2836,
+    "character": "锈",
+    "frequency": 7183,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2837,
+    "character": "糙",
+    "frequency": 7168,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2841,
+    "character": "掺",
+    "frequency": 7109,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2845,
+    "character": "杉",
+    "frequency": 7075,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2851,
+    "character": "呸",
+    "frequency": 7059,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2859,
+    "character": "盏",
+    "frequency": 6979,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2861,
+    "character": "揽",
+    "frequency": 6943,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2870,
+    "character": "怔",
+    "frequency": 6833,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2873,
+    "character": "葫",
+    "frequency": 6818,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2874,
+    "character": "剃",
+    "frequency": 6816,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2890,
+    "character": "乓",
+    "frequency": 6644,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2891,
+    "character": "馒",
+    "frequency": 6638,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2893,
+    "character": "氟",
+    "frequency": 6611,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2894,
+    "character": "幂",
+    "frequency": 6605,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2901,
+    "character": "揪",
+    "frequency": 6553,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2911,
+    "character": "蚁",
+    "frequency": 6495,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2913,
+    "character": "蝴",
+    "frequency": 6491,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2918,
+    "character": "陡",
+    "frequency": 6401,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2919,
+    "character": "丐",
+    "frequency": 6392,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2920,
+    "character": "溅",
+    "frequency": 6392,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2926,
+    "character": "堕",
+    "frequency": 6376,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2927,
+    "character": "惚",
+    "frequency": 6373,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2935,
+    "character": "孵",
+    "frequency": 6277,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2936,
+    "character": "拧",
+    "frequency": 6274,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2937,
+    "character": "柿",
+    "frequency": 6271,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2938,
+    "character": "嗡",
+    "frequency": 6268,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2939,
+    "character": "胚",
+    "frequency": 6266,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2943,
+    "character": "掷",
+    "frequency": 6236,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2952,
+    "character": "扒",
+    "frequency": 6149,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2956,
+    "character": "伽",
+    "frequency": 6112,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2962,
+    "character": "墅",
+    "frequency": 6062,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2968,
+    "character": "崭",
+    "frequency": 6016,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2973,
+    "character": "胱",
+    "frequency": 5959,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2980,
+    "character": "崽",
+    "frequency": 5946,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2983,
+    "character": "筷",
+    "frequency": 5933,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2986,
+    "character": "拽",
+    "frequency": 5880,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2989,
+    "character": "馅",
+    "frequency": 5864,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2990,
+    "character": "缆",
+    "frequency": 5857,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2992,
+    "character": "蚂",
+    "frequency": 5844,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2994,
+    "character": "晌",
+    "frequency": 5832,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2995,
+    "character": "腮",
+    "frequency": 5828,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2997,
+    "character": "窟",
+    "frequency": 5816,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 2998,
+    "character": "妳",
+    "frequency": 5815,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3000,
+    "character": "瞄",
+    "frequency": 5800,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3005,
+    "character": "咚",
+    "frequency": 5765,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3008,
+    "character": "疤",
+    "frequency": 5748,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3011,
+    "character": "嘶",
+    "frequency": 5731,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3014,
+    "character": "煞",
+    "frequency": 5706,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3018,
+    "character": "镀",
+    "frequency": 5661,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3020,
+    "character": "俏",
+    "frequency": 5645,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3025,
+    "character": "籽",
+    "frequency": 5608,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3026,
+    "character": "锣",
+    "frequency": 5600,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3028,
+    "character": "酚",
+    "frequency": 5590,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3038,
+    "character": "碟",
+    "frequency": 5530,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3040,
+    "character": "疮",
+    "frequency": 5492,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3041,
+    "character": "痊",
+    "frequency": 5478,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3042,
+    "character": "膛",
+    "frequency": 5473,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3049,
+    "character": "曝",
+    "frequency": 5412,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3054,
+    "character": "橱",
+    "frequency": 5387,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3068,
+    "character": "襟",
+    "frequency": 5276,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3077,
+    "character": "袱",
+    "frequency": 5223,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3079,
+    "character": "瞩",
+    "frequency": 5204,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3081,
+    "character": "醛",
+    "frequency": 5190,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3084,
+    "character": "噻",
+    "frequency": 5174,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3085,
+    "character": "撼",
+    "frequency": 5173,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3086,
+    "character": "鑫",
+    "frequency": 5173,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3090,
+    "character": "岔",
+    "frequency": 5155,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3094,
+    "character": "酥",
+    "frequency": 5134,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3101,
+    "character": "涡",
+    "frequency": 5077,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3106,
+    "character": "酵",
+    "frequency": 5044,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3109,
+    "character": "芭",
+    "frequency": 5025,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3111,
+    "character": "碘",
+    "frequency": 4980,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3114,
+    "character": "疙",
+    "frequency": 4944,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3115,
+    "character": "嗒",
+    "frequency": 4931,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3117,
+    "character": "馍",
+    "frequency": 4920,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3120,
+    "character": "锌",
+    "frequency": 4898,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3125,
+    "character": "啵",
+    "frequency": 4877,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3128,
+    "character": "淌",
+    "frequency": 4869,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3132,
+    "character": "榨",
+    "frequency": 4832,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3136,
+    "character": "镁",
+    "frequency": 4815,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3138,
+    "character": "拣",
+    "frequency": 4808,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3142,
+    "character": "酰",
+    "frequency": 4792,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3143,
+    "character": "吭",
+    "frequency": 4789,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3145,
+    "character": "炖",
+    "frequency": 4765,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3153,
+    "character": "啼",
+    "frequency": 4713,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3155,
+    "character": "拴",
+    "frequency": 4712,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3156,
+    "character": "碾",
+    "frequency": 4710,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3158,
+    "character": "瘩",
+    "frequency": 4696,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3172,
+    "character": "惫",
+    "frequency": 4599,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3176,
+    "character": "檬",
+    "frequency": 4584,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3177,
+    "character": "剁",
+    "frequency": 4570,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3180,
+    "character": "磋",
+    "frequency": 4556,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3181,
+    "character": "叼",
+    "frequency": 4554,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3183,
+    "character": "戳",
+    "frequency": 4543,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3202,
+    "character": "菠",
+    "frequency": 4425,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3207,
+    "character": "渺",
+    "frequency": 4402,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3209,
+    "character": "砰",
+    "frequency": 4393,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3210,
+    "character": "磅",
+    "frequency": 4385,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3214,
+    "character": "珀",
+    "frequency": 4350,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3216,
+    "character": "酯",
+    "frequency": 4344,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3219,
+    "character": "盔",
+    "frequency": 4323,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3225,
+    "character": "呛",
+    "frequency": 4282,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3226,
+    "character": "蘑",
+    "frequency": 4273,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3228,
+    "character": "徘",
+    "frequency": 4265,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3230,
+    "character": "骡",
+    "frequency": 4261,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3231,
+    "character": "刨",
+    "frequency": 4259,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3232,
+    "character": "拎",
+    "frequency": 4256,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3236,
+    "character": "徊",
+    "frequency": 4229,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3238,
+    "character": "刁",
+    "frequency": 4224,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3242,
+    "character": "椰",
+    "frequency": 4215,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3244,
+    "character": "擎",
+    "frequency": 4211,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3245,
+    "character": "镑",
+    "frequency": 4211,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3248,
+    "character": "簇",
+    "frequency": 4180,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3249,
+    "character": "眶",
+    "frequency": 4177,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3261,
+    "character": "悯",
+    "frequency": 4096,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3263,
+    "character": "腑",
+    "frequency": 4085,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3266,
+    "character": "啰",
+    "frequency": 4060,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3270,
+    "character": "螃",
+    "frequency": 4042,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3278,
+    "character": "诧",
+    "frequency": 3989,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3281,
+    "character": "寥",
+    "frequency": 3978,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3287,
+    "character": "壕",
+    "frequency": 3950,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3292,
+    "character": "篱",
+    "frequency": 3912,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3294,
+    "character": "炬",
+    "frequency": 3902,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3296,
+    "character": "漓",
+    "frequency": 3891,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3297,
+    "character": "堰",
+    "frequency": 3871,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3301,
+    "character": "踱",
+    "frequency": 3849,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3306,
+    "character": "舵",
+    "frequency": 3811,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3307,
+    "character": "夯",
+    "frequency": 3810,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3310,
+    "character": "螂",
+    "frequency": 3800,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3313,
+    "character": "扳",
+    "frequency": 3785,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3322,
+    "character": "疚",
+    "frequency": 3761,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3323,
+    "character": "雯",
+    "frequency": 3756,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3325,
+    "character": "喳",
+    "frequency": 3746,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3327,
+    "character": "瘟",
+    "frequency": 3741,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3329,
+    "character": "墩",
+    "frequency": 3730,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3331,
+    "character": "唑",
+    "frequency": 3722,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3333,
+    "character": "猿",
+    "frequency": 3717,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3334,
+    "character": "铂",
+    "frequency": 3714,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3335,
+    "character": "孢",
+    "frequency": 3704,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3342,
+    "character": "忏",
+    "frequency": 3681,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3345,
+    "character": "莓",
+    "frequency": 3673,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3348,
+    "character": "秸",
+    "frequency": 3666,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3353,
+    "character": "瞌",
+    "frequency": 3651,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3356,
+    "character": "掰",
+    "frequency": 3643,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3364,
+    "character": "褪",
+    "frequency": 3595,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3367,
+    "character": "烷",
+    "frequency": 3585,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3371,
+    "character": "嘀",
+    "frequency": 3558,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3372,
+    "character": "遛",
+    "frequency": 3557,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3373,
+    "character": "澈",
+    "frequency": 3555,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3375,
+    "character": "惦",
+    "frequency": 3545,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3380,
+    "character": "屉",
+    "frequency": 3499,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3390,
+    "character": "痣",
+    "frequency": 3433,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3391,
+    "character": "巅",
+    "frequency": 3425,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3394,
+    "character": "晾",
+    "frequency": 3406,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3395,
+    "character": "嚎",
+    "frequency": 3366,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3401,
+    "character": "锚",
+    "frequency": 3318,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3403,
+    "character": "倔",
+    "frequency": 3314,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3404,
+    "character": "秽",
+    "frequency": 3314,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3406,
+    "character": "菱",
+    "frequency": 3302,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3407,
+    "character": "跤",
+    "frequency": 3293,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3411,
+    "character": "藕",
+    "frequency": 3288,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3414,
+    "character": "墟",
+    "frequency": 3278,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3415,
+    "character": "憔",
+    "frequency": 3278,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3420,
+    "character": "捅",
+    "frequency": 3255,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3425,
+    "character": "褂",
+    "frequency": 3234,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3428,
+    "character": "猾",
+    "frequency": 3220,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3432,
+    "character": "嗤",
+    "frequency": 3202,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3436,
+    "character": "鳖",
+    "frequency": 3186,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3437,
+    "character": "睬",
+    "frequency": 3179,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3442,
+    "character": "曦",
+    "frequency": 3170,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3444,
+    "character": "懵",
+    "frequency": 3167,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3446,
+    "character": "吆",
+    "frequency": 3162,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3450,
+    "character": "愕",
+    "frequency": 3146,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3453,
+    "character": "蠕",
+    "frequency": 3135,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3456,
+    "character": "痪",
+    "frequency": 3120,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3460,
+    "character": "哝",
+    "frequency": 3108,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3462,
+    "character": "烹",
+    "frequency": 3102,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3465,
+    "character": "厮",
+    "frequency": 3091,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3467,
+    "character": "狈",
+    "frequency": 3089,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3468,
+    "character": "怦",
+    "frequency": 3083,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3470,
+    "character": "蟑",
+    "frequency": 3074,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3472,
+    "character": "憨",
+    "frequency": 3056,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3477,
+    "character": "埠",
+    "frequency": 3018,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3479,
+    "character": "帧",
+    "frequency": 3013,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3484,
+    "character": "哧",
+    "frequency": 2998,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3486,
+    "character": "仨",
+    "frequency": 2991,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3487,
+    "character": "褥",
+    "frequency": 2991,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3488,
+    "character": "猖",
+    "frequency": 2990,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3490,
+    "character": "懊",
+    "frequency": 2981,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3492,
+    "character": "峭",
+    "frequency": 2974,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3493,
+    "character": "桨",
+    "frequency": 2973,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3498,
+    "character": "擒",
+    "frequency": 2949,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3501,
+    "character": "琉",
+    "frequency": 2931,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3506,
+    "character": "煲",
+    "frequency": 2908,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3510,
+    "character": "皖",
+    "frequency": 2896,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3513,
+    "character": "嚓",
+    "frequency": 2875,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3514,
+    "character": "烨",
+    "frequency": 2870,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3515,
+    "character": "迦",
+    "frequency": 2868,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3517,
+    "character": "榄",
+    "frequency": 2863,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3519,
+    "character": "淆",
+    "frequency": 2855,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3523,
+    "character": "甭",
+    "frequency": 2818,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3524,
+    "character": "釉",
+    "frequency": 2818,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3527,
+    "character": "玮",
+    "frequency": 2804,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3532,
+    "character": "糯",
+    "frequency": 2782,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3538,
+    "character": "庵",
+    "frequency": 2764,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3540,
+    "character": "唔",
+    "frequency": 2760,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3546,
+    "character": "橄",
+    "frequency": 2752,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3550,
+    "character": "蓓",
+    "frequency": 2743,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3554,
+    "character": "嘈",
+    "frequency": 2729,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3560,
+    "character": "囤",
+    "frequency": 2708,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3564,
+    "character": "睾",
+    "frequency": 2703,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3565,
+    "character": "赃",
+    "frequency": 2700,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3566,
+    "character": "箍",
+    "frequency": 2694,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3568,
+    "character": "礁",
+    "frequency": 2687,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3571,
+    "character": "剿",
+    "frequency": 2680,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3572,
+    "character": "癖",
+    "frequency": 2680,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3573,
+    "character": "耙",
+    "frequency": 2676,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3581,
+    "character": "叩",
+    "frequency": 2658,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3582,
+    "character": "沌",
+    "frequency": 2644,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3585,
+    "character": "暧",
+    "frequency": 2628,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3587,
+    "character": "渤",
+    "frequency": 2611,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3591,
+    "character": "肛",
+    "frequency": 2587,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3597,
+    "character": "锰",
+    "frequency": 2572,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3604,
+    "character": "搐",
+    "frequency": 2548,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3607,
+    "character": "跺",
+    "frequency": 2547,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3608,
+    "character": "酮",
+    "frequency": 2547,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3613,
+    "character": "瘸",
+    "frequency": 2534,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3619,
+    "character": "椿",
+    "frequency": 2508,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3620,
+    "character": "毗",
+    "frequency": 2507,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3626,
+    "character": "瞳",
+    "frequency": 2473,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3627,
+    "character": "啷",
+    "frequency": 2471,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3628,
+    "character": "唆",
+    "frequency": 2470,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3629,
+    "character": "撵",
+    "frequency": 2458,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3633,
+    "character": "孬",
+    "frequency": 2440,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3636,
+    "character": "殉",
+    "frequency": 2429,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3637,
+    "character": "佟",
+    "frequency": 2423,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3640,
+    "character": "嗖",
+    "frequency": 2416,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3644,
+    "character": "槟",
+    "frequency": 2399,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3657,
+    "character": "螨",
+    "frequency": 2362,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3660,
+    "character": "芷",
+    "frequency": 2345,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3661,
+    "character": "桦",
+    "frequency": 2344,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3662,
+    "character": "肽",
+    "frequency": 2343,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3666,
+    "character": "拷",
+    "frequency": 2324,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3671,
+    "character": "蕊",
+    "frequency": 2303,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3673,
+    "character": "窿",
+    "frequency": 2294,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3674,
+    "character": "惺",
+    "frequency": 2293,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3679,
+    "character": "坍",
+    "frequency": 2283,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3681,
+    "character": "鳌",
+    "frequency": 2272,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3685,
+    "character": "饨",
+    "frequency": 2266,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3691,
+    "character": "踹",
+    "frequency": 2249,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3692,
+    "character": "惋",
+    "frequency": 2242,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3701,
+    "character": "啶",
+    "frequency": 2216,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3702,
+    "character": "鹊",
+    "frequency": 2214,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3704,
+    "character": "褶",
+    "frequency": 2209,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3706,
+    "character": "湃",
+    "frequency": 2201,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3709,
+    "character": "踉",
+    "frequency": 2197,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3710,
+    "character": "躇",
+    "frequency": 2196,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3716,
+    "character": "踌",
+    "frequency": 2188,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3718,
+    "character": "蜷",
+    "frequency": 2185,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3719,
+    "character": "恪",
+    "frequency": 2183,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3720,
+    "character": "悚",
+    "frequency": 2182,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3728,
+    "character": "茉",
+    "frequency": 2151,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3732,
+    "character": "瘪",
+    "frequency": 2146,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3738,
+    "character": "焙",
+    "frequency": 2120,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3749,
+    "character": "攥",
+    "frequency": 2089,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3754,
+    "character": "坞",
+    "frequency": 2084,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3758,
+    "character": "匾",
+    "frequency": 2078,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3759,
+    "character": "嘚",
+    "frequency": 2074,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3760,
+    "character": "跷",
+    "frequency": 2069,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3770,
+    "character": "擂",
+    "frequency": 2048,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3779,
+    "character": "馄",
+    "frequency": 2039,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3780,
+    "character": "嗳",
+    "frequency": 2038,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3787,
+    "character": "涮",
+    "frequency": 2030,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3789,
+    "character": "撬",
+    "frequency": 2027,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3791,
+    "character": "硒",
+    "frequency": 2021,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3800,
+    "character": "撂",
+    "frequency": 2006,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3802,
+    "character": "拄",
+    "frequency": 2000,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3803,
+    "character": "糠",
+    "frequency": 1999,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3804,
+    "character": "蹿",
+    "frequency": 1998,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3806,
+    "character": "笆",
+    "frequency": 1995,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3807,
+    "character": "唷",
+    "frequency": 1994,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3808,
+    "character": "揩",
+    "frequency": 1993,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3809,
+    "character": "熨",
+    "frequency": 1992,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3810,
+    "character": "喋",
+    "frequency": 1989,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3813,
+    "character": "硼",
+    "frequency": 1983,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3814,
+    "character": "狞",
+    "frequency": 1981,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3815,
+    "character": "喏",
+    "frequency": 1978,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3817,
+    "character": "髂",
+    "frequency": 1970,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3824,
+    "character": "摒",
+    "frequency": 1956,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3828,
+    "character": "讹",
+    "frequency": 1946,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3833,
+    "character": "雳",
+    "frequency": 1927,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3840,
+    "character": "忐",
+    "frequency": 1913,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3842,
+    "character": "矗",
+    "frequency": 1910,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3843,
+    "character": "膈",
+    "frequency": 1908,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3844,
+    "character": "辘",
+    "frequency": 1905,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3845,
+    "character": "铐",
+    "frequency": 1905,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3848,
+    "character": "柑",
+    "frequency": 1894,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3850,
+    "character": "嚯",
+    "frequency": 1880,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3852,
+    "character": "幌",
+    "frequency": 1876,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3854,
+    "character": "抿",
+    "frequency": 1873,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3856,
+    "character": "屹",
+    "frequency": 1864,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3858,
+    "character": "鹉",
+    "frequency": 1863,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3861,
+    "character": "醚",
+    "frequency": 1861,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3867,
+    "character": "铿",
+    "frequency": 1847,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3872,
+    "character": "玥",
+    "frequency": 1834,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3873,
+    "character": "钵",
+    "frequency": 1834,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3874,
+    "character": "骶",
+    "frequency": 1833,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3877,
+    "character": "嬷",
+    "frequency": 1828,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3878,
+    "character": "觑",
+    "frequency": 1825,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3879,
+    "character": "渲",
+    "frequency": 1822,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3880,
+    "character": "摁",
+    "frequency": 1821,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3884,
+    "character": "蛀",
+    "frequency": 1802,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3885,
+    "character": "偎",
+    "frequency": 1799,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3889,
+    "character": "惘",
+    "frequency": 1787,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3892,
+    "character": "挎",
+    "frequency": 1784,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3894,
+    "character": "鹃",
+    "frequency": 1780,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3895,
+    "character": "皓",
+    "frequency": 1779,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3899,
+    "character": "樟",
+    "frequency": 1772,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3903,
+    "character": "哔",
+    "frequency": 1759,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3904,
+    "character": "峪",
+    "frequency": 1757,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3906,
+    "character": "瑙",
+    "frequency": 1750,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3908,
+    "character": "镍",
+    "frequency": 1747,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3909,
+    "character": "痢",
+    "frequency": 1744,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3910,
+    "character": "蜒",
+    "frequency": 1741,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3911,
+    "character": "柒",
+    "frequency": 1740,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3914,
+    "character": "锵",
+    "frequency": 1740,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3915,
+    "character": "囔",
+    "frequency": 1733,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3916,
+    "character": "楂",
+    "frequency": 1733,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3919,
+    "character": "嗪",
+    "frequency": 1729,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3923,
+    "character": "豌",
+    "frequency": 1717,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3925,
+    "character": "荞",
+    "frequency": 1711,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3928,
+    "character": "榕",
+    "frequency": 1707,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3932,
+    "character": "噼",
+    "frequency": 1698,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3934,
+    "character": "娼",
+    "frequency": 1695,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3937,
+    "character": "霹",
+    "frequency": 1692,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3939,
+    "character": "萤",
+    "frequency": 1689,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3943,
+    "character": "粳",
+    "frequency": 1674,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3944,
+    "character": "俐",
+    "frequency": 1672,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3947,
+    "character": "锹",
+    "frequency": 1665,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3948,
+    "character": "嗲",
+    "frequency": 1664,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3950,
+    "character": "裆",
+    "frequency": 1662,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3953,
+    "character": "峙",
+    "frequency": 1660,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3955,
+    "character": "嫦",
+    "frequency": 1656,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3956,
+    "character": "汞",
+    "frequency": 1655,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3958,
+    "character": "甙",
+    "frequency": 1654,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3961,
+    "character": "蚯",
+    "frequency": 1645,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3965,
+    "character": "婊",
+    "frequency": 1631,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3968,
+    "character": "衩",
+    "frequency": 1624,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3972,
+    "character": "钡",
+    "frequency": 1617,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3973,
+    "character": "喱",
+    "frequency": 1616,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3975,
+    "character": "鱿",
+    "frequency": 1615,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3977,
+    "character": "榔",
+    "frequency": 1612,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3978,
+    "character": "犦",
+    "frequency": 1608,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3983,
+    "character": "嵋",
+    "frequency": 1594,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3990,
+    "character": "吡",
+    "frequency": 1588,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 3992,
+    "character": "闫",
+    "frequency": 1586,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4002,
+    "character": "簌",
+    "frequency": 1572,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4004,
+    "character": "漪",
+    "frequency": 1566,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4005,
+    "character": "钰",
+    "frequency": 1566,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4018,
+    "character": "舷",
+    "frequency": 1542,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4019,
+    "character": "犤",
+    "frequency": 1538,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4023,
+    "character": "筏",
+    "frequency": 1532,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4026,
+    "character": "蜿",
+    "frequency": 1527,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4032,
+    "character": "搪",
+    "frequency": 1518,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4036,
+    "character": "蒽",
+    "frequency": 1510,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4041,
+    "character": "羚",
+    "frequency": 1499,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4043,
+    "character": "蚜",
+    "frequency": 1494,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4045,
+    "character": "碉",
+    "frequency": 1490,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4047,
+    "character": "漩",
+    "frequency": 1489,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4050,
+    "character": "瀚",
+    "frequency": 1483,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4055,
+    "character": "耷",
+    "frequency": 1469,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4057,
+    "character": "橇",
+    "frequency": 1467,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4060,
+    "character": "蛆",
+    "frequency": 1462,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4063,
+    "character": "瞰",
+    "frequency": 1456,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4064,
+    "character": "烬",
+    "frequency": 1449,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4074,
+    "character": "躏",
+    "frequency": 1433,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4076,
+    "character": "瘠",
+    "frequency": 1430,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4082,
+    "character": "盹",
+    "frequency": 1421,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4096,
+    "character": "摞",
+    "frequency": 1373,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4098,
+    "character": "蟾",
+    "frequency": 1369,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4099,
+    "character": "浒",
+    "frequency": 1368,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4100,
+    "character": "鞑",
+    "frequency": 1368,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4102,
+    "character": "咿",
+    "frequency": 1365,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4103,
+    "character": "嗬",
+    "frequency": 1365,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4115,
+    "character": "矸",
+    "frequency": 1343,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4116,
+    "character": "铀",
+    "frequency": 1343,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4123,
+    "character": "胭",
+    "frequency": 1334,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4125,
+    "character": "圩",
+    "frequency": 1329,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4127,
+    "character": "咂",
+    "frequency": 1325,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4130,
+    "character": "骷",
+    "frequency": 1320,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4132,
+    "character": "捺",
+    "frequency": 1315,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4133,
+    "character": "梆",
+    "frequency": 1314,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4137,
+    "character": "涎",
+    "frequency": 1306,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4138,
+    "character": "礴",
+    "frequency": 1306,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4144,
+    "character": "馁",
+    "frequency": 1298,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4152,
+    "character": "滦",
+    "frequency": 1279,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4153,
+    "character": "玷",
+    "frequency": 1278,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4157,
+    "character": "焖",
+    "frequency": 1265,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4160,
+    "character": "蹒",
+    "frequency": 1256,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4163,
+    "character": "傣",
+    "frequency": 1247,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4164,
+    "character": "憩",
+    "frequency": 1247,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4168,
+    "character": "喹",
+    "frequency": 1245,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4169,
+    "character": "冽",
+    "frequency": 1242,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4170,
+    "character": "暄",
+    "frequency": 1242,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4171,
+    "character": "哌",
+    "frequency": 1241,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4173,
+    "character": "遢",
+    "frequency": 1236,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4174,
+    "character": "闩",
+    "frequency": 1232,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4182,
+    "character": "踮",
+    "frequency": 1216,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4186,
+    "character": "嚒",
+    "frequency": 1211,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4188,
+    "character": "狰",
+    "frequency": 1210,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4190,
+    "character": "砷",
+    "frequency": 1205,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4199,
+    "character": "箩",
+    "frequency": 1178,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4205,
+    "character": "籼",
+    "frequency": 1167,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4207,
+    "character": "鸵",
+    "frequency": 1166,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4210,
+    "character": "仃",
+    "frequency": 1160,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4212,
+    "character": "掂",
+    "frequency": 1157,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4214,
+    "character": "颞",
+    "frequency": 1155,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4218,
+    "character": "蟀",
+    "frequency": 1150,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4220,
+    "character": "佯",
+    "frequency": 1149,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4222,
+    "character": "碴",
+    "frequency": 1147,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4224,
+    "character": "悻",
+    "frequency": 1139,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4227,
+    "character": "徨",
+    "frequency": 1131,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4232,
+    "character": "咻",
+    "frequency": 1123,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4234,
+    "character": "侏",
+    "frequency": 1116,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4235,
+    "character": "璞",
+    "frequency": 1116,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4238,
+    "character": "擀",
+    "frequency": 1113,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4239,
+    "character": "擞",
+    "frequency": 1112,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4240,
+    "character": "蛐",
+    "frequency": 1107,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4241,
+    "character": "鹑",
+    "frequency": 1107,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4242,
+    "character": "颧",
+    "frequency": 1106,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4243,
+    "character": "氰",
+    "frequency": 1103,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4246,
+    "character": "瘁",
+    "frequency": 1099,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4247,
+    "character": "獗",
+    "frequency": 1098,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4251,
+    "character": "斓",
+    "frequency": 1089,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4252,
+    "character": "烩",
+    "frequency": 1089,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4254,
+    "character": "榈",
+    "frequency": 1088,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4257,
+    "character": "萼",
+    "frequency": 1085,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4263,
+    "character": "磐",
+    "frequency": 1079,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4264,
+    "character": "藐",
+    "frequency": 1076,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4267,
+    "character": "岖",
+    "frequency": 1071,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4268,
+    "character": "汐",
+    "frequency": 1071,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4275,
+    "character": "蔻",
+    "frequency": 1063,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4279,
+    "character": "骰",
+    "frequency": 1059,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4280,
+    "character": "鬃",
+    "frequency": 1059,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4283,
+    "character": "侬",
+    "frequency": 1057,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4285,
+    "character": "沏",
+    "frequency": 1052,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4287,
+    "character": "蚱",
+    "frequency": 1050,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4288,
+    "character": "犒",
+    "frequency": 1049,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4289,
+    "character": "搽",
+    "frequency": 1047,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4291,
+    "character": "掣",
+    "frequency": 1040,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4293,
+    "character": "墒",
+    "frequency": 1039,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4296,
+    "character": "臃",
+    "frequency": 1034,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4297,
+    "character": "苜",
+    "frequency": 1029,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4298,
+    "character": "蓿",
+    "frequency": 1029,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4299,
+    "character": "髯",
+    "frequency": 1028,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4304,
+    "character": "崴",
+    "frequency": 1021,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4306,
+    "character": "癞",
+    "frequency": 1020,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4308,
+    "character": "嘧",
+    "frequency": 1017,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4311,
+    "character": "钨",
+    "frequency": 1016,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4313,
+    "character": "飚",
+    "frequency": 1014,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4316,
+    "character": "烃",
+    "frequency": 1004,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4317,
+    "character": "胛",
+    "frequency": 1002,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4318,
+    "character": "蛔",
+    "frequency": 1001,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4321,
+    "character": "蛎",
+    "frequency": 995,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4327,
+    "character": "蚝",
+    "frequency": 988,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4328,
+    "character": "偌",
+    "frequency": 987,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4331,
+    "character": "愫",
+    "frequency": 984,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4332,
+    "character": "掬",
+    "frequency": 983,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4339,
+    "character": "犟",
+    "frequency": 972,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4341,
+    "character": "诙",
+    "frequency": 967,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4342,
+    "character": "徇",
+    "frequency": 966,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4343,
+    "character": "嘹",
+    "frequency": 964,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4346,
+    "character": "脲",
+    "frequency": 958,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4349,
+    "character": "腩",
+    "frequency": 955,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4350,
+    "character": "皈",
+    "frequency": 954,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4354,
+    "character": "咣",
+    "frequency": 950,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4357,
+    "character": "哐",
+    "frequency": 944,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4358,
+    "character": "莘",
+    "frequency": 944,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4360,
+    "character": "藓",
+    "frequency": 943,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4361,
+    "character": "婀",
+    "frequency": 942,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4363,
+    "character": "缈",
+    "frequency": 940,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4365,
+    "character": "呲",
+    "frequency": 938,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4366,
+    "character": "啕",
+    "frequency": 938,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4367,
+    "character": "锂",
+    "frequency": 935,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4369,
+    "character": "匝",
+    "frequency": 932,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4370,
+    "character": "铧",
+    "frequency": 932,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4373,
+    "character": "嘭",
+    "frequency": 929,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4377,
+    "character": "骺",
+    "frequency": 925,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4378,
+    "character": "祛",
+    "frequency": 922,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4380,
+    "character": "飓",
+    "frequency": 917,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4383,
+    "character": "掳",
+    "frequency": 914,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4385,
+    "character": "箔",
+    "frequency": 909,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4386,
+    "character": "铰",
+    "frequency": 909,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4387,
+    "character": "鳝",
+    "frequency": 908,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4388,
+    "character": "噔",
+    "frequency": 906,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4391,
+    "character": "嘁",
+    "frequency": 904,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4392,
+    "character": "砼",
+    "frequency": 903,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4393,
+    "character": "酐",
+    "frequency": 903,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4402,
+    "character": "熵",
+    "frequency": 889,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4403,
+    "character": "峥",
+    "frequency": 888,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4404,
+    "character": "饽",
+    "frequency": 888,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4407,
+    "character": "呤",
+    "frequency": 882,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4408,
+    "character": "琊",
+    "frequency": 879,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4409,
+    "character": "鹌",
+    "frequency": 879,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4412,
+    "character": "噙",
+    "frequency": 874,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4413,
+    "character": "呋",
+    "frequency": 873,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4418,
+    "character": "苄",
+    "frequency": 871,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4420,
+    "character": "唰",
+    "frequency": 870,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4424,
+    "character": "狒",
+    "frequency": 868,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4426,
+    "character": "舢",
+    "frequency": 867,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4428,
+    "character": "裱",
+    "frequency": 865,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4429,
+    "character": "樾",
+    "frequency": 864,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4431,
+    "character": "猕",
+    "frequency": 862,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4433,
+    "character": "啉",
+    "frequency": 861,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4445,
+    "character": "犄",
+    "frequency": 846,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4450,
+    "character": "氪",
+    "frequency": 844,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4453,
+    "character": "颚",
+    "frequency": 837,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4454,
+    "character": "氦",
+    "frequency": 835,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4458,
+    "character": "腭",
+    "frequency": 830,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4464,
+    "character": "嘣",
+    "frequency": 823,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4469,
+    "character": "矾",
+    "frequency": 822,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4473,
+    "character": "蚪",
+    "frequency": 814,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4476,
+    "character": "嚅",
+    "frequency": 809,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4478,
+    "character": "咝",
+    "frequency": 806,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4479,
+    "character": "鳅",
+    "frequency": 806,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4480,
+    "character": "锨",
+    "frequency": 805,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4484,
+    "character": "腚",
+    "frequency": 801,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4485,
+    "character": "嗫",
+    "frequency": 800,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4486,
+    "character": "蝌",
+    "frequency": 800,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4489,
+    "character": "钒",
+    "frequency": 797,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4490,
+    "character": "叁",
+    "frequency": 794,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4492,
+    "character": "珮",
+    "frequency": 794,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4494,
+    "character": "俸",
+    "frequency": 793,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4497,
+    "character": "漯",
+    "frequency": 791,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4498,
+    "character": "餮",
+    "frequency": 789,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4504,
+    "character": "珺",
+    "frequency": 777,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4505,
+    "character": "瞭",
+    "frequency": 777,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4508,
+    "character": "纭",
+    "frequency": 772,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4509,
+    "character": "铆",
+    "frequency": 771,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4511,
+    "character": "搡",
+    "frequency": 769,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4517,
+    "character": "蜈",
+    "frequency": 759,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4522,
+    "character": "蓖",
+    "frequency": 755,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4523,
+    "character": "暹",
+    "frequency": 754,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4526,
+    "character": "铵",
+    "frequency": 750,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4527,
+    "character": "咛",
+    "frequency": 749,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4530,
+    "character": "噘",
+    "frequency": 744,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4531,
+    "character": "龌",
+    "frequency": 740,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4532,
+    "character": "碚",
+    "frequency": 738,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4533,
+    "character": "骅",
+    "frequency": 738,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4535,
+    "character": "嵊",
+    "frequency": 736,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4536,
+    "character": "腧",
+    "frequency": 736,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4537,
+    "character": "旮",
+    "frequency": 734,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4539,
+    "character": "蟒",
+    "frequency": 732,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4544,
+    "character": "煅",
+    "frequency": 727,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4551,
+    "character": "瘴",
+    "frequency": 719,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4553,
+    "character": "荻",
+    "frequency": 717,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4555,
+    "character": "龊",
+    "frequency": 714,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4559,
+    "character": "羧",
+    "frequency": 703,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4560,
+    "character": "剐",
+    "frequency": 702,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4561,
+    "character": "馊",
+    "frequency": 701,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4563,
+    "character": "囫",
+    "frequency": 697,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4566,
+    "character": "薏",
+    "frequency": 693,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4574,
+    "character": "瘙",
+    "frequency": 679,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4588,
+    "character": "胴",
+    "frequency": 662,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4589,
+    "character": "踅",
+    "frequency": 662,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4591,
+    "character": "轭",
+    "frequency": 660,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4595,
+    "character": "锃",
+    "frequency": 658,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4597,
+    "character": "碜",
+    "frequency": 656,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4598,
+    "character": "铡",
+    "frequency": 653,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4600,
+    "character": "窸",
+    "frequency": 651,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4601,
+    "character": "旯",
+    "frequency": 649,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4604,
+    "character": "腈",
+    "frequency": 646,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4609,
+    "character": "坩",
+    "frequency": 640,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4610,
+    "character": "擤",
+    "frequency": 640,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4617,
+    "character": "徜",
+    "frequency": 633,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4623,
+    "character": "轱",
+    "frequency": 630,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4624,
+    "character": "抻",
+    "frequency": 629,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4626,
+    "character": "鼹",
+    "frequency": 629,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4628,
+    "character": "矽",
+    "frequency": 628,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4634,
+    "character": "瞠",
+    "frequency": 622,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4635,
+    "character": "垧",
+    "frequency": 621,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4636,
+    "character": "遨",
+    "frequency": 620,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4651,
+    "character": "唢",
+    "frequency": 605,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4653,
+    "character": "淞",
+    "frequency": 604,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4656,
+    "character": "埚",
+    "frequency": 602,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4660,
+    "character": "铖",
+    "frequency": 601,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4665,
+    "character": "徕",
+    "frequency": 596,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4668,
+    "character": "岬",
+    "frequency": 594,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4670,
+    "character": "缜",
+    "frequency": 593,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4672,
+    "character": "殓",
+    "frequency": 591,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4674,
+    "character": "蜇",
+    "frequency": 589,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4675,
+    "character": "磴",
+    "frequency": 587,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4679,
+    "character": "崂",
+    "frequency": 584,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4681,
+    "character": "囵",
+    "frequency": 582,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4685,
+    "character": "茴",
+    "frequency": 578,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4688,
+    "character": "舐",
+    "frequency": 575,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4691,
+    "character": "孀",
+    "frequency": 574,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4694,
+    "character": "癜",
+    "frequency": 573,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4697,
+    "character": "鲲",
+    "frequency": 571,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4700,
+    "character": "岷",
+    "frequency": 568,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4707,
+    "character": "诌",
+    "frequency": 565,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4712,
+    "character": "鳍",
+    "frequency": 561,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4717,
+    "character": "屙",
+    "frequency": 557,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4719,
+    "character": "琏",
+    "frequency": 557,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4720,
+    "character": "鸢",
+    "frequency": 557,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4722,
+    "character": "虻",
+    "frequency": 554,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4725,
+    "character": "瓩",
+    "frequency": 548,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4727,
+    "character": "趔",
+    "frequency": 548,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4731,
+    "character": "镊",
+    "frequency": 543,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4734,
+    "character": "喆",
+    "frequency": 538,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4737,
+    "character": "挲",
+    "frequency": 537,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4738,
+    "character": "狍",
+    "frequency": 537,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4746,
+    "character": "蜴",
+    "frequency": 534,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4749,
+    "character": "跆",
+    "frequency": 532,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4751,
+    "character": "齁",
+    "frequency": 531,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4752,
+    "character": "莴",
+    "frequency": 530,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4757,
+    "character": "嵴",
+    "frequency": 526,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4761,
+    "character": "酞",
+    "frequency": 524,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4762,
+    "character": "峒",
+    "frequency": 523,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4764,
+    "character": "煊",
+    "frequency": 522,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4765,
+    "character": "褓",
+    "frequency": 522,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4768,
+    "character": "呓",
+    "frequency": 519,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4771,
+    "character": "浜",
+    "frequency": 518,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4772,
+    "character": "笈",
+    "frequency": 518,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4778,
+    "character": "哞",
+    "frequency": 513,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4779,
+    "character": "仟",
+    "frequency": 512,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4784,
+    "character": "樽",
+    "frequency": 507,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4786,
+    "character": "尕",
+    "frequency": 504,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4789,
+    "character": "萘",
+    "frequency": 500,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4790,
+    "character": "桠",
+    "frequency": 494,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4793,
+    "character": "佘",
+    "frequency": 490,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4794,
+    "character": "塽",
+    "frequency": 490,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4799,
+    "character": "鹳",
+    "frequency": 486,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4801,
+    "character": "棂",
+    "frequency": 485,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4802,
+    "character": "咩",
+    "frequency": 484,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4810,
+    "character": "伢",
+    "frequency": 477,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4812,
+    "character": "鲑",
+    "frequency": 477,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4814,
+    "character": "獾",
+    "frequency": 476,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4815,
+    "character": "篾",
+    "frequency": 476,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4817,
+    "character": "菖",
+    "frequency": 476,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4818,
+    "character": "黢",
+    "frequency": 476,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4821,
+    "character": "溏",
+    "frequency": 474,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4827,
+    "character": "砒",
+    "frequency": 471,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4830,
+    "character": "兖",
+    "frequency": 469,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4831,
+    "character": "畲",
+    "frequency": 469,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4834,
+    "character": "塬",
+    "frequency": 467,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4836,
+    "character": "冼",
+    "frequency": 466,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4837,
+    "character": "噌",
+    "frequency": 466,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4843,
+    "character": "苎",
+    "frequency": 463,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4846,
+    "character": "麾",
+    "frequency": 462,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4847,
+    "character": "嘬",
+    "frequency": 461,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4849,
+    "character": "掮",
+    "frequency": 458,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4851,
+    "character": "亸",
+    "frequency": 455,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4855,
+    "character": "胍",
+    "frequency": 453,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4857,
+    "character": "赅",
+    "frequency": 451,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4859,
+    "character": "炔",
+    "frequency": 450,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4864,
+    "character": "濂",
+    "frequency": 448,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4865,
+    "character": "颀",
+    "frequency": 448,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4866,
+    "character": "嗟",
+    "frequency": 447,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4868,
+    "character": "桉",
+    "frequency": 447,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4872,
+    "character": "瓤",
+    "frequency": 446,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4874,
+    "character": "岘",
+    "frequency": 445,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4875,
+    "character": "硌",
+    "frequency": 445,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4878,
+    "character": "痼",
+    "frequency": 444,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4881,
+    "character": "迤",
+    "frequency": 443,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4882,
+    "character": "忸",
+    "frequency": 442,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4884,
+    "character": "滢",
+    "frequency": 442,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4885,
+    "character": "耧",
+    "frequency": 442,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4886,
+    "character": "跶",
+    "frequency": 441,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4887,
+    "character": "捱",
+    "frequency": 440,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4888,
+    "character": "怄",
+    "frequency": 438,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4891,
+    "character": "靛",
+    "frequency": 438,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4900,
+    "character": "牯",
+    "frequency": 435,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4901,
+    "character": "裟",
+    "frequency": 434,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4904,
+    "character": "桁",
+    "frequency": 430,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4912,
+    "character": "钎",
+    "frequency": 428,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4914,
+    "character": "濠",
+    "frequency": 426,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4917,
+    "character": "馕",
+    "frequency": 426,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4918,
+    "character": "袈",
+    "frequency": 425,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4926,
+    "character": "鳕",
+    "frequency": 420,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4928,
+    "character": "崆",
+    "frequency": 415,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4930,
+    "character": "榉",
+    "frequency": 413,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4931,
+    "character": "褡",
+    "frequency": 412,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4935,
+    "character": "忪",
+    "frequency": 409,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4937,
+    "character": "珐",
+    "frequency": 408,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4940,
+    "character": "幄",
+    "frequency": 406,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4945,
+    "character": "揿",
+    "frequency": 404,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4956,
+    "character": "薹",
+    "frequency": 397,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4960,
+    "character": "氲",
+    "frequency": 394,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4961,
+    "character": "讣",
+    "frequency": 394,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4962,
+    "character": "哚",
+    "frequency": 393,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4963,
+    "character": "毽",
+    "frequency": 392,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4967,
+    "character": "蹚",
+    "frequency": 391,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4968,
+    "character": "炷",
+    "frequency": 390,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4971,
+    "character": "耄",
+    "frequency": 390,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4972,
+    "character": "吲",
+    "frequency": 388,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4973,
+    "character": "莅",
+    "frequency": 388,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4974,
+    "character": "伱",
+    "frequency": 387,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4979,
+    "character": "龅",
+    "frequency": 386,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4985,
+    "character": "勐",
+    "frequency": 379,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4986,
+    "character": "溴",
+    "frequency": 379,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4993,
+    "character": "蚴",
+    "frequency": 377,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4994,
+    "character": "镭",
+    "frequency": 377,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4995,
+    "character": "肟",
+    "frequency": 376,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4996,
+    "character": "嗄",
+    "frequency": 375,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  },
+  {
+    "rank": 4999,
+    "character": "鲎",
+    "frequency": 375,
+    "sealMark": null,
+    "glyphId": null,
+    "mappingStatus": "missing",
+    "alternatives": []
+  }
+]

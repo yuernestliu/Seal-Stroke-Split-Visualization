@@ -1,0 +1,65 @@
+{
+  "id": "07959_南_Z_說文‧𣎵部",
+  "mark": "南",
+  "width": 51,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "6dec4cb048ae00fc4f5c40bcdaf9b8c8eea60d9627005d81e4af5e24a458fed7",
+  "diagnostics": {
+    "silhouetteOverlap": 0.783,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M33 29 Q41 30.78 41.94 31.44 Q42.88 32.1 43.38 33.05 Q43.88 34 43.95 47 Q44.02 60 46 75",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M15 29 Q7.34 31.43 6.22 33.22 Q5.1 35 4.56 37.5 Q4.02 40 4 53 Q3.98 66 2 75",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M38 50 L12 50",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M25 76 Q24 68 24.01 60.97 Q24.02 53.94 25 44",
+      "width": 3.2
+    },
+    {
+      "id": 5,
+      "path": "M22 39 Q21.23 35 14 22",
+      "width": 3.2
+    },
+    {
+      "id": 6,
+      "path": "M37 40 Q25 41 12 40",
+      "width": 3.2
+    },
+    {
+      "id": 7,
+      "path": "M39 4 Q38.9 11 38.27 12.49 Q37.65 13.98 35.82 15.32 Q34 16.65 31.5 16.82 Q29 17 23.5 16.95 Q18 16.9 16.51 16.27 Q15.02 15.65 13.68 13.82 Q12.35 12 11.89 9.01 Q11.43 6.02 12 4",
+      "width": 3.2
+    },
+    {
+      "id": 8,
+      "path": "M25 27 L25 2",
+      "width": 3.2
+    },
+    {
+      "id": 9,
+      "path": "M36 22 Q32.33 27.33 29.89 32.17 Q27.45 37 28 40",
+      "width": 3.2
+    }
+  ]
+}

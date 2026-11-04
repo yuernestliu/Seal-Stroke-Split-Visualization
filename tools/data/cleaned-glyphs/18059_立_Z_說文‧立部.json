@@ -1,0 +1,45 @@
+{
+  "id": "18059_立_Z_說文‧立部",
+  "mark": "立",
+  "width": 60,
+  "height": 77,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "110c4ac997636e540c984fd2c2cafad7e0aa7290deaa32b8d5bcfcb224c70d53",
+  "diagnostics": {
+    "silhouetteOverlap": 0.816,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M3 29 Q25.1 17.76 27.05 17.1 Q29 16.44 30 16.61 Q31 16.78 41.05 22.01 Q51.1 27.23 54 28",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M24 22 Q23.9 38 22.28 45.5 Q20.67 53 15 71",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M29 14 L29 4",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M55 73 Q46 72.2 44.55 72.5 Q43.1 72.8 41.54 72.41 Q39.98 72.02 29.49 72.02 Q19 72.02 17 72.41 Q15 72.8 4 72",
+      "width": 3.2
+    },
+    {
+      "id": 5,
+      "path": "M34 21 Q34.02 36 34.56 39.95 Q35.1 43.9 43 71",
+      "width": 3.2
+    }
+  ]
+}

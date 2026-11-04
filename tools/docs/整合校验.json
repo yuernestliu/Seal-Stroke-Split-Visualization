@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-21",
+  "upstreamCommit": "29c8b11d6f9dc57770144c60e4de85aa6138048d",
+  "byteIdenticalImportedFiles": 15452,
+  "original124GlyphDataUnchanged": true,
+  "officialFontSHA256": "b5f52fe62e84b2b18ff4b586d9838d157e05925eca847ecd48c915ba4dcd735a",
+  "checks": [
+    "20个网页脚本语法",
+    "原124字与1830个资源引用",
+    "四字合字拆笔共用几何",
+    "14120个统一原图路径",
+    "全部模板蒙版",
+    "500/2000嵌套候选与分页",
+    "缺字和先验状态",
+    "模板拆部件与纯原图待完成",
+    "重建保留认领人、复核人、备注",
+    "实际浏览器默认安、模板性字拆合、项目计划"
+  ]
+}

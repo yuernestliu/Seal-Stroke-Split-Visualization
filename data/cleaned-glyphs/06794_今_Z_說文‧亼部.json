@@ -1,0 +1,35 @@
+{
+  "id": "06794_今_Z_說文‧亼部",
+  "mark": "今",
+  "width": 57,
+  "height": 77,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "f9c158b300ca185db4d34aa904ec48ad769fd99552086c52d3c154d46717a954",
+  "diagnostics": {
+    "silhouetteOverlap": 0.851,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M26 72 Q20.1 51.9 20.1 48 Q20.1 44.1 21.22 42.72 Q22.35 41.35 24.17 40.84 Q26 40.33 36 40",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M52 39 Q32.65 8 31.32 6.56 Q30 5.12 29 4.67 Q28 4.23 27 4.67 Q26 5.12 24.13 7.23 Q22.25 9.33 13.3 23.33 Q4.35 37.33 4 39",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M19 28 Q21.02 27.2 24.51 27.6 Q28 28 31.49 27.6 Q34.98 27.2 37 28",
+      "width": 3.2
+    }
+  ]
+}

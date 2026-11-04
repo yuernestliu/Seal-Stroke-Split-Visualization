@@ -1,0 +1,35 @@
+{
+  "id": "16957_白_Z_說文‧白部",
+  "mark": "白",
+  "width": 52,
+  "height": 77,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "526394bf3c58a70ad711ea1a97c8a5ca112585d27bdbf771947151deeffa0e64",
+  "diagnostics": {
+    "silhouetteOverlap": 0.762,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M25 22 L25 4",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M4 48 Q4.1 57 4.72 59.5 Q5.35 62 6.3 63.83 Q7.25 65.67 9.13 67.66 Q11 69.65 13.5 70.66 Q16 71.66 20.5 72.32 Q25 72.98 27 72.94 Q29 72.9 33.33 71.78 Q37.67 70.67 38.95 69.95 Q40.24 69.23 41.95 67.46 Q43.66 65.68 45.28 61.34 Q46.9 57 47.44 49.5 Q47.98 42 46.83 34.67 Q45.67 27.34 44.45 25.55 Q43.23 23.77 41.12 22.93 Q39 22.1 28.5 21.55 Q18 21 15 21.68 Q12 22.35 9.67 23.79 Q7.35 25.24 6.34 26.79 Q5.33 28.34 4.22 32.67 Q3.1 37 3 44",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M3 46 L45 46",
+      "width": 3.2
+    }
+  ]
+}

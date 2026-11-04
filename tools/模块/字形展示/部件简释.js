@@ -1,0 +1,27 @@
+/* 部件标注用的简释。正文引用《说文解字》部首条目，界面以短释呈现。 */
+window.COMPONENT_MEANINGS = {
+  "刀": {meaning: "兵也。象形。", source: "《说文解字》刀部", url: "https://www.shuowen.org/view/2732"},
+  "心": {meaning: "人心，土藏，在身之中。象形。", source: "《说文解字》心部", url: "https://www.shuowen.org/view/6670"},
+  "宀": {meaning: "交覆深屋也。象形。", source: "《说文解字》宀部", url: "https://www.shuowen.org/?bushou=%E5%AE%80"},
+  "人": {meaning: "天地之性最貴者也。象臂脛之形。", source: "《说文解字》人部", url: "https://www.shuowen.org/view/1"},
+  "口": {meaning: "人所以言食也。象形。", source: "《说文解字》口部", url: "https://www.shuowen.org/view/149"},
+  "女": {meaning: "婦人也。象形。", source: "《说文解字》女部", url: "https://www.shuowen.org/view/380"},
+  "木": {meaning: "冒也。冒地而生，東方之行。", source: "《说文解字》木部", url: "https://www.shuowen.org/view/4758"},
+  "火": {meaning: "燬也。南方之行，炎而上。", source: "《说文解字》火部", url: "https://www.shuowen.org/view/4815"},
+  "犬": {meaning: "狗之有縣蹏者也。象形。", source: "《说文解字》犬部", url: "https://www.shuowen.org/view/5915"},
+  "玉": {meaning: "石之美者。象三玉之連。", source: "《说文解字》玉部", url: "https://www.shuowen.org/view/6213"},
+  "田": {meaning: "陳也。樹穀曰田。象形。", source: "《说文解字》田部", url: "https://www.shuowen.org/view/6302"},
+  "示": {meaning: "天垂象，見吉凶，所以示人也。", source: "《说文解字》示部", url: "https://www.shuowen.org/view/6401"},
+  "禾": {meaning: "嘉穀也。二月始生，八月而孰。", source: "《说文解字》禾部", url: "https://www.shuowen.org/view/6503"},
+  "穴": {meaning: "土室也。从宀，八聲。", source: "《说文解字》穴部", url: "https://www.shuowen.org/view/6580"},
+  "竹": {meaning: "冬生艸也。象形。下垂者，箁箬也。", source: "《说文解字》竹部", url: "https://www.shuowen.org/view/6997"},
+  "虫": {meaning: "一名物。象形。凡虫之屬皆从虫。", source: "《说文解字》虫部", url: "https://www.shuowen.org/view/7158"},
+  "石": {meaning: "山石也。在厂之下。", source: "《说文解字》石部", url: "https://www.shuowen.org/view/6352"},
+  "白": {meaning: "西方色也。陰用事，物色白。", source: "《说文解字》白部", url: "https://www.shuowen.org/view/6765"},
+  "冫": {meaning: "水冰也。象水凝之形。", source: "《说文解字》仌部", url: "https://www.shuowen.org/view/186"},
+  "八": {meaning: "別也。象分別相背之形。", source: "《说文解字》八部", url: "https://www.shuowen.org/view/75"},
+  "力": {meaning: "筋也。象人筋之形。治功曰力。", source: "《说文解字》力部", url: "https://www.shuowen.org/view/221"},
+  "日": {meaning: "實也。太陽之精不虧。", source: "《说文解字》日部", url: "https://www.shuowen.org/view/4731"},
+  "十": {meaning: "數之具也。一爲東西，丨爲南北，則四方中央備矣。", source: "《说文解字》十部", url: "https://www.shuowen.org/view/52"},
+  "冖": {meaning: "覆也。从一下垂也。", source: "《说文解字》冖部", url: "https://www.shuowen.org/view/152"}
+};

@@ -1,0 +1,35 @@
+{
+  "id": "14292_气_Z_說文‧气部",
+  "mark": "气",
+  "width": 36,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 2.03
+  },
+  "sourceSignature": "7679d5b62a9e0c920047de6c4c162690b0e32e0ae31dabc2403f3cab5ce3e8b9",
+  "diagnostics": {
+    "silhouetteOverlap": 0.655,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M4 16 Q3.11 18.02 3.23 19.01 Q3.34 20 4.68 22.45 Q6.02 24.9 7.51 25.78 Q9 26.66 13.5 28 Q18 29.33 19.83 30.29 Q21.65 31.25 23.71 33.3 Q25.77 35.35 30 42",
+      "width": 2.03
+    },
+    {
+      "id": 2,
+      "path": "M4 2 Q4.34 6 5.72 8.46 Q7.1 10.92 15.38 15.08 Q23.65 19.25 26.21 21.8 Q28.77 24.35 31 28",
+      "width": 2.03
+    },
+    {
+      "id": 3,
+      "path": "M9 32 Q9.1 38 9.68 39.33 Q10.25 40.67 11.63 42.16 Q13.01 43.65 17.62 46.7 Q22.23 49.75 24.23 52.87 Q26.23 56 27.07 58.55 Q27.9 61.1 29 76",
+      "width": 2.03
+    }
+  ]
+}

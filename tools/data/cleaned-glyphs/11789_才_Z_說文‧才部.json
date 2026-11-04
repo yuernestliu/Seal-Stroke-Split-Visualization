@@ -1,0 +1,35 @@
+{
+  "id": "11789_才_Z_說文‧才部",
+  "mark": "才",
+  "width": 50,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 2.0
+  },
+  "sourceSignature": "97a17665972e1d64f40a873626444cef788137a5b00e93c74dcbc9a115e8840c",
+  "diagnostics": {
+    "silhouetteOverlap": 0.573,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M25 75 Q24.02 72 24.01 43 Q24 14 24.01 10 Q24.02 6 25 1",
+      "width": 2.0
+    },
+    {
+      "id": 2,
+      "path": "M47 16 Q40 15.9 38 15.46 Q36 15.02 25 15.01 Q14 15 10.01 15.05 Q6.02 15.1 4 16",
+      "width": 2.0
+    },
+    {
+      "id": 3,
+      "path": "M8 38 Q16.1 36.1 42 34",
+      "width": 2.0
+    }
+  ]
+}

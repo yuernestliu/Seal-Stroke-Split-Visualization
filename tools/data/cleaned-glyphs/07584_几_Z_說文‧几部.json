@@ -1,0 +1,25 @@
+{
+  "id": "07584_几_Z_說文‧几部",
+  "mark": "几",
+  "width": 44,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "9fdde654550f4d490cbda0f292a20f0316db1502b1c439ebb78291dbc1057609",
+  "diagnostics": {
+    "silhouetteOverlap": 0.864,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M3 75 Q5.9 57 6 53 Q6.1 49 6.54 47 Q6.98 45 6.98 31 Q6.98 17 6.66 14 Q6.34 11 7.06 8.51 Q7.78 6.02 9.06 4.63 Q10.34 3.25 13.17 2.18 Q16 1.1 18 1.05 Q20 1 23.5 1.05 Q27 1.1 29.5 1.94 Q32 2.78 33.28 3.9 Q34.57 5.02 35.12 6.51 Q35.66 8 35.84 28.5 Q36.02 49 37.06 58 Q38.1 67 40 75",
+      "width": 3.2
+    }
+  ]
+}

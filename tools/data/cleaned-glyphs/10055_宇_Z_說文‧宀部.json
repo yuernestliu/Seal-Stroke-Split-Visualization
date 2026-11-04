@@ -1,0 +1,54 @@
+{
+  "id": "10055_宇_Z_說文‧宀部",
+  "mark": "宇",
+  "width": 54,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "fff057e41bc2479e469d17edb2ef674d89dd8338c06ae3ad101a785debb7c925",
+  "diagnostics": {
+    "silhouetteOverlap": 0.78,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M17 21 Q20 20.02 37 20",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M27 6 L27 1",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M3 75 Q3.02 39 3.5 36.5 Q3.98 34 4.04 26 Q4.1 18 4.72 16 Q5.34 14 6.22 12.5 Q7.1 11 8.55 9.73 Q10 8.45 18.43 7.49 Q26.86 6.53 31.93 6.81 Q37 7.1 40 7.72 Q43 8.35 44.95 9.68 Q46.9 11.02 47.77 12.51 Q48.65 14 50 76",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M42 30 L10 30",
+      "width": 3.2
+    },
+    {
+      "id": 5,
+      "path": "M29 75 Q34.9 50 34.94 47.5 Q34.98 45 34.32 43.05 Q33.65 41.1 30.87 39.38 Q28.1 37.65 27.44 36.82 Q26.78 35.98 26 30",
+      "width": 3.2
+    }
+  ],
+  "review": {
+    "date": "2026-10-14",
+    "scope": "display geometry only",
+    "checks": [
+      "source comparison",
+      "stroke count and endpoints",
+      "same paths for combined and split displays"
+    ]
+  }
+}

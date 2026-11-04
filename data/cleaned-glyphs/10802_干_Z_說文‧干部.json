@@ -1,0 +1,35 @@
+{
+  "id": "10802_干_Z_說文‧干部",
+  "mark": "干",
+  "width": 51,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "3b0dad0d7e17e6754d0125bf386a269868b3788d650e574cb985afba2797d74d",
+  "diagnostics": {
+    "silhouetteOverlap": 0.71,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M3 35 Q6 34.02 46 34",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M11 2 Q10.1 4.02 10.06 7.51 Q10.02 11 10.9 14.95 Q11.78 18.9 12.9 19.77 Q14.02 20.65 16.01 21.16 Q18 21.67 21.5 21.83 Q25 22 28.5 21.95 Q32 21.9 34.32 20.89 Q36.65 19.89 37.78 16.44 Q38.9 13 39 2",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M24 23 L24 75",
+      "width": 3.2
+    }
+  ]
+}

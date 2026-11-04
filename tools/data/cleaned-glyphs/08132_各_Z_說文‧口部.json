@@ -1,0 +1,45 @@
+{
+  "id": "08132_各_Z_說文‧口部",
+  "mark": "各",
+  "width": 53,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "49e41484db1a437c4351cb97fe1caf9aff7ca324a5fb0fac51cf7dd0d027100f",
+  "diagnostics": {
+    "silhouetteOverlap": 0.77,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M33 34 Q33.8 42 33.18 46.49 Q32.55 50.98 31.77 51.77 Q30.98 52.55 27.99 53.22 Q25 53.89 20.55 53.39 Q16.1 52.9 15.22 52.27 Q14.34 51.65 13.68 49.32 Q13.02 47 13 34",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M32 42 L14 42",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M4 21 Q37 18.9 40.45 18.23 Q43.9 17.55 44.77 16.27 Q45.65 15 46.23 11.5 Q46.8 8 46 2",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M3 11 Q23 9.98 25.5 9.5 Q28 9.02 33.5 9 Q39 8.98 45 8",
+      "width": 3.2
+    },
+    {
+      "id": 5,
+      "path": "M49 75 Q48.02 72 47.83 53 Q47.65 34 47.15 33.05 Q46.65 32.1 45.32 31.23 Q44 30.35 37 29 Q30 27.65 28.22 26.65 Q26.45 25.65 25.28 20.83 Q24.11 16 25 11",
+      "width": 3.2
+    }
+  ]
+}

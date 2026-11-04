@@ -1,0 +1,22 @@
+{
+  "name": "BCC multi-domain character frequency",
+  "url": "https://bcc.blcu.edu.cn/download",
+  "version": "downloaded_2026-05-27",
+  "downloaded_at": "2026-05-27T13:40:23.448594+00:00",
+  "license": "BCC corpus download terms; cite BCC/BLCU corpus when used in research",
+  "domains": [
+    "multi_domain"
+  ],
+  "raw_sha256": "74daae5cda8471744fc0af80c00ed39a705ed22b065302c11a0946458360e668",
+  "normalized_sha256": "73de9c010477862168665d777059d0efb8d7c7e8f3c8524b836143f28f3a01e7",
+  "target_frequency_used": false,
+  "raw_filename": "multi_domain_total_char_freq.txt.zip",
+  "raw_inner_filename": "multi_domain_total_char_freq.txt",
+  "raw_zip_sha256": "8f2722797092966771b452e919b7af7e94d6903d24d760b6a84b9cbf1d726fde",
+  "local_source": "1-Data/26y0611-字符频率bcc-multidomain-charfreq-v1/multi_domain_total_char_freq.txt",
+  "local_file_sha256": "74daae5cda8471744fc0af80c00ed39a705ed22b065302c11a0946458360e668",
+  "selection": "保留前5000个单字汉字频序作为候选池；按频序选取可匹配且字形ID不重复的前500/2000字；高频缺字独立登记，不生成假字形。",
+  "scope": "教学与研究候选字表，不代表官方500/2000常用字标准。",
+  "conversion": "OpenCC STCharacters 单字候选映射，歧义需人工校核。",
+  "conversion_url": "https://github.com/BYVoid/OpenCC/blob/master/data/dictionary/STCharacters.txt"
+}
