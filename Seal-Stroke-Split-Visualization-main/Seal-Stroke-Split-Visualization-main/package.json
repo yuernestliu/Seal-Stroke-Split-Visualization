@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "jsdom": "^29.1.1"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "python3 scripts/serve.py --port 4186",
+    "check": "node scripts/check_syntax.cjs",
+    "test": "node tests/site-smoke.cjs",
+    "build:library": "python3 scripts/build_library.py && python3 scripts/build_component_priors.py",
+    "build:pages": "python3 scripts/build_pages.py"
+  }
+}

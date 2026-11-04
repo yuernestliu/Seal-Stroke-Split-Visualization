@@ -1,0 +1,61 @@
+name: Publish static website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website sources
+        uses: actions/checkout@v6
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /index.html
+            /license.html
+            /plan.html
+            /styles.css
+            /.nojekyll
+            /scripts/build_pages.py
+            /scripts/check_syntax.cjs
+            /src/
+            /data/
+            /assets/fonts/
+            /public/assets/
+            /模块/
+            /字库/
+            !**/_FORBIDDEN_*
+            !**/_FORBIDDEN_*/**
+      - name: Check browser scripts
+        run: node scripts/check_syntax.cjs
+      - name: Package website
+        run: python3 scripts/build_pages.py
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

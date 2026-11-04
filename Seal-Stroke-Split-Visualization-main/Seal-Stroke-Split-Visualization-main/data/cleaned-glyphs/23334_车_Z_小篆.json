@@ -1,0 +1,45 @@
+{
+  "id": "23334_车_Z_小篆",
+  "mark": "车",
+  "width": 39,
+  "height": 79,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "bd9a21085cdd25838ad57fd1c03ee2dd58872948c2e131cbdfe54399762c54ae",
+  "diagnostics": {
+    "silhouetteOverlap": 0.752,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M20 47 Q25 46.22 26.78 44.61 Q28.57 43 29.68 39.05 Q30.8 35.1 30.23 30.72 Q29.65 26.35 28.65 25.3 Q27.65 24.25 26.32 23.68 Q25 23.1 18 23.1 Q11 23.1 9.5 23.73 Q8 24.35 6.56 25.68 Q5.11 27 4.11 29.95 Q3.11 32.9 3.73 35.45 Q4.35 38 6.22 41.44 Q8.1 44.89 10.05 45.77 Q12 46.66 16 47",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M7 35 L29 35",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M18 4 Q17 22 17.49 27 Q17.98 32 18 74",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M34 55 Q12 55.02 9.5 55.49 Q7 55.97 4 55",
+      "width": 3.2
+    },
+    {
+      "id": 5,
+      "path": "M5 12 L31 12",
+      "width": 3.2
+    }
+  ]
+}

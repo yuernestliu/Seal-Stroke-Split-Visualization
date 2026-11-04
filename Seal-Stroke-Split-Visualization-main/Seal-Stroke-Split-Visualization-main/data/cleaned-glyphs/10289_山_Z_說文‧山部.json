@@ -1,0 +1,35 @@
+{
+  "id": "10289_山_Z_說文‧山部",
+  "mark": "山",
+  "width": 48,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "1ec5266c6ca8a4a95840943bac228fd1c7caccedb7412865bc6c82accabe601f",
+  "diagnostics": {
+    "silhouetteOverlap": 0.749,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M24 2 Q23.66 50 23.16 51.33 Q22.66 52.67 21.32 54.33 Q19.98 56 6 68",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M39 65 Q34 61.9 25 53",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M4 8 Q3.98 18 3.5 20.5 Q3.02 23 3.01 40 Q3 57 3.67 61.5 Q4.34 66 5.23 68 Q6.11 70 8.06 71.78 Q10 73.57 12 74.23 Q14 74.9 19 75.44 Q24 75.98 29 75.44 Q34 74.9 35.95 74.07 Q37.9 73.25 39.07 72.07 Q40.23 70.9 41.44 67.95 Q42.65 65 43 9",
+      "width": 3.2
+    }
+  ]
+}

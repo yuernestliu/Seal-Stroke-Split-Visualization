@@ -1,0 +1,40 @@
+{
+  "id": "10193_少_Z_說文‧小部",
+  "mark": "少",
+  "width": 46,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "119db73014f0410e5e0423a022aba328b6a728c2d98b2ba2521281bbbe32f991",
+  "diagnostics": {
+    "silhouetteOverlap": 0.796,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M10 4 Q9.9 21 9.28 24.5 Q8.66 28 4 41",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M42 43 Q35.1 22 34.65 16.5 Q34.2 11 35 4",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M22 37 Q22.02 5 23 2",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M37 31 Q22.98 38.67 18.04 40.22 Q13.1 41.77 12.18 42.56 Q11.25 43.35 10.68 44.68 Q10.12 46 10.28 47 Q10.45 48 11.73 49.27 Q13 50.55 19.5 52.44 Q26 54.33 28.38 55.84 Q30.77 57.35 32.49 59.67 Q34.22 62 34.94 64 Q35.66 66 36 75",
+      "width": 3.2
+    }
+  ]
+}

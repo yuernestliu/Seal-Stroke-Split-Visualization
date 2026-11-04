@@ -1,0 +1,50 @@
+{
+  "id": "06740_五_Z_說文‧五部",
+  "mark": "五",
+  "width": 61,
+  "height": 75,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "c79346eec267ad9e92c12c9802ba02da6f2387ce3f2c7adcc977a3ed26fa230e",
+  "diagnostics": {
+    "silhouetteOverlap": 0.762,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M55 70 Q15.21 69.98 5 69",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M48 71 Q46.58 65 39.92 52.99 Q33.25 40.98 31.74 37.21 Q30.23 33.44 28.5 31.21 Q26.77 28.98 21.06 18.32 Q15.35 7.67 15.73 6.56 Q16.1 5.45 18 5",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M8 4 Q15.66 3.2 18.33 3.59 Q21 3.98 52 4",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M15 4 L15 3",
+      "width": 3.2
+    },
+    {
+      "id": 5,
+      "path": "M11 70 Q11.35 67 12.3 65.01 Q13.25 63.02 19.29 51.67 Q25.33 40.33 27.28 37.62 Q29.23 34.9 35.99 21.95 Q42.75 9 43.32 7.5 Q43.9 6 44 3",
+      "width": 3.2
+    },
+    {
+      "id": 6,
+      "path": "M15 63 L15 63",
+      "width": 3.2
+    }
+  ]
+}

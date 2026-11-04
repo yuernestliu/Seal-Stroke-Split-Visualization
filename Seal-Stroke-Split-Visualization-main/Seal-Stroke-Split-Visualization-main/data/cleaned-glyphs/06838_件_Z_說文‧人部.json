@@ -1,0 +1,45 @@
+{
+  "id": "06838_件_Z_說文‧人部",
+  "mark": "件",
+  "width": 52,
+  "height": 80,
+  "status": "display_checked",
+  "method": "centerline-quadratic-v1",
+  "parameters": {
+    "sigma": 1.2,
+    "simplifyTolerance": 0.5,
+    "strokeWidth": 3.2
+  },
+  "sourceSignature": "0869a3e8fdc6ed764b4321ace033147967348ecfbaac522d562a11e5420f0545",
+  "diagnostics": {
+    "silhouetteOverlap": 0.83,
+    "endpointCheck": "passed"
+  },
+  "strokes": [
+    {
+      "id": 1,
+      "path": "M20 73 Q18.1 67 17.06 59 Q16.02 51 15.95 31.01 Q15.88 11.02 15.38 10.18 Q14.88 9.35 13.94 8.85 Q13 8.35 9 8",
+      "width": 3.2
+    },
+    {
+      "id": 2,
+      "path": "M2 8 Q5.88 8.12 6.43 9.07 Q6.98 10.02 6.98 20.01 Q6.98 30 6.5 32.5 Q6.02 35 6.01 50 Q6 65 7 70",
+      "width": 3.2
+    },
+    {
+      "id": 3,
+      "path": "M25 8 Q25.1 20 25.72 21.83 Q26.33 23.65 27.72 24.78 Q29.1 25.9 33.4 26.39 Q37.7 26.89 40.18 26.28 Q42.65 25.66 43.66 24.16 Q44.67 22.66 45.28 20.33 Q45.9 18 45.67 14.5 Q45.43 11 46 8",
+      "width": 3.2
+    },
+    {
+      "id": 4,
+      "path": "M35 75 L35 2",
+      "width": 3.2
+    },
+    {
+      "id": 5,
+      "path": "M23 36 L47 36",
+      "width": 3.2
+    }
+  ]
+}
