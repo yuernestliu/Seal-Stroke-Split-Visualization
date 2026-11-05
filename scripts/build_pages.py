@@ -78,6 +78,18 @@ def main():
         for url in re.findall(r'url\(["\']?([^\)"\']+)["\']?\)',allowed_path(css).read_text()):
             add_url(url,Path(css).parent.as_posix())
 
+    # The 167 manually split SVGs are referenced from the JavaScript asset
+    # manifest rather than directly from HTML.  Include those paths explicitly
+    # so the GitHub Pages artifact contains the same SVGs as the local site.
+    manual_manifest = 'data/manual-167-assets.js'
+    if allowed_path(manual_manifest).is_file():
+        manual_assets = payload(manual_manifest)
+        for asset in manual_assets.values():
+            for key in ('solid', 'color'):
+                if asset.get(key): add_url(asset[key])
+            for stroke in asset.get('strokes', []):
+                add_url(stroke)
+
     def export(relative, variable, data):
         if relative not in needed: raise ValueError('Unreferenced display export: '+relative)
         overrides[relative] = '/* Display export only; full research records remain in the repository. */\nwindow.'+variable+' = '+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n'
