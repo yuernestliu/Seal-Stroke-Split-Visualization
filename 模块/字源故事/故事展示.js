@@ -9,13 +9,15 @@
     const story = window.GLYPH_STORIES?.[glyph.id] || window.GLYPH_STORIES?.[glyph.mark] || {};
     setText('#glyphTitle', glyph.title);
     setText('#glyphSource', `${glyph.source.collection} · ${glyph.source.section.replace(/^說文‧/, '')}`);
-    const description = glyph.structure_desc || '';
-    const formation = `${glyph.formation || ''}${description}`.match(/形声字|会意字|象形字|指事字|独体字/)?.[0] || '字形观察';
+    const description = story.structure_desc || glyph.structure_desc || '';
+    const originalMeaning = story.original_meaning || glyph.original_meaning || '';
+    const meaningExtend = story.meaning_extend || glyph.meaning_extend || '';
+    const formation = description.match(/形声字|会意字|象形字|指事字|独体字/)?.[0] || '字形观察';
     setText('#formationType', formation);
-    setText('#storyHeadline', story.headline || (glyph.original_meaning ? `「${glyph.mark}」的来处。` : '故事待补。'));
-    $('#glyphOriginalMeaning').innerHTML = glyph.original_meaning ? `${xz(glyph.original_meaning)}` : '释读资料正在整理。';
-    $('#glyphMeaningExtendBlock').hidden = !glyph.meaning_extend;
-    $('#glyphMeaningExtend').innerHTML = xz(glyph.meaning_extend);
+    setText('#storyHeadline', story.headline || (originalMeaning ? `「${glyph.mark}」的来处。` : '故事待补。'));
+    $('#glyphOriginalMeaning').innerHTML = originalMeaning ? `${xz(originalMeaning)}` : '释读资料正在整理。';
+    $('#glyphMeaningExtendBlock').hidden = !meaningExtend;
+    $('#glyphMeaningExtend').innerHTML = xz(meaningExtend);
     $('#structureDesc').innerHTML = description ? xz(description) : '构形资料待补。';
     const components = $('#componentList'); components.replaceChildren();
     const parts = glyph.parts?.length ? glyph.parts.map((name, i) => ({name, kind: glyph.part_type?.[i], comment: glyph.part_comment?.[i]})) : (glyph.components || []).map(c => ({...c, comment: c.status}));
@@ -46,7 +48,6 @@
     setText('#storySource', story.source || '');
     $('#sourceOriginal').src = glyph.assets.original; $('#sourceOriginal').alt = `${glyph.mark} 的原始样本`;
     document.querySelector('.source-note').open = false;
-    window.CommentNotes?.refresh(glyph.id);
   }
 
   window.StoryPanel = {renderRecord};

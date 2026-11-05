@@ -1,0 +1,24 @@
+{
+  "schema": "current-display-review-v1",
+  "glyph_id": "12543_政_Z_說文‧攴部",
+  "status": "candidate-needs-manual-review",
+  "geometry_version": "smooth-centerline-display-v1",
+  "outline_reviewed": false,
+  "skeleton_reviewed": false,
+  "stroke_split_reviewed": false,
+  "owner": null,
+  "reviewer": null,
+  "review_date": "2026-11-05",
+  "files": {
+    "display": "site-color.svg",
+    "solid": "site-solid.svg",
+    "skeleton": "current-skeleton.json",
+    "skeleton_svg": "current-skeleton.svg",
+    "source": "current-source.json",
+    "parameters": "current-parameters.json"
+  },
+  "issues": [
+    "Current site files are smooth centerline display paths; legacy contour records are kept separately.",
+    "Human visual confirmation is still required."
+  ]
+}

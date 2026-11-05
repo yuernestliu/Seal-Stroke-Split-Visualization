@@ -1,0 +1,15 @@
+{
+  "schema": "current-display-source-v1",
+  "glyph_id": "12709_日_Z_說文‧日部",
+  "raw_png": "167个字/12709_日_Z_說文‧日部.png",
+  "manual_label": "分享包_小篆拆笔画工具(1)/outputs/label_maps_current_167/12709_日_Z_說文‧日部/label.png",
+  "display_svg": "site-color.svg",
+  "solid_svg": "site-solid.svg",
+  "stroke_svgs": [
+    "site-stroke-01.svg",
+    "site-stroke-02.svg"
+  ],
+  "coordinate_system": "current site SVG viewBox coordinates; origin top-left",
+  "geometry_version": "smooth-centerline-display-v1",
+  "legacy_records": "source.json, mask.png, outline.svg, skeleton.json, overlay.svg, review.json"
+}

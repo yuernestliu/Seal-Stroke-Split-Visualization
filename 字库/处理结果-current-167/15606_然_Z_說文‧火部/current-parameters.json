@@ -1,0 +1,12 @@
+{
+  "schema": "current-display-parameters-v1",
+  "glyph_id": "15606_然_Z_說文‧火部",
+  "source_script": "scripts/build_manual_site_assets.py",
+  "viewBox": "0 0 57 80",
+  "paths": 11,
+  "stroke_widths": [
+    3.2
+  ],
+  "centerline_display": true,
+  "note": "This version records the current smooth centerline display; it is not relabeled as a filled contour."
+}

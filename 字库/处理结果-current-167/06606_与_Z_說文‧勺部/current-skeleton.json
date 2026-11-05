@@ -1,0 +1,358 @@
+{
+  "schema": "current-display-skeleton-v1",
+  "status": "candidate-needs-manual-review",
+  "glyph_id": "06606_与_Z_說文‧勺部",
+  "viewBox": "0 0 44 80",
+  "aria_label": "06606_与_Z_說文‧勺部 彩色拆笔展示",
+  "coordinate_system": "site SVG viewBox coordinates; x right, y down",
+  "nodes": [
+    {
+      "node_id": "N0001",
+      "point": [
+        4.0,
+        33.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0002",
+      "point": [
+        7.0,
+        2.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0003",
+      "point": [
+        7.0,
+        7.0
+      ],
+      "incident_strokes": [
+        "S3"
+      ]
+    },
+    {
+      "node_id": "N0004",
+      "point": [
+        15.0,
+        75.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0005",
+      "point": [
+        35.0,
+        33.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0006",
+      "point": [
+        39.0,
+        8.0
+      ],
+      "incident_strokes": [
+        "S3"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E0001",
+      "stroke_id": "S1",
+      "color": "#eeb377",
+      "stroke_width": 3.2,
+      "d": "M 4.00 33.00 L 35.00 33.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            4.0,
+            33.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            35.0,
+            33.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          4.0,
+          33.0
+        ],
+        [
+          35.0,
+          33.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0002",
+      "stroke_id": "S2",
+      "color": "#a5c4b1",
+      "stroke_width": 3.2,
+      "d": "M 7.00 2.00 Q 7.00 15.00 8.50 17.00 Q 10.00 19.00 22.50 20.00 Q 35.00 21.00 37.50 25.00 Q 40.00 29.00 40.00 34.00 Q 40.00 39.00 38.00 42.50 Q 36.00 46.00 28.50 47.00 Q 21.00 48.00 18.50 50.00 Q 16.00 52.00 15.00 55.50 Q 14.00 59.00 14.50 67.00 Q 15.00 75.00 15.00 75.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            7.0,
+            2.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            7.0,
+            15.0
+          ],
+          "point": [
+            8.5,
+            17.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            10.0,
+            19.0
+          ],
+          "point": [
+            22.5,
+            20.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            35.0,
+            21.0
+          ],
+          "point": [
+            37.5,
+            25.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            40.0,
+            29.0
+          ],
+          "point": [
+            40.0,
+            34.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            40.0,
+            39.0
+          ],
+          "point": [
+            38.0,
+            42.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            36.0,
+            46.0
+          ],
+          "point": [
+            28.5,
+            47.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            21.0,
+            48.0
+          ],
+          "point": [
+            18.5,
+            50.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            16.0,
+            52.0
+          ],
+          "point": [
+            15.0,
+            55.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            14.0,
+            59.0
+          ],
+          "point": [
+            14.5,
+            67.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            15.0,
+            75.0
+          ],
+          "point": [
+            15.0,
+            75.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          7.0,
+          2.0
+        ],
+        [
+          7.0,
+          15.0
+        ],
+        [
+          8.5,
+          17.0
+        ],
+        [
+          10.0,
+          19.0
+        ],
+        [
+          22.5,
+          20.0
+        ],
+        [
+          35.0,
+          21.0
+        ],
+        [
+          37.5,
+          25.0
+        ],
+        [
+          40.0,
+          29.0
+        ],
+        [
+          40.0,
+          34.0
+        ],
+        [
+          40.0,
+          39.0
+        ],
+        [
+          38.0,
+          42.5
+        ],
+        [
+          36.0,
+          46.0
+        ],
+        [
+          28.5,
+          47.0
+        ],
+        [
+          21.0,
+          48.0
+        ],
+        [
+          18.5,
+          50.0
+        ],
+        [
+          16.0,
+          52.0
+        ],
+        [
+          15.0,
+          55.5
+        ],
+        [
+          14.0,
+          59.0
+        ],
+        [
+          14.5,
+          67.0
+        ],
+        [
+          15.0,
+          75.0
+        ],
+        [
+          15.0,
+          75.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0003",
+      "stroke_id": "S3",
+      "color": "#d89181",
+      "stroke_width": 3.2,
+      "d": "M 7.00 7.00 L 39.00 8.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            7.0,
+            7.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            39.0,
+            8.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          7.0,
+          7.0
+        ],
+        [
+          39.0,
+          8.0
+        ]
+      ],
+      "closed": false
+    }
+  ],
+  "closed_loops": [],
+  "stroke_truth": {
+    "source": "manual label map via current smooth display SVG",
+    "confirmed": false
+  }
+}

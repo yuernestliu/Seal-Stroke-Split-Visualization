@@ -1,0 +1,125 @@
+{
+  "schema": "current-display-skeleton-v1",
+  "status": "candidate-needs-manual-review",
+  "glyph_id": "07937_十_Z_說文‧十部",
+  "viewBox": "0 0 51 80",
+  "aria_label": "07937_十_Z_說文‧十部 彩色拆笔展示",
+  "coordinate_system": "site SVG viewBox coordinates; x right, y down",
+  "nodes": [
+    {
+      "node_id": "N0001",
+      "point": [
+        2.0,
+        30.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0002",
+      "point": [
+        25.0,
+        1.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0003",
+      "point": [
+        25.0,
+        75.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0004",
+      "point": [
+        47.0,
+        30.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E0001",
+      "stroke_id": "S1",
+      "color": "#eeb377",
+      "stroke_width": 3.2,
+      "d": "M 2.00 30.00 L 47.00 30.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            2.0,
+            30.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            47.0,
+            30.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          2.0,
+          30.0
+        ],
+        [
+          47.0,
+          30.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0002",
+      "stroke_id": "S2",
+      "color": "#a5c4b1",
+      "stroke_width": 3.2,
+      "d": "M 25.00 1.00 L 25.00 75.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            25.0,
+            1.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            25.0,
+            75.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          25.0,
+          1.0
+        ],
+        [
+          25.0,
+          75.0
+        ]
+      ],
+      "closed": false
+    }
+  ],
+  "closed_loops": [],
+  "stroke_truth": {
+    "source": "manual label map via current smooth display SVG",
+    "confirmed": false
+  }
+}

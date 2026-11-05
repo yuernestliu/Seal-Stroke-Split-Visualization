@@ -1,0 +1,12 @@
+{
+  "schema": "current-display-parameters-v1",
+  "glyph_id": "09533_好_Z_說文‧女部",
+  "source_script": "scripts/build_manual_site_assets.py",
+  "viewBox": "0 0 56 80",
+  "paths": 6,
+  "stroke_widths": [
+    3.2
+  ],
+  "centerline_display": true,
+  "note": "This version records the current smooth centerline display; it is not relabeled as a filled contour."
+}

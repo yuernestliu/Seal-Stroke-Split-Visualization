@@ -1,0 +1,263 @@
+{
+  "schema": "current-display-skeleton-v1",
+  "status": "candidate-needs-manual-review",
+  "glyph_id": "06734_于_Z_說文‧于部",
+  "viewBox": "0 0 55 80",
+  "aria_label": "06734_于_Z_說文‧于部 彩色拆笔展示",
+  "coordinate_system": "site SVG viewBox coordinates; x right, y down",
+  "nodes": [
+    {
+      "node_id": "N0001",
+      "point": [
+        2.0,
+        13.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0002",
+      "point": [
+        10.0,
+        1.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0003",
+      "point": [
+        19.0,
+        75.0
+      ],
+      "incident_strokes": [
+        "S3"
+      ]
+    },
+    {
+      "node_id": "N0004",
+      "point": [
+        26.0,
+        12.0
+      ],
+      "incident_strokes": [
+        "S3"
+      ]
+    },
+    {
+      "node_id": "N0005",
+      "point": [
+        42.0,
+        1.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0006",
+      "point": [
+        51.0,
+        13.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E0001",
+      "stroke_id": "S1",
+      "color": "#eeb377",
+      "stroke_width": 3.2,
+      "d": "M 10.00 1.00 L 42.00 1.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            10.0,
+            1.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            42.0,
+            1.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          10.0,
+          1.0
+        ],
+        [
+          42.0,
+          1.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0002",
+      "stroke_id": "S2",
+      "color": "#a5c4b1",
+      "stroke_width": 3.2,
+      "d": "M 2.00 13.00 L 51.00 13.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            2.0,
+            13.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            51.0,
+            13.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          2.0,
+          13.0
+        ],
+        [
+          51.0,
+          13.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0003",
+      "stroke_id": "S3",
+      "color": "#d89181",
+      "stroke_width": 3.2,
+      "d": "M 26.00 12.00 Q 25.00 27.00 29.50 32.00 Q 34.00 37.00 34.50 42.00 Q 35.00 47.00 31.50 55.00 Q 28.00 63.00 23.50 69.00 Q 19.00 75.00 19.00 75.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            26.0,
+            12.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            25.0,
+            27.0
+          ],
+          "point": [
+            29.5,
+            32.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            34.0,
+            37.0
+          ],
+          "point": [
+            34.5,
+            42.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            35.0,
+            47.0
+          ],
+          "point": [
+            31.5,
+            55.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            28.0,
+            63.0
+          ],
+          "point": [
+            23.5,
+            69.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            19.0,
+            75.0
+          ],
+          "point": [
+            19.0,
+            75.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          26.0,
+          12.0
+        ],
+        [
+          25.0,
+          27.0
+        ],
+        [
+          29.5,
+          32.0
+        ],
+        [
+          34.0,
+          37.0
+        ],
+        [
+          34.5,
+          42.0
+        ],
+        [
+          35.0,
+          47.0
+        ],
+        [
+          31.5,
+          55.0
+        ],
+        [
+          28.0,
+          63.0
+        ],
+        [
+          23.5,
+          69.0
+        ],
+        [
+          19.0,
+          75.0
+        ],
+        [
+          19.0,
+          75.0
+        ]
+      ],
+      "closed": false
+    }
+  ],
+  "closed_loops": [],
+  "stroke_truth": {
+    "source": "manual label map via current smooth display SVG",
+    "confirmed": false
+  }
+}

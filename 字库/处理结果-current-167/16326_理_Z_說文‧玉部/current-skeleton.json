@@ -1,0 +1,701 @@
+{
+  "schema": "current-display-skeleton-v1",
+  "status": "candidate-needs-manual-review",
+  "glyph_id": "16326_理_Z_說文‧玉部",
+  "viewBox": "0 0 65 75",
+  "aria_label": "16326_理_Z_說文‧玉部 彩色拆笔展示",
+  "coordinate_system": "site SVG viewBox coordinates; x right, y down",
+  "nodes": [
+    {
+      "node_id": "N0001",
+      "point": [
+        3.0,
+        15.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0002",
+      "point": [
+        3.0,
+        35.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0003",
+      "point": [
+        4.0,
+        61.0
+      ],
+      "incident_strokes": [
+        "S3"
+      ]
+    },
+    {
+      "node_id": "N0004",
+      "point": [
+        12.0,
+        14.0
+      ],
+      "incident_strokes": [
+        "S4"
+      ]
+    },
+    {
+      "node_id": "N0005",
+      "point": [
+        12.0,
+        62.0
+      ],
+      "incident_strokes": [
+        "S4"
+      ]
+    },
+    {
+      "node_id": "N0006",
+      "point": [
+        20.0,
+        14.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0007",
+      "point": [
+        20.0,
+        61.0
+      ],
+      "incident_strokes": [
+        "S3"
+      ]
+    },
+    {
+      "node_id": "N0008",
+      "point": [
+        22.0,
+        36.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0009",
+      "point": [
+        24.0,
+        69.0
+      ],
+      "incident_strokes": [
+        "S9"
+      ]
+    },
+    {
+      "node_id": "N0010",
+      "point": [
+        29.0,
+        48.0
+      ],
+      "incident_strokes": [
+        "S6"
+      ]
+    },
+    {
+      "node_id": "N0011",
+      "point": [
+        31.0,
+        19.0
+      ],
+      "incident_strokes": [
+        "S8"
+      ]
+    },
+    {
+      "node_id": "N0012",
+      "point": [
+        40.0,
+        3.0
+      ],
+      "incident_strokes": [
+        "S7"
+      ]
+    },
+    {
+      "node_id": "N0013",
+      "point": [
+        42.0,
+        3.0
+      ],
+      "incident_strokes": [
+        "S5"
+      ]
+    },
+    {
+      "node_id": "N0014",
+      "point": [
+        42.0,
+        68.0
+      ],
+      "incident_strokes": [
+        "S5"
+      ]
+    },
+    {
+      "node_id": "N0015",
+      "point": [
+        43.0,
+        4.0
+      ],
+      "incident_strokes": [
+        "S7"
+      ]
+    },
+    {
+      "node_id": "N0016",
+      "point": [
+        53.0,
+        18.0
+      ],
+      "incident_strokes": [
+        "S8"
+      ]
+    },
+    {
+      "node_id": "N0017",
+      "point": [
+        57.0,
+        48.0
+      ],
+      "incident_strokes": [
+        "S6"
+      ]
+    },
+    {
+      "node_id": "N0018",
+      "point": [
+        62.0,
+        70.0
+      ],
+      "incident_strokes": [
+        "S9"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E0001",
+      "stroke_id": "S1",
+      "color": "#eeb377",
+      "stroke_width": 3.2,
+      "d": "M 3.00 35.00 L 22.00 36.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            3.0,
+            35.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            22.0,
+            36.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          3.0,
+          35.0
+        ],
+        [
+          22.0,
+          36.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0002",
+      "stroke_id": "S2",
+      "color": "#a5c4b1",
+      "stroke_width": 3.2,
+      "d": "M 20.00 14.00 L 3.00 15.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            20.0,
+            14.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            3.0,
+            15.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          20.0,
+          14.0
+        ],
+        [
+          3.0,
+          15.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0003",
+      "stroke_id": "S3",
+      "color": "#d89181",
+      "stroke_width": 3.2,
+      "d": "M 4.00 61.00 L 20.00 61.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            4.0,
+            61.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            20.0,
+            61.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          4.0,
+          61.0
+        ],
+        [
+          20.0,
+          61.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0004",
+      "stroke_id": "S4",
+      "color": "#bfafd0",
+      "stroke_width": 3.2,
+      "d": "M 12.00 14.00 L 12.00 62.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            12.0,
+            14.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            12.0,
+            62.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          12.0,
+          14.0
+        ],
+        [
+          12.0,
+          62.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0005",
+      "stroke_id": "S5",
+      "color": "#e6d38a",
+      "stroke_width": 3.2,
+      "d": "M 42.00 3.00 L 42.00 68.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            42.0,
+            3.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            42.0,
+            68.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          42.0,
+          3.0
+        ],
+        [
+          42.0,
+          68.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0006",
+      "stroke_id": "S6",
+      "color": "#8eb8c4",
+      "stroke_width": 3.2,
+      "d": "M 29.00 48.00 L 57.00 48.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            29.0,
+            48.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            57.0,
+            48.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          29.0,
+          48.0
+        ],
+        [
+          57.0,
+          48.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0007",
+      "stroke_id": "S7",
+      "color": "#eeb377",
+      "stroke_width": 3.2,
+      "d": "M 40.00 3.00 Q 33.00 4.00 31.00 6.00 Q 29.00 8.00 29.00 16.00 Q 29.00 24.00 30.00 26.00 Q 31.00 28.00 35.00 31.00 Q 39.00 34.00 45.00 33.00 Q 51.00 32.00 53.00 28.50 Q 55.00 25.00 55.50 21.50 Q 56.00 18.00 55.50 12.50 Q 55.00 7.00 53.50 5.50 Q 52.00 4.00 47.50 4.00 Q 43.00 4.00 43.00 4.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            40.0,
+            3.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            33.0,
+            4.0
+          ],
+          "point": [
+            31.0,
+            6.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            29.0,
+            8.0
+          ],
+          "point": [
+            29.0,
+            16.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            29.0,
+            24.0
+          ],
+          "point": [
+            30.0,
+            26.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            31.0,
+            28.0
+          ],
+          "point": [
+            35.0,
+            31.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            39.0,
+            34.0
+          ],
+          "point": [
+            45.0,
+            33.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            51.0,
+            32.0
+          ],
+          "point": [
+            53.0,
+            28.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            55.0,
+            25.0
+          ],
+          "point": [
+            55.5,
+            21.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            56.0,
+            18.0
+          ],
+          "point": [
+            55.5,
+            12.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            55.0,
+            7.0
+          ],
+          "point": [
+            53.5,
+            5.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            52.0,
+            4.0
+          ],
+          "point": [
+            47.5,
+            4.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            43.0,
+            4.0
+          ],
+          "point": [
+            43.0,
+            4.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          40.0,
+          3.0
+        ],
+        [
+          33.0,
+          4.0
+        ],
+        [
+          31.0,
+          6.0
+        ],
+        [
+          29.0,
+          8.0
+        ],
+        [
+          29.0,
+          16.0
+        ],
+        [
+          29.0,
+          24.0
+        ],
+        [
+          30.0,
+          26.0
+        ],
+        [
+          31.0,
+          28.0
+        ],
+        [
+          35.0,
+          31.0
+        ],
+        [
+          39.0,
+          34.0
+        ],
+        [
+          45.0,
+          33.0
+        ],
+        [
+          51.0,
+          32.0
+        ],
+        [
+          53.0,
+          28.5
+        ],
+        [
+          55.0,
+          25.0
+        ],
+        [
+          55.5,
+          21.5
+        ],
+        [
+          56.0,
+          18.0
+        ],
+        [
+          55.5,
+          12.5
+        ],
+        [
+          55.0,
+          7.0
+        ],
+        [
+          53.5,
+          5.5
+        ],
+        [
+          52.0,
+          4.0
+        ],
+        [
+          47.5,
+          4.0
+        ],
+        [
+          43.0,
+          4.0
+        ],
+        [
+          43.0,
+          4.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0008",
+      "stroke_id": "S8",
+      "color": "#a5c4b1",
+      "stroke_width": 3.2,
+      "d": "M 53.00 18.00 L 31.00 19.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            53.0,
+            18.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            31.0,
+            19.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          53.0,
+          18.0
+        ],
+        [
+          31.0,
+          19.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0009",
+      "stroke_id": "S9",
+      "color": "#d89181",
+      "stroke_width": 3.2,
+      "d": "M 24.00 69.00 L 62.00 70.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            24.0,
+            69.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            62.0,
+            70.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          24.0,
+          69.0
+        ],
+        [
+          62.0,
+          70.0
+        ]
+      ],
+      "closed": false
+    }
+  ],
+  "closed_loops": [],
+  "stroke_truth": {
+    "source": "manual label map via current smooth display SVG",
+    "confirmed": false
+  }
+}

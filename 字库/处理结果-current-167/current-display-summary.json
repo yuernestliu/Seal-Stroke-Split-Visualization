@@ -1,0 +1,1009 @@
+{
+  "schema": "current-display-records-v1",
+  "generated": "2026-11-05",
+  "glyph_count": 167,
+  "results": [
+    {
+      "glyph_id": "06592_一_Z_說文‧一部",
+      "stroke_count": 1,
+      "node_count": 2,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06601_三_Z_說文‧三部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06602_上_Z_小篆",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06603_下_Z_小篆",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06605_不_Z_說文‧不部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06606_与_Z_說文‧勺部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06618_业_Z_小篆",
+      "stroke_count": 24,
+      "node_count": 30,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06628_两_Z_小篆",
+      "stroke_count": 16,
+      "node_count": 20,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06637_中_Z_說文‧丨部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06650_为_Z_小篆",
+      "stroke_count": 24,
+      "node_count": 31,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06651_主_Z_說文‧丶部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06664_么_Z_小篆",
+      "stroke_count": 14,
+      "node_count": 26,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06667_之_Z_說文‧之部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06687_也_Z_說文‧𠂆部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06726_了_Z_說文‧了部",
+      "stroke_count": 2,
+      "node_count": 3,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06731_事_Z_說文‧史部",
+      "stroke_count": 5,
+      "node_count": 9,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06734_于_Z_說文‧于部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06747_些_Z_說文‧此部",
+      "stroke_count": 7,
+      "node_count": 14,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06759_产_Z_小篆",
+      "stroke_count": 9,
+      "node_count": 18,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06778_人_Z_說文‧人部",
+      "stroke_count": 2,
+      "node_count": 4,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06784_什_Z_說文‧人部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06798_从_Z_說文‧从部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06806_他_Z_小篆",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06821_以_Z_說文‧巳部",
+      "stroke_count": 1,
+      "node_count": 2,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06874_会_Z_小篆",
+      "stroke_count": 10,
+      "node_count": 19,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06918_但_Z_說文‧人部",
+      "stroke_count": 5,
+      "node_count": 9,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06931_体_Z_小篆",
+      "stroke_count": 33,
+      "node_count": 47,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "06940_作_Z_說文‧人部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07464_全_Z_說文‧入部",
+      "stroke_count": 10,
+      "node_count": 14,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07468_公_Z_說文‧八部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07475_关_Z_小篆",
+      "stroke_count": 20,
+      "node_count": 38,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07478_其_Z_說文‧箕部",
+      "stroke_count": 11,
+      "node_count": 22,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07610_出_Z_說文‧出部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07622_分_Z_說文‧八部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07659_别_Z_小篆",
+      "stroke_count": 7,
+      "node_count": 14,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07664_到_Z_說文‧至部",
+      "stroke_count": 12,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07670_制_Z_說文‧刀部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07693_前_Z_說文‧止部",
+      "stroke_count": 11,
+      "node_count": 18,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07771_力_Z_說文‧力部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07776_加_Z_說文‧力部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07784_动_Z_小篆",
+      "stroke_count": 16,
+      "node_count": 23,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07894_化_Z_說文‧𠤎部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "07937_十_Z_說文‧十部",
+      "stroke_count": 2,
+      "node_count": 4,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08059_去_Z_說文‧去部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08072_又_Z_說文‧又部",
+      "stroke_count": 2,
+      "node_count": 4,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08081_发_Z_小篆",
+      "stroke_count": 12,
+      "node_count": 24,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08106_只_Z_說文‧只部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08111_可_Z_說文‧可部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08131_吃_Z_說文‧口部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08136_合_Z_說文‧亼部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08140_同_Z_說文‧𠔼部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08142_后_Z_說文‧后部",
+      "stroke_count": 11,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08268_和_Z_說文‧口部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08862_回_Z_說文‧囗部",
+      "stroke_count": 2,
+      "node_count": 2,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08864_因_Z_說文‧囗部",
+      "stroke_count": 9,
+      "node_count": 11,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08893_国_Z_小篆",
+      "stroke_count": 7,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08936_在_Z_說文‧土部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "08944_地_Z_說文‧土部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "09430_外_Z_說文‧夕部",
+      "stroke_count": 11,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "09434_多_Z_說文‧多部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "09447_大_Z_說文‧大部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "09449_天_Z_說文‧一部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "09460_头_Z_小篆",
+      "stroke_count": 12,
+      "node_count": 24,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "09533_好_Z_說文‧女部",
+      "stroke_count": 6,
+      "node_count": 11,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "09538_如_Z_說文‧女部",
+      "stroke_count": 18,
+      "node_count": 18,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10000_子_Z_說文‧子部",
+      "stroke_count": 3,
+      "node_count": 5,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10022_学_Z_小篆",
+      "stroke_count": 15,
+      "node_count": 29,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10074_定_Z_說文‧宀部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10078_实_Z_小篆",
+      "stroke_count": 10,
+      "node_count": 19,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10102_家_Z_說文‧宀部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10169_对_Z_小篆",
+      "stroke_count": 14,
+      "node_count": 28,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10191_小_Z_說文‧小部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10225_就_Z_說文‧京部",
+      "stroke_count": 13,
+      "node_count": 19,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10261_展_Z_說文‧尸部",
+      "stroke_count": 15,
+      "node_count": 30,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10661_工_Z_說文‧工部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10673_己_Z_說文‧己部",
+      "stroke_count": 1,
+      "node_count": 2,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10674_已_Z_小篆",
+      "stroke_count": 1,
+      "node_count": 2,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10690_市_Z_說文‧冂部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10803_平_Z_說文‧于部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10804_年_Z_說文‧禾部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10836_应_Z_小篆",
+      "stroke_count": 31,
+      "node_count": 45,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10854_度_Z_說文‧又部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10938_建_Z_說文‧廴部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "10944_开_Z_小篆",
+      "stroke_count": 12,
+      "node_count": 24,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11027_当_Z_小篆",
+      "stroke_count": 9,
+      "node_count": 17,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11080_很_Z_說文‧彳部",
+      "stroke_count": 13,
+      "node_count": 19,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11095_得_Z_說文‧彳部",
+      "stroke_count": 11,
+      "node_count": 21,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11139_心_Z_說文‧心部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11179_快_Z_說文‧心部",
+      "stroke_count": 9,
+      "node_count": 18,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11239_性_Z_說文‧心部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11397_情_Z_說文‧心部",
+      "stroke_count": 13,
+      "node_count": 26,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11443_想_Z_說文‧心部",
+      "stroke_count": 16,
+      "node_count": 22,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11471_意_Z_說文‧心部",
+      "stroke_count": 12,
+      "node_count": 24,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11728_成_Z_說文‧戊部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11729_我_Z_說文‧我部",
+      "stroke_count": 12,
+      "node_count": 17,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11776_所_Z_說文‧斤部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11787_手_Z_說文‧手部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "11850_把_Z_說文‧手部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12176_提_Z_說文‧手部",
+      "stroke_count": 16,
+      "node_count": 22,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12543_政_Z_說文‧攴部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12569_教_Z_說文‧教部",
+      "stroke_count": 11,
+      "node_count": 21,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12615_文_Z_說文‧文部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12656_新_Z_說文‧斤部",
+      "stroke_count": 24,
+      "node_count": 30,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12665_方_Z_說文‧方部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12704_无_Z_說文‧亡部",
+      "stroke_count": 15,
+      "node_count": 30,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12709_日_Z_說文‧日部",
+      "stroke_count": 2,
+      "node_count": 3,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12726_时_Z_小篆",
+      "stroke_count": 9,
+      "node_count": 17,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12750_明_Z_說文‧明部",
+      "stroke_count": 13,
+      "node_count": 19,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12783_是_Z_說文‧是部",
+      "stroke_count": 6,
+      "node_count": 11,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "12992_最_Z_說文‧冃部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "13000_月_Z_說文‧月部",
+      "stroke_count": 3,
+      "node_count": 6,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "13001_有_Z_說文‧有部",
+      "stroke_count": 12,
+      "node_count": 14,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "13036_本_Z_說文‧木部",
+      "stroke_count": 18,
+      "node_count": 18,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "13050_机_Z_說文‧木部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "13093_来_Z_小篆",
+      "stroke_count": 17,
+      "node_count": 19,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "13303_样_Z_小篆",
+      "stroke_count": 15,
+      "node_count": 30,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "14049_次_Z_說文‧欠部",
+      "stroke_count": 14,
+      "node_count": 19,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "14115_正_Z_說文‧正部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "14228_比_Z_說文‧比部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "14289_民_Z_說文‧民部",
+      "stroke_count": 5,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "14324_水_Z_說文‧水部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "14433_没_Z_說文‧水部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "14485_法_Z_說文‧廌部",
+      "stroke_count": 23,
+      "node_count": 40,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "15481_点_Z_小篆",
+      "stroke_count": 14,
+      "node_count": 28,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "15606_然_Z_說文‧火部",
+      "stroke_count": 11,
+      "node_count": 22,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "16326_理_Z_說文‧玉部",
+      "stroke_count": 9,
+      "node_count": 18,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "16607_生_Z_說文‧生部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "16616_用_Z_說文‧用部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "16964_的_Z_小篆",
+      "stroke_count": 4,
+      "node_count": 7,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "17099_看_Z_說文‧目部",
+      "stroke_count": 6,
+      "node_count": 11,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "17119_真_Z_說文‧𠤎部",
+      "stroke_count": 8,
+      "node_count": 15,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "17152_着_Z_小篆",
+      "stroke_count": 13,
+      "node_count": 26,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "17317_知_Z_說文‧矢部",
+      "stroke_count": 7,
+      "node_count": 14,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "17662_社_Z_說文‧示部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "17805_种_Z_小篆",
+      "stroke_count": 12,
+      "node_count": 24,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "18185_等_Z_說文‧竹部",
+      "stroke_count": 11,
+      "node_count": 22,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "18247_箇_Z_說文‧竹部",
+      "stroke_count": 9,
+      "node_count": 17,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19087_经_Z_小篆",
+      "stroke_count": 13,
+      "node_count": 24,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19091_结_Z_小篆",
+      "stroke_count": 11,
+      "node_count": 20,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19097_给_Z_小篆",
+      "stroke_count": 11,
+      "node_count": 20,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19278_美_Z_說文‧羊部",
+      "stroke_count": 9,
+      "node_count": 18,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19393_老_Z_說文‧老部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19397_者_Z_說文‧𦣹部",
+      "stroke_count": 9,
+      "node_count": 18,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19404_而_Z_說文‧而部",
+      "stroke_count": 4,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19645_能_Z_說文‧能部",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "19882_自_Z_說文‧自部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "21516_行_Z_說文‧行部",
+      "stroke_count": 6,
+      "node_count": 12,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "21544_表_Z_說文‧衣部",
+      "stroke_count": 7,
+      "node_count": 14,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "21825_要_Z_說文‧𦥑部",
+      "stroke_count": 16,
+      "node_count": 22,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "21889_见_Z_小篆",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "22452_说_Z_小篆",
+      "stroke_count": 25,
+      "node_count": 35,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "22839_起_Z_說文‧走部",
+      "stroke_count": 7,
+      "node_count": 14,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23431_过_Z_小篆",
+      "stroke_count": 18,
+      "node_count": 30,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23448_还_Z_小篆",
+      "stroke_count": 26,
+      "node_count": 36,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23451_进_Z_小篆",
+      "stroke_count": 13,
+      "node_count": 26,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23571_道_Z_說文‧辵部",
+      "stroke_count": 14,
+      "node_count": 28,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23651_那_Z_說文‧邑部",
+      "stroke_count": 8,
+      "node_count": 15,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23720_部_Z_說文‧邑部",
+      "stroke_count": 10,
+      "node_count": 19,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23741_都_Z_說文‧邑部",
+      "stroke_count": 12,
+      "node_count": 23,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23948_里_Z_說文‧里部",
+      "stroke_count": 5,
+      "node_count": 10,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23949_重_Z_說文‧重部",
+      "stroke_count": 15,
+      "node_count": 20,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "23951_量_Z_說文‧重部",
+      "stroke_count": 9,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "24895_长_Z_小篆",
+      "stroke_count": 8,
+      "node_count": 16,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "25006_问_Z_小篆",
+      "stroke_count": 10,
+      "node_count": 20,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "25012_间_Z_小篆",
+      "stroke_count": 16,
+      "node_count": 26,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "25378_面_Z_說文‧面部",
+      "stroke_count": 13,
+      "node_count": 17,
+      "status": "candidate-needs-manual-review"
+    },
+    {
+      "glyph_id": "26264_高_Z_說文‧高部",
+      "stroke_count": 5,
+      "node_count": 8,
+      "status": "candidate-needs-manual-review"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "current-display-parameters-v1",
+  "glyph_id": "17119_真_Z_說文‧𠤎部",
+  "source_script": "scripts/build_manual_site_assets.py",
+  "viewBox": "0 0 42 80",
+  "paths": 8,
+  "stroke_widths": [
+    3.2
+  ],
+  "centerline_display": true,
+  "note": "This version records the current smooth centerline display; it is not relabeled as a filled contour."
+}

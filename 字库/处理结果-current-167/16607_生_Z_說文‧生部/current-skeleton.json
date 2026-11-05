@@ -1,0 +1,355 @@
+{
+  "schema": "current-display-skeleton-v1",
+  "status": "candidate-needs-manual-review",
+  "glyph_id": "16607_生_Z_說文‧生部",
+  "viewBox": "0 0 56 80",
+  "aria_label": "16607_生_Z_說文‧生部 彩色拆笔展示",
+  "coordinate_system": "site SVG viewBox coordinates; x right, y down",
+  "nodes": [
+    {
+      "node_id": "N0001",
+      "point": [
+        4.0,
+        76.0
+      ],
+      "incident_strokes": [
+        "S4"
+      ]
+    },
+    {
+      "node_id": "N0002",
+      "point": [
+        6.0,
+        58.0
+      ],
+      "incident_strokes": [
+        "S3"
+      ]
+    },
+    {
+      "node_id": "N0003",
+      "point": [
+        11.0,
+        9.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0004",
+      "point": [
+        27.0,
+        2.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0005",
+      "point": [
+        27.0,
+        74.0
+      ],
+      "incident_strokes": [
+        "S2"
+      ]
+    },
+    {
+      "node_id": "N0006",
+      "point": [
+        43.0,
+        7.0
+      ],
+      "incident_strokes": [
+        "S1"
+      ]
+    },
+    {
+      "node_id": "N0007",
+      "point": [
+        47.0,
+        58.0
+      ],
+      "incident_strokes": [
+        "S3"
+      ]
+    },
+    {
+      "node_id": "N0008",
+      "point": [
+        52.0,
+        76.0
+      ],
+      "incident_strokes": [
+        "S4"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E0001",
+      "stroke_id": "S1",
+      "color": "#eeb377",
+      "stroke_width": 3.2,
+      "d": "M 43.00 7.00 Q 41.00 34.00 39.50 37.50 Q 38.00 41.00 34.50 42.50 Q 31.00 44.00 25.00 43.50 Q 19.00 43.00 16.50 40.50 Q 14.00 38.00 12.50 31.50 Q 11.00 25.00 11.00 17.00 Q 11.00 9.00 11.00 9.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            43.0,
+            7.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            41.0,
+            34.0
+          ],
+          "point": [
+            39.5,
+            37.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            38.0,
+            41.0
+          ],
+          "point": [
+            34.5,
+            42.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            31.0,
+            44.0
+          ],
+          "point": [
+            25.0,
+            43.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            19.0,
+            43.0
+          ],
+          "point": [
+            16.5,
+            40.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            14.0,
+            38.0
+          ],
+          "point": [
+            12.5,
+            31.5
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            11.0,
+            25.0
+          ],
+          "point": [
+            11.0,
+            17.0
+          ]
+        },
+        {
+          "command": "Q",
+          "control": [
+            11.0,
+            9.0
+          ],
+          "point": [
+            11.0,
+            9.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          43.0,
+          7.0
+        ],
+        [
+          41.0,
+          34.0
+        ],
+        [
+          39.5,
+          37.5
+        ],
+        [
+          38.0,
+          41.0
+        ],
+        [
+          34.5,
+          42.5
+        ],
+        [
+          31.0,
+          44.0
+        ],
+        [
+          25.0,
+          43.5
+        ],
+        [
+          19.0,
+          43.0
+        ],
+        [
+          16.5,
+          40.5
+        ],
+        [
+          14.0,
+          38.0
+        ],
+        [
+          12.5,
+          31.5
+        ],
+        [
+          11.0,
+          25.0
+        ],
+        [
+          11.0,
+          17.0
+        ],
+        [
+          11.0,
+          9.0
+        ],
+        [
+          11.0,
+          9.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0002",
+      "stroke_id": "S2",
+      "color": "#a5c4b1",
+      "stroke_width": 3.2,
+      "d": "M 27.00 2.00 L 27.00 74.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            27.0,
+            2.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            27.0,
+            74.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          27.0,
+          2.0
+        ],
+        [
+          27.0,
+          74.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0003",
+      "stroke_id": "S3",
+      "color": "#d89181",
+      "stroke_width": 3.2,
+      "d": "M 6.00 58.00 L 47.00 58.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            6.0,
+            58.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            47.0,
+            58.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          6.0,
+          58.0
+        ],
+        [
+          47.0,
+          58.0
+        ]
+      ],
+      "closed": false
+    },
+    {
+      "edge_id": "E0004",
+      "stroke_id": "S4",
+      "color": "#bfafd0",
+      "stroke_width": 3.2,
+      "d": "M 4.00 76.00 L 52.00 76.00",
+      "commands": [
+        {
+          "command": "M",
+          "point": [
+            4.0,
+            76.0
+          ]
+        },
+        {
+          "command": "L",
+          "point": [
+            52.0,
+            76.0
+          ]
+        }
+      ],
+      "points": [
+        [
+          4.0,
+          76.0
+        ],
+        [
+          52.0,
+          76.0
+        ]
+      ],
+      "closed": false
+    }
+  ],
+  "closed_loops": [],
+  "stroke_truth": {
+    "source": "manual label map via current smooth display SVG",
+    "confirmed": false
+  }
+}

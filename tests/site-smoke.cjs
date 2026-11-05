@@ -35,20 +35,32 @@ for(const glyph of w.GLYPH_DATA.glyphs) {
   click('#openCatalog');search(glyph.sourceId);
   const item=[...d.querySelectorAll('.glyph-item')].find(e=>e.dataset.glyphId===glyph.id);assert(item);item.click();
   assert.equal(d.querySelector('#glyphTitle').textContent,glyph.title);
-  assert(d.querySelector('#glyphVector svg path'));
+  const manual=w.MANUAL_167_ASSETS?.[glyph.id];
+  if (manual) assert(d.querySelector('#glyphImage.manual-glyph-asset'));
+  else assert(d.querySelector('#glyphVector svg path'));
   assert(d.querySelector('#splitStrokes').hidden,'switching glyph resets split state');
-  click('#splitGlyph');assert.equal(d.querySelectorAll('.stroke-piece').length,glyph.segments.length);
-  assert.equal(d.querySelectorAll('.stroke-piece svg').length,glyph.segments.length);
-  assert.equal(d.querySelectorAll('#glyphVector image').length,0);
+  click('#splitGlyph');
+  if (manual) {
+    assert.equal(d.querySelectorAll('.stroke-piece').length,manual.strokes.length);
+    assert.equal(d.querySelectorAll('.stroke-piece img.manual-glyph-asset').length,manual.strokes.length);
+  } else {
+    assert.equal(d.querySelectorAll('.stroke-piece').length,glyph.segments.length);
+    assert.equal(d.querySelectorAll('.stroke-piece svg').length,glyph.segments.length);
+    assert.equal(d.querySelectorAll('#glyphVector image').length,0);
+  }
   assert(!d.querySelector('#story').textContent.includes('undefined'));
   for(const asset of [...Object.values(glyph.assets),...glyph.segments.map(s=>s.image)]) {assert(fs.statSync(safeFile(asset)).isFile());assets++;}
 }
 w.SEAL_FONT.ready=true;
-const covered=w.GLYPH_DATA.glyphs.find(g=>w.SEAL_FONT.glyphIds.includes(g.id) && !w.CLEANED_GLYPHS[g.id]);
-w.GlyphUI.renderImage(covered,{split:false});assert(!d.querySelector('#fontGlyph').hidden);
-w.GlyphUI.renderImage(covered,{split:true});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
-const missing=w.GLYPH_DATA.glyphs.find(g=>!w.SEAL_FONT.glyphIds.includes(g.id));
-w.GlyphUI.renderImage(missing,{split:false});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
+const covered=w.GLYPH_DATA.glyphs.find(g=>w.SEAL_FONT.glyphIds.includes(g.id) && !w.CLEANED_GLYPHS[g.id] && !w.MANUAL_167_ASSETS?.[g.id]);
+if (covered) {
+  w.GlyphUI.renderImage(covered,{split:false});assert(!d.querySelector('#fontGlyph').hidden);
+  w.GlyphUI.renderImage(covered,{split:true});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
+}
+const missing=w.GLYPH_DATA.glyphs.find(g=>!w.SEAL_FONT.glyphIds.includes(g.id) && !w.MANUAL_167_ASSETS?.[g.id]);
+if (missing) {
+  w.GlyphUI.renderImage(missing,{split:false});assert(d.querySelector('#fontGlyph').hidden);assert(d.querySelector('#glyphVector svg'));
+}
 // Cleaned examples take priority even after the official font finishes loading.
 assert.equal(Object.keys(w.CLEANED_GLYPHS).length,169);
 const geometry=svg=>[...svg.querySelectorAll('path')].map(p=>['data-stroke-id','d','stroke-width','stroke-linecap','stroke-linejoin'].map(a=>p.getAttribute(a)));
