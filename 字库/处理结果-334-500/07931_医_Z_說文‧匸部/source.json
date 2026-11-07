@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07931_医_Z_說文‧匸部",
+  "raw_png": "字库_167_333/07931_医_Z_說文‧匸部.png",
+  "raw_sha256": "f06813e82e055945f5cd20234955ac8c96888080fcb6d016114dd8337bf9d45e",
+  "label_png": "StrokeAnnotator/outputs/label_maps/07931_医_Z_說文‧匸部/label.png",
+  "label_sha256": "8679448a657d4638da2dda5b6cdf981f2e36ff4177d5ec4dc1a106da96c719a5",
+  "width": 55,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

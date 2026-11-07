@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "17185_睡_Z_說文‧目部",
+  "raw_png": "字库_167_333/17185_睡_Z_說文‧目部.png",
+  "raw_sha256": "2be94e718ff2d7165efb9da5b46c5ac703b580349fce8fd46f79048de980b934",
+  "label_png": "StrokeAnnotator/outputs/label_maps/17185_睡_Z_說文‧目部/label.png",
+  "label_sha256": "f4be985ca6e367a49341e89f02950c4d6aa23f1db21d546b6ae3234a91fd98ae",
+  "width": 62,
+  "height": 75,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

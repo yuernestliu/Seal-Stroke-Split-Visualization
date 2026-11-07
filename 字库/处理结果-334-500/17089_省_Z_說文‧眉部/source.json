@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "17089_省_Z_說文‧眉部",
+  "raw_png": "字库_167_333/17089_省_Z_說文‧眉部.png",
+  "raw_sha256": "b37572c4d4b2056d0a803615f984dc44a49c02912f5ee654c90385feca012ba5",
+  "label_png": "StrokeAnnotator/outputs/label_maps/17089_省_Z_說文‧眉部/label.png",
+  "label_sha256": "9d6768ed241e13a4b555e1ef1b97c182b906c693077433e6893dc980610a5af4",
+  "width": 48,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

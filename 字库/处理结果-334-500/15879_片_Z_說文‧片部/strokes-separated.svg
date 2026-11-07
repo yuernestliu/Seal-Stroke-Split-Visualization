@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324 120" width="324" height="120" role="img" aria-label="15879_片_Z_說文‧片部 展示版与单笔分离预览 v2">
+<rect width="324" height="120" fill="#ffffff"/>
+<text x="10" y="18" font-size="11" fill="#555">完整字形</text>
+<path d="M 27 2 Q 26.9 17 25.78 19.94 Q 24.65 22.89 22.32 23.89 Q 20 24.9 3 25" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(10 18)"/>
+<path d="M 3 1 L 3 76" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(10 18)"/>
+<path d="M 3 36 Q 18 37.1 20.5 37.94 Q 23 38.78 24.28 39.9 Q 25.57 41.02 26.28 43.51 Q 26.98 46 27 74" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(10 18)"/>
+<path d="M 52 8 V 112" stroke="#dddddd" stroke-width="1"/>
+<text x="62" y="18" font-size="11" fill="#555">单笔分离预览</text>
+<rect x="62" y="26" width="57" height="57" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="66" y="38" font-size="10" fill="#2f6fdb">S1</text>
+<path d="M 27 2 Q 26.9 17 25.78 19.94 Q 24.65 22.89 22.32 23.89 Q 20 24.9 3 25" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(64.88 31.44) scale(1.71)"/>
+<rect x="127" y="26" width="57" height="57" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="131" y="38" font-size="10" fill="#d68a16">S2</text>
+<path d="M 3 1 L 3 76" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(153.86 33.45) scale(0.55)"/>
+<rect x="192" y="26" width="57" height="57" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="196" y="38" font-size="10" fill="#2b9b68">S3</text>
+<path d="M 3 36 Q 18 37.1 20.5 37.94 Q 23 38.78 24.28 39.9 Q 25.57 41.02 26.28 43.51 Q 26.98 46 27 74" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(204.32 -4.84) scale(1.08)"/>
+</svg>

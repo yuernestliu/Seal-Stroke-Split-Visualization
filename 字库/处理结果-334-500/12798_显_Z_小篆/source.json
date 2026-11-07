@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12798_显_Z_小篆",
+  "raw_png": "字库_167_333/12798_显_Z_小篆.png",
+  "raw_sha256": "ebfb90f1c687cc75d0a7019a8537b8b6b2becfde7ab584b44f61d138aa779dc5",
+  "label_png": "StrokeAnnotator/outputs/label_maps/12798_显_Z_小篆/label.png",
+  "label_sha256": "378c0d25605f710127a3787dc79295a7ce32bebc8a7b23aa6cb3fa97e7825ef4",
+  "width": 52,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

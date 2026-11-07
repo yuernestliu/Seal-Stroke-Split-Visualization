@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06839_价_Z_說文‧人部",
+  "raw_png": "字库_167_333/06839_价_Z_說文‧人部.png",
+  "raw_sha256": "f5834d0cac754a175c7f3f047cf31db2ea7f305459de6e54292914715f0f19fc",
+  "label_png": "StrokeAnnotator/outputs/label_maps/06839_价_Z_說文‧人部/label.png",
+  "label_sha256": "3cd86d427b7a897e29affed38d2d66930a8511053cd1fa02f84502677754969e",
+  "width": 52,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

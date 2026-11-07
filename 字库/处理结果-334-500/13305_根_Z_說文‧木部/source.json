@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "13305_根_Z_說文‧木部",
+  "raw_png": "字库_167_333/13305_根_Z_說文‧木部.png",
+  "raw_sha256": "11ed8c1f0ee4cf4a9286321cb8dc8398eb44ecd0f93218cb222f73a0429f9dc0",
+  "label_png": "StrokeAnnotator/outputs/label_maps/13305_根_Z_說文‧木部/label.png",
+  "label_sha256": "83202cdd192898887e519f31aea44d96c355430b053bebf493d2f870c18014c5",
+  "width": 54,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

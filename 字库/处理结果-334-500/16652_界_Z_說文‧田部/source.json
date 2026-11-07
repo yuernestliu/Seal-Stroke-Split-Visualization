@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "16652_界_Z_說文‧田部",
+  "raw_png": "字库_167_333/16652_界_Z_說文‧田部.png",
+  "raw_sha256": "97e0701369c86e54efeaa0e72a19459fd1253075dc1c6c5c5f7bc30d8d3eb27b",
+  "label_png": "StrokeAnnotator/outputs/label_maps/16652_界_Z_說文‧田部/label.png",
+  "label_sha256": "17629a68f201ef68a3d615813265ebc090ce3c391b4aa0f0092b0c67a8f6d044",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

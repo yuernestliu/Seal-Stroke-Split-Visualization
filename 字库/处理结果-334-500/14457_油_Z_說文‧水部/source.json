@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "14457_油_Z_說文‧水部",
+  "raw_png": "字库_167_333/14457_油_Z_說文‧水部.png",
+  "raw_sha256": "937e1fe9d50dc36b37dafb78030c227ed974a305b7ad0e2b0c4667a8431cb69f",
+  "label_png": "StrokeAnnotator/outputs/label_maps/14457_油_Z_說文‧水部/label.png",
+  "label_sha256": "03533ff65982e89a8c57248dae777f037341980ecc15e152d55733c30acc2926",
+  "width": 60,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

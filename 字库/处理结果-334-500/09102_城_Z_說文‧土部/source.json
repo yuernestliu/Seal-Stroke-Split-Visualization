@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "09102_城_Z_說文‧土部",
+  "raw_png": "字库_167_333/09102_城_Z_說文‧土部.png",
+  "raw_sha256": "e823668d90c6e16ecb915d60449a20a8ccbef80d47146acf6880d1df612a638a",
+  "label_png": "StrokeAnnotator/outputs/label_maps/09102_城_Z_說文‧土部/label.png",
+  "label_sha256": "dccb339ba02e8f87dab011475a42ab38c209a5a2a21a48e8b06bfab9b327dba8",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

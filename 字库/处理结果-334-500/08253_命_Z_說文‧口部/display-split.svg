@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 80" width="60" height="80" role="img" aria-label="08253_命_Z_說文‧口部 展示版平滑拆分 v2">
+<path d="M 55 28 Q 53.88 25.98 44.93 16.49 Q 35.98 7 33.99 5.06 Q 32 3.12 31 2.67 Q 30 2.23 28.5 3.12 Q 27 4.02 4 27" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" data-source="StrokeAnnotator/outputs/label_maps/08253_命_Z_說文‧口部/label.png"/>
+<path d="M 19 21 L 42 21" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" data-source="StrokeAnnotator/outputs/label_maps/08253_命_Z_說文‧口部/label.png"/>
+<path d="M 15 27 Q 15.1 45 15.73 46.44 Q 16.35 47.88 17.18 48.38 Q 18.02 48.88 21 48.88 Q 23.98 48.88 24.98 47.93 Q 25.98 46.98 26.89 41.99 Q 27.8 37 27 29" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" data-source="StrokeAnnotator/outputs/label_maps/08253_命_Z_說文‧口部/label.png"/>
+<path d="M 27 37 L 15 37" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" data-source="StrokeAnnotator/outputs/label_maps/08253_命_Z_說文‧口部/label.png"/>
+<path d="M 42 75 Q 38.32 66 37.17 61.5 Q 36.02 57 37.46 51.5 Q 38.9 46 39 31" fill="none" stroke="#c34f8d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S5" data-source="StrokeAnnotator/outputs/label_maps/08253_命_Z_說文‧口部/label.png"/>
+<path d="M 33 31 Q 45 31.1 46.45 31.73 Q 47.9 32.35 48.77 33.68 Q 49.65 35 49.65 37 Q 49.65 39 48.77 40.45 Q 47.9 41.9 45.45 43.28 Q 43 44.65 39 45" fill="none" stroke="#168aad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S6" data-source="StrokeAnnotator/outputs/label_maps/08253_命_Z_說文‧口部/label.png"/>
+</svg>

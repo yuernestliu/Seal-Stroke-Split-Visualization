@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "13059_权_Z_小篆",
+  "raw_png": "字库_167_333/13059_权_Z_小篆.png",
+  "raw_sha256": "48ac3ba5e8590ee4a8c66f29b4550987c81f8623855ca913b96cf44aa3e8f2b5",
+  "label_png": "StrokeAnnotator/outputs/label_maps/13059_权_Z_小篆/label.png",
+  "label_sha256": "656f534edd00920e4cd43b4e0dc7bc1e684465309570b83773b1033f08d6f7dc",
+  "width": 53,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

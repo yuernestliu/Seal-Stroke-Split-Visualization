@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06704_买_Z_小篆",
+  "raw_png": "字库_167_333/06704_买_Z_小篆.png",
+  "raw_sha256": "09db583b338ae2132b6924e708f74ce45a46339fb8a4bb93c7ef172ad4b00e5b",
+  "label_png": "StrokeAnnotator/outputs/label_maps/06704_买_Z_小篆/label.png",
+  "label_sha256": "25f313ccc3f47611d6fab1a0e058061d362e948527cdf6d071c3f85094e2f164",
+  "width": 47,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10815_广_Z_說文‧广部",
+  "raw_png": "字库_167_333/10815_广_Z_說文‧广部.png",
+  "raw_sha256": "1a7f54afc7eff50cfe28d2643226aaefc25cd0e7b1fbe532686788468f28f8e4",
+  "label_png": "StrokeAnnotator/outputs/label_maps/10815_广_Z_說文‧广部/label.png",
+  "label_sha256": "825888d8f87a7bd3853b153c6c4e378f7f3c2f8fca791153722ebad740f9d7e4",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

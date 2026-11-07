@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "18263_算_Z_說文‧竹部",
+  "raw_png": "字库_167_333/18263_算_Z_說文‧竹部.png",
+  "raw_sha256": "a8e472cad73e80d86b8616e676fa81394b01fd87e45e96114d469faa7425c30f",
+  "label_png": "StrokeAnnotator/outputs/label_maps/18263_算_Z_說文‧竹部/label.png",
+  "label_sha256": "2178ec972ac1ab78213377314ac93a6ad2100073a1000a3ba7ca8430ca9f5ef4",
+  "width": 49,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

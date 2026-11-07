@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11311_息_Z_說文‧心部",
+  "raw_png": "字库_167_333/11311_息_Z_說文‧心部.png",
+  "raw_sha256": "a4adaa2b9254b4cf21cb643b32b0a9e13baf9b2ab6c2a8706cb2e6e08a0964f0",
+  "label_png": "StrokeAnnotator/outputs/label_maps/11311_息_Z_說文‧心部/label.png",
+  "label_sha256": "2e5130513123606090652172e6c2aa2f92a45635d2f741823531d72a291bc02e",
+  "width": 46,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

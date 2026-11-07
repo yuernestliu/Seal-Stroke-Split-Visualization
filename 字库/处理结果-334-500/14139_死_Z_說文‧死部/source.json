@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "14139_死_Z_說文‧死部",
+  "raw_png": "字库_167_333/14139_死_Z_說文‧死部.png",
+  "raw_sha256": "1ebe660bd8cbbb2cb4befdbe8aa38a5d46bb3de0392f991106845724da37b26c",
+  "label_png": "StrokeAnnotator/outputs/label_maps/14139_死_Z_說文‧死部/label.png",
+  "label_sha256": "76a6ebc2c615c85b8f6a7e2b2f77fdfa584ab766dee74d28819fe479653a0688",
+  "width": 54,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

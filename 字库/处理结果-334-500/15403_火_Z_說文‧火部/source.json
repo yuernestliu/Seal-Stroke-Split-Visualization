@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "15403_火_Z_說文‧火部",
+  "raw_png": "字库_167_333/15403_火_Z_說文‧火部.png",
+  "raw_sha256": "4cd8fb06b82269b92708c143f160766415e1d0c2972dd4c5ee7feb826e389275",
+  "label_png": "StrokeAnnotator/outputs/label_maps/15403_火_Z_說文‧火部/label.png",
+  "label_sha256": "447ead5160b509e994e5714e4e14216d05428efe7743472e1445d447582fd583",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

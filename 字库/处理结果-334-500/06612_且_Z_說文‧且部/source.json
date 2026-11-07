@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06612_且_Z_說文‧且部",
+  "raw_png": "字库_167_333/06612_且_Z_說文‧且部.png",
+  "raw_sha256": "5d980279ce049c5b13529b66e74a22e68d02f70566356db699d2d6dd935d5596",
+  "label_png": "StrokeAnnotator/outputs/label_maps/06612_且_Z_說文‧且部/label.png",
+  "label_sha256": "e553cb413871397747dbd8f2146f29c657ce43d0ed5d97df8cc826b828353272",
+  "width": 63,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

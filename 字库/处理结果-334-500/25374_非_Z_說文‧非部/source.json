@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "25374_非_Z_說文‧非部",
+  "raw_png": "字库_167_333/25374_非_Z_說文‧非部.png",
+  "raw_sha256": "afbaf3c301157c46efd78a9db4db0494dbb6ee966fe537d70ca6b347891a9298",
+  "label_png": "StrokeAnnotator/outputs/label_maps/25374_非_Z_說文‧非部/label.png",
+  "label_sha256": "3d3b3802d5e8f1c6bbcfb9f257415f599c305c40b054cc64c958d5f980ea1fef",
+  "width": 48,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

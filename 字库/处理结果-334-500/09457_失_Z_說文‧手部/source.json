@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "09457_失_Z_說文‧手部",
+  "raw_png": "字库_167_333/09457_失_Z_說文‧手部.png",
+  "raw_sha256": "ea06247953a8337e73a19c41725f44dd8e6aaf00c9b01f27430f7e4e32e8f60d",
+  "label_png": "StrokeAnnotator/outputs/label_maps/09457_失_Z_說文‧手部/label.png",
+  "label_sha256": "57aaa886cd2a27623cd2bf350d5c351b38aa12a7b6c9cc5a5380dcac49278135",
+  "width": 47,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "22401_证_Z_小篆",
+  "raw_png": "字库_167_333/22401_证_Z_小篆.png",
+  "raw_sha256": "b1fcf337363a74078ca849351cc0c289fc7878d77305a5cfa6d207031aeba530",
+  "label_png": "StrokeAnnotator/outputs/label_maps/22401_证_Z_小篆/label.png",
+  "label_sha256": "325b18aa660f96219fda5ae4c7794bb78e8ed38ffc7e329f8e4d35eb00fe07f0",
+  "width": 55,
+  "height": 75,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

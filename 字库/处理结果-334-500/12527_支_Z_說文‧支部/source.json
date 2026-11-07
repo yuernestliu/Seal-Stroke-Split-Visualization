@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12527_支_Z_說文‧支部",
+  "raw_png": "字库_167_333/12527_支_Z_說文‧支部.png",
+  "raw_sha256": "8d054987cf208360667a35da3490081d22e4b698335d61270a626ee2cf3b63ee",
+  "label_png": "StrokeAnnotator/outputs/label_maps/12527_支_Z_說文‧支部/label.png",
+  "label_sha256": "b7e7ac14be9a6a72a623886857413d634865b8ad7c38e7054c41565a2c0a826f",
+  "width": 54,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

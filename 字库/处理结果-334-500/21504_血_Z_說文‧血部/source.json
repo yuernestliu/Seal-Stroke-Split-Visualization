@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "21504_血_Z_說文‧血部",
+  "raw_png": "字库_167_333/21504_血_Z_說文‧血部.png",
+  "raw_sha256": "11fc3e776508e123eba5060b03002508db709f361efd246065834a74a4de3193",
+  "label_png": "StrokeAnnotator/outputs/label_maps/21504_血_Z_說文‧血部/label.png",
+  "label_sha256": "1a0ac32c30a950fcab73a47a8b1b4121f2341eb39014ef5b9f5bdc890f0ea249",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "22943_跟_Z_說文‧足部",
+  "raw_png": "字库_167_333/22943_跟_Z_說文‧足部.png",
+  "raw_sha256": "c52c36ef31183a4cc70bd47d8203e722109a2d726fc198bf1dc213cba20be549",
+  "label_png": "StrokeAnnotator/outputs/label_maps/22943_跟_Z_說文‧足部/label.png",
+  "label_sha256": "cc56f527b6768ca3b6720830f7e47b97224e1d0fffb7d1cbcb4affa962711b55",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "14117_步_Z_說文‧步部",
+  "raw_png": "字库_167_333/14117_步_Z_說文‧步部.png",
+  "raw_sha256": "74c9935acac5e16832421b341bfd7ddd683cc81f46bcbcdcc92417f804a0fa5c",
+  "label_png": "StrokeAnnotator/outputs/label_maps/14117_步_Z_說文‧步部/label.png",
+  "label_sha256": "29d12bb5e321b848b91f807d965edaebb0cf72872f1a2101974f2277a2c36ea0",
+  "width": 49,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

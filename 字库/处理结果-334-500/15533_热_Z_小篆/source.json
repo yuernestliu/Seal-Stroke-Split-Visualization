@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "15533_热_Z_小篆",
+  "raw_png": "字库_167_333/15533_热_Z_小篆.png",
+  "raw_sha256": "ca5da597eae8527f2cb22db46d2196afd7e719253739cd455f048a1a895c0c02",
+  "label_png": "StrokeAnnotator/outputs/label_maps/15533_热_Z_小篆/label.png",
+  "label_sha256": "fbb1c7c215c75ecec3fb199a683bc077c5c74055a6d94815814850bf218f6266",
+  "width": 48,
+  "height": 81,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

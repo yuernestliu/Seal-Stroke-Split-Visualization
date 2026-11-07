@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "19891_至_Z_說文‧至部",
+  "raw_png": "字库_167_333/19891_至_Z_說文‧至部.png",
+  "raw_sha256": "8e24867b639cec87e1008deaff76472a9b78610b9b9d9a5b496feba81fb5eae8",
+  "label_png": "StrokeAnnotator/outputs/label_maps/19891_至_Z_說文‧至部/label.png",
+  "label_sha256": "8d65d2290b6e6852bd72d561f05288f1e2496c96f6d4a74565e155579ec2f77c",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

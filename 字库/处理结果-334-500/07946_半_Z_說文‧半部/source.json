@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07946_半_Z_說文‧半部",
+  "raw_png": "字库_167_333/07946_半_Z_說文‧半部.png",
+  "raw_sha256": "93344ddda03b2b731e65efb70ef08d78ce929dfd8ccdc0ca5ca19df7c2341db4",
+  "label_png": "StrokeAnnotator/outputs/label_maps/07946_半_Z_說文‧半部/label.png",
+  "label_sha256": "c8d5cc828ff529899097eaad82e4a134f10c594a91d2e8479f255a11ba2f8203",
+  "width": 54,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

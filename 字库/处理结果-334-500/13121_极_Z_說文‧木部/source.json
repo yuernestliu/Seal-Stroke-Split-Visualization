@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "13121_极_Z_說文‧木部",
+  "raw_png": "字库_167_333/13121_极_Z_說文‧木部.png",
+  "raw_sha256": "5d189a780cad4c67ea6812abc9793710f7fd718b668af06a58268a1e3a86503e",
+  "label_png": "StrokeAnnotator/outputs/label_maps/13121_极_Z_說文‧木部/label.png",
+  "label_sha256": "33d5c3056543feb936644fd0b13cb321358e9cf5e4afa559752f33323ffd810b",
+  "width": 60,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07775_功_Z_說文‧力部",
+  "raw_png": "字库_167_333/07775_功_Z_說文‧力部.png",
+  "raw_sha256": "accebc694781aeea09931b74d37cda013de95db302cde6c9bc1412f75ccf4999",
+  "label_png": "StrokeAnnotator/outputs/label_maps/07775_功_Z_說文‧力部/label.png",
+  "label_sha256": "3fe97c5e5b8db04f6246feb798347d23ef292c6fa31858c65f3f82e960f1d68c",
+  "width": 63,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

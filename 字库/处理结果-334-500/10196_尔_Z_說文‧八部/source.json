@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10196_尔_Z_說文‧八部",
+  "raw_png": "字库_167_333/10196_尔_Z_說文‧八部.png",
+  "raw_sha256": "a92e3336694d0476b9f6291eb2b0a6052f5859ec42e4b3d760c7a88aa913c66c",
+  "label_png": "StrokeAnnotator/outputs/label_maps/10196_尔_Z_說文‧八部/label.png",
+  "label_sha256": "c1742d130f7c636a3da1b869a1666618b63fcddc20c54b02e1d230125f81abe8",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

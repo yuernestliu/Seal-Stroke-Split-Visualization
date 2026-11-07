@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08357_哥_Z_說文‧可部",
+  "raw_png": "字库_167_333/08357_哥_Z_說文‧可部.png",
+  "raw_sha256": "0e9c0be31ef9bb1e3147193af003f3dedcf6dea26f23dcecdbd6016109ebd881",
+  "label_png": "StrokeAnnotator/outputs/label_maps/08357_哥_Z_說文‧可部/label.png",
+  "label_sha256": "a0a08a33d605b35b41cdd83afcd273b7dd95b533900f82af199ca56225ce2a0f",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

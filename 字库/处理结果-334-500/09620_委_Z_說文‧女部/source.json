@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "09620_委_Z_說文‧女部",
+  "raw_png": "字库_167_333/09620_委_Z_說文‧女部.png",
+  "raw_sha256": "827931adb1eae0a1949c583c05cd79d591067559709ed4c70ed93b4bf58d7671",
+  "label_png": "StrokeAnnotator/outputs/label_maps/09620_委_Z_說文‧女部/label.png",
+  "label_sha256": "3306afdbc05aea3bcf558dd84c8f6dfc4e2aa36c6f966f4450d3814ff6fec1fd",
+  "width": 52,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

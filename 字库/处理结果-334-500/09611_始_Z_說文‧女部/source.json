@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "09611_始_Z_說文‧女部",
+  "raw_png": "字库_167_333/09611_始_Z_說文‧女部.png",
+  "raw_sha256": "76b67151a6f1e028d0399c9a2192f49e59672e0473940e9e145cf8dc8025174b",
+  "label_png": "StrokeAnnotator/outputs/label_maps/09611_始_Z_說文‧女部/label.png",
+  "label_sha256": "0dd7c34ca03a1cbf792093b13b63f9e3ea4885952ed6d648be4d8eda393a9c1d",
+  "width": 52,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06729_争_Z_小篆",
+  "raw_png": "字库_167_333/06729_争_Z_小篆.png",
+  "raw_sha256": "21ac71c493f371294a2ba5c760c57bbc5db29c85ff285cc4258348b9b5f7a00a",
+  "label_png": "StrokeAnnotator/outputs/label_maps/06729_争_Z_小篆/label.png",
+  "label_sha256": "2ce2f226ecd3c19fca9f4d4002089e4e9e91c4161c947aad99e13b33a920c8a1",
+  "width": 41,
+  "height": 77,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

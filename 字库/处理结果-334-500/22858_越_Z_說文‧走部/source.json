@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "22858_越_Z_說文‧走部",
+  "raw_png": "字库_167_333/22858_越_Z_說文‧走部.png",
+  "raw_sha256": "d4cd4bc1cc4441486b5ca96703071d3760cc4f42825b2149228ff24b3991c478",
+  "label_png": "StrokeAnnotator/outputs/label_maps/22858_越_Z_說文‧走部/label.png",
+  "label_sha256": "d57c4a57b26e2a73869575b0773e8c6ea992340fb2e4a0a29d18ed86392def87",
+  "width": 64,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

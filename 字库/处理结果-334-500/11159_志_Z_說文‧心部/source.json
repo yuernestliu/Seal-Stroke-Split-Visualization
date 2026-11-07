@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11159_志_Z_說文‧心部",
+  "raw_png": "字库_167_333/11159_志_Z_說文‧心部.png",
+  "raw_sha256": "723085db8921529b41089499ac04b7e4e2be7dd54cbd714618ab893f1f8f75d9",
+  "label_png": "StrokeAnnotator/outputs/label_maps/11159_志_Z_說文‧心部/label.png",
+  "label_sha256": "92f63d43adbe66fb20ab3a7ef6ee9cd8c19399655778e4f286191fcde922c743",
+  "width": 52,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

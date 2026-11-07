@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "18129_笑_Z_說文‧竹部",
+  "raw_png": "字库_167_333/18129_笑_Z_說文‧竹部.png",
+  "raw_sha256": "33eb95bac8f8a6c247a5a42162e7fadca2a1d04f03532d5dd69cc0b778b3c715",
+  "label_png": "StrokeAnnotator/outputs/label_maps/18129_笑_Z_說文‧竹部/label.png",
+  "label_sha256": "52002b0ad90926e4592e88cb3070cc9af1ad8d25223366b0ba5374971d7cb17e",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

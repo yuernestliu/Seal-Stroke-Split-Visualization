@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "16203_王_Z_說文‧王部",
+  "raw_png": "字库_167_333/16203_王_Z_說文‧王部.png",
+  "raw_sha256": "8266ffc3e0ec696b67ae16f061b22da28fc5e90bbc8a0eb26e2a9eb89a01d418",
+  "label_png": "StrokeAnnotator/outputs/label_maps/16203_王_Z_說文‧王部/label.png",
+  "label_sha256": "9bff2c0f6b3e17707a183c6f5bb86dfcc2725f9cd6dd26d2c7c55a7adb2dd1d9",
+  "width": 49,
+  "height": 70,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

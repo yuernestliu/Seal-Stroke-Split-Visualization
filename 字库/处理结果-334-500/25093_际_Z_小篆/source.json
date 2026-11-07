@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "25093_际_Z_小篆",
+  "raw_png": "字库_167_333/25093_际_Z_小篆.png",
+  "raw_sha256": "431d3788bccdce5e58639243202ce3cd1f5bfaa132762f73280dc5eb1671b748",
+  "label_png": "StrokeAnnotator/outputs/label_maps/25093_际_Z_小篆/label.png",
+  "label_sha256": "b5e47d5ff2f54b0f472f993cbdbab4d46de624b224f496fb55d372d94c568b88",
+  "width": 52,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

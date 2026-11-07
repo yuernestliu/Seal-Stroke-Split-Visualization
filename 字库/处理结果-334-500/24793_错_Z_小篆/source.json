@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "24793_错_Z_小篆",
+  "raw_png": "字库_167_333/24793_错_Z_小篆.png",
+  "raw_sha256": "e0faa0e3a9a63256e3c4a63626cee5fe94edad98798888639f473feba9b20530",
+  "label_png": "StrokeAnnotator/outputs/label_maps/24793_错_Z_小篆/label.png",
+  "label_sha256": "30c1ec66b86e879a7945fdd548de8aee92ea36a708cbf11677aed931643b5ec1",
+  "width": 52,
+  "height": 74,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

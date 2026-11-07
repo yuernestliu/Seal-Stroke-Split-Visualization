@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "20081_花_Z_小篆",
+  "raw_png": "字库_167_333/20081_花_Z_小篆.png",
+  "raw_sha256": "7a7c2a77514053b4cfb879264a995336c973f05a7ccd81e05aac79e3e3ce3c68",
+  "label_png": "StrokeAnnotator/outputs/label_maps/20081_花_Z_小篆/label.png",
+  "label_sha256": "4505062a568f735f6518073761736514349a981bda9ad235eb599fd56b69c4f1",
+  "width": 48,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

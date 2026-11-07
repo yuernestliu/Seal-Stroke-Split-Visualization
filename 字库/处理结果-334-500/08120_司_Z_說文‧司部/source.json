@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08120_司_Z_說文‧司部",
+  "raw_png": "字库_167_333/08120_司_Z_說文‧司部.png",
+  "raw_sha256": "447409187798d0b635a3d2b753a44c9eb5d260ed761f4e9565b2c1014f63b28f",
+  "label_png": "StrokeAnnotator/outputs/label_maps/08120_司_Z_說文‧司部/label.png",
+  "label_sha256": "1ecb9a73a5b04a2297e8d88bab03ccb4b580733a623b325503309311b46a1bb6",
+  "width": 51,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

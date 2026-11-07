@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "23520_造_Z_說文‧辵部",
+  "raw_png": "字库_167_333/23520_造_Z_說文‧辵部.png",
+  "raw_sha256": "5506896be0f226bff06c9f8f1281c23a9e73d22bf8ab482eea2ff1f63ba0d456",
+  "label_png": "StrokeAnnotator/outputs/label_maps/23520_造_Z_說文‧辵部/label.png",
+  "label_sha256": "d44d82adf713d79778cf88ccfd4a82fe3988f547fbe39a06c6c5ed3932944611",
+  "width": 64,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

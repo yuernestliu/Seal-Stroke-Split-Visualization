@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "16631_男_Z_說文‧男部",
+  "raw_png": "字库_167_333/16631_男_Z_說文‧男部.png",
+  "raw_sha256": "7a2dc91a65f561f5ca05f0afba19105610f89fcbc7a68003a4e00f29d08d8669",
+  "label_png": "StrokeAnnotator/outputs/label_maps/16631_男_Z_說文‧男部/label.png",
+  "label_sha256": "6da60805be77e08bbd6701b855f68d20a2fb30c9beb2b9e7411bd340ca6502b6",
+  "width": 48,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

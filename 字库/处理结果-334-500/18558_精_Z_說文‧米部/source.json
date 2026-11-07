@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "18558_精_Z_說文‧米部",
+  "raw_png": "字库_167_333/18558_精_Z_說文‧米部.png",
+  "raw_sha256": "c8d8d1bda9e1c96c6b17a8767d395e08fda7964dde209bd709822b7b7f8700c2",
+  "label_png": "StrokeAnnotator/outputs/label_maps/18558_精_Z_說文‧米部/label.png",
+  "label_sha256": "cfc8563078570238ea0365606ab1c85448335179f11ad68cef91fa34194bf8c6",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

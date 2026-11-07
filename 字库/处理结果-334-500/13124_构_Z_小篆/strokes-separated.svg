@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 405 156" width="405" height="156" role="img" aria-label="13124_构_Z_小篆 展示版与单笔分离预览 v2">
+<rect width="405" height="156" fill="#ffffff"/>
+<text x="10" y="18" font-size="11" fill="#555">完整字形</text>
+<path d="M 17 6 Q 16.9 18 16.27 19.44 Q 15.65 20.88 14.32 21.43 Q 13 21.98 10.5 21.93 Q 8 21.88 6.68 20.93 Q 5.35 19.98 4.73 18.49 Q 4.1 17 4 7" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(10 18)"/>
+<path d="M 46 74 Q 43.02 59 43.02 51.5 Q 43.02 44 43.44 41.5 Q 43.87 39 43.38 38.05 Q 42.88 37.1 41.94 36.44 Q 41 35.78 37.5 34.99 Q 34 34.2 31 34.99 Q 28 35.78 27.06 36.44 Q 26.12 37.1 25.62 38.05 Q 25.13 39 25.56 41.5 Q 25.98 44 25.98 49.5 Q 25.98 55 23 73" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(10 18)"/>
+<path d="M 49 49 Q 34 43.11 31 43.61 Q 28 44.11 22 47" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(10 18)"/>
+<path d="M 11 4 Q 11 42 10.51 45 Q 10.02 48 10 73" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" transform="translate(10 18)"/>
+<path d="M 22 20 L 46 20" fill="none" stroke="#c34f8d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S5" transform="translate(10 18)"/>
+<path d="M 27 5 Q 26 17 26.56 21 Q 27.12 25 28.07 26.32 Q 29.02 27.65 30.51 28.22 Q 32 28.8 35.45 28.18 Q 38.9 27.55 39.77 26.27 Q 40.65 25 40.82 18 Q 41 11 40.72 8.51 Q 40.43 6.02 41 4" fill="none" stroke="#168aad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S6" transform="translate(10 18)"/>
+<path d="M 3 65 Q 2.02 56 2.46 54 Q 2.9 52 3 48 Q 3.1 44 4.44 39.51 Q 5.78 35.02 6.44 34.18 Q 7.1 33.35 8.55 32.73 Q 10 32.1 11.99 32.61 Q 13.98 33.12 15.32 35.56 Q 16.66 38 16.84 46.5 Q 17.02 55 18 62" fill="none" stroke="#7a6a32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S7" transform="translate(10 18)"/>
+<path d="M 22 12 L 46 12" fill="none" stroke="#e05a33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S8" transform="translate(10 18)"/>
+<path d="M 34 50 L 34 12" fill="none" stroke="#3f7cac" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S9" transform="translate(10 18)"/>
+<path d="M 19 57 Q 23.9 54.65 25 53.55 Q 26.1 52.45 29.05 52.06 Q 32 51.67 34.5 51.77 Q 37 51.86 49 57" fill="none" stroke="#8c5e34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S10" transform="translate(10 18)"/>
+<path d="M 73 8 V 148" stroke="#dddddd" stroke-width="1"/>
+<text x="83" y="18" font-size="11" fill="#555">单笔分离预览</text>
+<rect x="83" y="26" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="87" y="38" font-size="10" fill="#2f6fdb">S1</text>
+<path d="M 17 6 Q 16.9 18 16.27 19.44 Q 15.65 20.88 14.32 21.43 Q 13 21.98 10.5 21.93 Q 8 21.88 6.68 20.93 Q 5.35 19.98 4.73 18.49 Q 4.1 17 4 7" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(90 26.06) scale(2)"/>
+<rect x="147" y="26" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="151" y="38" font-size="10" fill="#d68a16">S2</text>
+<path d="M 46 74 Q 43.02 59 43.02 51.5 Q 43.02 44 43.44 41.5 Q 43.87 39 43.38 38.05 Q 42.88 37.1 41.94 36.44 Q 41 35.78 37.5 34.99 Q 34 34.2 31 34.99 Q 28 35.78 27.06 36.44 Q 26.12 37.1 25.62 38.05 Q 25.13 39 25.56 41.5 Q 25.98 44 25.98 49.5 Q 25.98 55 23 73" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(139.98 -1.12) scale(1.02)"/>
+<rect x="211" y="26" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="215" y="38" font-size="10" fill="#2b9b68">S3</text>
+<path d="M 49 49 Q 34 43.11 31 43.61 Q 28 44.11 22 47" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(186.41 -14.58) scale(1.48)"/>
+<rect x="275" y="26" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="279" y="38" font-size="10" fill="#9254c8">S4</text>
+<path d="M 11 4 Q 11 42 10.51 45 Q 10.02 48 10 73" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" transform="translate(296.91 31.68) scale(0.58)"/>
+<rect x="339" y="26" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="343" y="38" font-size="10" fill="#c34f8d">S5</text>
+<path d="M 22 20 L 46 20" fill="none" stroke="#c34f8d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S5" transform="translate(310.33 20.67) scale(1.67)"/>
+<rect x="83" y="90" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="87" y="102" font-size="10" fill="#168aad">S6</text>
+<path d="M 27 5 Q 26 17 26.56 21 Q 27.12 25 28.07 26.32 Q 29.02 27.65 30.51 28.22 Q 32 28.8 35.45 28.18 Q 38.9 27.55 39.77 26.27 Q 40.65 25 40.82 18 Q 41 11 40.72 8.51 Q 40.43 6.02 41 4" fill="none" stroke="#168aad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S6" transform="translate(56.01 91.47) scale(1.63)"/>
+<rect x="147" y="90" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="151" y="102" font-size="10" fill="#7a6a32">S7</text>
+<path d="M 3 65 Q 2.02 56 2.46 54 Q 2.9 52 3 48 Q 3.1 44 4.44 39.51 Q 5.78 35.02 6.44 34.18 Q 7.1 33.35 8.55 32.73 Q 10 32.1 11.99 32.61 Q 13.98 33.12 15.32 35.56 Q 16.66 38 16.84 46.5 Q 17.02 55 18 62" fill="none" stroke="#7a6a32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S7" transform="translate(162.54 58.29) scale(1.23)"/>
+<rect x="211" y="90" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="215" y="102" font-size="10" fill="#e05a33">S8</text>
+<path d="M 22 12 L 46 12" fill="none" stroke="#e05a33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S8" transform="translate(182.33 98) scale(1.67)"/>
+<rect x="275" y="90" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="279" y="102" font-size="10" fill="#3f7cac">S9</text>
+<path d="M 34 50 L 34 12" fill="none" stroke="#3f7cac" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S9" transform="translate(267.21 85.37) scale(1.05)"/>
+<rect x="339" y="90" width="56" height="56" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="343" y="102" font-size="10" fill="#8c5e34">S10</text>
+<path d="M 19 57 Q 23.9 54.65 25 53.55 Q 26.1 52.45 29.05 52.06 Q 32 51.67 34.5 51.77 Q 37 51.86 49 57" fill="none" stroke="#8c5e34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S10" transform="translate(321.67 45.5) scale(1.33)"/>
+</svg>

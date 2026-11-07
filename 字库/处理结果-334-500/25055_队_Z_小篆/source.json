@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "25055_队_Z_小篆",
+  "raw_png": "字库_167_333/25055_队_Z_小篆.png",
+  "raw_sha256": "8eaa9c0e8bf4ba950d799d2e03b7a6d951e3fb34b8e95cbcde40ee5807925f2b",
+  "label_png": "StrokeAnnotator/outputs/label_maps/25055_队_Z_小篆/label.png",
+  "label_sha256": "3acc356d63f56a04eb54cb1bf2cc18895a9c4ca45e12c20ad7bdac3cdceb4b99",
+  "width": 50,
+  "height": 77,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

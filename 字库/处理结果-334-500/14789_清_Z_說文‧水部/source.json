@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "14789_清_Z_說文‧水部",
+  "raw_png": "字库_167_333/14789_清_Z_說文‧水部.png",
+  "raw_sha256": "d03189facff7e150e3a16a36679693a13d76adeb8df6778031c355df4a780cde",
+  "label_png": "StrokeAnnotator/outputs/label_maps/14789_清_Z_說文‧水部/label.png",
+  "label_sha256": "9fe71eddd723c9a503e0a414453cecb33b90d36da94bb572f70d47f5b65da76e",
+  "width": 59,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "17454_确_Z_說文‧石部",
+  "raw_png": "字库_167_333/17454_确_Z_說文‧石部.png",
+  "raw_sha256": "65e17a2bfc8df9d99c0fecfe5fea2d4b01d1fe257381ae0a0de262bc3e319181",
+  "label_png": "StrokeAnnotator/outputs/label_maps/17454_确_Z_說文‧石部/label.png",
+  "label_sha256": "c57daa000fdd60335fdb40c00e824a99062dd95e921b823af1a77fff6dc79e8c",
+  "width": 57,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

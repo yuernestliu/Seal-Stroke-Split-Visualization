@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07988_却_Z_小篆",
+  "raw_png": "字库_167_333/07988_却_Z_小篆.png",
+  "raw_sha256": "48fd743ba0fd9e26f46550cc7f209a2ae02b9ce9cc1f2db0f26fabd6ed9e0089",
+  "label_png": "StrokeAnnotator/outputs/label_maps/07988_却_Z_小篆/label.png",
+  "label_sha256": "2d279f6cfca3d4331cb3182a21e30af5b02b51990af7762208dbbda8de859a3a",
+  "width": 51,
+  "height": 81,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

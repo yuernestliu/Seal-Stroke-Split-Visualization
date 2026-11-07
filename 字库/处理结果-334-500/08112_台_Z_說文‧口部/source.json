@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08112_台_Z_說文‧口部",
+  "raw_png": "字库_167_333/08112_台_Z_說文‧口部.png",
+  "raw_sha256": "b2e67b851863345e66842e1403e1b0c01f493023275fed9d06ff980b3dd3c5c3",
+  "label_png": "StrokeAnnotator/outputs/label_maps/08112_台_Z_說文‧口部/label.png",
+  "label_sha256": "b21d820ad489fec47a55eb4f9cb2d8c18270a61db0687929bfaa30a2d9fd0d61",
+  "width": 43,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

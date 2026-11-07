@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "25087_阿_Z_說文‧阜部",
+  "raw_png": "字库_167_333/25087_阿_Z_說文‧阜部.png",
+  "raw_sha256": "04a149d8dec5dfe96e6a39954ae5576e73c46a162148a385e454735431681e32",
+  "label_png": "StrokeAnnotator/outputs/label_maps/25087_阿_Z_說文‧阜部/label.png",
+  "label_sha256": "77777b80ad092a8667f56f254d230b3ad128e8c004d786aabd16e0a0bd426323",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

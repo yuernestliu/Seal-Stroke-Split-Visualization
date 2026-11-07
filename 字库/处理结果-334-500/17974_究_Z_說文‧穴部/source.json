@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "17974_究_Z_說文‧穴部",
+  "raw_png": "字库_167_333/17974_究_Z_說文‧穴部.png",
+  "raw_sha256": "6cb6f25eefb2c14e83c257073e7e539c433698ea454d820d685a6bd325a7eae6",
+  "label_png": "StrokeAnnotator/outputs/label_maps/17974_究_Z_說文‧穴部/label.png",
+  "label_sha256": "014992e5d5eb8c23890a1fa07607cf45d15eee3627752a6fdb1491e7ba146a36",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "22777_费_Z_小篆",
+  "raw_png": "字库_167_333/22777_费_Z_小篆.png",
+  "raw_sha256": "297ef48970b6a82e8ff15a1b02ab1970786ced3444ee683699c55bc0b66f72ac",
+  "label_png": "StrokeAnnotator/outputs/label_maps/22777_费_Z_小篆/label.png",
+  "label_sha256": "19397c297003d0f12270cfbaa896c871c63fa1821ac6b874d45cbc0e1e2a510a",
+  "width": 41,
+  "height": 77,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

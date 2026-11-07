@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12136_推_Z_說文‧手部",
+  "raw_png": "字库_167_333/12136_推_Z_說文‧手部.png",
+  "raw_sha256": "44c22c307770ce8c2513e4fe11068939a1b512856e9a722f26bc4a7f3555b951",
+  "label_png": "StrokeAnnotator/outputs/label_maps/12136_推_Z_說文‧手部/label.png",
+  "label_sha256": "b945408308eebe7af63236d27952e15cae6a75bf7da23fe4c0c1878b268322a1",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

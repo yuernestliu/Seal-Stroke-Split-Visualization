@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07039_便_Z_說文‧人部",
+  "raw_png": "字库_167_333/07039_便_Z_說文‧人部.png",
+  "raw_sha256": "4d6cadac631f59871a57739a96c80b12380b933fd937c3308a1b4b760420597b",
+  "label_png": "StrokeAnnotator/outputs/label_maps/07039_便_Z_說文‧人部/label.png",
+  "label_sha256": "0820109e948eab7ee847d4c8802cde0c760dacf3515b0d462cf4a99940423d4a",
+  "width": 56,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

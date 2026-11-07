@@ -1,0 +1,473 @@
+{
+  "schema": "current-split-review-v1",
+  "glyph_id": "20271_药_Z_小篆",
+  "status": "candidate-needs-manual-review",
+  "outline_reviewed": false,
+  "skeleton_reviewed": false,
+  "stroke_split_reviewed": false,
+  "owner": null,
+  "reviewer": null,
+  "review_date": "2026-11-07",
+  "source": {
+    "raw_png": "字库_167_333/20271_药_Z_小篆.png",
+    "raw_sha256": "9e3a8c75e460883988bb30ceb69a4347dc6ff013377791effa08708d59c841f3",
+    "manual_label": "StrokeAnnotator/outputs/label_maps/20271_药_Z_小篆/label.png",
+    "manual_label_sha256": "fed434f293f4cee8be500f945c162980cbd0127b4dd704b44e49629242f80f48",
+    "label_auto": "StrokeAnnotator/outputs/label_maps/20271_药_Z_小篆/label_auto.png",
+    "previous_candidate_package": null
+  },
+  "parameters": {
+    "connectivity": 8,
+    "route_cost": "1 + 7 / (foreground_distance + 0.5)",
+    "repair_trigger": "8-connected component count greater than 1 for a single manual stroke",
+    "corridor": "shortest 2-px bridge between disconnected stroke components before skeletonization",
+    "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
+    "vector_smoothing": "gaussian sigma 1.20 followed by bounded quadratic-midpoint centreline (centerline-quadratic-v1)",
+    "method": "centerline-quadratic-v1",
+    "sigma": 1.2,
+    "simplify_tolerance": 0.5,
+    "stroke_width": 2.0,
+    "stroke_linecap": "round",
+    "stroke_linejoin": "round",
+    "bridge_is_fixed_width": false,
+    "preserve_blank": true,
+    "manual_label_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "missing_manual_label_ids": []
+  },
+  "validation": {
+    "canvas": {
+      "width": 46,
+      "height": 77
+    },
+    "stroke_count": 13,
+    "manual_label_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "missing_manual_label_ids": [],
+    "per_stroke": [
+      {
+        "stroke_id": "S1",
+        "color": "#2f6fdb",
+        "original_pixels": 17,
+        "fused_pixels": 17,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.0,
+          "max": 1.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S2",
+        "color": "#d68a16",
+        "original_pixels": 70,
+        "fused_pixels": 70,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 2.0,
+          "max": 2.236,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S3",
+        "color": "#2b9b68",
+        "original_pixels": 24,
+        "fused_pixels": 24,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.414,
+          "p95": 2.0,
+          "max": 2.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S4",
+        "color": "#9254c8",
+        "original_pixels": 50,
+        "fused_pixels": 50,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.414,
+          "max": 1.414,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S5",
+        "color": "#c34f8d",
+        "original_pixels": 111,
+        "fused_pixels": 111,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.414,
+          "max": 2.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S6",
+        "color": "#168aad",
+        "original_pixels": 20,
+        "fused_pixels": 20,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.0,
+          "max": 1.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S7",
+        "color": "#7a6a32",
+        "original_pixels": 51,
+        "fused_pixels": 51,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.414,
+          "max": 1.414,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S8",
+        "color": "#e05a33",
+        "original_pixels": 60,
+        "fused_pixels": 60,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.0,
+          "max": 1.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S9",
+        "color": "#3f7cac",
+        "original_pixels": 92,
+        "fused_pixels": 94,
+        "corridor_added_pixels": 2,
+        "components_before": 2,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.414,
+          "max": 1.414,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 1
+      },
+      {
+        "stroke_id": "S10",
+        "color": "#8c5e34",
+        "original_pixels": 69,
+        "fused_pixels": 73,
+        "corridor_added_pixels": 4,
+        "components_before": 2,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.414,
+          "max": 1.414,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 1
+      },
+      {
+        "stroke_id": "S11",
+        "color": "#5964b4",
+        "original_pixels": 44,
+        "fused_pixels": 44,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.021,
+          "max": 1.414,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.021
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S12",
+        "color": "#009688",
+        "original_pixels": 54,
+        "fused_pixels": 54,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.414,
+          "max": 1.414,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S13",
+        "color": "#f06292",
+        "original_pixels": 50,
+        "fused_pixels": 50,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.0,
+          "max": 1.414,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.0
+        },
+        "repair_count": 0
+      }
+    ],
+    "all_strokes_continuous": true,
+    "fused_union_covers_original_label": true,
+    "fused_regions_subset_original_foreground": false,
+    "blank_preserved_by_recorded_gap_closures": true,
+    "recorded_gap_closure_pixels": 1,
+    "bridge_overlap_pixels_at_crossings": 5,
+    "source_coordinates_preserved": true,
+    "svg_contains_embedded_raster": false,
+    "svg_contains_external_raster_reference": false
+  },
+  "repairs": [
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 2.0,
+      "route_points": [
+        [
+          21,
+          54
+        ],
+        [
+          23,
+          54
+        ]
+      ],
+      "corridor_added_pixels": 6,
+      "stroke_id": "S9",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 6,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 2.0,
+      "route_points": [
+        [
+          23,
+          48
+        ],
+        [
+          21,
+          48
+        ]
+      ],
+      "corridor_added_pixels": 6,
+      "stroke_id": "S10",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 5,
+      "route_nonforeground_pixel_count": 1,
+      "gap_closure_points": [
+        [
+          21,
+          47
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    }
+  ],
+  "issues": [
+    "manual-v2 is a candidate and requires human visual confirmation",
+    "modern stroke semantics and crossing ownership remain tied to the manual label map",
+    "centreline-quadratic-v1 is a display geometry, not a philological judgement"
+  ],
+  "files": {
+    "display_split": "display-split.svg",
+    "separated_preview": "strokes-separated.svg",
+    "outline_split": "outline-split.svg",
+    "skeleton_svg": "skeleton.svg",
+    "skeleton_json": "skeleton.json",
+    "overlay": "overlay.svg",
+    "stroke_label_preview": "stroke-label.png",
+    "source": "source.json",
+    "mask": "mask.png",
+    "outline": "outline.svg",
+    "skeleton": "skeleton.svg",
+    "split_outline": "outline-split.svg",
+    "split_preview": "strokes-separated.svg",
+    "split_display": "display-split.svg"
+  },
+  "revision_history": [
+    {
+      "date": "2026-11-07",
+      "actor": "centerline-quadratic-v1 generator",
+      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
+      "status": "candidate-needs-manual-review"
+    }
+  ],
+  "package": "字库/处理结果-334-500",
+  "split_package": "拆解结果-334-500",
+  "readme_compliance": {
+    "outline_is_vector": true,
+    "skeleton_is_reusable_json": true,
+    "overlay_is_separate_from_outline": true,
+    "original_png_preserved": true,
+    "manual_label_source_preserved": true
+  }
+}

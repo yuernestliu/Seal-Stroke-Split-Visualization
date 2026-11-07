@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "12653_断_Z_小篆",
+  "raw_png": "字库_167_333/12653_断_Z_小篆.png",
+  "raw_sha256": "da8c235ffc177d83c8e01cd0f0576c38713987cd28f79016d496b07a5f0dfb7d",
+  "label_png": "StrokeAnnotator/outputs/label_maps/12653_断_Z_小篆/label.png",
+  "label_sha256": "75bd76beaed3c28201baae7e586b283ac20ca855a51e7a4b4ba454618cd96967",
+  "width": 52,
+  "height": 76,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

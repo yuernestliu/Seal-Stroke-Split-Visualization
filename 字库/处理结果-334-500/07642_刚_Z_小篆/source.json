@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07642_刚_Z_小篆",
+  "raw_png": "字库_167_333/07642_刚_Z_小篆.png",
+  "raw_sha256": "2cf97d291510729c3f0f7625e973270f91540bff430146963aa87e56d931f84e",
+  "label_png": "StrokeAnnotator/outputs/label_maps/07642_刚_Z_小篆/label.png",
+  "label_sha256": "b6edb23d8dc527a761f325af63b71938227ee3823aee93114ca73e2cd85862dc",
+  "width": 49,
+  "height": 74,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

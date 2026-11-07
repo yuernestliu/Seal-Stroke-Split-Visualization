@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10691_布_Z_說文‧巾部",
+  "raw_png": "字库_167_333/10691_布_Z_說文‧巾部.png",
+  "raw_sha256": "89ce29f9456d44238f3405d895acb9de8d2e31363a0d1bc597c8d660f3620f0b",
+  "label_png": "StrokeAnnotator/outputs/label_maps/10691_布_Z_說文‧巾部/label.png",
+  "label_sha256": "9a419d9ce5d26ec19ddea0669cc39a75a6c14e2846707fa1e683ea8059bef052",
+  "width": 50,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

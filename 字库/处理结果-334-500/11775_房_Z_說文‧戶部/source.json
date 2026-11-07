@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "11775_房_Z_說文‧戶部",
+  "raw_png": "字库_167_333/11775_房_Z_說文‧戶部.png",
+  "raw_sha256": "b32b5e279c835b6873ca9b6ec9ee269843fb531b40d95c2f001d244d2bc4f883",
+  "label_png": "StrokeAnnotator/outputs/label_maps/11775_房_Z_說文‧戶部/label.png",
+  "label_sha256": "7b797f45462d7ff37241466e2701111b9c92e887a367579cb883d9ae3c2d6924",
+  "width": 52,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

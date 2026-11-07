@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "10025_孩_Z_說文‧口部",
+  "raw_png": "字库_167_333/10025_孩_Z_說文‧口部.png",
+  "raw_sha256": "3e113aee6c93b6d2827c1b7fa31b9e21986d3f36821e4a3a686734e7d67125ed",
+  "label_png": "StrokeAnnotator/outputs/label_maps/10025_孩_Z_說文‧口部/label.png",
+  "label_sha256": "161951520106b06d7e6660b8da2a18243a861e24f4fcefd8a7b8632925431215",
+  "width": 58,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "16233_玩_Z_說文‧玉部",
+  "raw_png": "字库_167_333/16233_玩_Z_說文‧玉部.png",
+  "raw_sha256": "7297e8bda01588d4da43aa08440d8d2b705bde318574c6a3b7b2f76a0c14c87f",
+  "label_png": "StrokeAnnotator/outputs/label_maps/16233_玩_Z_說文‧玉部/label.png",
+  "label_sha256": "7299eaeaefcb2bb141809443e93fb2b4c25f2f7839e7e1625ff986f348f6ad8c",
+  "width": 65,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

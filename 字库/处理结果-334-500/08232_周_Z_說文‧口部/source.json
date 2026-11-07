@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "08232_周_Z_說文‧口部",
+  "raw_png": "字库_167_333/08232_周_Z_說文‧口部.png",
+  "raw_sha256": "f32d45e0acf37ea32dfc61807733ae495795f404bee7beaedb3ab7a1b0196c15",
+  "label_png": "StrokeAnnotator/outputs/label_maps/08232_周_Z_說文‧口部/label.png",
+  "label_sha256": "68af5a1929b963f0ad0f689e6fe6b045111a511d1ff86b115fca9020fac53144",
+  "width": 52,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

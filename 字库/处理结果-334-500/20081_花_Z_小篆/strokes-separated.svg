@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 152" width="328" height="152" role="img" aria-label="20081_花_Z_小篆 展示版与单笔分离预览 v2">
+<rect width="328" height="152" fill="#ffffff"/>
+<text x="10" y="18" font-size="11" fill="#555">完整字形</text>
+<path d="M 35 4 Q 26 4.45 24.56 6.23 Q 23.12 8 23.07 20 Q 23.02 32 23.96 38 Q 24.9 44 24.9 48 Q 24.9 52 23.56 56.5 Q 22.22 61 15 71" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(10 18)"/>
+<path d="M 39 41 Q 29 40.98 26.5 40.55 Q 24 40.11 22.5 40.51 Q 21 40.9 16.56 41.07 Q 12.12 41.23 11 40" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(10 18)"/>
+<path d="M 44 23 Q 37 16.1 35.5 15.23 Q 34 14.37 32.5 14.58 Q 31 14.78 28.5 16.33 Q 26 17.88 24.5 17.93 Q 23 17.98 22 17.77 Q 21 17.55 17.5 15.39 Q 14 13.23 13 13.67 Q 12 14.12 3 23" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(10 18)"/>
+<path d="M 11 34 Q 19 33.98 21 33.55 Q 23 33.11 25.5 33.55 Q 28 33.98 36 34" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" transform="translate(10 18)"/>
+<path d="M 3 35 Q 7.1 29 10.55 25.78 Q 14 22.57 15 22.84 Q 16 23.12 18.5 24.84 Q 21 26.57 22 26.77 Q 23 26.98 25 26.77 Q 27 26.57 29.5 25.01 Q 32 23.45 33 23.46 Q 34 23.47 37.49 26.73 Q 40.98 30 43 33" fill="none" stroke="#c34f8d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S5" transform="translate(10 18)"/>
+<path d="M 68 8 V 144" stroke="#dddddd" stroke-width="1"/>
+<text x="78" y="18" font-size="11" fill="#555">单笔分离预览</text>
+<rect x="78" y="26" width="54" height="54" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="82" y="38" font-size="10" fill="#2f6fdb">S1</text>
+<path d="M 35 4 Q 26 4.45 24.56 6.23 Q 23.12 8 23.07 20 Q 23.02 32 23.96 38 Q 24.9 44 24.9 48 Q 24.9 52 23.56 56.5 Q 22.22 61 15 71" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(90.82 31.73) scale(0.57)"/>
+<rect x="140" y="26" width="54" height="54" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="144" y="38" font-size="10" fill="#d68a16">S2</text>
+<path d="M 39 41 Q 29 40.98 26.5 40.55 Q 24 40.11 22.5 40.51 Q 21 40.9 16.56 41.07 Q 12.12 41.23 11 40" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(133.07 -2.02) scale(1.36)"/>
+<rect x="202" y="26" width="54" height="54" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="206" y="38" font-size="10" fill="#2b9b68">S3</text>
+<path d="M 44 23 Q 37 16.1 35.5 15.23 Q 34 14.37 32.5 14.58 Q 31 14.78 28.5 16.33 Q 26 17.88 24.5 17.93 Q 23 17.98 22 17.77 Q 21 17.55 17.5 15.39 Q 14 13.23 13 13.67 Q 12 14.12 3 23" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(207.22 36.04) scale(0.93)"/>
+<rect x="264" y="26" width="54" height="54" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="268" y="38" font-size="10" fill="#9254c8">S4</text>
+<path d="M 11 34 Q 19 33.98 21 33.55 Q 23 33.11 25.5 33.55 Q 28 33.98 36 34" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" transform="translate(255.28 1.83) scale(1.52)"/>
+<rect x="78" y="88" width="54" height="54" fill="none" stroke="#eeeeee" stroke-width="1"/>
+<text x="82" y="100" font-size="10" fill="#c34f8d">S5</text>
+<path d="M 3 35 Q 7.1 29 10.55 25.78 Q 14 22.57 15 22.84 Q 16 23.12 18.5 24.84 Q 21 26.57 22 26.77 Q 23 26.98 25 26.77 Q 27 26.57 29.5 25.01 Q 32 23.45 33 23.46 Q 34 23.47 37.49 26.73 Q 40.98 30 43 33" fill="none" stroke="#c34f8d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S5" transform="translate(83.15 87.54) scale(0.95)"/>
+</svg>

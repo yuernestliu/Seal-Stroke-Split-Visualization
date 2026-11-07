@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07427_元_Z_說文‧一部",
+  "raw_png": "字库_167_333/07427_元_Z_說文‧一部.png",
+  "raw_sha256": "4c2926e7cab30ae83172e1cc485407adbc2549e05a7b6b4ad719d0d69941e11a",
+  "label_png": "StrokeAnnotator/outputs/label_maps/07427_元_Z_說文‧一部/label.png",
+  "label_sha256": "99d606607918cb47c380ec491a5a58ef01b7b96615c087d576a2532c12ee2dda",
+  "width": 46,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

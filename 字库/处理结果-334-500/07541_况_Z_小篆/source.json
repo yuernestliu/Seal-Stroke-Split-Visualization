@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "07541_况_Z_小篆",
+  "raw_png": "字库_167_333/07541_况_Z_小篆.png",
+  "raw_sha256": "3a598dc2440dcd4cc0cc696107ed9840e29429764ef9834c1ac79c9672879bbb",
+  "label_png": "StrokeAnnotator/outputs/label_maps/07541_况_Z_小篆/label.png",
+  "label_sha256": "559dbc852057511a19261d77dd80b44b4d01caa79f04e7188fdf188c4f7152f5",
+  "width": 52,
+  "height": 77,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

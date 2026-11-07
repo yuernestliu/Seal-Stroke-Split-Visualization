@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06688_习_Z_說文‧羽部",
+  "raw_png": "字库_167_333/06688_习_Z_說文‧羽部.png",
+  "raw_sha256": "d66de44c666958626485fb0901a0b025a520dbd10066e41af2e5d27ebc6f5356",
+  "label_png": "StrokeAnnotator/outputs/label_maps/06688_习_Z_說文‧羽部/label.png",
+  "label_sha256": "24e3cd202c06e8ccb7ebdab32d903815a9e952babd6e51acf0d81c3f0f68f45a",
+  "width": 53,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

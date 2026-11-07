@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "25385_革_Z_說文‧革部",
+  "raw_png": "字库_167_333/25385_革_Z_說文‧革部.png",
+  "raw_sha256": "fbaa2bbdd619b5504d68da561dfb5070d5efd0c21e8b28c9979159cfe3d19508",
+  "label_png": "StrokeAnnotator/outputs/label_maps/25385_革_Z_說文‧革部/label.png",
+  "label_sha256": "2b146a033b3a7c51c04670cbdb10b8a511700286831d672fb086e196692e6a36",
+  "width": 54,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

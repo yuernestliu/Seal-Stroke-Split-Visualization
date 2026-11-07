@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "23340_转_Z_小篆",
+  "raw_png": "字库_167_333/23340_转_Z_小篆.png",
+  "raw_sha256": "c3c4227d3abee13b45300eabf12e3d0bf78f2d8f6f9d5ec47032f556f3efc201",
+  "label_png": "StrokeAnnotator/outputs/label_maps/23340_转_Z_小篆/label.png",
+  "label_sha256": "eef1db9940073c53888062399695d209292c14cf3180b07d509dbdb63482f590",
+  "width": 48,
+  "height": 77,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

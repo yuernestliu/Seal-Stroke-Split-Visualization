@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "19395_考_Z_說文‧老部",
+  "raw_png": "字库_167_333/19395_考_Z_說文‧老部.png",
+  "raw_sha256": "2fb01860c62465fa1bf253b5d9ac07fcde8bb175353102d805457fdd1b527a34",
+  "label_png": "StrokeAnnotator/outputs/label_maps/19395_考_Z_說文‧老部/label.png",
+  "label_sha256": "a1450a1a23f707f70eae3c6611a7bffd918bf7c4dfab41b77647c74e6573b18d",
+  "width": 45,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

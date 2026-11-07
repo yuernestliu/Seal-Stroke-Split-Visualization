@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "20271_药_Z_小篆",
+  "raw_png": "字库_167_333/20271_药_Z_小篆.png",
+  "raw_sha256": "9e3a8c75e460883988bb30ceb69a4347dc6ff013377791effa08708d59c841f3",
+  "label_png": "StrokeAnnotator/outputs/label_maps/20271_药_Z_小篆/label.png",
+  "label_sha256": "fed434f293f4cee8be500f945c162980cbd0127b4dd704b44e49629242f80f48",
+  "width": 46,
+  "height": 77,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "06764_京_Z_說文‧京部",
+  "raw_png": "字库_167_333/06764_京_Z_說文‧京部.png",
+  "raw_sha256": "845f9ba593055d6047153847513acd407ef13e07e3af899973c0883446508304",
+  "label_png": "StrokeAnnotator/outputs/label_maps/06764_京_Z_說文‧京部/label.png",
+  "label_sha256": "f40ff32c3d2ee6ac41991c0cc7c4a9b17b936990aa5b7e29635266c0b278102a",
+  "width": 55,
+  "height": 80,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}

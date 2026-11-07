@@ -1,0 +1,15 @@
+{
+  "schema": "current-split-source-v1",
+  "glyph_id": "22382_议_Z_小篆",
+  "raw_png": "字库_167_333/22382_议_Z_小篆.png",
+  "raw_sha256": "a39dce50ecb0839f47f839a073db87565a00caafcdeb29e63d1e3ab1c4bb92db",
+  "label_png": "StrokeAnnotator/outputs/label_maps/22382_议_Z_小篆/label.png",
+  "label_sha256": "1d3b09af2e479feec73a13e939f34d9d6cbbd2bca272d48baa12d6dfb7b76348",
+  "width": 51,
+  "height": 79,
+  "coordinate_system": "original PNG pixels; origin top-left, x right, y down",
+  "source_version": "manual label map (StrokeAnnotator)",
+  "processing_package": "字库/处理结果-334-500",
+  "split_result_package": "拆解结果-334-500",
+  "manual_label_record_preserved": true
+}
