@@ -78,10 +78,12 @@ SITE_SOLID = "#eadfbb"
 SIGMA = 1.2
 SIMPLIFY_TOLERANCE = 0.5
 SPUR_MAX = 4
-# Only pieces separated by a pixel or two come from anti-aliasing / label
-# thinning.  Anything further apart is a genuinely disjoint part of the same
-# manual stroke, so it must stay a separate sub-path instead of growing a
-# long artificial bridge across the glyph.
+# The label map assigns every pixel to exactly one stroke, so when two strokes
+# cross the lower one is cut in two.  Such a gap is bridged again: the straight
+# route between the two pieces runs over *other* strokes.  A gap is only kept
+# when the route crosses real background for more than this many pixels.
+MAX_OCCLUSION_RUN = 2.0
+# Anti-aliasing gaps this small are always closed.
 MAX_MERGE_GAP = 2.0
 
 
@@ -377,15 +379,44 @@ def trace_graph_edges(graph: dict) -> list[list[tuple[int, int]]]:
 # Component bridging
 # ---------------------------------------------------------------------------
 
-def bridge_components(mask: np.ndarray, connectivity: int = 8
-                      ) -> tuple[np.ndarray, list[dict], list[np.ndarray]]:
-    """Merge near-touching pieces of one manual stroke; keep far pieces apart.
+def occlusion_run(mask: np.ndarray, occluder: np.ndarray,
+                  p_from: tuple[int, int], p_to: tuple[int, int],
+                  gap: float) -> float:
+    """Longest stretch of real background on the straight route between pieces.
 
-    Only gaps up to :data:`MAX_MERGE_GAP` pixels are closed, because those are
-    the ones produced by anti-aliasing when the label map is thresholded.  A
-    stroke that the annotator really drew as two distant pieces is returned as
-    two separate groups, so the caller can render two sub-paths instead of an
-    artificial line crossing the glyph.
+    ``occluder`` holds every pixel that belongs to *another* stroke of the same
+    glyph.  When the route stays on those pixels the gap is only an occlusion
+    artefact of the label map and the stroke should be reconnected.
+    """
+    steps = max(4, int(gap * 4))
+    covered: list[bool] = []
+    for t in np.linspace(0.0, 1.0, steps + 1):
+        y = p_from[0] + (p_to[0] - p_from[0]) * t
+        x = p_from[1] + (p_to[1] - p_from[1]) * t
+        yy, xx = int(round(y)), int(round(x))
+        covered.append(bool(occluder[max(0, yy - 1):yy + 2, max(0, xx - 1):xx + 2].any()))
+    core = covered[2:-2] or covered
+    best = run = 0
+    for c in core:
+        if c:
+            run = 0
+        else:
+            run += 1
+            best = max(best, run)
+    return best / 4.0
+
+
+def bridge_components(mask: np.ndarray, occluder: np.ndarray | None = None,
+                      connectivity: int = 8
+                      ) -> tuple[np.ndarray, list[dict], list[np.ndarray]]:
+    """Reconnect pieces of one manual stroke, keep genuinely separate parts.
+
+    Small gaps come from anti-aliasing; larger ones usually come from another
+    stroke being painted on top, because the label map gives each pixel to a
+    single stroke.  Both are closed.  Only a gap whose route crosses real
+    background (:data:`MAX_OCCLUSION_RUN`) is treated as two separate pieces of
+    the stroke, and those are returned as two groups so the caller can render
+    two sub-paths instead of an artificial line across the glyph.
     """
     structure = np.ones((3, 3), dtype=int) if connectivity == 8 else None
     comps, n = ndimage.label(mask, structure=structure)
@@ -425,8 +456,9 @@ def bridge_components(mask: np.ndarray, connectivity: int = 8
     for gap, i, j, pi, pj in pairs:
         if find(i) == find(j):
             continue
-        if gap > MAX_MERGE_GAP:
-            continue
+        if gap > MAX_MERGE_GAP and occluder is not None:
+            if occlusion_run(mask, occluder, pi, pj, gap) >= MAX_OCCLUSION_RUN:
+                continue
         union(i, j)
         line = Image.new("L", (mask.shape[1], mask.shape[0]), 0)
         ImageDraw.Draw(line).line([(pi[1], pi[0]), (pj[1], pj[0])], fill=255, width=2)
@@ -680,7 +712,7 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
 
     for order, sid in enumerate(label_ids, start=1):
         mask = label == sid
-        fused, repairs, groups = bridge_components(mask)
+        fused, repairs, groups = bridge_components(mask, occluder=(label > 0) & ~mask)
         comps_before = ndimage.label(mask, structure=np.ones((3, 3), dtype=int))[1]
         # Cover every piece of the stroke.  A ring must stay a ring, and two
         # far-apart pieces must stay two sub-paths (no artificial bridge).

@@ -111,12 +111,12 @@
         "stroke_id": "S3",
         "color": "#2b9b68",
         "original_pixels": 123,
-        "fused_pixels": 123,
-        "corridor_added_pixels": 0,
+        "fused_pixels": 129,
+        "corridor_added_pixels": 6,
         "components_before": 2,
-        "components_after": 2,
-        "continuous": false,
-        "vector_contours": 2,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
@@ -126,28 +126,28 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 2.0
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S4",
         "color": "#9254c8",
         "original_pixels": 41,
-        "fused_pixels": 41,
-        "corridor_added_pixels": 0,
+        "fused_pixels": 52,
+        "corridor_added_pixels": 11,
         "components_before": 2,
-        "components_after": 2,
-        "continuous": false,
-        "vector_contours": 2,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.502,
+          "p95": 1.414,
           "max": 2.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.502
+          "bulge_ratio_p95_to_median": 1.414
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S5",
@@ -278,15 +278,100 @@
     ],
     "all_strokes_continuous": true,
     "fused_union_covers_original_label": true,
-    "fused_regions_subset_original_foreground": true,
+    "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
-    "recorded_gap_closure_pixels": 0,
-    "bridge_overlap_pixels_at_crossings": 0,
+    "recorded_gap_closure_pixels": 3,
+    "bridge_overlap_pixels_at_crossings": 14,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
   },
-  "repairs": [],
+  "repairs": [
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 3.0,
+      "route_points": [
+        [
+          27,
+          37
+        ],
+        [
+          27,
+          40
+        ]
+      ],
+      "corridor_added_pixels": 8,
+      "stroke_id": "S3",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 6,
+      "route_nonforeground_pixel_count": 2,
+      "gap_closure_points": [
+        [
+          28,
+          37
+        ],
+        [
+          28,
+          40
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 6.0,
+      "route_points": [
+        [
+          30,
+          31
+        ],
+        [
+          24,
+          31
+        ]
+      ],
+      "corridor_added_pixels": 14,
+      "stroke_id": "S4",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 13,
+      "route_nonforeground_pixel_count": 1,
+      "gap_closure_points": [
+        [
+          24,
+          30
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    }
+  ],
   "issues": [
     "manual-v2 is a candidate and requires human visual confirmation",
     "modern stroke semantics and crossing ownership remain tied to the manual label map",

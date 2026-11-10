@@ -109,12 +109,12 @@
         "stroke_id": "S3",
         "color": "#2b9b68",
         "original_pixels": 91,
-        "fused_pixels": 91,
-        "corridor_added_pixels": 0,
+        "fused_pixels": 106,
+        "corridor_added_pixels": 15,
         "components_before": 3,
-        "components_after": 3,
-        "continuous": false,
-        "vector_contours": 3,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
@@ -124,7 +124,7 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 0
+        "repair_count": 2
       },
       {
         "stroke_id": "S4",
@@ -172,12 +172,12 @@
         "stroke_id": "S6",
         "color": "#168aad",
         "original_pixels": 123,
-        "fused_pixels": 128,
-        "corridor_added_pixels": 5,
+        "fused_pixels": 134,
+        "corridor_added_pixels": 11,
         "components_before": 4,
-        "components_after": 2,
-        "continuous": false,
-        "vector_contours": 2,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
@@ -187,7 +187,7 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 2.0
         },
-        "repair_count": 2
+        "repair_count": 3
       },
       {
         "stroke_id": "S7",
@@ -257,8 +257,8 @@
     "fused_union_covers_original_label": true,
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
-    "recorded_gap_closure_pixels": 1,
-    "bridge_overlap_pixels_at_crossings": 11,
+    "recorded_gap_closure_pixels": 10,
+    "bridge_overlap_pixels_at_crossings": 24,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
@@ -288,6 +288,110 @@
       "route_foreground_pixel_count": 6,
       "route_nonforeground_pixel_count": 0,
       "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        2,
+        3
+      ],
+      "gap_pixels": 3.16,
+      "route_points": [
+        [
+          30,
+          42
+        ],
+        [
+          29,
+          45
+        ]
+      ],
+      "corridor_added_pixels": 8,
+      "stroke_id": "S3",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 3,
+      "route_nonforeground_pixel_count": 5,
+      "gap_closure_points": [
+        [
+          31,
+          42
+        ],
+        [
+          30,
+          43
+        ],
+        [
+          31,
+          43
+        ],
+        [
+          30,
+          44
+        ],
+        [
+          30,
+          45
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 5.1,
+      "route_points": [
+        [
+          29,
+          37
+        ],
+        [
+          30,
+          42
+        ]
+      ],
+      "corridor_added_pixels": 12,
+      "stroke_id": "S3",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 9,
+      "route_nonforeground_pixel_count": 3,
+      "gap_closure_points": [
+        [
+          30,
+          37
+        ],
+        [
+          30,
+          38
+        ],
+        [
+          31,
+          42
+        ]
+      ],
       "corridor_overlaps_existing_labels": null,
       "smooth_width_profile": {
         "route_point_count": 2,
@@ -393,6 +497,46 @@
       "route_foreground_pixel_count": 6,
       "route_nonforeground_pixel_count": 0,
       "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        3,
+        4
+      ],
+      "gap_pixels": 4.47,
+      "route_points": [
+        [
+          41,
+          38
+        ],
+        [
+          43,
+          42
+        ]
+      ],
+      "corridor_added_pixels": 8,
+      "stroke_id": "S6",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 7,
+      "route_nonforeground_pixel_count": 1,
+      "gap_closure_points": [
+        [
+          44,
+          42
+        ]
+      ],
       "corridor_overlaps_existing_labels": null,
       "smooth_width_profile": {
         "route_point_count": 2,

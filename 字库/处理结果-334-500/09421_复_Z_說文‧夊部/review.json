@@ -147,12 +147,12 @@
         "stroke_id": "S5",
         "color": "#c34f8d",
         "original_pixels": 78,
-        "fused_pixels": 80,
-        "corridor_added_pixels": 2,
+        "fused_pixels": 82,
+        "corridor_added_pixels": 4,
         "components_before": 3,
-        "components_after": 2,
-        "continuous": false,
-        "vector_contours": 2,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
@@ -162,7 +162,7 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.414
         },
-        "repair_count": 1
+        "repair_count": 2
       },
       {
         "stroke_id": "S6",
@@ -212,7 +212,7 @@
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
     "recorded_gap_closure_pixels": 1,
-    "bridge_overlap_pixels_at_crossings": 5,
+    "bridge_overlap_pixels_at_crossings": 7,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
@@ -240,6 +240,41 @@
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
       "route_foreground_pixel_count": 6,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        2,
+        3
+      ],
+      "gap_pixels": 2.24,
+      "route_points": [
+        [
+          31,
+          57
+        ],
+        [
+          32,
+          59
+        ]
+      ],
+      "corridor_added_pixels": 5,
+      "stroke_id": "S5",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 5,
       "route_nonforeground_pixel_count": 0,
       "gap_closure_points": [],
       "corridor_overlaps_existing_labels": null,
