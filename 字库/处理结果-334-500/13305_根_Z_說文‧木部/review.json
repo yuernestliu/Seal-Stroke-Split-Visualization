@@ -7,7 +7,7 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-07",
+  "review_date": "2026-11-10",
   "source": {
     "raw_png": "字库_167_333/13305_根_Z_說文‧木部.png",
     "raw_sha256": "11ed8c1f0ee4cf4a9286321cb8dc8398eb44ecd0f93218cb222f73a0429f9dc0",
@@ -335,7 +335,7 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-10",
       "actor": "centerline-quadratic-v1 generator",
       "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
       "status": "candidate-needs-manual-review"

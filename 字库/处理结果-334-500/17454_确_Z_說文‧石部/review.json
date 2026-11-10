@@ -7,7 +7,7 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-07",
+  "review_date": "2026-11-10",
   "source": {
     "raw_png": "字库_167_333/17454_确_Z_說文‧石部.png",
     "raw_sha256": "65e17a2bfc8df9d99c0fecfe5fea2d4b01d1fe257381ae0a0de262bc3e319181",
@@ -358,7 +358,7 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-10",
       "actor": "centerline-quadratic-v1 generator",
       "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
       "status": "candidate-needs-manual-review"

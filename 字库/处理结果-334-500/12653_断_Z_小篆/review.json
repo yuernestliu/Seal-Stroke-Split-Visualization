@@ -7,7 +7,7 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-07",
+  "review_date": "2026-11-10",
   "source": {
     "raw_png": "字库_167_333/12653_断_Z_小篆.png",
     "raw_sha256": "da8c235ffc177d83c8e01cd0f0576c38713987cd28f79016d496b07a5f0dfb7d",
@@ -251,14 +251,14 @@
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
           "p95": 1.414,
-          "max": 1.414,
+          "max": 2.0,
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.414
         },
@@ -293,16 +293,16 @@
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.104,
+          "p95": 1.414,
           "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.104
+          "bulge_ratio_p95_to_median": 1.414
         },
         "repair_count": 0
       },
@@ -461,7 +461,7 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-10",
       "actor": "centerline-quadratic-v1 generator",
       "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
       "status": "candidate-needs-manual-review"

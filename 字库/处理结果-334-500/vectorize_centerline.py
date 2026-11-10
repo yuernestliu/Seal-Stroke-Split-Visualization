@@ -78,6 +78,11 @@ SITE_SOLID = "#eadfbb"
 SIGMA = 1.2
 SIMPLIFY_TOLERANCE = 0.5
 SPUR_MAX = 4
+# Only pieces separated by a pixel or two come from anti-aliasing / label
+# thinning.  Anything further apart is a genuinely disjoint part of the same
+# manual stroke, so it must stay a separate sub-path instead of growing a
+# long artificial bridge across the glyph.
+MAX_MERGE_GAP = 2.0
 
 
 # ---------------------------------------------------------------------------
@@ -251,6 +256,59 @@ def longest_path(graph: dict) -> list[tuple[int, int]]:
     return path
 
 
+def _is_closed(chain: list[tuple[int, int]]) -> bool:
+    return len(chain) > 2 and chain[0] == chain[-1]
+
+
+def cover_paths(graph: dict) -> list[list[tuple[int, int]]]:
+    """Split a skeleton graph into chains that together cover every pixel.
+
+    ``longest_path`` only returns one simple path, which silently cuts every
+    loop in half: a stroke shaped like a ring (or a ring with a stem) lost
+    part of its geometry.  Here the graph is decomposed into edges and those
+    edges are re-joined greedily, while closed loops are kept closed and are
+    never merged into an open chain.  A stroke may therefore produce several
+    sub-paths; the caller concatenates them into one ``d`` attribute.
+    """
+    sub = largest_component_subgraph(graph)
+    if not sub:
+        return []
+    chains = [list(edge) for edge in trace_graph_edges(sub) if len(edge) >= 2]
+    if not chains:
+        return [[next(iter(sub))]]
+
+    def join(a: list[tuple[int, int]], b: list[tuple[int, int]]):
+        """Return a merged chain when a and b share an end point."""
+        if _is_closed(a) or _is_closed(b):
+            if _is_closed(a) and _is_closed(b) and a[0] == b[0]:
+                return a + b[1:]
+            return None
+        if a[-1] == b[0]:
+            return a + b[1:]
+        if a[-1] == b[-1]:
+            return a + b[::-1][1:]
+        if a[0] == b[-1]:
+            return b + a[1:]
+        if a[0] == b[0]:
+            return b[::-1] + a[1:]
+        return None
+
+    merged = True
+    while merged:
+        merged = False
+        for i in range(len(chains)):
+            for j in range(i + 1, len(chains)):
+                combined = join(chains[i], chains[j])
+                if combined is not None:
+                    chains[i] = combined
+                    chains.pop(j)
+                    merged = True
+                    break
+            if merged:
+                break
+    return chains
+
+
 def trace_graph_edges(graph: dict) -> list[list[tuple[int, int]]]:
     """Split a skeleton graph into pixel polylines between critical nodes."""
     if not graph:
@@ -319,12 +377,20 @@ def trace_graph_edges(graph: dict) -> list[list[tuple[int, int]]]:
 # Component bridging
 # ---------------------------------------------------------------------------
 
-def bridge_components(mask: np.ndarray, connectivity: int = 8) -> tuple[np.ndarray, list[dict]]:
-    """Connect disconnected pieces of one manual stroke with short 2-px bridges."""
+def bridge_components(mask: np.ndarray, connectivity: int = 8
+                      ) -> tuple[np.ndarray, list[dict], list[np.ndarray]]:
+    """Merge near-touching pieces of one manual stroke; keep far pieces apart.
+
+    Only gaps up to :data:`MAX_MERGE_GAP` pixels are closed, because those are
+    the ones produced by anti-aliasing when the label map is thresholded.  A
+    stroke that the annotator really drew as two distant pieces is returned as
+    two separate groups, so the caller can render two sub-paths instead of an
+    artificial line crossing the glyph.
+    """
     structure = np.ones((3, 3), dtype=int) if connectivity == 8 else None
     comps, n = ndimage.label(mask, structure=structure)
     if n <= 1:
-        return mask.copy(), []
+        return mask.copy(), [], [mask.copy()]
 
     comp_pixels = {i: np.argwhere(comps == i) for i in range(1, n + 1)}
     trees = {i: cKDTree(comp_pixels[i]) for i in comp_pixels}
@@ -359,6 +425,8 @@ def bridge_components(mask: np.ndarray, connectivity: int = 8) -> tuple[np.ndarr
     for gap, i, j, pi, pj in pairs:
         if find(i) == find(j):
             continue
+        if gap > MAX_MERGE_GAP:
+            continue
         union(i, j)
         line = Image.new("L", (mask.shape[1], mask.shape[0]), 0)
         ImageDraw.Draw(line).line([(pi[1], pi[0]), (pj[1], pj[0])], fill=255, width=2)
@@ -370,12 +438,85 @@ def bridge_components(mask: np.ndarray, connectivity: int = 8) -> tuple[np.ndarr
             "route_points": [[pi[1], pi[0]], [pj[1], pj[0]]],
             "corridor_added_pixels": int(added.sum()),
         })
-    return fused, repairs
+
+    # One mask per connected group: far-apart pieces stay separate sub-paths.
+    groups: dict[int, np.ndarray] = {}
+    for i in range(1, n + 1):
+        root = find(i)
+        groups[root] = groups.get(root, np.zeros_like(mask)) | (comps == i)
+    for repair in repairs:
+        (x1, y1), (x2, y2) = repair["route_points"]
+        line = Image.new("L", (mask.shape[1], mask.shape[0]), 0)
+        ImageDraw.Draw(line).line([(x1, y1), (x2, y2)], fill=255, width=2)
+        added = np.array(line) > 0
+        for root, group in groups.items():
+            if group[y1, x1]:
+                groups[root] = group | added
+                break
+
+    return fused, repairs, list(groups.values())
 
 
 # ---------------------------------------------------------------------------
 # Centre-line smoothing → quadratic path
 # ---------------------------------------------------------------------------
+
+def rdp_mask(points: np.ndarray, tolerance: float) -> np.ndarray:
+    """Douglas–Peucker on an ordered polyline; returns a keep-mask."""
+    n = len(points)
+    keep = np.zeros(n, dtype=bool)
+    keep[0] = keep[-1] = True
+    stack = [(0, n - 1)]
+    while stack:
+        a, b = stack.pop()
+        if b <= a + 1:
+            continue
+        seg = points[b] - points[a]
+        rel = points[a + 1:b] - points[a]
+        length = float(np.hypot(seg[0], seg[1]))
+        if length < 1e-12:
+            dev = np.hypot(rel[:, 0], rel[:, 1])
+        else:
+            dev = np.abs(seg[0] * rel[:, 1] - seg[1] * rel[:, 0]) / length
+        k = int(np.argmax(dev))
+        if dev[k] > tolerance:
+            idx = a + 1 + k
+            keep[idx] = True
+            stack.append((a, idx))
+            stack.append((idx, b))
+    return keep
+
+
+def track_mask(points: np.ndarray, tolerance: float, max_gap_dev: float = 0.15) -> np.ndarray:
+    """Keep enough samples for the quadratic-midpoint chain to track the line.
+
+    Plain Douglas–Peucker at ``tolerance`` bounds the *polyline* error, but the
+    SVG is rebuilt as a quadratic-midpoint chain: one control point per kept
+    sample.  Across a sharp corner a single control point cuts the corner by up
+    to a fifth of the adjacent segment lengths (several pixels), which is what
+    made elbows look displaced.  Here long curved spans are halved until the
+    reconstruction error is back below a fraction of a pixel.
+    """
+    keep = rdp_mask(points, tolerance)
+    while True:
+        idx = np.flatnonzero(keep)
+        changed = False
+        for a, b in zip(idx[:-1], idx[1:]):
+            if b - a <= 2:
+                continue
+            mid = (a + b) // 2
+            seg = points[b] - points[a]
+            rel = points[mid] - points[a]
+            length = float(np.hypot(seg[0], seg[1]))
+            dev = (abs(seg[0] * rel[1] - seg[1] * rel[0]) / length
+                   if length > 1e-12 else float(np.hypot(rel[0], rel[1])))
+            if dev > max_gap_dev and not keep[mid]:
+                keep[mid] = True
+                changed = True
+        if not changed:
+            break
+    return keep
+
 
 def quadratic_path(points_xy: np.ndarray, closed: bool = False) -> tuple[str, np.ndarray]:
     """Gaussian smoothing + bounded quadratic-midpoint path (the “安” style)."""
@@ -389,7 +530,7 @@ def quadratic_path(points_xy: np.ndarray, closed: bool = False) -> tuple[str, np
         sm = gaussian_filter1d(p, sigma=SIGMA, axis=0, mode=mode)
         if not closed:
             sm[0], sm[-1] = p[0], p[-1]
-        p = approximate_polygon(sm, tolerance=SIMPLIFY_TOLERANCE)
+        p = sm[track_mask(sm, SIMPLIFY_TOLERANCE)]
         if closed and len(p) > 1 and np.allclose(p[0], p[-1]):
             p = p[:-1]
 
@@ -539,17 +680,26 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
 
     for order, sid in enumerate(label_ids, start=1):
         mask = label == sid
-        fused, repairs = bridge_components(mask)
+        fused, repairs, groups = bridge_components(mask)
         comps_before = ndimage.label(mask, structure=np.ones((3, 3), dtype=int))[1]
-        skel = skeletonize(fused)
-        graph = prune_spurs(build_graph(skel), SPUR_MAX)
-        path = longest_path(graph)
-        if len(path) < 2:
+        # Cover every piece of the stroke.  A ring must stay a ring, and two
+        # far-apart pieces must stay two sub-paths (no artificial bridge).
+        chains: list[list[tuple[int, int]]] = []
+        graphs: list[dict] = []
+        for group in groups:
+            skel = skeletonize(group)
+            graph = prune_spurs(build_graph(skel), SPUR_MAX)
+            graphs.append(graph)
+            chains.extend(cover_paths(graph))
+        if not chains:
+            continue
+
+        main_index = max(range(len(chains)), key=lambda k: len(chains[k]))
+        if len(chains[main_index]) < 2:
             # A one-pixel stroke still gets a tiny visible path.
-            if path:
-                path = [path[0], path[0]]
-            else:
-                continue
+            point = chains[main_index][0]
+            chains[main_index] = [point, point]
+        path = chains[main_index]
 
         # Orient to the manual skeleton direction when available.
         meta_stroke = next((s for s in meta.get("strokes", []) if int(s.get("id", -1)) == sid), None)
@@ -561,17 +711,28 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
             d1 = np.linalg.norm(pts_yx[0] - m1) + np.linalg.norm(pts_yx[-1] - m0)
             if d1 < d0:
                 path = path[::-1]
+                chains[main_index] = path
 
-        closed = len(path) > 2 and path[0] == path[-1]
-        pts_xy = np.asarray([[x, y] for y, x in path], dtype=float)
-        d, sampled = quadratic_path(pts_xy, closed=closed)
+        closed = any(_is_closed(chain) for chain in chains)
+        parts: list[str] = []
+        sampled_parts: list[np.ndarray] = []
+        for chain in chains:
+            pts_xy = np.asarray([[x, y] for y, x in chain], dtype=float)
+            part, part_sampled = quadratic_path(pts_xy, closed=_is_closed(chain))
+            if part:
+                parts.append(part)
+                sampled_parts.append(part_sampled)
+        d = " ".join(parts)
+        sampled = (np.concatenate(sampled_parts, axis=0) if sampled_parts
+                   else np.zeros((0, 2)))
 
         dist = ndimage.distance_transform_edt(fused)
-        radii = [float(dist[int(y), int(x)]) for y, x in path if dist[int(y), int(x)] >= 1]
+        radii = [float(dist[int(y), int(x)]) for chain in chains for y, x in chain
+                 if dist[int(y), int(x)] >= 1]
         all_radii.extend(radii)
 
         # Skeleton graph data (nodes / edges) for skeleton.json + skeleton.svg.
-        edge_paths = trace_graph_edges(graph)
+        edge_paths = [edge for g in graphs for edge in trace_graph_edges(g)]
         local_node_ids: dict[tuple[int, int], str] = {}
 
         def node_id_for(point):
@@ -656,7 +817,7 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
             "original_pixels": int(mask.sum()),
             "fused_pixels": int(fused.sum()),
             "components_before": int(comps_before),
-            "components_after": 1,
+            "components_after": len(groups),
             "repairs": repairs,
             "radii": radii,
             "path_points": path,
@@ -672,9 +833,9 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
             "fused_pixels": int(fused.sum()),
             "corridor_added_pixels": int(fused.sum() - mask.sum()),
             "components_before": int(comps_before),
-            "components_after": 1,
-            "continuous": True,
-            "vector_contours": 1,
+            "components_after": len(groups),
+            "continuous": len(parts) == 1,
+            "vector_contours": len(parts),
             "thickness": {
                 "min": round(float(r.min()), 3),
                 "p05": round(float(np.percentile(r, 5)), 3),

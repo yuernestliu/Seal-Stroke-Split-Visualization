@@ -7,7 +7,7 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-07",
+  "review_date": "2026-11-10",
   "source": {
     "raw_png": "字库_167_333/14789_清_Z_說文‧水部.png",
     "raw_sha256": "d03189facff7e150e3a16a36679693a13d76adeb8df6778031c355df4a780cde",
@@ -75,22 +75,22 @@
         "stroke_id": "S1",
         "color": "#2f6fdb",
         "original_pixels": 72,
-        "fused_pixels": 149,
-        "corridor_added_pixels": 77,
+        "fused_pixels": 72,
+        "corridor_added_pixels": 0,
         "components_before": 2,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "components_after": 2,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.414,
+          "p95": 1.824,
           "max": 2.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.414
+          "bulge_ratio_p95_to_median": 1.824
         },
-        "repair_count": 1
+        "repair_count": 0
       },
       {
         "stroke_id": "S2",
@@ -349,301 +349,13 @@
     "fused_union_covers_original_label": true,
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
-    "recorded_gap_closure_pixels": 63,
-    "bridge_overlap_pixels_at_crossings": 33,
+    "recorded_gap_closure_pixels": 0,
+    "bridge_overlap_pixels_at_crossings": 19,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
   },
   "repairs": [
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 39.2,
-      "route_points": [
-        [
-          11,
-          23
-        ],
-        [
-          42,
-          47
-        ]
-      ],
-      "corridor_added_pixels": 80,
-      "stroke_id": "S1",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 17,
-      "route_nonforeground_pixel_count": 63,
-      "gap_closure_points": [
-        [
-          12,
-          23
-        ],
-        [
-          11,
-          24
-        ],
-        [
-          12,
-          24
-        ],
-        [
-          13,
-          24
-        ],
-        [
-          12,
-          25
-        ],
-        [
-          13,
-          25
-        ],
-        [
-          14,
-          25
-        ],
-        [
-          15,
-          25
-        ],
-        [
-          14,
-          26
-        ],
-        [
-          15,
-          26
-        ],
-        [
-          16,
-          26
-        ],
-        [
-          15,
-          27
-        ],
-        [
-          16,
-          27
-        ],
-        [
-          16,
-          28
-        ],
-        [
-          18,
-          28
-        ],
-        [
-          18,
-          29
-        ],
-        [
-          19,
-          29
-        ],
-        [
-          20,
-          29
-        ],
-        [
-          19,
-          30
-        ],
-        [
-          20,
-          30
-        ],
-        [
-          21,
-          30
-        ],
-        [
-          20,
-          31
-        ],
-        [
-          21,
-          31
-        ],
-        [
-          22,
-          31
-        ],
-        [
-          21,
-          32
-        ],
-        [
-          22,
-          32
-        ],
-        [
-          23,
-          32
-        ],
-        [
-          25,
-          33
-        ],
-        [
-          25,
-          34
-        ],
-        [
-          26,
-          34
-        ],
-        [
-          25,
-          35
-        ],
-        [
-          26,
-          35
-        ],
-        [
-          27,
-          35
-        ],
-        [
-          27,
-          36
-        ],
-        [
-          28,
-          36
-        ],
-        [
-          29,
-          36
-        ],
-        [
-          28,
-          37
-        ],
-        [
-          29,
-          37
-        ],
-        [
-          30,
-          37
-        ],
-        [
-          29,
-          38
-        ],
-        [
-          30,
-          38
-        ],
-        [
-          31,
-          38
-        ],
-        [
-          30,
-          39
-        ],
-        [
-          31,
-          39
-        ],
-        [
-          32,
-          39
-        ],
-        [
-          33,
-          39
-        ],
-        [
-          32,
-          40
-        ],
-        [
-          33,
-          40
-        ],
-        [
-          34,
-          40
-        ],
-        [
-          33,
-          41
-        ],
-        [
-          34,
-          41
-        ],
-        [
-          34,
-          42
-        ],
-        [
-          38,
-          43
-        ],
-        [
-          38,
-          44
-        ],
-        [
-          39,
-          44
-        ],
-        [
-          38,
-          45
-        ],
-        [
-          39,
-          45
-        ],
-        [
-          40,
-          45
-        ],
-        [
-          39,
-          46
-        ],
-        [
-          40,
-          46
-        ],
-        [
-          41,
-          46
-        ],
-        [
-          42,
-          46
-        ],
-        [
-          41,
-          47
-        ]
-      ],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
     {
       "components": [
         1,
@@ -913,7 +625,7 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-10",
       "actor": "centerline-quadratic-v1 generator",
       "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
       "status": "candidate-needs-manual-review"

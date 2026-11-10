@@ -6,12 +6,12 @@
 </g>
 <g id="manual-v2-outline" opacity="0.68">
 <path d="M 10 42 Q 11.98 55 10 67" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1"/>
-<path d="M 37 16 Q 33 15.02 29 15.41 Q 25 15.8 19 15" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2"/>
+<path d="M 37 16 Q 34.98 15.33 33.99 15.17 Q 33 15.02 31 15.02 Q 29 15.02 27 15.41 Q 25 15.8 23.5 15.45 Q 22 15.1 19 15" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2"/>
 <path d="M 35 74 L 35 34" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3"/>
-<path d="M 3 75 Q 18 75.02 20 75.41 Q 22 75.8 24 75.41 Q 26 75.02 37.5 75.29 Q 49 75.57 54 75" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4"/>
-<path d="M 44 2 Q 44.98 6 44.99 14.5 Q 45 23 44.45 26 Q 43.9 29 43.39 29.99 Q 42.88 30.98 41.44 32.1 Q 40 33.22 37 33.61 Q 34 34 26.5 33.95 Q 19 33.9 16.5 33.23 Q 14 32.55 12.68 31.27 Q 11.35 30 10.68 28 Q 10.02 26 10 2" fill="none" stroke="#c34f8d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S5"/>
-<path d="M 22 34 Q 21.98 47 21.49 51 Q 21 55 21.01 62.5 Q 21.02 70 22 74" fill="none" stroke="#168aad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S6"/>
-<path d="M 46 41 Q 45.02 52 47 67" fill="none" stroke="#7a6a32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S7"/>
+<path d="M 3 75 Q 18 75.02 20 75.41 Q 22 75.8 24 75.41 Q 26 75.02 37.5 75.29 Q 49 75.57 50 75.33 Q 51 75.1 54 75" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4"/>
+<path d="M 44 2 Q 44.67 4.02 44.83 5.01 Q 44.98 6 44.99 14.5 Q 45 23 44.83 24.5 Q 44.67 26 44.28 27.5 Q 43.9 29 43.39 29.99 Q 42.88 30.98 42.43 31.44 Q 41.98 31.9 40.99 32.56 Q 40 33.22 39.5 33.43 Q 39 33.65 38 33.82 Q 37 33.98 35.5 33.99 Q 34 34 26.5 33.95 Q 19 33.9 16.5 33.23 Q 14 32.55 13.51 32.22 Q 13.02 31.88 12.18 30.94 Q 11.35 30 10.85 29 Q 10.35 28 10.18 27 Q 10.02 26 10 2" fill="none" stroke="#c34f8d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S5"/>
+<path d="M 22 34 Q 21.98 47 21.54 49 Q 21.1 51 21.05 53 Q 21 55 21.01 62.5 Q 21.02 70 21.17 70.99 Q 21.33 71.98 22 74" fill="none" stroke="#168aad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S6"/>
+<path d="M 46 41 Q 45.9 46 45.5 47.5 Q 45.1 49 45.06 50.5 Q 45.02 52 47 67" fill="none" stroke="#7a6a32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S7"/>
 </g>
 <g id="manual-v2-skeleton" opacity="0.96">
 <path d="M 10 42 L 10 43 L 11 44 L 11 45 L 11 46 L 11 47 L 11 48 L 11 49 L 11 50 L 11 51 L 11 52 L 12 53 L 12 54 L 12 55 L 12 56 L 12 57 L 12 58 L 11 59 L 11 60 L 11 61 L 11 62 L 11 63 L 11 64 L 10 65 L 10 66 L 10 67" fill="none" stroke="#2f6fdb" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" data-edge-id="E0001"/>

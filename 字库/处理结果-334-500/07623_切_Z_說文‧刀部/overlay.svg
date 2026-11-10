@@ -6,9 +6,9 @@
 </g>
 <g id="manual-v2-outline" opacity="0.68">
 <path d="M 24 17 L 3 17" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1"/>
-<path d="M 14 3 Q 13.02 7 13.02 13 Q 13.02 19 13.73 22.5 Q 14.45 26 15.73 27.27 Q 17 28.55 26 30" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2"/>
-<path d="M 23 65 Q 34.67 37 37.17 29.5 Q 39.66 22 40 18" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3"/>
-<path d="M 48 1 Q 44 2.25 40.51 4.3 Q 37.02 6.35 36.18 7.18 Q 35.35 8.02 34.73 9.51 Q 34.1 11 34.61 12.95 Q 35.12 14.9 37.56 16.56 Q 40 18.22 43.5 19.67 Q 47 21.11 48.44 22.56 Q 49.88 24 50.43 25.5 Q 50.98 27 50.94 30 Q 50.9 33 50.28 35.5 Q 49.67 38 36 75" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4"/>
+<path d="M 14 3 Q 13.33 5.02 13.17 6.01 Q 13.02 7 13.02 13 Q 13.02 19 13.73 22.5 Q 14.45 26 14.78 26.49 Q 15.12 26.98 16.06 27.77 Q 17 28.55 26 30" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2"/>
+<path d="M 23 65 Q 34.67 37 37.17 29.5 Q 39.66 22 39.82 21.01 Q 39.98 20.02 40 18" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3"/>
+<path d="M 48 1 Q 45.98 1.35 44.99 1.8 Q 44 2.25 40.51 4.3 Q 37.02 6.35 36.18 7.18 Q 35.35 8.02 34.73 9.51 Q 34.1 11 34.11 12 Q 34.12 13 34.62 13.95 Q 35.12 14.9 37.56 16.56 Q 40 18.22 43.5 19.67 Q 47 21.11 48.44 22.56 Q 49.88 24 50.22 24.5 Q 50.55 25 50.77 26 Q 50.98 27 50.94 30 Q 50.9 33 50.28 35.5 Q 49.67 38 48.17 42.5 Q 46.67 47 45.83 49 Q 45 51 44.16 53.5 Q 43.32 56 36 75" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4"/>
 </g>
 <g id="manual-v2-skeleton" opacity="0.96">
 <path d="M 3 17 L 4 17 L 5 17 L 6 17 L 7 17 L 8 17 L 9 17 L 10 17 L 11 17 L 12 17 L 13 17 L 14 17 L 15 17 L 16 17 L 17 17 L 18 17 L 19 17 L 20 17 L 21 17 L 22 17 L 23 17 L 24 17" fill="none" stroke="#2f6fdb" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" data-edge-id="E0001"/>

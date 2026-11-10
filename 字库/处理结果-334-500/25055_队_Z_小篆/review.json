@@ -7,7 +7,7 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-07",
+  "review_date": "2026-11-10",
   "source": {
     "raw_png": "字库_167_333/25055_队_Z_小篆.png",
     "raw_sha256": "8eaa9c0e8bf4ba950d799d2e03b7a6d951e3fb34b8e95cbcde40ee5807925f2b",
@@ -241,12 +241,12 @@
         "stroke_id": "S9",
         "color": "#3f7cac",
         "original_pixels": 66,
-        "fused_pixels": 80,
-        "corridor_added_pixels": 14,
+        "fused_pixels": 66,
+        "corridor_added_pixels": 0,
         "components_before": 2,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "components_after": 2,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
@@ -256,7 +256,7 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 1
+        "repair_count": 0
       },
       {
         "stroke_id": "S10",
@@ -326,65 +326,13 @@
     "fused_union_covers_original_label": true,
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
-    "recorded_gap_closure_pixels": 4,
-    "bridge_overlap_pixels_at_crossings": 12,
+    "recorded_gap_closure_pixels": 0,
+    "bridge_overlap_pixels_at_crossings": 2,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
   },
   "repairs": [
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 7.07,
-      "route_points": [
-        [
-          34,
-          44
-        ],
-        [
-          35,
-          51
-        ]
-      ],
-      "corridor_added_pixels": 16,
-      "stroke_id": "S9",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 12,
-      "route_nonforeground_pixel_count": 4,
-      "gap_closure_points": [
-        [
-          36,
-          48
-        ],
-        [
-          36,
-          49
-        ],
-        [
-          36,
-          50
-        ],
-        [
-          36,
-          51
-        ]
-      ],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
     {
       "components": [
         1,
@@ -444,7 +392,7 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-10",
       "actor": "centerline-quadratic-v1 generator",
       "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
       "status": "candidate-needs-manual-review"

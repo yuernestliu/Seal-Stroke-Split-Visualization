@@ -7,7 +7,7 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-07",
+  "review_date": "2026-11-10",
   "source": {
     "raw_png": "字库_167_333/09035_型_Z_說文‧土部.png",
     "raw_sha256": "5631a76205ec0e6e858fe3120f86979ca10ca9d21df8d8c364ab33b7b975b05b",
@@ -107,12 +107,12 @@
         "stroke_id": "S3",
         "color": "#2b9b68",
         "original_pixels": 99,
-        "fused_pixels": 103,
-        "corridor_added_pixels": 4,
+        "fused_pixels": 99,
+        "corridor_added_pixels": 0,
         "components_before": 2,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "components_after": 2,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
@@ -122,7 +122,7 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 2.0
         },
-        "repair_count": 1
+        "repair_count": 0
       },
       {
         "stroke_id": "S4",
@@ -149,22 +149,22 @@
         "stroke_id": "S5",
         "color": "#c34f8d",
         "original_pixels": 131,
-        "fused_pixels": 140,
-        "corridor_added_pixels": 9,
+        "fused_pixels": 136,
+        "corridor_added_pixels": 5,
         "components_before": 4,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "components_after": 2,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.249,
+          "p95": 1.0,
           "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.249
+          "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 3
+        "repair_count": 2
       },
       {
         "stroke_id": "S6",
@@ -235,47 +235,12 @@
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
     "recorded_gap_closure_pixels": 0,
-    "bridge_overlap_pixels_at_crossings": 17,
+    "bridge_overlap_pixels_at_crossings": 9,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
   },
   "repairs": [
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 3.0,
-      "route_points": [
-        [
-          12,
-          25
-        ],
-        [
-          12,
-          28
-        ]
-      ],
-      "corridor_added_pixels": 8,
-      "stroke_id": "S3",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 8,
-      "route_nonforeground_pixel_count": 0,
-      "gap_closure_points": [],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
     {
       "components": [
         1,
@@ -383,41 +348,6 @@
     },
     {
       "components": [
-        2,
-        3
-      ],
-      "gap_pixels": 3.0,
-      "route_points": [
-        [
-          25,
-          25
-        ],
-        [
-          25,
-          28
-        ]
-      ],
-      "corridor_added_pixels": 8,
-      "stroke_id": "S5",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 8,
-      "route_nonforeground_pixel_count": 0,
-      "gap_closure_points": [],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
-    {
-      "components": [
         1,
         2
       ],
@@ -475,7 +405,7 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-10",
       "actor": "centerline-quadratic-v1 generator",
       "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
       "status": "candidate-needs-manual-review"

@@ -7,7 +7,7 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-07",
+  "review_date": "2026-11-10",
   "source": {
     "raw_png": "字库_167_333/18558_精_Z_說文‧米部.png",
     "raw_sha256": "c8d8d1bda9e1c96c6b17a8767d395e08fda7964dde209bd709822b7b7f8700c2",
@@ -77,22 +77,22 @@
         "stroke_id": "S1",
         "color": "#2f6fdb",
         "original_pixels": 128,
-        "fused_pixels": 152,
-        "corridor_added_pixels": 24,
+        "fused_pixels": 128,
+        "corridor_added_pixels": 0,
         "components_before": 2,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "components_after": 2,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.0,
-          "max": 1.414,
+          "p95": 1.414,
+          "max": 2.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.0
+          "bulge_ratio_p95_to_median": 1.414
         },
-        "repair_count": 1
+        "repair_count": 0
       },
       {
         "stroke_id": "S2",
@@ -350,151 +350,35 @@
         "stroke_id": "S14",
         "color": "#795548",
         "original_pixels": 56,
-        "fused_pixels": 62,
-        "corridor_added_pixels": 6,
+        "fused_pixels": 56,
+        "corridor_added_pixels": 0,
         "components_before": 2,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "components_after": 2,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.207,
+          "p95": 1.0,
           "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.207
+          "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 1
+        "repair_count": 0
       }
     ],
     "all_strokes_continuous": true,
     "fused_union_covers_original_label": true,
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
-    "recorded_gap_closure_pixels": 21,
-    "bridge_overlap_pixels_at_crossings": 21,
+    "recorded_gap_closure_pixels": 0,
+    "bridge_overlap_pixels_at_crossings": 12,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
   },
   "repairs": [
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 24.02,
-      "route_points": [
-        [
-          15,
-          43
-        ],
-        [
-          39,
-          44
-        ]
-      ],
-      "corridor_added_pixels": 27,
-      "stroke_id": "S1",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 7,
-      "route_nonforeground_pixel_count": 20,
-      "gap_closure_points": [
-        [
-          15,
-          44
-        ],
-        [
-          16,
-          44
-        ],
-        [
-          17,
-          44
-        ],
-        [
-          18,
-          44
-        ],
-        [
-          19,
-          44
-        ],
-        [
-          20,
-          44
-        ],
-        [
-          23,
-          44
-        ],
-        [
-          24,
-          44
-        ],
-        [
-          25,
-          44
-        ],
-        [
-          26,
-          44
-        ],
-        [
-          27,
-          44
-        ],
-        [
-          28,
-          44
-        ],
-        [
-          29,
-          44
-        ],
-        [
-          30,
-          44
-        ],
-        [
-          31,
-          44
-        ],
-        [
-          32,
-          44
-        ],
-        [
-          33,
-          44
-        ],
-        [
-          36,
-          44
-        ],
-        [
-          37,
-          44
-        ],
-        [
-          38,
-          44
-        ]
-      ],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
     {
       "components": [
         1,
@@ -669,46 +553,6 @@
       },
       "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
       "route_point_count": 2
-    },
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 3.0,
-      "route_points": [
-        [
-          39,
-          14
-        ],
-        [
-          42,
-          14
-        ]
-      ],
-      "corridor_added_pixels": 8,
-      "stroke_id": "S14",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 7,
-      "route_nonforeground_pixel_count": 1,
-      "gap_closure_points": [
-        [
-          42,
-          15
-        ]
-      ],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
     }
   ],
   "issues": [
@@ -734,7 +578,7 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-10",
       "actor": "centerline-quadratic-v1 generator",
       "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
       "status": "candidate-needs-manual-review"
