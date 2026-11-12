@@ -7,12 +7,12 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-10",
+  "review_date": "2026-11-12",
   "source": {
     "raw_png": "字库_167_333/25222_集_Z_說文‧雥部.png",
     "raw_sha256": "7ed1cd406f5f7ac8987e16072ae33a5c7544a85f2ccd07b7e0c05c619c5bf337",
     "manual_label": "StrokeAnnotator/outputs/label_maps/25222_集_Z_說文‧雥部/label.png",
-    "manual_label_sha256": "7496ded3755b7dd5764bf985de4be651a8551e6f2824b53cf946f80dece4a0bc",
+    "manual_label_sha256": "1e4a3d350597586295fa0d8e1c038b1872cdc21cf092ef7d3a55a7e6a73f5969",
     "label_auto": "StrokeAnnotator/outputs/label_maps/25222_集_Z_說文‧雥部/label_auto.png",
     "previous_candidate_package": null
   },
@@ -23,10 +23,18 @@
     "corridor": "shortest 2-px bridge between disconnected stroke components before skeletonization",
     "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
     "vector_smoothing": "gaussian sigma 1.20 followed by bounded quadratic-midpoint centreline (centerline-quadratic-v1)",
+    "straight_run_snap": {
+      "enabled": true,
+      "min_run_px": 7,
+      "max_drift_px": 1.1,
+      "max_band_spread_px": 2.5,
+      "max_offset_px": 1.5,
+      "rule": "near-axis runs straighter than max_drift are re-centred on the original ink band median; runs whose band spreads wider than max_band_spread or sits further than max_offset from the skeleton are left untouched (junctions)"
+    },
     "method": "centerline-quadratic-v1",
     "sigma": 1.2,
     "simplify_tolerance": 0.5,
-    "stroke_width": 2.0,
+    "stroke_width": 3.2,
     "stroke_linecap": "round",
     "stroke_linejoin": "round",
     "bridge_is_fixed_width": false,
@@ -41,10 +49,8 @@
       7,
       8,
       9,
-      10,
       11,
       12,
-      13,
       14,
       15,
       16,
@@ -56,7 +62,10 @@
       22,
       23,
       24,
-      25
+      25,
+      26,
+      27,
+      28
     ],
     "missing_manual_label_ids": []
   },
@@ -65,7 +74,7 @@
       "width": 50,
       "height": 80
     },
-    "stroke_count": 25,
+    "stroke_count": 26,
     "manual_label_ids": [
       1,
       2,
@@ -76,10 +85,8 @@
       7,
       8,
       9,
-      10,
       11,
       12,
-      13,
       14,
       15,
       16,
@@ -91,17 +98,20 @@
       22,
       23,
       24,
-      25
+      25,
+      26,
+      27,
+      28
     ],
     "missing_manual_label_ids": [],
     "per_stroke": [
       {
         "stroke_id": "S1",
         "color": "#2f6fdb",
-        "original_pixels": 58,
-        "fused_pixels": 58,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 78,
+        "fused_pixels": 83,
+        "corridor_added_pixels": 5,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -114,15 +124,15 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.414
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S2",
         "color": "#d68a16",
-        "original_pixels": 152,
-        "fused_pixels": 152,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 100,
+        "fused_pixels": 107,
+        "corridor_added_pixels": 7,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -130,18 +140,18 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.473,
-          "max": 2.236,
+          "p95": 1.414,
+          "max": 2.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.473
+          "bulge_ratio_p95_to_median": 1.414
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S3",
         "color": "#2b9b68",
-        "original_pixels": 36,
-        "fused_pixels": 36,
+        "original_pixels": 30,
+        "fused_pixels": 30,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -151,20 +161,20 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.062,
+          "p95": 1.124,
           "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.062
+          "bulge_ratio_p95_to_median": 1.124
         },
         "repair_count": 0
       },
       {
         "stroke_id": "S4",
         "color": "#9254c8",
-        "original_pixels": 13,
-        "fused_pixels": 13,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 35,
+        "fused_pixels": 44,
+        "corridor_added_pixels": 9,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -172,40 +182,40 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.29,
-          "max": 1.414,
+          "p95": 1.502,
+          "max": 2.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.29
+          "bulge_ratio_p95_to_median": 1.502
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S5",
         "color": "#c34f8d",
-        "original_pixels": 33,
-        "fused_pixels": 33,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 15,
+        "fused_pixels": 25,
+        "corridor_added_pixels": 10,
+        "components_before": 3,
         "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.649,
-          "max": 2.0,
+          "p95": 1.414,
+          "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.649
+          "bulge_ratio_p95_to_median": 1.414
         },
-        "repair_count": 0
+        "repair_count": 2
       },
       {
         "stroke_id": "S6",
         "color": "#168aad",
-        "original_pixels": 15,
-        "fused_pixels": 19,
-        "corridor_added_pixels": 4,
+        "original_pixels": 20,
+        "fused_pixels": 22,
+        "corridor_added_pixels": 2,
         "components_before": 2,
         "components_after": 1,
         "continuous": true,
@@ -224,9 +234,9 @@
       {
         "stroke_id": "S7",
         "color": "#7a6a32",
-        "original_pixels": 32,
-        "fused_pixels": 34,
-        "corridor_added_pixels": 2,
+        "original_pixels": 16,
+        "fused_pixels": 24,
+        "corridor_added_pixels": 8,
         "components_before": 2,
         "components_after": 1,
         "continuous": true,
@@ -235,18 +245,18 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.414,
-          "max": 1.414,
+          "p95": 1.0,
+          "max": 1.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.414
+          "bulge_ratio_p95_to_median": 1.0
         },
         "repair_count": 1
       },
       {
         "stroke_id": "S8",
         "color": "#e05a33",
-        "original_pixels": 33,
-        "fused_pixels": 33,
+        "original_pixels": 35,
+        "fused_pixels": 35,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -266,10 +276,10 @@
       {
         "stroke_id": "S9",
         "color": "#3f7cac",
-        "original_pixels": 33,
-        "fused_pixels": 33,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 22,
+        "fused_pixels": 26,
+        "corridor_added_pixels": 4,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -282,13 +292,13 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S10",
         "color": "#8c5e34",
-        "original_pixels": 20,
-        "fused_pixels": 20,
+        "original_pixels": 39,
+        "fused_pixels": 39,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -298,40 +308,40 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.0,
-          "max": 1.0,
+          "p95": 1.041,
+          "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.0
+          "bulge_ratio_p95_to_median": 1.041
         },
         "repair_count": 0
       },
       {
         "stroke_id": "S11",
         "color": "#5964b4",
-        "original_pixels": 73,
-        "fused_pixels": 78,
-        "corridor_added_pixels": 5,
-        "components_before": 3,
+        "original_pixels": 27,
+        "fused_pixels": 31,
+        "corridor_added_pixels": 4,
+        "components_before": 2,
         "components_after": 1,
-        "continuous": false,
-        "vector_contours": 2,
+        "continuous": true,
+        "vector_contours": 1,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
           "p95": 1.0,
-          "max": 1.414,
+          "max": 1.0,
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 2
+        "repair_count": 1
       },
       {
         "stroke_id": "S12",
         "color": "#009688",
-        "original_pixels": 29,
+        "original_pixels": 28,
         "fused_pixels": 32,
-        "corridor_added_pixels": 3,
+        "corridor_added_pixels": 4,
         "components_before": 2,
         "components_after": 1,
         "continuous": true,
@@ -350,50 +360,8 @@
       {
         "stroke_id": "S13",
         "color": "#f06292",
-        "original_pixels": 18,
-        "fused_pixels": 18,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
-        "thickness": {
-          "min": 1.0,
-          "p05": 1.0,
-          "median": 1.0,
-          "p95": 1.414,
-          "max": 1.414,
-          "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.414
-        },
-        "repair_count": 0
-      },
-      {
-        "stroke_id": "S14",
-        "color": "#795548",
-        "original_pixels": 23,
-        "fused_pixels": 27,
-        "corridor_added_pixels": 4,
-        "components_before": 2,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
-        "thickness": {
-          "min": 1.0,
-          "p05": 1.0,
-          "median": 1.0,
-          "p95": 1.0,
-          "max": 1.0,
-          "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.0
-        },
-        "repair_count": 1
-      },
-      {
-        "stroke_id": "S15",
-        "color": "#d94841",
-        "original_pixels": 17,
-        "fused_pixels": 17,
+        "original_pixels": 33,
+        "fused_pixels": 33,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -411,11 +379,11 @@
         "repair_count": 0
       },
       {
-        "stroke_id": "S16",
-        "color": "#2f6fdb",
-        "original_pixels": 25,
-        "fused_pixels": 27,
-        "corridor_added_pixels": 2,
+        "stroke_id": "S14",
+        "color": "#795548",
+        "original_pixels": 20,
+        "fused_pixels": 28,
+        "corridor_added_pixels": 8,
         "components_before": 2,
         "components_after": 1,
         "continuous": true,
@@ -432,10 +400,10 @@
         "repair_count": 1
       },
       {
-        "stroke_id": "S17",
-        "color": "#d68a16",
-        "original_pixels": 34,
-        "fused_pixels": 34,
+        "stroke_id": "S15",
+        "color": "#d94841",
+        "original_pixels": 24,
+        "fused_pixels": 24,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -453,10 +421,10 @@
         "repair_count": 0
       },
       {
-        "stroke_id": "S18",
-        "color": "#2b9b68",
-        "original_pixels": 12,
-        "fused_pixels": 12,
+        "stroke_id": "S16",
+        "color": "#2f6fdb",
+        "original_pixels": 1,
+        "fused_pixels": 1,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -474,11 +442,11 @@
         "repair_count": 0
       },
       {
-        "stroke_id": "S19",
-        "color": "#9254c8",
+        "stroke_id": "S17",
+        "color": "#d68a16",
         "original_pixels": 24,
-        "fused_pixels": 33,
-        "corridor_added_pixels": 9,
+        "fused_pixels": 27,
+        "corridor_added_pixels": 3,
         "components_before": 2,
         "components_after": 1,
         "continuous": true,
@@ -495,12 +463,54 @@
         "repair_count": 1
       },
       {
+        "stroke_id": "S18",
+        "color": "#2b9b68",
+        "original_pixels": 49,
+        "fused_pixels": 51,
+        "corridor_added_pixels": 2,
+        "components_before": 2,
+        "components_after": 1,
+        "continuous": false,
+        "vector_contours": 2,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.883,
+          "max": 2.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.883
+        },
+        "repair_count": 1
+      },
+      {
+        "stroke_id": "S19",
+        "color": "#9254c8",
+        "original_pixels": 68,
+        "fused_pixels": 68,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.414,
+          "max": 2.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
         "stroke_id": "S20",
         "color": "#c34f8d",
-        "original_pixels": 21,
-        "fused_pixels": 42,
-        "corridor_added_pixels": 21,
-        "components_before": 3,
+        "original_pixels": 30,
+        "fused_pixels": 30,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -513,15 +523,15 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 2
+        "repair_count": 0
       },
       {
         "stroke_id": "S21",
         "color": "#168aad",
-        "original_pixels": 31,
-        "fused_pixels": 31,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 59,
+        "fused_pixels": 63,
+        "corridor_added_pixels": 4,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -529,20 +539,20 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.414,
+          "p95": 1.0,
           "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.414
+          "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S22",
         "color": "#7a6a32",
-        "original_pixels": 40,
-        "fused_pixels": 40,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 54,
+        "fused_pixels": 58,
+        "corridor_added_pixels": 4,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -550,18 +560,18 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 2.236,
-          "max": 2.236,
+          "p95": 1.0,
+          "max": 1.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 2.236
+          "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S23",
         "color": "#e05a33",
-        "original_pixels": 52,
-        "fused_pixels": 62,
+        "original_pixels": 37,
+        "fused_pixels": 47,
         "corridor_added_pixels": 10,
         "components_before": 2,
         "components_after": 1,
@@ -581,10 +591,10 @@
       {
         "stroke_id": "S24",
         "color": "#3f7cac",
-        "original_pixels": 50,
-        "fused_pixels": 60,
-        "corridor_added_pixels": 10,
-        "components_before": 2,
+        "original_pixels": 6,
+        "fused_pixels": 6,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -593,18 +603,18 @@
           "p05": 1.0,
           "median": 1.0,
           "p95": 1.0,
-          "max": 1.414,
+          "max": 1.0,
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 1
+        "repair_count": 0
       },
       {
         "stroke_id": "S25",
         "color": "#8c5e34",
-        "original_pixels": 42,
-        "fused_pixels": 57,
-        "corridor_added_pixels": 15,
+        "original_pixels": 31,
+        "fused_pixels": 37,
+        "corridor_added_pixels": 6,
         "components_before": 2,
         "components_after": 1,
         "continuous": true,
@@ -619,14 +629,35 @@
           "bulge_ratio_p95_to_median": 1.414
         },
         "repair_count": 1
+      },
+      {
+        "stroke_id": "S26",
+        "color": "#5964b4",
+        "original_pixels": 37,
+        "fused_pixels": 37,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 2.0,
+          "max": 2.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 2.0
+        },
+        "repair_count": 0
       }
     ],
     "all_strokes_continuous": true,
     "fused_union_covers_original_label": true,
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
-    "recorded_gap_closure_pixels": 14,
-    "bridge_overlap_pixels_at_crossings": 71,
+    "recorded_gap_closure_pixels": 13,
+    "bridge_overlap_pixels_at_crossings": 78,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
@@ -637,224 +668,32 @@
         1,
         2
       ],
-      "gap_pixels": 3.16,
+      "gap_pixels": 4.12,
       "route_points": [
         [
-          13,
-          46
+          36,
+          43
         ],
-        [
-          10,
-          47
-        ]
-      ],
-      "corridor_added_pixels": 6,
-      "stroke_id": "S6",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 6,
-      "route_nonforeground_pixel_count": 0,
-      "gap_closure_points": [],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 2.0,
-      "route_points": [
-        [
-          12,
-          50
-        ],
-        [
-          14,
-          50
-        ]
-      ],
-      "corridor_added_pixels": 6,
-      "stroke_id": "S7",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 6,
-      "route_nonforeground_pixel_count": 0,
-      "gap_closure_points": [],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 2.0,
-      "route_points": [
-        [
-          25,
-          54
-        ],
-        [
-          25,
-          56
-        ]
-      ],
-      "corridor_added_pixels": 6,
-      "stroke_id": "S11",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 6,
-      "route_nonforeground_pixel_count": 0,
-      "gap_closure_points": [],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
-    {
-      "components": [
-        2,
-        3
-      ],
-      "gap_pixels": 2.0,
-      "route_points": [
-        [
-          25,
-          62
-        ],
-        [
-          23,
-          62
-        ]
-      ],
-      "corridor_added_pixels": 6,
-      "stroke_id": "S11",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 3,
-      "route_nonforeground_pixel_count": 3,
-      "gap_closure_points": [
-        [
-          23,
-          61
-        ],
-        [
-          24,
-          61
-        ],
-        [
-          24,
-          62
-        ]
-      ],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 2.0,
-      "route_points": [
         [
           32,
-          50
-        ],
-        [
-          34,
-          50
+          44
         ]
       ],
-      "corridor_added_pixels": 6,
-      "stroke_id": "S12",
+      "corridor_added_pixels": 7,
+      "stroke_id": "S1",
       "status": "connected-by-shortest-bridge",
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 6,
-      "route_nonforeground_pixel_count": 0,
-      "gap_closure_points": [],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 2.0,
-      "route_points": [
-        [
-          20,
-          33
-        ],
-        [
-          22,
-          33
-        ]
-      ],
-      "corridor_added_pixels": 6,
-      "stroke_id": "S14",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 3,
-      "route_nonforeground_pixel_count": 3,
+      "route_foreground_pixel_count": 5,
+      "route_nonforeground_pixel_count": 2,
       "gap_closure_points": [
         [
-          20,
-          34
+          36,
+          42
         ],
         [
-          21,
-          34
-        ],
-        [
-          22,
-          34
+          32,
+          43
         ]
       ],
       "corridor_overlaps_existing_labels": null,
@@ -873,23 +712,23 @@
         1,
         2
       ],
-      "gap_pixels": 2.0,
+      "gap_pixels": 4.0,
       "route_points": [
         [
-          20,
-          22
+          24,
+          16
         ],
         [
-          22,
-          22
+          20,
+          16
         ]
       ],
-      "corridor_added_pixels": 6,
-      "stroke_id": "S16",
+      "corridor_added_pixels": 10,
+      "stroke_id": "S2",
       "status": "connected-by-shortest-bridge",
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 6,
+      "route_foreground_pixel_count": 10,
       "route_nonforeground_pixel_count": 0,
       "gap_closure_points": [],
       "corridor_overlaps_existing_labels": null,
@@ -911,33 +750,25 @@
       "gap_pixels": 5.0,
       "route_points": [
         [
-          14,
-          59
+          13,
+          42
         ],
         [
-          9,
-          59
+          13,
+          47
         ]
       ],
       "corridor_added_pixels": 12,
-      "stroke_id": "S19",
+      "stroke_id": "S4",
       "status": "connected-by-shortest-bridge",
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 9,
-      "route_nonforeground_pixel_count": 3,
+      "route_foreground_pixel_count": 11,
+      "route_nonforeground_pixel_count": 1,
       "gap_closure_points": [
         [
-          9,
-          58
-        ],
-        [
-          10,
-          58
-        ],
-        [
-          11,
-          58
+          14,
+          42
         ]
       ],
       "corridor_overlaps_existing_labels": null,
@@ -953,8 +784,364 @@
     },
     {
       "components": [
-        2,
+        1,
+        2
+      ],
+      "gap_pixels": 4.12,
+      "route_points": [
+        [
+          12,
+          54
+        ],
+        [
+          16,
+          55
+        ]
+      ],
+      "corridor_added_pixels": 7,
+      "stroke_id": "S5",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 6,
+      "route_nonforeground_pixel_count": 1,
+      "gap_closure_points": [
+        [
+          16,
+          56
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
         3
+      ],
+      "gap_pixels": 4.47,
+      "route_points": [
+        [
+          11,
+          55
+        ],
+        [
+          13,
+          59
+        ]
+      ],
+      "corridor_added_pixels": 8,
+      "stroke_id": "S5",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 7,
+      "route_nonforeground_pixel_count": 1,
+      "gap_closure_points": [
+        [
+          12,
+          57
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 2.24,
+      "route_points": [
+        [
+          12,
+          44
+        ],
+        [
+          13,
+          46
+        ]
+      ],
+      "corridor_added_pixels": 5,
+      "stroke_id": "S6",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 5,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 5.0,
+      "route_points": [
+        [
+          11,
+          50
+        ],
+        [
+          16,
+          50
+        ]
+      ],
+      "corridor_added_pixels": 12,
+      "stroke_id": "S7",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 12,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 3.0,
+      "route_points": [
+        [
+          32,
+          55
+        ],
+        [
+          35,
+          55
+        ]
+      ],
+      "corridor_added_pixels": 8,
+      "stroke_id": "S9",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 8,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 3.0,
+      "route_points": [
+        [
+          32,
+          50
+        ],
+        [
+          35,
+          50
+        ]
+      ],
+      "corridor_added_pixels": 8,
+      "stroke_id": "S11",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 8,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 2.0,
+      "route_points": [
+        [
+          20,
+          33
+        ],
+        [
+          22,
+          33
+        ]
+      ],
+      "corridor_added_pixels": 6,
+      "stroke_id": "S12",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 3,
+      "route_nonforeground_pixel_count": 3,
+      "gap_closure_points": [
+        [
+          20,
+          34
+        ],
+        [
+          21,
+          34
+        ],
+        [
+          22,
+          34
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 4.0,
+      "route_points": [
+        [
+          20,
+          23
+        ],
+        [
+          24,
+          23
+        ]
+      ],
+      "corridor_added_pixels": 10,
+      "stroke_id": "S14",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 8,
+      "route_nonforeground_pixel_count": 2,
+      "gap_closure_points": [
+        [
+          20,
+          24
+        ],
+        [
+          24,
+          24
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 2.0,
+      "route_points": [
+        [
+          12,
+          59
+        ],
+        [
+          14,
+          59
+        ]
+      ],
+      "corridor_added_pixels": 6,
+      "stroke_id": "S17",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 4,
+      "route_nonforeground_pixel_count": 2,
+      "gap_closure_points": [
+        [
+          13,
+          60
+        ],
+        [
+          14,
+          60
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
       ],
       "gap_pixels": 2.0,
       "route_points": [
@@ -968,7 +1155,7 @@
         ]
       ],
       "corridor_added_pixels": 6,
-      "stroke_id": "S20",
+      "stroke_id": "S18",
       "status": "connected-by-shortest-bridge",
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
@@ -991,38 +1178,25 @@
         1,
         2
       ],
-      "gap_pixels": 10.05,
+      "gap_pixels": 3.0,
       "route_points": [
         [
-          22,
-          12
+          21,
+          70
         ],
         [
-          21,
-          22
+          24,
+          70
         ]
       ],
-      "corridor_added_pixels": 21,
-      "stroke_id": "S20",
+      "corridor_added_pixels": 8,
+      "stroke_id": "S21",
       "status": "connected-by-shortest-bridge",
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 18,
-      "route_nonforeground_pixel_count": 3,
-      "gap_closure_points": [
-        [
-          23,
-          12
-        ],
-        [
-          23,
-          13
-        ],
-        [
-          23,
-          14
-        ]
-      ],
+      "route_foreground_pixel_count": 8,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
       "corridor_overlaps_existing_labels": null,
       "smooth_width_profile": {
         "route_point_count": 2,
@@ -1039,25 +1213,65 @@
         1,
         2
       ],
-      "gap_pixels": 6.0,
+      "gap_pixels": 3.0,
       "route_points": [
         [
-          19,
-          70
+          21,
+          65
         ],
         [
-          25,
-          70
+          24,
+          65
         ]
       ],
-      "corridor_added_pixels": 14,
+      "corridor_added_pixels": 8,
+      "stroke_id": "S22",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 8,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 8.06,
+      "route_points": [
+        [
+          17,
+          15
+        ],
+        [
+          24,
+          19
+        ]
+      ],
+      "corridor_added_pixels": 12,
       "stroke_id": "S23",
       "status": "connected-by-shortest-bridge",
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 14,
-      "route_nonforeground_pixel_count": 0,
-      "gap_closure_points": [],
+      "route_foreground_pixel_count": 11,
+      "route_nonforeground_pixel_count": 1,
+      "gap_closure_points": [
+        [
+          24,
+          20
+        ]
+      ],
       "corridor_overlaps_existing_labels": null,
       "smooth_width_profile": {
         "route_point_count": 2,
@@ -1074,69 +1288,25 @@
         1,
         2
       ],
-      "gap_pixels": 6.0,
+      "gap_pixels": 6.08,
       "route_points": [
         [
-          19,
-          65
+          30,
+          43
         ],
         [
-          25,
-          65
+          36,
+          44
         ]
       ],
-      "corridor_added_pixels": 14,
-      "stroke_id": "S24",
-      "status": "connected-by-shortest-bridge",
-      "width_radius_start": 1.0,
-      "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 14,
-      "route_nonforeground_pixel_count": 0,
-      "gap_closure_points": [],
-      "corridor_overlaps_existing_labels": null,
-      "smooth_width_profile": {
-        "route_point_count": 2,
-        "smoothed_route_point_count": 2,
-        "fallback_centerline": false,
-        "radius_profile_min": 1.0,
-        "radius_profile_max": 1.0
-      },
-      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
-      "route_point_count": 2
-    },
-    {
-      "components": [
-        1,
-        2
-      ],
-      "gap_pixels": 7.81,
-      "route_points": [
-        [
-          15,
-          14
-        ],
-        [
-          21,
-          19
-        ]
-      ],
-      "corridor_added_pixels": 18,
+      "corridor_added_pixels": 9,
       "stroke_id": "S25",
       "status": "connected-by-shortest-bridge",
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
-      "route_foreground_pixel_count": 16,
-      "route_nonforeground_pixel_count": 2,
-      "gap_closure_points": [
-        [
-          15,
-          15
-        ],
-        [
-          20,
-          19
-        ]
-      ],
+      "route_foreground_pixel_count": 9,
+      "route_nonforeground_pixel_count": 0,
+      "gap_closure_points": [],
       "corridor_overlaps_existing_labels": null,
       "smooth_width_profile": {
         "route_point_count": 2,
@@ -1172,9 +1342,9 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-12",
       "actor": "centerline-quadratic-v1 generator",
-      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
+      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map; near-axis straight runs are re-centred on the original ink band so they do not keep the label's one-pixel staircase.",
       "status": "candidate-needs-manual-review"
     }
   ],

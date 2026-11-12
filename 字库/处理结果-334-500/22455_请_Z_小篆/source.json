@@ -4,7 +4,7 @@
   "raw_png": "字库_167_333/22455_请_Z_小篆.png",
   "raw_sha256": "89c5de592e339f9c85ebc11a3577831f8e1d85cd98af2350f31b1510aea4d5e4",
   "label_png": "StrokeAnnotator/outputs/label_maps/22455_请_Z_小篆/label.png",
-  "label_sha256": "8617d5a1306b0d335891ca98d3c67740ef13c9492dc8ccf73338ed8595c6bac5",
+  "label_sha256": "4abf1eb3a96e2a44c3d13544b750b3c6833a9b8b2ef2d4e6cd3b02fef17c69f8",
   "width": 51,
   "height": 81,
   "coordinate_system": "original PNG pixels; origin top-left, x right, y down",

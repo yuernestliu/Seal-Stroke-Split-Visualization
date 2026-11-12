@@ -209,8 +209,8 @@
     {
       "node_id": "N0014",
       "point": [
-        12,
-        56
+        10,
+        36
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
@@ -335,8 +335,8 @@
     {
       "node_id": "N0023",
       "point": [
-        38,
-        56
+        45,
+        52
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
@@ -349,22 +349,8 @@
     {
       "node_id": "N0024",
       "point": [
-        41,
-        56
-      ],
-      "point_coordinate_order": "x,y",
-      "incident_edges": [
-        "E0012"
-      ],
-      "incident_strokes": [
-        "S12"
-      ]
-    },
-    {
-      "node_id": "N0025",
-      "point": [
         39,
-        56
+        59
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
@@ -375,7 +361,7 @@
       ]
     },
     {
-      "node_id": "N0026",
+      "node_id": "N0025",
       "point": [
         41,
         69
@@ -389,7 +375,7 @@
       ]
     },
     {
-      "node_id": "N0027",
+      "node_id": "N0026",
       "point": [
         23,
         70
@@ -403,7 +389,7 @@
       ]
     },
     {
-      "node_id": "N0028",
+      "node_id": "N0027",
       "point": [
         49,
         70
@@ -417,7 +403,7 @@
       ]
     },
     {
-      "node_id": "N0029",
+      "node_id": "N0028",
       "point": [
         31,
         58
@@ -431,7 +417,7 @@
       ]
     },
     {
-      "node_id": "N0030",
+      "node_id": "N0029",
       "point": [
         30,
         69
@@ -445,7 +431,7 @@
       ]
     },
     {
-      "node_id": "N0031",
+      "node_id": "N0030",
       "point": [
         43,
         3
@@ -459,10 +445,10 @@
       ]
     },
     {
-      "node_id": "N0032",
+      "node_id": "N0031",
       "point": [
-        43,
-        25
+        42,
+        30
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
@@ -473,7 +459,7 @@
       ]
     },
     {
-      "node_id": "N0033",
+      "node_id": "N0032",
       "point": [
         48,
         4
@@ -487,9 +473,9 @@
       ]
     },
     {
-      "node_id": "N0034",
+      "node_id": "N0033",
       "point": [
-        42,
+        43,
         26
       ],
       "point_coordinate_order": "x,y",
@@ -501,7 +487,7 @@
       ]
     },
     {
-      "node_id": "N0035",
+      "node_id": "N0034",
       "point": [
         37,
         4
@@ -515,7 +501,7 @@
       ]
     },
     {
-      "node_id": "N0036",
+      "node_id": "N0035",
       "point": [
         51,
         34
@@ -526,6 +512,34 @@
       ],
       "incident_strokes": [
         "S18"
+      ]
+    },
+    {
+      "node_id": "N0036",
+      "point": [
+        13,
+        38
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0019"
+      ],
+      "incident_strokes": [
+        "S19"
+      ]
+    },
+    {
+      "node_id": "N0037",
+      "point": [
+        12,
+        54
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0019"
+      ],
+      "incident_strokes": [
+        "S19"
       ]
     }
   ],
@@ -1024,27 +1038,27 @@
         ],
         [
           9,
-          46
+          45
         ],
         [
           10,
-          46
+          45
         ],
         [
           11,
-          46
+          45
         ],
         [
           12,
-          46
+          45
         ],
         [
           13,
-          46
+          45
         ],
         [
           14,
-          46
+          45
         ],
         [
           15,
@@ -1132,11 +1146,11 @@
         ],
         [
           11,
-          58
+          57
         ],
         [
           12,
-          58
+          57
         ],
         [
           13,
@@ -1241,86 +1255,6 @@
         [
           10,
           36
-        ],
-        [
-          10,
-          37
-        ],
-        [
-          11,
-          38
-        ],
-        [
-          11,
-          39
-        ],
-        [
-          11,
-          40
-        ],
-        [
-          11,
-          41
-        ],
-        [
-          11,
-          42
-        ],
-        [
-          11,
-          43
-        ],
-        [
-          11,
-          44
-        ],
-        [
-          11,
-          45
-        ],
-        [
-          11,
-          46
-        ],
-        [
-          11,
-          47
-        ],
-        [
-          11,
-          48
-        ],
-        [
-          11,
-          49
-        ],
-        [
-          11,
-          50
-        ],
-        [
-          12,
-          51
-        ],
-        [
-          12,
-          52
-        ],
-        [
-          12,
-          53
-        ],
-        [
-          12,
-          54
-        ],
-        [
-          12,
-          55
-        ],
-        [
-          12,
-          56
         ]
       ],
       "point_coordinate_order": "x,y",
@@ -1851,6 +1785,42 @@
       "source_stroke_id": "S12",
       "points": [
         [
+          45,
+          52
+        ],
+        [
+          45,
+          53
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          44,
+          55
+        ],
+        [
+          43,
+          56
+        ],
+        [
+          42,
+          56
+        ],
+        [
+          41,
+          56
+        ],
+        [
+          40,
+          56
+        ],
+        [
+          39,
+          56
+        ],
+        [
           38,
           56
         ],
@@ -2021,36 +1991,12 @@
         [
           45,
           52
-        ],
-        [
-          45,
-          53
-        ],
-        [
-          45,
-          54
-        ],
-        [
-          44,
-          55
-        ],
-        [
-          43,
-          56
-        ],
-        [
-          42,
-          56
-        ],
-        [
-          41,
-          56
         ]
       ],
       "point_coordinate_order": "x,y",
       "start_node": "N0023",
-      "end_node": "N0024",
-      "closed": false,
+      "end_node": "N0023",
+      "closed": true,
       "curve": {
         "representation": "sampled-polyline",
         "sampling": "one point per skeleton pixel"
@@ -2062,18 +2008,6 @@
       "edge_id": "E0013",
       "source_stroke_id": "S13",
       "points": [
-        [
-          39,
-          56
-        ],
-        [
-          39,
-          57
-        ],
-        [
-          39,
-          58
-        ],
         [
           39,
           59
@@ -2120,8 +2054,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0025",
-      "end_node": "N0026",
+      "start_node": "N0024",
+      "end_node": "N0025",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2244,8 +2178,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0027",
-      "end_node": "N0028",
+      "start_node": "N0026",
+      "end_node": "N0027",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2308,8 +2242,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0029",
-      "end_node": "N0030",
+      "start_node": "N0028",
+      "end_node": "N0029",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2411,13 +2345,33 @@
           24
         ],
         [
-          43,
+          42,
           25
+        ],
+        [
+          42,
+          26
+        ],
+        [
+          42,
+          27
+        ],
+        [
+          42,
+          28
+        ],
+        [
+          42,
+          29
+        ],
+        [
+          42,
+          30
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0031",
-      "end_node": "N0032",
+      "start_node": "N0030",
+      "end_node": "N0031",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2529,15 +2483,11 @@
         [
           43,
           26
-        ],
-        [
-          42,
-          26
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0033",
-      "end_node": "N0034",
+      "start_node": "N0032",
+      "end_node": "N0033",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2672,11 +2622,11 @@
         ],
         [
           41,
-          31
+          32
         ],
         [
           42,
-          31
+          32
         ],
         [
           43,
@@ -2716,8 +2666,96 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0035",
-      "end_node": "N0036",
+      "start_node": "N0034",
+      "end_node": "N0035",
+      "closed": false,
+      "curve": {
+        "representation": "sampled-polyline",
+        "sampling": "one point per skeleton pixel"
+      },
+      "width": 2.0,
+      "semantic_status": "manual-v2-label-derived; review pending"
+    },
+    {
+      "edge_id": "E0019",
+      "source_stroke_id": "S19",
+      "points": [
+        [
+          13,
+          38
+        ],
+        [
+          12,
+          38
+        ],
+        [
+          11,
+          39
+        ],
+        [
+          11,
+          40
+        ],
+        [
+          11,
+          41
+        ],
+        [
+          11,
+          42
+        ],
+        [
+          11,
+          43
+        ],
+        [
+          11,
+          44
+        ],
+        [
+          11,
+          45
+        ],
+        [
+          11,
+          46
+        ],
+        [
+          11,
+          47
+        ],
+        [
+          11,
+          48
+        ],
+        [
+          11,
+          49
+        ],
+        [
+          11,
+          50
+        ],
+        [
+          12,
+          51
+        ],
+        [
+          12,
+          52
+        ],
+        [
+          12,
+          53
+        ],
+        [
+          12,
+          54
+        ]
+      ],
+      "point_coordinate_order": "x,y",
+      "start_node": "N0036",
+      "end_node": "N0037",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2727,7 +2765,9 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     }
   ],
-  "closed_loops": [],
+  "closed_loops": [
+    "E0012"
+  ],
   "width_recording": {
     "available": true,
     "value_policy": "median local fused-mask diameter per edge"

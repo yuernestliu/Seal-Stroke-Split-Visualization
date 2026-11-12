@@ -4,7 +4,7 @@
   "raw_png": "字库_167_333/07483_养_Z_小篆.png",
   "raw_sha256": "eb3b534381044fe94d1a178b22d853e7f238e35a18ce91ad4161d421d6daa41a",
   "label_png": "StrokeAnnotator/outputs/label_maps/07483_养_Z_小篆/label.png",
-  "label_sha256": "defc3343d1c5949a87462d2d33782c8e9cdf575e9f9a79843fce8cecc64c92cb",
+  "label_sha256": "8c7d401e9a392557e97908333596e96241dd9abccc6925c3c5179ab53379807d",
   "width": 46,
   "height": 79,
   "coordinate_system": "original PNG pixels; origin top-left, x right, y down",

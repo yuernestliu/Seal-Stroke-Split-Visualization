@@ -14,8 +14,12 @@ so listing them here would shadow the curated geometry.
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from xml.etree import ElementTree as ET
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -129,7 +133,10 @@ def main() -> None:
         if not package.is_dir():
             continue
         relative = package.relative_to(ROOT).as_posix()
-        for directory in sorted(p for p in package.iterdir() if p.is_dir()):
+        # Skip helper folders such as __pycache__: they are not glyph packages.
+        for directory in sorted(
+            p for p in package.iterdir() if p.is_dir() and not p.name.startswith("_")
+        ):
             base_url = f"./{relative}/{directory.name}"
             if directory.name in records:
                 raise ValueError(f"duplicate glyph across packages: {directory.name}")

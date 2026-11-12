@@ -7,12 +7,12 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-10",
+  "review_date": "2026-11-12",
   "source": {
     "raw_png": "字库_167_333/19079_织_Z_小篆.png",
     "raw_sha256": "58775343da4b227eb7046e1faffa5360f071a0b766e9d58817d0abdca556bc63",
     "manual_label": "StrokeAnnotator/outputs/label_maps/19079_织_Z_小篆/label.png",
-    "manual_label_sha256": "86540d4b4ea3e4caae3471319f88cef3a237d2e9d1e138ce70faf205dd28b5d4",
+    "manual_label_sha256": "bdb91367f75e554595129831c418014d24ed65db6d5e464ce8b895e629b08f3b",
     "label_auto": "StrokeAnnotator/outputs/label_maps/19079_织_Z_小篆/label_auto.png",
     "previous_candidate_package": null
   },
@@ -23,10 +23,18 @@
     "corridor": "shortest 2-px bridge between disconnected stroke components before skeletonization",
     "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
     "vector_smoothing": "gaussian sigma 1.20 followed by bounded quadratic-midpoint centreline (centerline-quadratic-v1)",
+    "straight_run_snap": {
+      "enabled": true,
+      "min_run_px": 7,
+      "max_drift_px": 1.1,
+      "max_band_spread_px": 2.5,
+      "max_offset_px": 1.5,
+      "rule": "near-axis runs straighter than max_drift are re-centred on the original ink band median; runs whose band spreads wider than max_band_spread or sits further than max_offset from the skeleton are left untouched (junctions)"
+    },
     "method": "centerline-quadratic-v1",
     "sigma": 1.2,
     "simplify_tolerance": 0.5,
-    "stroke_width": 2.0,
+    "stroke_width": 3.2,
     "stroke_linecap": "round",
     "stroke_linejoin": "round",
     "bridge_is_fixed_width": false,
@@ -87,14 +95,14 @@
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
           "p95": 1.414,
-          "max": 1.414,
+          "max": 2.0,
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.414
         },
@@ -103,10 +111,10 @@
       {
         "stroke_id": "S2",
         "color": "#d68a16",
-        "original_pixels": 29,
-        "fused_pixels": 29,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 33,
+        "fused_pixels": 41,
+        "corridor_added_pixels": 8,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -119,13 +127,13 @@
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.0
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S3",
         "color": "#2b9b68",
-        "original_pixels": 53,
-        "fused_pixels": 53,
+        "original_pixels": 38,
+        "fused_pixels": 38,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -135,18 +143,18 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.249,
+          "p95": 1.0,
           "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.249
+          "bulge_ratio_p95_to_median": 1.0
         },
         "repair_count": 0
       },
       {
         "stroke_id": "S4",
         "color": "#9254c8",
-        "original_pixels": 24,
-        "fused_pixels": 24,
+        "original_pixels": 35,
+        "fused_pixels": 35,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -441,13 +449,57 @@
     "fused_union_covers_original_label": true,
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
-    "recorded_gap_closure_pixels": 5,
-    "bridge_overlap_pixels_at_crossings": 21,
+    "recorded_gap_closure_pixels": 7,
+    "bridge_overlap_pixels_at_crossings": 27,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
   },
   "repairs": [
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 4.0,
+      "route_points": [
+        [
+          9,
+          39
+        ],
+        [
+          9,
+          43
+        ]
+      ],
+      "corridor_added_pixels": 10,
+      "stroke_id": "S2",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 8,
+      "route_nonforeground_pixel_count": 2,
+      "gap_closure_points": [
+        [
+          10,
+          39
+        ],
+        [
+          10,
+          40
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
     {
       "components": [
         1,
@@ -633,9 +685,9 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-12",
       "actor": "centerline-quadratic-v1 generator",
-      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
+      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map; near-axis straight runs are re-centred on the original ink band so they do not keep the label's one-pixel staircase.",
       "status": "candidate-needs-manual-review"
     }
   ],

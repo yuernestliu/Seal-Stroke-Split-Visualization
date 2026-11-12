@@ -7,12 +7,12 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-10",
+  "review_date": "2026-11-12",
   "source": {
     "raw_png": "字库_167_333/23497_选_Z_小篆.png",
     "raw_sha256": "9dbe22bc616934d46fd3b9df6a750f3d89085e05ce6764fd03b5e2a60d640727",
     "manual_label": "StrokeAnnotator/outputs/label_maps/23497_选_Z_小篆/label.png",
-    "manual_label_sha256": "677c2636497cb9f6fa1b43f53b2be327c8883db4faf523c4a07a188cd1ae45ed",
+    "manual_label_sha256": "5e12da2776e4a36f6ee994d5e43c0b41940c1da2d1a250d1ff572b01a70dd8b8",
     "label_auto": "StrokeAnnotator/outputs/label_maps/23497_选_Z_小篆/label_auto.png",
     "previous_candidate_package": null
   },
@@ -23,10 +23,18 @@
     "corridor": "shortest 2-px bridge between disconnected stroke components before skeletonization",
     "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
     "vector_smoothing": "gaussian sigma 1.20 followed by bounded quadratic-midpoint centreline (centerline-quadratic-v1)",
+    "straight_run_snap": {
+      "enabled": true,
+      "min_run_px": 7,
+      "max_drift_px": 1.1,
+      "max_band_spread_px": 2.5,
+      "max_offset_px": 1.5,
+      "rule": "near-axis runs straighter than max_drift are re-centred on the original ink band median; runs whose band spreads wider than max_band_spread or sits further than max_offset from the skeleton are left untouched (junctions)"
+    },
     "method": "centerline-quadratic-v1",
     "sigma": 1.2,
     "simplify_tolerance": 0.5,
-    "stroke_width": 2.0,
+    "stroke_width": 3.2,
     "stroke_linecap": "round",
     "stroke_linejoin": "round",
     "bridge_is_fixed_width": false,
@@ -77,8 +85,8 @@
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
@@ -261,8 +269,8 @@
       {
         "stroke_id": "S10",
         "color": "#8c5e34",
-        "original_pixels": 107,
-        "fused_pixels": 107,
+        "original_pixels": 105,
+        "fused_pixels": 105,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -462,9 +470,9 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-12",
       "actor": "centerline-quadratic-v1 generator",
-      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
+      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map; near-axis straight runs are re-centred on the original ink band so they do not keep the label's one-pixel staircase.",
       "status": "candidate-needs-manual-review"
     }
   ],

@@ -83,8 +83,8 @@
     {
       "node_id": "N0005",
       "point": [
-        41,
-        18
+        40,
+        16
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
@@ -719,8 +719,12 @@
       "source_stroke_id": "S3",
       "points": [
         [
-          41,
-          18
+          40,
+          16
+        ],
+        [
+          40,
+          17
         ],
         [
           40,

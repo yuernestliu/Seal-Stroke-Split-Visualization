@@ -251,8 +251,8 @@
     {
       "node_id": "N0017",
       "point": [
-        18,
-        35
+        13,
+        30
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
@@ -265,12 +265,14 @@
     {
       "node_id": "N0018",
       "point": [
-        12,
-        68
+        13,
+        32
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0009"
+        "E0009",
+        "E0010",
+        "E0011"
       ],
       "incident_strokes": [
         "S9"
@@ -279,236 +281,264 @@
     {
       "node_id": "N0019",
       "point": [
-        6,
-        43
+        18,
+        35
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
         "E0010"
       ],
       "incident_strokes": [
-        "S10"
+        "S9"
       ]
     },
     {
       "node_id": "N0020",
+      "point": [
+        12,
+        68
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0011"
+      ],
+      "incident_strokes": [
+        "S9"
+      ]
+    },
+    {
+      "node_id": "N0021",
+      "point": [
+        6,
+        43
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0012"
+      ],
+      "incident_strokes": [
+        "S10"
+      ]
+    },
+    {
+      "node_id": "N0022",
       "point": [
         19,
         43
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0010"
+        "E0012"
       ],
       "incident_strokes": [
         "S10"
       ]
     },
     {
-      "node_id": "N0021",
+      "node_id": "N0023",
       "point": [
         7,
         50
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0011"
+        "E0013"
       ],
       "incident_strokes": [
         "S11"
       ]
     },
     {
-      "node_id": "N0022",
+      "node_id": "N0024",
       "point": [
         6,
         63
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0011"
+        "E0013"
       ],
       "incident_strokes": [
         "S11"
       ]
     },
     {
-      "node_id": "N0023",
+      "node_id": "N0025",
       "point": [
         17,
         49
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0012"
+        "E0014"
       ],
       "incident_strokes": [
         "S12"
       ]
     },
     {
-      "node_id": "N0024",
+      "node_id": "N0026",
       "point": [
         19,
         62
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0012"
+        "E0014"
       ],
       "incident_strokes": [
         "S12"
       ]
     },
     {
-      "node_id": "N0025",
+      "node_id": "N0027",
       "point": [
         36,
         47
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0013"
+        "E0015"
       ],
       "incident_strokes": [
         "S13"
       ]
     },
     {
-      "node_id": "N0026",
+      "node_id": "N0028",
       "point": [
         40,
         26
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0014"
+        "E0016"
       ],
       "incident_strokes": [
         "S14"
       ]
     },
     {
-      "node_id": "N0027",
+      "node_id": "N0029",
       "point": [
         35,
         40
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0014"
+        "E0016"
       ],
       "incident_strokes": [
         "S14"
       ]
     },
     {
-      "node_id": "N0028",
+      "node_id": "N0030",
       "point": [
         43,
         58
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0015"
+        "E0017"
       ],
       "incident_strokes": [
         "S15"
       ]
     },
     {
-      "node_id": "N0029",
+      "node_id": "N0031",
       "point": [
         27,
         59
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0015"
+        "E0017"
       ],
       "incident_strokes": [
         "S15"
       ]
     },
     {
-      "node_id": "N0030",
+      "node_id": "N0032",
       "point": [
         28,
         26
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0016"
+        "E0018"
       ],
       "incident_strokes": [
         "S16"
       ]
     },
     {
-      "node_id": "N0031",
+      "node_id": "N0033",
       "point": [
         34,
         46
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0016"
+        "E0018"
       ],
       "incident_strokes": [
         "S16"
       ]
     },
     {
-      "node_id": "N0032",
+      "node_id": "N0034",
       "point": [
         28,
         33
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0017"
+        "E0019"
       ],
       "incident_strokes": [
         "S17"
       ]
     },
     {
-      "node_id": "N0033",
+      "node_id": "N0035",
       "point": [
         21,
         38
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0017"
+        "E0019"
       ],
       "incident_strokes": [
         "S17"
       ]
     },
     {
-      "node_id": "N0034",
+      "node_id": "N0036",
       "point": [
         40,
         34
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0018"
+        "E0020"
       ],
       "incident_strokes": [
         "S18"
       ]
     },
     {
-      "node_id": "N0035",
+      "node_id": "N0037",
       "point": [
         48,
         39
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0018"
+        "E0020"
       ],
       "incident_strokes": [
         "S18"
@@ -1225,25 +1255,73 @@
       "source_stroke_id": "S9",
       "points": [
         [
-          18,
-          35
+          13,
+          30
         ],
         [
-          17,
-          34
+          13,
+          31
         ],
         [
-          16,
-          33
-        ],
+          13,
+          32
+        ]
+      ],
+      "point_coordinate_order": "x,y",
+      "start_node": "N0017",
+      "end_node": "N0018",
+      "closed": false,
+      "curve": {
+        "representation": "sampled-polyline",
+        "sampling": "one point per skeleton pixel"
+      },
+      "width": 2.0,
+      "semantic_status": "manual-v2-label-derived; review pending"
+    },
+    {
+      "edge_id": "E0010",
+      "source_stroke_id": "S9",
+      "points": [
         [
-          15,
+          13,
           32
         ],
         [
           14,
           32
         ],
+        [
+          15,
+          32
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          17,
+          34
+        ],
+        [
+          18,
+          35
+        ]
+      ],
+      "point_coordinate_order": "x,y",
+      "start_node": "N0018",
+      "end_node": "N0019",
+      "closed": false,
+      "curve": {
+        "representation": "sampled-polyline",
+        "sampling": "one point per skeleton pixel"
+      },
+      "width": 2.0,
+      "semantic_status": "manual-v2-label-derived; review pending"
+    },
+    {
+      "edge_id": "E0011",
+      "source_stroke_id": "S9",
+      "points": [
         [
           13,
           32
@@ -1394,8 +1472,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0017",
-      "end_node": "N0018",
+      "start_node": "N0018",
+      "end_node": "N0020",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -1405,7 +1483,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0010",
+      "edge_id": "E0012",
       "source_stroke_id": "S10",
       "points": [
         [
@@ -1466,8 +1544,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0019",
-      "end_node": "N0020",
+      "start_node": "N0021",
+      "end_node": "N0022",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -1477,7 +1555,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0011",
+      "edge_id": "E0013",
       "source_stroke_id": "S11",
       "points": [
         [
@@ -1538,8 +1616,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0021",
-      "end_node": "N0022",
+      "start_node": "N0023",
+      "end_node": "N0024",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -1549,7 +1627,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0012",
+      "edge_id": "E0014",
       "source_stroke_id": "S12",
       "points": [
         [
@@ -1610,8 +1688,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0023",
-      "end_node": "N0024",
+      "start_node": "N0025",
+      "end_node": "N0026",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -1621,7 +1699,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0013",
+      "edge_id": "E0015",
       "source_stroke_id": "S13",
       "points": [
         [
@@ -1902,8 +1980,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0025",
-      "end_node": "N0025",
+      "start_node": "N0027",
+      "end_node": "N0027",
       "closed": true,
       "curve": {
         "representation": "sampled-polyline",
@@ -1913,7 +1991,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0014",
+      "edge_id": "E0016",
       "source_stroke_id": "S14",
       "points": [
         [
@@ -1978,8 +2056,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0026",
-      "end_node": "N0027",
+      "start_node": "N0028",
+      "end_node": "N0029",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -1989,7 +2067,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0015",
+      "edge_id": "E0017",
       "source_stroke_id": "S15",
       "points": [
         [
@@ -2062,8 +2140,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0028",
-      "end_node": "N0029",
+      "start_node": "N0030",
+      "end_node": "N0031",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2073,7 +2151,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0016",
+      "edge_id": "E0018",
       "source_stroke_id": "S16",
       "points": [
         [
@@ -2162,8 +2240,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0030",
-      "end_node": "N0031",
+      "start_node": "N0032",
+      "end_node": "N0033",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2173,7 +2251,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0017",
+      "edge_id": "E0019",
       "source_stroke_id": "S17",
       "points": [
         [
@@ -2210,8 +2288,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0032",
-      "end_node": "N0033",
+      "start_node": "N0034",
+      "end_node": "N0035",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2221,7 +2299,7 @@
       "semantic_status": "manual-v2-label-derived; review pending"
     },
     {
-      "edge_id": "E0018",
+      "edge_id": "E0020",
       "source_stroke_id": "S18",
       "points": [
         [
@@ -2262,8 +2340,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0034",
-      "end_node": "N0035",
+      "start_node": "N0036",
+      "end_node": "N0037",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",
@@ -2274,7 +2352,7 @@
     }
   ],
   "closed_loops": [
-    "E0013"
+    "E0015"
   ],
   "width_recording": {
     "available": true,

@@ -1,6 +1,6 @@
 {
   "schema": "current-split-summary-v1",
-  "generated": "2026-11-10",
+  "generated": "2026-11-12",
   "source_package": "StrokeAnnotator/outputs/label_maps",
   "split_output": "拆解结果-334-500",
   "package_output": "字库/处理结果-334-500",
@@ -85,8 +85,8 @@
       "segment_count": 9,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 1,
-      "label_sha256": "05952240f87c1d7f3769c4db74f3d17f002244519e32eb2a38a6fb1edded8f72"
+      "repair_count": 0,
+      "label_sha256": "baca89e5af84856f6acbd5085570f89933010a7e27812af60c1e78945d96932c"
     },
     {
       "glyph_id": "06880_传_Z_小篆",
@@ -157,8 +157,8 @@
       "segment_count": 14,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 5,
-      "label_sha256": "defc3343d1c5949a87462d2d33782c8e9cdf575e9f9a79843fce8cecc64c92cb"
+      "repair_count": 7,
+      "label_sha256": "8c7d401e9a392557e97908333596e96241dd9abccc6925c3c5179ab53379807d"
     },
     {
       "glyph_id": "07515_军_Z_小篆",
@@ -202,11 +202,11 @@
     },
     {
       "glyph_id": "07642_刚_Z_小篆",
-      "segment_count": 9,
+      "segment_count": 10,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 3,
-      "label_sha256": "b6edb23d8dc527a761f325af63b71938227ee3823aee93114ca73e2cd85862dc"
+      "repair_count": 2,
+      "label_sha256": "fd35f63a28a50c556d0626c53816564fbe4ea424fcf1e686e3136322a19973b7"
     },
     {
       "glyph_id": "07643_创_Z_小篆",
@@ -634,11 +634,11 @@
     },
     {
       "glyph_id": "12653_断_Z_小篆",
-      "segment_count": 15,
+      "segment_count": 13,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 1,
-      "label_sha256": "75bd76beaed3c28201baae7e586b283ac20ca855a51e7a4b4ba454618cd96967"
+      "repair_count": 2,
+      "label_sha256": "c3bb50de5aa1671cb509366ab01455e9fa20bd4155dbe03e8e63ce446cc90d64"
     },
     {
       "glyph_id": "12669_施_Z_說文‧㫃部",
@@ -658,11 +658,11 @@
     },
     {
       "glyph_id": "12798_显_Z_小篆",
-      "segment_count": 19,
+      "segment_count": 20,
       "all_strokes_continuous": true,
       "blank_preserved": true,
       "repair_count": 2,
-      "label_sha256": "378c0d25605f710127a3787dc79295a7ce32bebc8a7b23aa6cb3fa97e7825ef4"
+      "label_sha256": "2f0f81459591a58ec89766d3b92a2f11bf88925c1b213c256de3833601e7bc97"
     },
     {
       "glyph_id": "13019_望_Z_說文‧亡部",
@@ -861,8 +861,8 @@
       "segment_count": 13,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 5,
-      "label_sha256": "065f8054ab5446eba038a6d45072c945fc5e6bc90940829e90ee269d22ef9982"
+      "repair_count": 2,
+      "label_sha256": "17e52338e790cfbb30319e54b7b346380b3a10d738a0c6433283123bc6d5afe9"
     },
     {
       "glyph_id": "16631_男_Z_說文‧男部",
@@ -962,11 +962,11 @@
     },
     {
       "glyph_id": "18491_类_Z_小篆",
-      "segment_count": 19,
+      "segment_count": 18,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 9,
-      "label_sha256": "8ec0c32131342d54a8fa0ca041a664af7c9385eaafdf34b683f58cd863fc06c9"
+      "repair_count": 7,
+      "label_sha256": "bc128930559883dc88c42b7681348dfc2ff6827d038e709bfdfa8a9cfd91c8e0"
     },
     {
       "glyph_id": "18558_精_Z_說文‧米部",
@@ -1013,8 +1013,8 @@
       "segment_count": 17,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 4,
-      "label_sha256": "86540d4b4ea3e4caae3471319f88cef3a237d2e9d1e138ce70faf205dd28b5d4"
+      "repair_count": 5,
+      "label_sha256": "bdb91367f75e554595129831c418014d24ed65db6d5e464ce8b895e629b08f3b"
     },
     {
       "glyph_id": "19117_续_Z_小篆",
@@ -1078,7 +1078,7 @@
       "all_strokes_continuous": true,
       "blank_preserved": true,
       "repair_count": 2,
-      "label_sha256": "fed434f293f4cee8be500f945c162980cbd0127b4dd704b44e49629242f80f48"
+      "label_sha256": "147ead9b2e1aeb597d08c0dc0eeb37376f29a0316cfc59955d59d0eb882af2e6"
     },
     {
       "glyph_id": "21504_血_Z_說文‧血部",
@@ -1130,11 +1130,11 @@
     },
     {
       "glyph_id": "22401_证_Z_小篆",
-      "segment_count": 18,
+      "segment_count": 19,
       "all_strokes_continuous": true,
       "blank_preserved": true,
       "repair_count": 4,
-      "label_sha256": "325b18aa660f96219fda5ae4c7794bb78e8ed38ffc7e329f8e4d35eb00fe07f0"
+      "label_sha256": "503f0f6155e7414b06c1c47292f03105f804dc746395e25f5b1865fb7c1b6cd6"
     },
     {
       "glyph_id": "22406_识_Z_小篆",
@@ -1157,8 +1157,8 @@
       "segment_count": 17,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 8,
-      "label_sha256": "8617d5a1306b0d335891ca98d3c67740ef13c9492dc8ccf73338ed8595c6bac5"
+      "repair_count": 6,
+      "label_sha256": "4abf1eb3a96e2a44c3d13544b750b3c6833a9b8b2ef2d4e6cd3b02fef17c69f8"
     },
     {
       "glyph_id": "22465_谁_Z_小篆",
@@ -1238,7 +1238,7 @@
       "all_strokes_continuous": true,
       "blank_preserved": true,
       "repair_count": 3,
-      "label_sha256": "677c2636497cb9f6fa1b43f53b2be327c8883db4faf523c4a07a188cd1ae45ed"
+      "label_sha256": "5e12da2776e4a36f6ee994d5e43c0b41940c1da2d1a250d1ff572b01a70dd8b8"
     },
     {
       "glyph_id": "23520_造_Z_說文‧辵部",
@@ -1282,27 +1282,27 @@
     },
     {
       "glyph_id": "25087_阿_Z_說文‧阜部",
-      "segment_count": 9,
+      "segment_count": 11,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 6,
-      "label_sha256": "77777b80ad092a8667f56f254d230b3ad128e8c004d786aabd16e0a0bd426323"
+      "repair_count": 2,
+      "label_sha256": "f11a79ebf7c85d272096e952440b72284ed2db2fc2268e1fcebfb74950327c94"
     },
     {
       "glyph_id": "25093_际_Z_小篆",
-      "segment_count": 15,
+      "segment_count": 14,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 5,
-      "label_sha256": "b5e47d5ff2f54b0f472f993cbdbab4d46de624b224f496fb55d372d94c568b88"
+      "repair_count": 7,
+      "label_sha256": "4930058dd4d555cdf740fff0648d3a0f6b51afb04e57d027c940de4a57c8f7bd"
     },
     {
       "glyph_id": "25222_集_Z_說文‧雥部",
-      "segment_count": 25,
+      "segment_count": 26,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 13,
-      "label_sha256": "7496ded3755b7dd5764bf985de4be651a8551e6f2824b53cf946f80dece4a0bc"
+      "repair_count": 17,
+      "label_sha256": "1e4a3d350597586295fa0d8e1c038b1872cdc21cf092ef7d3a55a7e6a73f5969"
     },
     {
       "glyph_id": "25280_需_Z_說文‧雨部",
@@ -1341,8 +1341,8 @@
       "segment_count": 18,
       "all_strokes_continuous": true,
       "blank_preserved": true,
-      "repair_count": 5,
-      "label_sha256": "c63d8ee10a87f15e08345d77a3ee48be87c13e4e9b2b397ead0b33f42a6f1b80"
+      "repair_count": 4,
+      "label_sha256": "e658734e15459720aa326852f296a351ba479cd611f545c74419ab3140b78f5f"
     }
   ]
 }

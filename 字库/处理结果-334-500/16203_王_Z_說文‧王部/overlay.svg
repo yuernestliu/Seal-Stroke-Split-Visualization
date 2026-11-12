@@ -5,10 +5,10 @@
 <path d="M 23.79 66.21 Q 2.67 66 3.84 65.25 Q 5 64.5 12.96 64.46 Q 20.91 64.41 21.21 63.71 Q 21.5 63 21.46 45.04 Q 21.41 27.09 20.71 26.79 Q 20 26.5 13.5 26.5 Q 7 26.5 5.96 26.96 Q 4.92 27.41 4.25 27.16 Q 3.59 26.91 3.84 26.25 Q 4.09 25.59 12.04 25.54 Q 20 25.5 20.71 25.21 Q 21.41 24.91 21.41 15 Q 21.41 5.09 20.71 4.79 Q 20 4.5 12.04 4.46 Q 4.09 4.41 4.09 3.5 Q 4.09 2.59 23.21 2.79 Q 42.33 3 41.62 3.71 Q 40.91 4.41 33.46 4.46 Q 26 4.5 25.29 4.79 Q 24.59 5.09 24.59 15 Q 24.59 24.91 25.29 25.21 Q 26 25.5 33.46 25.54 Q 40.91 25.59 41.16 26.25 Q 41.41 26.91 33 27.5 Q 24.59 28.09 24.54 45.54 Q 24.5 63 24.79 63.71 Q 25.09 64.41 34.04 64.46 Q 43 64.5 44.16 65.25 Q 45.33 66 45.12 66.21 Q 44.91 66.41 23.79 66.21 Z" fill-rule="evenodd"/>
 </g>
 <g id="manual-v2-outline" opacity="0.68">
-<path d="M 41 26 L 4 26" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1"/>
-<path d="M 42 3 L 4 3" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2"/>
-<path d="M 23 3 L 23 64" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3"/>
-<path d="M 45 66 Q 42 65.1 40 65.05 Q 38 65 32.5 65.01 Q 27 65.02 25 65.41 Q 23 65.8 21 65.41 Q 19 65.02 13 65.02 Q 7 65.02 6.51 65.06 Q 6.02 65.1 4 66" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4"/>
+<path d="M 41 26 L 4 26" fill="none" stroke="#2f6fdb" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1"/>
+<path d="M 42 4 L 4 4" fill="none" stroke="#d68a16" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2"/>
+<path d="M 23.5 3 L 23.5 64" fill="none" stroke="#2b9b68" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3"/>
+<path d="M 45 65.5 L 4 65.5" fill="none" stroke="#9254c8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4"/>
 </g>
 <g id="manual-v2-skeleton" opacity="0.96">
 <path d="M 4 26 L 5 26 L 6 26 L 7 26 L 8 26 L 9 26 L 10 26 L 11 26 L 12 26 L 13 26 L 14 26 L 15 26 L 16 26 L 17 26 L 18 26 L 19 26 L 20 26 L 21 26 L 22 26 L 23 26 L 24 26 L 25 26 L 26 26 L 27 26 L 28 26 L 29 26 L 30 26 L 31 26 L 32 26 L 33 26 L 34 26 L 35 26 L 36 26 L 37 26 L 38 26 L 39 26 L 40 26 L 41 26" fill="none" stroke="#2f6fdb" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" data-edge-id="E0001"/>

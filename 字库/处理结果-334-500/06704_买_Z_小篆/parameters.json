@@ -1,7 +1,7 @@
 {
   "schema": "manual-v2-parameters-v1",
   "glyph_id": "06704_买_Z_小篆",
-  "date": "2026-11-10",
+  "date": "2026-11-12",
   "source_label": "StrokeAnnotator/outputs/label_maps/06704_买_Z_小篆/label.png",
   "source_raw_png": "字库_167_333/06704_买_Z_小篆.png",
   "parameters": {
@@ -11,10 +11,18 @@
     "corridor": "shortest 2-px bridge between disconnected stroke components before skeletonization",
     "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
     "vector_smoothing": "gaussian sigma 1.20 followed by bounded quadratic-midpoint centreline (centerline-quadratic-v1)",
+    "straight_run_snap": {
+      "enabled": true,
+      "min_run_px": 7,
+      "max_drift_px": 1.1,
+      "max_band_spread_px": 2.5,
+      "max_offset_px": 1.5,
+      "rule": "near-axis runs straighter than max_drift are re-centred on the original ink band median; runs whose band spreads wider than max_band_spread or sits further than max_offset from the skeleton are left untouched (junctions)"
+    },
     "method": "centerline-quadratic-v1",
     "sigma": 1.2,
     "simplify_tolerance": 0.5,
-    "stroke_width": 2.0,
+    "stroke_width": 3.2,
     "stroke_linecap": "round",
     "stroke_linejoin": "round",
     "bridge_is_fixed_width": false,

@@ -7,12 +7,12 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-10",
+  "review_date": "2026-11-12",
   "source": {
     "raw_png": "字库_167_333/25093_际_Z_小篆.png",
     "raw_sha256": "431d3788bccdce5e58639243202ce3cd1f5bfaa132762f73280dc5eb1671b748",
     "manual_label": "StrokeAnnotator/outputs/label_maps/25093_际_Z_小篆/label.png",
-    "manual_label_sha256": "b5e47d5ff2f54b0f472f993cbdbab4d46de624b224f496fb55d372d94c568b88",
+    "manual_label_sha256": "4930058dd4d555cdf740fff0648d3a0f6b51afb04e57d027c940de4a57c8f7bd",
     "label_auto": "StrokeAnnotator/outputs/label_maps/25093_际_Z_小篆/label_auto.png",
     "previous_candidate_package": null
   },
@@ -23,10 +23,18 @@
     "corridor": "shortest 2-px bridge between disconnected stroke components before skeletonization",
     "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
     "vector_smoothing": "gaussian sigma 1.20 followed by bounded quadratic-midpoint centreline (centerline-quadratic-v1)",
+    "straight_run_snap": {
+      "enabled": true,
+      "min_run_px": 7,
+      "max_drift_px": 1.1,
+      "max_band_spread_px": 2.5,
+      "max_offset_px": 1.5,
+      "rule": "near-axis runs straighter than max_drift are re-centred on the original ink band median; runs whose band spreads wider than max_band_spread or sits further than max_offset from the skeleton are left untouched (junctions)"
+    },
     "method": "centerline-quadratic-v1",
     "sigma": 1.2,
     "simplify_tolerance": 0.5,
-    "stroke_width": 2.0,
+    "stroke_width": 3.2,
     "stroke_linecap": "round",
     "stroke_linejoin": "round",
     "bridge_is_fixed_width": false,
@@ -42,7 +50,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -55,7 +62,7 @@
       "width": 52,
       "height": 76
     },
-    "stroke_count": 15,
+    "stroke_count": 14,
     "manual_label_ids": [
       1,
       2,
@@ -67,7 +74,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -78,23 +84,23 @@
       {
         "stroke_id": "S1",
         "color": "#2f6fdb",
-        "original_pixels": 97,
-        "fused_pixels": 97,
-        "corridor_added_pixels": 0,
+        "original_pixels": 96,
+        "fused_pixels": 105,
+        "corridor_added_pixels": 9,
         "components_before": 2,
-        "components_after": 2,
+        "components_after": 1,
         "continuous": false,
-        "vector_contours": 2,
+        "vector_contours": 3,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
-          "median": 1.0,
+          "median": 1.414,
           "p95": 2.0,
           "max": 2.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 2.0
+          "bulge_ratio_p95_to_median": 1.414
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S2",
@@ -162,8 +168,8 @@
       {
         "stroke_id": "S5",
         "color": "#c34f8d",
-        "original_pixels": 55,
-        "fused_pixels": 55,
+        "original_pixels": 61,
+        "fused_pixels": 61,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -172,9 +178,9 @@
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
-          "median": 1.0,
-          "p95": 1.414,
-          "max": 1.414,
+          "median": 1.414,
+          "p95": 2.0,
+          "max": 2.0,
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 1.414
         },
@@ -183,8 +189,8 @@
       {
         "stroke_id": "S6",
         "color": "#168aad",
-        "original_pixels": 93,
-        "fused_pixels": 93,
+        "original_pixels": 85,
+        "fused_pixels": 85,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -246,10 +252,10 @@
       {
         "stroke_id": "S9",
         "color": "#3f7cac",
-        "original_pixels": 117,
-        "fused_pixels": 117,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
+        "original_pixels": 69,
+        "fused_pixels": 73,
+        "corridor_added_pixels": 4,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -257,18 +263,18 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 2.0,
+          "p95": 1.707,
           "max": 2.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 2.0
+          "bulge_ratio_p95_to_median": 1.707
         },
-        "repair_count": 0
+        "repair_count": 1
       },
       {
         "stroke_id": "S10",
         "color": "#8c5e34",
-        "original_pixels": 17,
-        "fused_pixels": 17,
+        "original_pixels": 79,
+        "fused_pixels": 79,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -278,37 +284,16 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.0,
-          "max": 1.0,
+          "p95": 1.444,
+          "max": 2.0,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.0
+          "bulge_ratio_p95_to_median": 1.444
         },
         "repair_count": 0
       },
       {
         "stroke_id": "S11",
         "color": "#5964b4",
-        "original_pixels": 14,
-        "fused_pixels": 14,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
-        "thickness": {
-          "min": 1.0,
-          "p05": 1.0,
-          "median": 1.0,
-          "p95": 1.0,
-          "max": 1.0,
-          "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.0
-        },
-        "repair_count": 0
-      },
-      {
-        "stroke_id": "S12",
-        "color": "#009688",
         "original_pixels": 32,
         "fused_pixels": 34,
         "corridor_added_pixels": 2,
@@ -328,8 +313,8 @@
         "repair_count": 1
       },
       {
-        "stroke_id": "S13",
-        "color": "#f06292",
+        "stroke_id": "S12",
+        "color": "#009688",
         "original_pixels": 80,
         "fused_pixels": 80,
         "corridor_added_pixels": 0,
@@ -349,8 +334,8 @@
         "repair_count": 0
       },
       {
-        "stroke_id": "S14",
-        "color": "#795548",
+        "stroke_id": "S13",
+        "color": "#f06292",
         "original_pixels": 35,
         "fused_pixels": 35,
         "corridor_added_pixels": 0,
@@ -370,8 +355,8 @@
         "repair_count": 0
       },
       {
-        "stroke_id": "S15",
-        "color": "#d94841",
+        "stroke_id": "S14",
+        "color": "#795548",
         "original_pixels": 42,
         "fused_pixels": 42,
         "corridor_added_pixels": 0,
@@ -395,13 +380,81 @@
     "fused_union_covers_original_label": true,
     "fused_regions_subset_original_foreground": false,
     "blank_preserved_by_recorded_gap_closures": true,
-    "recorded_gap_closure_pixels": 0,
-    "bridge_overlap_pixels_at_crossings": 29,
+    "recorded_gap_closure_pixels": 9,
+    "bridge_overlap_pixels_at_crossings": 33,
     "source_coordinates_preserved": true,
     "svg_contains_embedded_raster": false,
     "svg_contains_external_raster_reference": false
   },
   "repairs": [
+    {
+      "components": [
+        1,
+        2
+      ],
+      "gap_pixels": 5.0,
+      "route_points": [
+        [
+          22,
+          21
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      "corridor_added_pixels": 12,
+      "stroke_id": "S1",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 4,
+      "route_nonforeground_pixel_count": 8,
+      "gap_closure_points": [
+        [
+          21,
+          21
+        ],
+        [
+          20,
+          22
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          19,
+          24
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
     {
       "components": [
         2,
@@ -547,6 +600,46 @@
         1,
         2
       ],
+      "gap_pixels": 4.12,
+      "route_points": [
+        [
+          46,
+          18
+        ],
+        [
+          42,
+          19
+        ]
+      ],
+      "corridor_added_pixels": 7,
+      "stroke_id": "S9",
+      "status": "connected-by-shortest-bridge",
+      "width_radius_start": 1.0,
+      "width_radius_end": 1.0,
+      "route_foreground_pixel_count": 6,
+      "route_nonforeground_pixel_count": 1,
+      "gap_closure_points": [
+        [
+          42,
+          18
+        ]
+      ],
+      "corridor_overlaps_existing_labels": null,
+      "smooth_width_profile": {
+        "route_point_count": 2,
+        "smoothed_route_point_count": 2,
+        "fallback_centerline": false,
+        "radius_profile_min": 1.0,
+        "radius_profile_max": 1.0
+      },
+      "method": "shortest-pixel-bridge; centreline skeleton; quadratic smoothing",
+      "route_point_count": 2
+    },
+    {
+      "components": [
+        1,
+        2
+      ],
       "gap_pixels": 2.0,
       "route_points": [
         [
@@ -559,7 +652,7 @@
         ]
       ],
       "corridor_added_pixels": 6,
-      "stroke_id": "S12",
+      "stroke_id": "S11",
       "status": "connected-by-shortest-bridge",
       "width_radius_start": 1.0,
       "width_radius_end": 1.0,
@@ -601,9 +694,9 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-12",
       "actor": "centerline-quadratic-v1 generator",
-      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
+      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map; near-axis straight runs are re-centred on the original ink band so they do not keep the label's one-pixel staircase.",
       "status": "candidate-needs-manual-review"
     }
   ],

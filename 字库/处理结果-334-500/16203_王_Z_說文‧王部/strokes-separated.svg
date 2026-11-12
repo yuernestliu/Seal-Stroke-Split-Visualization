@@ -2,22 +2,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 313 110" width="313" height="110" role="img" aria-label="16203_王_Z_說文‧王部 展示版与单笔分离预览 v2">
 <rect width="313" height="110" fill="#ffffff"/>
 <text x="10" y="18" font-size="11" fill="#555">完整字形</text>
-<path d="M 41 26 L 4 26" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(10 18)"/>
-<path d="M 42 3 L 4 3" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(10 18)"/>
-<path d="M 23 3 L 23 64" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(10 18)"/>
-<path d="M 45 66 Q 42 65.1 40 65.05 Q 38 65 32.5 65.01 Q 27 65.02 25 65.41 Q 23 65.8 21 65.41 Q 19 65.02 13 65.02 Q 7 65.02 6.51 65.06 Q 6.02 65.1 4 66" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" transform="translate(10 18)"/>
+<path d="M 41 26 L 4 26" fill="none" stroke="#2f6fdb" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(10 18)"/>
+<path d="M 42 4 L 4 4" fill="none" stroke="#d68a16" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(10 18)"/>
+<path d="M 23.5 3 L 23.5 64" fill="none" stroke="#2b9b68" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(10 18)"/>
+<path d="M 45 65.5 L 4 65.5" fill="none" stroke="#9254c8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" transform="translate(10 18)"/>
 <path d="M 69 8 V 102" stroke="#dddddd" stroke-width="1"/>
 <text x="79" y="18" font-size="11" fill="#555">单笔分离预览</text>
 <rect x="79" y="26" width="50" height="50" fill="none" stroke="#eeeeee" stroke-width="1"/>
 <text x="83" y="38" font-size="10" fill="#2f6fdb">S1</text>
-<path d="M 41 26 L 4 26" fill="none" stroke="#2f6fdb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(83.32 27.11) scale(0.92)"/>
+<path d="M 41 26 L 4 26" fill="none" stroke="#2f6fdb" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S1" transform="translate(83.32 27.11) scale(0.92)"/>
 <rect x="137" y="26" width="50" height="50" fill="none" stroke="#eeeeee" stroke-width="1"/>
 <text x="141" y="38" font-size="10" fill="#d68a16">S2</text>
-<path d="M 42 3 L 4 3" fill="none" stroke="#d68a16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(141.42 48.32) scale(0.89)"/>
+<path d="M 42 4 L 4 4" fill="none" stroke="#d68a16" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S2" transform="translate(141.42 47.42) scale(0.89)"/>
 <rect x="195" y="26" width="50" height="50" fill="none" stroke="#eeeeee" stroke-width="1"/>
 <text x="199" y="38" font-size="10" fill="#2b9b68">S3</text>
-<path d="M 23 3 L 23 64" fill="none" stroke="#2b9b68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(207.18 32.33) scale(0.56)"/>
+<path d="M 23.5 3 L 23.5 64" fill="none" stroke="#2b9b68" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S3" transform="translate(206.9 32.33) scale(0.56)"/>
 <rect x="253" y="26" width="50" height="50" fill="none" stroke="#eeeeee" stroke-width="1"/>
 <text x="257" y="38" font-size="10" fill="#9254c8">S4</text>
-<path d="M 45 66 Q 42 65.1 40 65.05 Q 38 65 32.5 65.01 Q 27 65.02 25 65.41 Q 23 65.8 21 65.41 Q 19 65.02 13 65.02 Q 7 65.02 6.51 65.06 Q 6.02 65.1 4 66" fill="none" stroke="#9254c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" transform="translate(257.68 -3.32) scale(0.83)"/>
+<path d="M 45 65.5 L 4 65.5" fill="none" stroke="#9254c8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" data-stroke-id="S4" transform="translate(257.68 -3.32) scale(0.83)"/>
 </svg>

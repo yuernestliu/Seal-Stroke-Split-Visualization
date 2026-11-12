@@ -461,12 +461,42 @@
     {
       "node_id": "N0032",
       "point": [
+        35,
+        9
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0016",
+        "E0017",
+        "E0018"
+      ],
+      "incident_strokes": [
+        "S16"
+      ]
+    },
+    {
+      "node_id": "N0033",
+      "point": [
+        37,
+        9
+      ],
+      "point_coordinate_order": "x,y",
+      "incident_edges": [
+        "E0017"
+      ],
+      "incident_strokes": [
+        "S16"
+      ]
+    },
+    {
+      "node_id": "N0034",
+      "point": [
         22,
         26
       ],
       "point_coordinate_order": "x,y",
       "incident_edges": [
-        "E0016"
+        "E0018"
       ],
       "incident_strokes": [
         "S16"
@@ -2081,6 +2111,54 @@
         [
           35,
           9
+        ]
+      ],
+      "point_coordinate_order": "x,y",
+      "start_node": "N0031",
+      "end_node": "N0032",
+      "closed": false,
+      "curve": {
+        "representation": "sampled-polyline",
+        "sampling": "one point per skeleton pixel"
+      },
+      "width": 2.0,
+      "semantic_status": "manual-v2-label-derived; review pending"
+    },
+    {
+      "edge_id": "E0017",
+      "source_stroke_id": "S16",
+      "points": [
+        [
+          35,
+          9
+        ],
+        [
+          36,
+          9
+        ],
+        [
+          37,
+          9
+        ]
+      ],
+      "point_coordinate_order": "x,y",
+      "start_node": "N0032",
+      "end_node": "N0033",
+      "closed": false,
+      "curve": {
+        "representation": "sampled-polyline",
+        "sampling": "one point per skeleton pixel"
+      },
+      "width": 2.0,
+      "semantic_status": "manual-v2-label-derived; review pending"
+    },
+    {
+      "edge_id": "E0018",
+      "source_stroke_id": "S16",
+      "points": [
+        [
+          35,
+          9
         ],
         [
           34,
@@ -2156,8 +2234,8 @@
         ]
       ],
       "point_coordinate_order": "x,y",
-      "start_node": "N0031",
-      "end_node": "N0032",
+      "start_node": "N0032",
+      "end_node": "N0034",
       "closed": false,
       "curve": {
         "representation": "sampled-polyline",

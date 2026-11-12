@@ -7,12 +7,12 @@
   "stroke_split_reviewed": false,
   "owner": null,
   "reviewer": null,
-  "review_date": "2026-11-10",
+  "review_date": "2026-11-12",
   "source": {
     "raw_png": "字库_167_333/12798_显_Z_小篆.png",
     "raw_sha256": "ebfb90f1c687cc75d0a7019a8537b8b6b2becfde7ab584b44f61d138aa779dc5",
     "manual_label": "StrokeAnnotator/outputs/label_maps/12798_显_Z_小篆/label.png",
-    "manual_label_sha256": "378c0d25605f710127a3787dc79295a7ce32bebc8a7b23aa6cb3fa97e7825ef4",
+    "manual_label_sha256": "2f0f81459591a58ec89766d3b92a2f11bf88925c1b213c256de3833601e7bc97",
     "label_auto": "StrokeAnnotator/outputs/label_maps/12798_显_Z_小篆/label_auto.png",
     "previous_candidate_package": null
   },
@@ -23,10 +23,18 @@
     "corridor": "shortest 2-px bridge between disconnected stroke components before skeletonization",
     "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
     "vector_smoothing": "gaussian sigma 1.20 followed by bounded quadratic-midpoint centreline (centerline-quadratic-v1)",
+    "straight_run_snap": {
+      "enabled": true,
+      "min_run_px": 7,
+      "max_drift_px": 1.1,
+      "max_band_spread_px": 2.5,
+      "max_offset_px": 1.5,
+      "rule": "near-axis runs straighter than max_drift are re-centred on the original ink band median; runs whose band spreads wider than max_band_spread or sits further than max_offset from the skeleton are left untouched (junctions)"
+    },
     "method": "centerline-quadratic-v1",
     "sigma": 1.2,
     "simplify_tolerance": 0.5,
-    "stroke_width": 2.0,
+    "stroke_width": 3.2,
     "stroke_linecap": "round",
     "stroke_linejoin": "round",
     "bridge_is_fixed_width": false,
@@ -50,7 +58,8 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ],
     "missing_manual_label_ids": []
   },
@@ -59,7 +68,7 @@
       "width": 52,
       "height": 76
     },
-    "stroke_count": 19,
+    "stroke_count": 20,
     "manual_label_ids": [
       1,
       2,
@@ -79,7 +88,8 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ],
     "missing_manual_label_ids": [],
     "per_stroke": [
@@ -259,8 +269,8 @@
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
+        "continuous": false,
+        "vector_contours": 2,
         "thickness": {
           "min": 1.0,
           "p05": 1.0,
@@ -296,8 +306,8 @@
       {
         "stroke_id": "S11",
         "color": "#5964b4",
-        "original_pixels": 42,
-        "fused_pixels": 42,
+        "original_pixels": 30,
+        "fused_pixels": 30,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -307,20 +317,62 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.414,
+          "p95": 1.124,
           "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.414
+          "bulge_ratio_p95_to_median": 1.124
         },
         "repair_count": 0
       },
       {
         "stroke_id": "S12",
         "color": "#009688",
-        "original_pixels": 56,
-        "fused_pixels": 56,
+        "original_pixels": 63,
+        "fused_pixels": 63,
         "corridor_added_pixels": 0,
         "components_before": 1,
+        "components_after": 1,
+        "continuous": false,
+        "vector_contours": 2,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.414,
+          "p95": 2.0,
+          "max": 2.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S13",
+        "color": "#f06292",
+        "original_pixels": 62,
+        "fused_pixels": 62,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": false,
+        "vector_contours": 2,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.414,
+          "p95": 2.0,
+          "max": 2.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.414
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S14",
+        "color": "#795548",
+        "original_pixels": 164,
+        "fused_pixels": 166,
+        "corridor_added_pixels": 2,
+        "components_before": 2,
         "components_after": 1,
         "continuous": true,
         "vector_contours": 1,
@@ -332,48 +384,6 @@
           "max": 2.0,
           "sudden_thinness": false,
           "bulge_ratio_p95_to_median": 2.0
-        },
-        "repair_count": 0
-      },
-      {
-        "stroke_id": "S13",
-        "color": "#f06292",
-        "original_pixels": 55,
-        "fused_pixels": 55,
-        "corridor_added_pixels": 0,
-        "components_before": 1,
-        "components_after": 1,
-        "continuous": true,
-        "vector_contours": 1,
-        "thickness": {
-          "min": 1.0,
-          "p05": 1.0,
-          "median": 1.207,
-          "p95": 1.502,
-          "max": 2.0,
-          "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.244
-        },
-        "repair_count": 0
-      },
-      {
-        "stroke_id": "S14",
-        "color": "#795548",
-        "original_pixels": 199,
-        "fused_pixels": 201,
-        "corridor_added_pixels": 2,
-        "components_before": 2,
-        "components_after": 1,
-        "continuous": false,
-        "vector_contours": 2,
-        "thickness": {
-          "min": 1.0,
-          "p05": 1.0,
-          "median": 1.0,
-          "p95": 1.736,
-          "max": 2.0,
-          "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.736
         },
         "repair_count": 1
       },
@@ -401,8 +411,8 @@
       {
         "stroke_id": "S16",
         "color": "#2f6fdb",
-        "original_pixels": 65,
-        "fused_pixels": 65,
+        "original_pixels": 63,
+        "fused_pixels": 63,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -412,18 +422,18 @@
           "min": 1.0,
           "p05": 1.0,
           "median": 1.0,
-          "p95": 1.021,
+          "p95": 1.062,
           "max": 1.414,
           "sudden_thinness": false,
-          "bulge_ratio_p95_to_median": 1.021
+          "bulge_ratio_p95_to_median": 1.062
         },
         "repair_count": 0
       },
       {
         "stroke_id": "S17",
         "color": "#d68a16",
-        "original_pixels": 33,
-        "fused_pixels": 33,
+        "original_pixels": 32,
+        "fused_pixels": 32,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -443,8 +453,8 @@
       {
         "stroke_id": "S18",
         "color": "#2b9b68",
-        "original_pixels": 29,
-        "fused_pixels": 29,
+        "original_pixels": 34,
+        "fused_pixels": 34,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -464,8 +474,29 @@
       {
         "stroke_id": "S19",
         "color": "#9254c8",
-        "original_pixels": 21,
-        "fused_pixels": 21,
+        "original_pixels": 22,
+        "fused_pixels": 22,
+        "corridor_added_pixels": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "continuous": true,
+        "vector_contours": 1,
+        "thickness": {
+          "min": 1.0,
+          "p05": 1.0,
+          "median": 1.0,
+          "p95": 1.0,
+          "max": 1.0,
+          "sudden_thinness": false,
+          "bulge_ratio_p95_to_median": 1.0
+        },
+        "repair_count": 0
+      },
+      {
+        "stroke_id": "S20",
+        "color": "#c34f8d",
+        "original_pixels": 32,
+        "fused_pixels": 32,
         "corridor_added_pixels": 0,
         "components_before": 1,
         "components_after": 1,
@@ -588,9 +619,9 @@
   },
   "revision_history": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-12",
       "actor": "centerline-quadratic-v1 generator",
-      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
+      "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map; near-axis straight runs are re-centred on the original ink band so they do not keep the label's one-pixel staircase.",
       "status": "candidate-needs-manual-review"
     }
   ],

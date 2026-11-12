@@ -58,6 +58,7 @@ if hasattr(sys.stdout, "reconfigure"):
 # ---------------------------------------------------------------------------
 
 LABEL_ROOT = Path(r"D:\桌面资料\StrokeAnnotator\outputs\label_maps")
+RAW_ROOT = Path(r"D:\桌面资料\Seal-Stroke-Split-Visualization\字库\原始字形")
 OUT_ROOT = Path(r"D:\桌面资料\Seal-Stroke-Split-Visualization\字库\处理结果-334-500")
 
 PACKAGE_NAME = "字库/处理结果-334-500"
@@ -77,7 +78,11 @@ SITE_SOLID = "#eadfbb"
 
 SIGMA = 1.2
 SIMPLIFY_TOLERANCE = 0.5
-SPUR_MAX = 4
+# The manual label is a one-pixel brush trace, so its skeleton is the drawing
+# itself plus, at most, the odd one-pixel leaf where two traced lines meet.
+# Anything longer is real drawn geometry (a short tail of the seal character):
+# pruning those used to cut 3-6 px off strokes and read as a missing stroke.
+SPUR_MAX = 1
 # The label map assigns every pixel to exactly one stroke, so when two strokes
 # cross the lower one is cut in two.  Such a gap is bridged again: the straight
 # route between the two pieces runs over *other* strokes.  A gap is only kept
@@ -550,13 +555,177 @@ def track_mask(points: np.ndarray, tolerance: float, max_gap_dev: float = 0.15) 
     return keep
 
 
-def quadratic_path(points_xy: np.ndarray, closed: bool = False) -> tuple[str, np.ndarray]:
+def snap_axis_runs(points_xy: np.ndarray, ink: np.ndarray,
+                   min_len: float = 7.0, max_spread: float = 2.0,
+                   max_dev: float = 1.1, max_band_spread: float = 2.5,
+                   max_offset: float = 1.5) -> np.ndarray:
+    """Pull near-straight, near-axis runs onto the centre of the ink band.
+
+    The manual label is a one-pixel trace, so a hand-drawn vertical run
+    alternates between two pixel columns.  Gaussian smoothing rounds that
+    staircase but leaves a ±0.5 px wave; at width 3.2 that reads as a lumpy
+    edge.  For spans that are straight to within ``max_dev`` and run along an
+    axis, the ink band centre of every scan line is taken and its median used,
+    so the span becomes exactly straight while curved spans are left alone.
+    """
+    pts = np.asarray(points_xy, dtype=float)
+    n = len(pts)
+    out = pts.copy()
+    if ink is None or n < 4:
+        return out
+    ink_h, ink_w = ink.shape
+
+    def centre_vertical(x: float, y: float) -> float | None:
+        row_y = int(round(y))
+        pos = int(round(x))
+        if not (0 <= row_y < ink_h and 0 <= pos < ink_w):
+            return None
+        row = ink[row_y]
+        if not row[pos]:
+            return None
+        lo = pos
+        while lo > 0 and row[lo - 1]:
+            lo -= 1
+        hi = pos
+        while hi < ink_w - 1 and row[hi + 1]:
+            hi += 1
+        return (lo + hi) / 2.0
+
+    def centre_horizontal(x: float, y: float) -> float | None:
+        col_x = int(round(x))
+        pos = int(round(y))
+        if not (0 <= col_x < ink_w and 0 <= pos < ink_h):
+            return None
+        col = ink[:, col_x]
+        if not col[pos]:
+            return None
+        lo = pos
+        while lo > 0 and col[lo - 1]:
+            lo -= 1
+        hi = pos
+        while hi < ink_h - 1 and col[hi + 1]:
+            hi += 1
+        return (lo + hi) / 2.0
+
+    i = 0
+    while i < n - 2:
+        best = None
+        for vertical in (True, False):
+            j = i
+            while j + 1 < n:
+                span = pts[i:j + 2]
+                sx = float(np.ptp(span[:, 0]))
+                sy = float(np.ptp(span[:, 1]))
+                if (sx if vertical else sy) > max_dev:
+                    break
+                j += 1
+            if j - i < 3:
+                continue
+            span = pts[i:j + 1]
+            sx = float(np.ptp(span[:, 0]))
+            sy = float(np.ptp(span[:, 1]))
+            length = sy if vertical else sx
+            drift = sx if vertical else sy
+            if length >= min_len and length > 2 * drift:
+                if best is None or (j - i) > (best[0] - i):
+                    best = (j, vertical)
+        if best is None:
+            i += 1
+            continue
+        j, vertical = best
+        # A run only counts as a staircase when the stroke really is vertical
+        # (horizontal) here.  On a slanted stroke a 7-px window also fits inside
+        # ``max_dev``; snapping such windows used to bend a straight pen stroke
+        # into visible steps.  Look a little past both ends of the run before
+        # committing to it.
+        margin = 3
+        e0, e1 = max(0, i - margin), min(n, j + 1 + margin)
+        ac = 0 if vertical else 1
+        if float(np.ptp(pts[e0:e1, ac])) > max_dev + 0.5:
+            i = j
+            continue
+        centres = []
+        for k in range(i, j + 1):
+            x, y = out[k]
+            c = centre_vertical(x, y) if vertical else centre_horizontal(x, y)
+            if c is not None:
+                centres.append(c)
+        if len(centres) >= 2:
+            # A large offset means the ink band does not belong to this skeleton
+            # line (the run is crossing a junction or a neighbouring stroke), so
+            # the original geometry is kept.  A few stray scan lines are
+            # tolerated by snapping to the median of the inliers only.
+            arr = np.asarray(centres, dtype=float)
+            med = float(np.median(arr))
+            ac = 0 if vertical else 1
+            offset = abs(med - float(np.median(out[i:j + 1, ac])))
+            inliers = arr[np.abs(arr - med) <= max_band_spread]
+            if offset <= max_offset and len(inliers) >= max(2, int(0.5 * len(arr))):
+                c = float(np.median(inliers))
+                if vertical:
+                    out[i:j + 1, 0] = c
+                else:
+                    out[i:j + 1, 1] = c
+        i = j
+    return out
+
+
+def straighten_runs(points_xy: np.ndarray, min_len: float = 12.0,
+                    max_bow: float = 0.8) -> np.ndarray:
+    """Replace near-straight spans by their chord, removing sub-pixel jitter.
+
+    ``snap_axis_runs`` only handles runs along a pixel row or column.  A slanted
+    stroke is traced as a staircase and smoothed into a shallow wave of a pixel
+    or so, which reads as jitter at width 3.2.  A span whose points all stay
+    within ``max_bow`` of its own chord is long and straight enough that the
+    wave is noise, so the interior points are projected onto the chord.  Both
+    end points are unchanged and no point moves by more than ``max_bow``, so the
+    path stays continuous and tightly attached to the ink.
+    """
+    p = np.asarray(points_xy, dtype=float)
+    n = len(p)
+    out = p.copy()
+    if n < 4:
+        return out
+    i = 0
+    while i < n - 2:
+        best = i
+        for j in range(i + 2, n):
+            chord = out[j] - out[i]
+            length = float(np.hypot(*chord))
+            if length < 1e-9:
+                continue
+            normal = np.array([-chord[1], chord[0]]) / length
+            bow = float(np.abs((out[i:j + 1] - out[i]) @ normal).max())
+            if bow > max_bow:
+                break
+            best = j
+        chord = out[best] - out[i]
+        length = float(np.hypot(*chord))
+        if best > i + 1 and length >= min_len:
+            unit = chord / length
+            for k in range(i + 1, best):
+                out[k] = out[i] + unit * float((out[k] - out[i]) @ unit)
+            # Overlap the next run with this one: a greedy scan otherwise ends
+            # with a stub at the tail of the stroke that is too short to qualify
+            # on its own and stays a staircase.
+            i = max(i + 1, best - 2)
+        else:
+            i += 1
+    return out
+
+
+def quadratic_path(points_xy: np.ndarray, closed: bool = False,
+                   ink: np.ndarray | None = None) -> tuple[str, np.ndarray]:
     """Gaussian smoothing + bounded quadratic-midpoint path (the “安” style)."""
     p = np.asarray(points_xy, dtype=float)
     if closed and len(p) > 1 and np.allclose(p[0], p[-1]):
         p = p[:-1]
     if len(p) == 0:
         return "", np.zeros((0, 2))
+    if len(p) > 3:
+        p = snap_axis_runs(p, ink)
+        p = straighten_runs(p)
     if len(p) > 3:
         mode = "wrap" if closed else "nearest"
         sm = gaussian_filter1d(p, sigma=SIGMA, axis=0, mode=mode)
@@ -689,6 +858,20 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
     if meta_path.exists():
         meta = json.loads(meta_path.read_text(encoding="utf-8"))
 
+    # Stroke width follows the 安 recipe: measure the *original ink* half-width
+    # along the centre line, not the thinner label map (labels are painted about
+    # one pixel wide, which would otherwise force every glyph to width 2).
+    raw_source = RAW_ROOT / f"{glyph_id}.png"
+    ink_dist = None
+    ink = None
+    if raw_source.exists():
+        ink = np.asarray(Image.open(raw_source).convert("L")) < 160
+        # The original PNG can differ from the label map by a pixel or two
+        # (e.g. 城 is 59 px wide while its label map is 58); that is fine,
+        # sampling is bounds-checked against the raw mask itself.
+        if ink.shape[0] >= 1 and ink.shape[1] >= 1:
+            ink_dist = ndimage.distance_transform_edt(ink)
+
     label_ids = sorted(int(v) for v in np.unique(label) if int(v) != 0)
     stroke_count = len(label_ids)
     if stroke_count == 0:
@@ -700,6 +883,7 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
 
     strokes: list[dict] = []
     all_radii: list[float] = []
+    ink_radii: list[float] = []
     repairs_all: list[dict] = []
     per_stroke_validation: list[dict] = []
     nodes: list[dict] = []
@@ -750,7 +934,7 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
         sampled_parts: list[np.ndarray] = []
         for chain in chains:
             pts_xy = np.asarray([[x, y] for y, x in chain], dtype=float)
-            part, part_sampled = quadratic_path(pts_xy, closed=_is_closed(chain))
+            part, part_sampled = quadratic_path(pts_xy, closed=_is_closed(chain), ink=ink)
             if part:
                 parts.append(part)
                 sampled_parts.append(part_sampled)
@@ -765,6 +949,12 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
 
         # Skeleton graph data (nodes / edges) for skeleton.json + skeleton.svg.
         edge_paths = [edge for g in graphs for edge in trace_graph_edges(g)]
+        if ink_dist is not None:
+            ink_h, ink_w = ink_dist.shape
+            ink_radii.extend(float(ink_dist[int(y), int(x)]) for edge in edge_paths
+                             for y, x in edge
+                             if 0 <= int(y) < ink_h and 0 <= int(x) < ink_w
+                             and ink_dist[int(y), int(x)] >= 1)
         local_node_ids: dict[tuple[int, int], str] = {}
 
         def node_id_for(point):
@@ -883,8 +1073,9 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
     if not strokes:
         raise ValueError(f"no drawable strokes: {glyph_id}")
 
-    # Global uniform stroke width, exactly the “安” recipe.
-    radii_arr = np.asarray(all_radii, dtype=float)
+    # Global uniform stroke width, exactly the “安” recipe: median half-width of
+    # the original ink along the centre line, then 2r - 0.8 (clipped 2–5).
+    radii_arr = np.asarray(ink_radii if ink_radii else all_radii, dtype=float)
     radii_arr = radii_arr[radii_arr >= 1]
     width = round(float(np.clip(2 * np.median(radii_arr) - 0.8, 2, 5)), 2) if len(radii_arr) else 3.2
 
@@ -1023,6 +1214,14 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
             "corridor": "shortest 2-px bridge between disconnected stroke components before skeletonization",
             "gap_closure": "only near-foreground route gap pixels needed for component contact; recorded per repair",
             "vector_smoothing": "gaussian sigma 1.20 followed by bounded quadratic-midpoint centreline (centerline-quadratic-v1)",
+            "straight_run_snap": {
+                "enabled": ink is not None,
+                "min_run_px": 7,
+                "max_drift_px": 1.1,
+                "max_band_spread_px": 2.5,
+                "max_offset_px": 1.5,
+                "rule": "near-axis runs straighter than max_drift are re-centred on the original ink band median; runs whose band spreads wider than max_band_spread or sits further than max_offset from the skeleton are left untouched (junctions)",
+            },
             "method": "centerline-quadratic-v1",
             "sigma": SIGMA,
             "simplify_tolerance": SIMPLIFY_TOLERANCE,
@@ -1121,7 +1320,8 @@ def process_glyph(glyph_id: str, out_root: Path, write: bool = True) -> dict:
         "revision_history": [{
             "date": today,
             "actor": "centerline-quadratic-v1 generator",
-            "change": "Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map.",
+            "change": ("Generated smooth uniform-width centreline paths, skeleton graph, separated preview and vector-only overlay from the manual label map; "
+                       "near-axis straight runs are re-centred on the original ink band so they do not keep the label's one-pixel staircase."),
             "status": "candidate-needs-manual-review",
         }],
         "package": PACKAGE_NAME,
@@ -1317,13 +1517,20 @@ def all_glyph_ids() -> list[str]:
 
 
 def main() -> None:
+    global LABEL_ROOT
     parser = argparse.ArgumentParser(description="Vectorise manual label maps into the 安-style SVG package.")
     parser.add_argument("--ids", nargs="+", help="glyph IDs to process (folder names)")
     parser.add_argument("--all", action="store_true", help="process every folder under label_maps")
     parser.add_argument("--out", type=Path, default=OUT_ROOT, help="output package root")
+    parser.add_argument("--label-root", type=Path, default=None,
+                        help="root of the manual label maps to read (default: StrokeAnnotator/outputs/label_maps)")
     parser.add_argument("--preview-dir", type=Path, default=None, help="write side-by-side preview PNGs here")
     parser.add_argument("--dry-run", action="store_true", help="do not write glyph files")
     args = parser.parse_args()
+
+    global LABEL_ROOT
+    if args.label_root is not None:
+        LABEL_ROOT = args.label_root
 
     if args.all:
         ids = all_glyph_ids()
